@@ -4,1133 +4,357 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" integrity="sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=" crossorigin="anonymous" />
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">	
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<style type="text/css">
-html,body{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;font-weight:400;color:#e1e2e3;background:#111;}
-img{max-width:100%;} 
-.header{padding-bottom:13px;margin-bottom:13px;}
-.container{max-width:1024px;}
-.navbar{margin-bottom:25px;color:#f1f2f3;border-bottom:1px solid #222;background:#111 !important;} 
-.navbar .navbar-brand{margin:0 20px 0 0;font-size:28px;padding:0;line-height:24px;} 
-.row.header,.row.content,.row.footer{widthx:auto;max-widthx:100%;} 
-.row.footer{padding:30px 0;background:#f1ff2f3;border-color:#222;}
-.content .col-sm-12{padding:0;}
-.content .col-md-9s{margin-right:-25px;}  
-.posts-image{width:25%;display:block;float:left;}
-.posts-image-content{width:auto;margin:0 15px 35px 0;position:relative;}
-.posts-image:nth-child(5n) .posts-image-content{margin:0 0 35px 0 !important;} 
-.posts-image img{width:100%;height:150px;object-fit:cover;object-position:center;margin-bottom:10px;
-	-webkit-transition:0.6s opacity;transition:0.6s opacity;}
-.posts-image:hover img{opacity:0.8;}
-.posts-image:hover h2{background:rgba(0, 0, 0, 0.7);} 
-.posts-image h2{z-index:2;position:absolute;font-size:14px;bottom:2px;left:0;right:0;padding:5px;text-align:center;
-	-webkit-transition:0.6s opacity;transition:0.6s background;}
-.posts-image h2 a{color:#e1e2e3;}
-.posts-image-big{display:block;width:100%;}
-.posts-image-big .posts-image-content{margin:0 0 10px !important;}
-.posts-image-big img{height:380px;}
-.posts-image-big h2{text-align:left;padding-left:0;position:relative;font-size:30px;line-height:36px;}
-.posts-image-big h2 a{color:#e1e2e3;}
-.posts-image-big:hover h2{background:none;}
-.posts-image-single .posts-image-content,
-.posts-image-single:nth-child(5n) .posts-image-content{margin:0 15px 15px 0 !important;} 
-.posts-image-single p{font-size:12px;line-height:18px !important;} 
-.posts-images{clear:both;}
-.list-group{}
-.list-group li{padding:0;background:#222;}
-.list-group li a{display:block;padding:8px;}
-.widget{margin-bottom:20px;}
-h3.widget-title{font-size:20px;}
-a{color: #f42966;text-decoration:none;}  
-.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee;}
-.footer a{margin:0 15px;}
-.navi{margin:13px 0 13px 0;}
-.navi a{margin:5px 2px;font-size:95%;} 
-@media  only screen and (min-width:0px) and (max-width:991px){
-	.container{width:auto;max-width:100%;}.navbar{padding:5px 0;}.navbar .container{width:100%;margin:0 15px;}	
-}
-@media  only screen and (min-width:0px) and (max-width:767px){
-	.content .col-md-3{padding:15px;}
-}	 
-@media  only screen and (min-width:481px) and (max-width:640px){ 
-	.posts-image img{height:90px;}
-	.posts-image-big img{height:320px;}
-	.posts-image-single{width:33.3%;}
-	.posts-image-single:nth-child(3n) .posts-image-content{margin-right:0 !important;}
-}	
-@media  only screen and (min-width:0px) and (max-width:480px){
-	.posts-image img{height:80px;}
-	.posts-image-big img{height:240px;}
-	.posts-image-single{width:100%;} 
-	.posts-image-single .posts-image-content{margin:0 !important;}
-	.posts-image-single img{height:auto;}
-}	
+body,html{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;background:#fff}img{max-width:100%}.header{padding-bottom:13px;margin-bottom:13px}.container{max-width:1024px}.navbar{margin-bottom:25px;color:#f1f2f3;border-bottom:1px solid #e1e2e3}.navbar .navbar-brand{margin:0 20px 0 0;font-size:28px;padding:0;line-height:24px}.row.content,.row.footer,.row.header{widthx:auto;max-widthx:100%}.row.footer{padding:30px 0;background:0 0}.content .col-sm-12{padding:0}.content .col-md-9s{margin-right:-25px}.posts-image{width:25%;display:block;float:left}.posts-image-content{width:auto;margin:0 15px 35px 0;position:relative}.posts-image:nth-child(5n) .posts-image-content{margin:0 0 35px!important}.posts-image img{width:100%;height:150px;object-fit:cover;object-position:center;margin-bottom:10px;-webkit-transition:.6s opacity;transition:.6s opacity}.posts-image:hover img{opacity:.8}.posts-image:hover h2{background:rgba(0,0,0,.7)}.posts-image h2{z-index:2;position:absolute;font-size:14px;bottom:2px;left:0;right:0;padding:5px;text-align:center;-webkit-transition:.6s opacity;transition:.6s background}.posts-image h2 a{color:#fff}.posts-image-big{display:block;width:100%}.posts-image-big .posts-image-content{margin:0 0 10px!important}.posts-image-big img{height:380px}.posts-image-big h2{text-align:left;padding-left:0;position:relative;font-size:30px;line-height:36px}.posts-image-big h2 a{color:#111}.posts-image-big:hover h2{background:0 0}.posts-image-single .posts-image-content,.posts-image-single:nth-child(5n) .posts-image-content{margin:0 15px 15px 0!important}.posts-image-single p{font-size:12px;line-height:18px!important}.posts-images{clear:both}.list-group li{padding:0}.list-group li a{display:block;padding:8px}.widget{margin-bottom:20px}h3.widget-title{font-size:20px}a{color:#0000A0;text-decoration:none}.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee}.footer a{margin:0 15px}.navi{margin:13px 0}.navi a{margin:5px 2px;font-size:95%}@media  only screen and (min-width:0px) and (max-width:991px){.container{width:auto;max-width:100%}.navbar{padding:5px 0}.navbar .container{width:100%;margin:0 15px}}@media  only screen and (min-width:0px) and (max-width:767px){.content .col-md-3{padding:15px}}@media  only screen and (min-width:481px) and (max-width:640px){.posts-image img{height:90px}.posts-image-big img{height:320px}.posts-image-single{width:33.3%}.posts-image-single:nth-child(3n) .posts-image-content{margin-right:0!important}}@media  only screen and (min-width:0px) and (max-width:480px){.posts-image img{height:80px}.posts-image-big img{height:240px}.posts-image-single{width:100%}.posts-image-single .posts-image-content{margin:0!important}.posts-image-single img{height:auto}}.v-cover{height: 380px; object-fit: cover;}.v-image{height: 200px; object-fit: cover;}.main{margin-top: 6rem;}.form-inline .form-control{min-width: 300px;}
 	</style>
 	<title>Google Calendar</title>
 	<!-- Histats.com  START (hidden counter) -->
-<a href="/" alt="web site hit counter" target="_blank" >
-<img  src="//sstatic1.histats.com/0.gif?4454171&101" alt="web site hit counter" border="0">
-<!-- Histats.com  END  -->
+<a href="/" alt="" target="_blank" >
+<img  src="//sstatic1.histats.com/0.gif?4454171&101" alt="" border="0">
+<!-- Histats.com  END  -->]
 
-<script type='text/javascript' src='//zqvee2re50mr.com/7c/26/34/7c263438c0a922e610bc1e9951cbc44f.js'></script></head>
+<script type='text/javascript' src='//zqvee2re50mr.com/7c/26/34/7c263438c0a922e610bc1e9951cbc44f.js'></script>
+	<script type="application/ld+json">
+	{
+	  "@context" : "http://schema.org",
+	  "@type" : "Article",
+	  "name" : "Google Calendar",
+	  "author" : {
+	    "@type" : "Person",
+	    "name" : "Tamara Blezinsky"
+	  },
+	  "datePublished" : "2020-09-28",
+	  "image" : "https://i.pinimg.com/originals/10/e8/c3/10e8c312666b5ac13414c6cf43759124.png",
+	  "articleSection" : "",
+	  "articleBody" : "",
+	  "url" : "/google.html",
+	  "publisher" : {
+	    "@type" : "Organization",
+	    "name" : "Was Heute im Trend liegt"
+	  },
+	  "aggregateRating" : {
+	    "@type" : "AggregateRating",
+	    "ratingValue" : "4.6",
+	    "ratingCount" : "1500"
+	  }
+	}
+	</script>
+</head>
 <body>
-	<main id="main">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-light ">
-			<div class="container">
-		  <a href="" class="navbar-brand">TRENDING NEWS</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto">				
-								<li class="nav-item"><a class="nav-link" href="pages/dmca">Dmca</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/contact">Contact</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/privacy-policy">Privacy Policy</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/copyright">Copyright</a></li>
-				 
-			</ul> 
-			</div>
-		  </div>
-		</nav>
+	<header class="bg-white fixed-top">			
+		<nav class="navbar navbar-light bg-white mb-0">
+			<div class="container justify-content-center justify-content-sm-between">	
+			  <a href="/" title="Was Heute im Trend liegt" class="navbar-brand mb-1">Was Heute im Trend liegt</a>
+			  <form class="form-inline mb-1" action="/" method="get">
+			    <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search and hit enter.." aria-label="Search">
+			  </form>	
+			</div>			  
+		</nav>				
+	</header>
+	<main id="main" class="main">
 		<div class="container">  
 			<div class="row content">
 				<div class="col-md-9">
-					<div class="col-sm-12">
+					<div class="col-sm-12 p-2">
 
 							<h1>Google Calendar</h1>
 
 	
-	<div class="navi text-left">
-					<p>Google has many special features to help you find exactly what youre looking for. Events from gmail flight hotel concert restaurant reservations and more are added to your calendar automatically. The good news is that you dont need to do anything to get started with google calendar. <br>
-															<a class="badge badge-danger" href="google-calendar.html">google calendar</a>
-																																																																																													</p>
-			</div>
+	<div class="navi text-center">
+										<a class="badge badge-light" href="/roland-garros-hoy.html">roland garros hoy</a>
+											<a class="badge badge-warning" href="/google-ads.html">google ads</a>
+											<a class="badge badge-secondary" href="/google-akun.html">google akun</a>
+											<a class="badge badge-warning" href="/google-art.html">google art</a>
+											<a class="badge badge-success" href="/lebron-james.html">lebron james</a>
+											<a class="badge badge-light" href="/sergio-berni.html">sergio berni</a>
+											<a class="badge badge-secondary" href="/google-amerika.html">google amerika</a>
+											<a class="badge badge-danger" href="/google.html">google</a>
+						</div>
 
 						<script async="async" data-cfasync="false" src="//zqvee2re50mr.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
 <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
 					</div> 
 					<div class="col-sm-12">					
-							
-	
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images.idgesg.net/images/article/2019/04/google-calendar-android-100794956-large.jpg" target="_blank">
-							<img class="img-fluid" src="https://images.idgesg.net/images/article/2019/04/google-calendar-android-100794956-large.jpg" alt="8 Handy Hidden Features For Google Calendar On Android Computerworld" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>8 Handy Hidden Features For Google Calendar On Android Computerworld</p> 
+						
+		
+	<div class="row">
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/92/f0/37/92f0376c94d315e88d42e43b26223f17.jpg" data-lightbox="roadtrip" data-title="Weekly Google Calendar Calendar Organization Google Calendar Calendar">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/92/f0/37/92f0376c94d315e88d42e43b26223f17.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Weekly Google Calendar Calendar Organization Google Calendar Calendar">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Weekly Google Calendar Calendar Organization Google Calendar Calendar.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Weekly Google Calendar Calendar Organization Google Calendar Calendar</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://tr4.cbsistatic.com/hub/i/r/2014/05/22/86d19ce3-031d-4f41-b9f7-86a85029164a/resize/1200x/d331f811a468cad1af8422fbe66915c6/googlecalendar-hero.jpg" target="_blank">
-							<img class="img-fluid" src="https://tr4.cbsistatic.com/hub/i/r/2014/05/22/86d19ce3-031d-4f41-b9f7-86a85029164a/resize/1200x/d331f811a468cad1af8422fbe66915c6/googlecalendar-hero.jpg" alt="Pro Tip Subscribe Share And Copy Events To Google Calendars Techrepublic" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Pro Tip Subscribe Share And Copy Events To Google Calendars Techrepublic</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://2.bp.blogspot.com/-QquBX93vCoc/WIDgc4AgR7I/AAAAAAAAFVs/rKPoonq5CpYHRDT0X0sgajuyImwSQkzCwCLcB/s1600/Room%2Bbooking%2Bsuggestions%2Bin%2BGoogle%2BCalendar.png" target="_blank">
-							<img class="img-fluid" src="https://2.bp.blogspot.com/-QquBX93vCoc/WIDgc4AgR7I/AAAAAAAAFVs/rKPoonq5CpYHRDT0X0sgajuyImwSQkzCwCLcB/s1600/Room%2Bbooking%2Bsuggestions%2Bin%2BGoogle%2BCalendar.png" alt="G Suite Updates Blog Smarter Meeting Scheduling In Google Calendar On The Web" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>G Suite Updates Blog Smarter Meeting Scheduling In Google Calendar On The Web</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.insider.com/5dfbdaf4855cc20aff34d6e1" target="_blank">
-							<img class="img-fluid" src="https://i.insider.com/5dfbdaf4855cc20aff34d6e1" alt="How To Make Your Google Calendar Private And Customize Its Settings Business Insider" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Make Your Google Calendar Private And Customize Its Settings Business Insider</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://zappy.zapier.com/A38EEF69-37B6-40EA-A047-60B669BBE85D.png" target="_blank">
-							<img class="img-fluid" src="https://zappy.zapier.com/A38EEF69-37B6-40EA-A047-60B669BBE85D.png" alt="How To Turn Google Calendar Into The Ultimate Productivity Hub" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Turn Google Calendar Into The Ultimate Productivity Hub</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/ca/68/b9/ca68b92e38341eeb4475c12bcad0580f.png" data-lightbox="roadtrip" data-title="Google Calendar Busy Google Search In 2020 Google Calendar Calendar Calendar Widget">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/ca/68/b9/ca68b92e38341eeb4475c12bcad0580f.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Google Calendar Busy Google Search In 2020 Google Calendar Calendar Calendar Widget">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Google Calendar Busy Google Search In 2020 Google Calendar Calendar Calendar Widget.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Google Calendar Busy Google Search In 2020 Google Calendar Calendar Calendar Widget</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://9to5google.com/wp-content/uploads/sites/4/2017/10/google-calendar-web-material-cover.png?w=1600" target="_blank">
-							<img class="img-fluid" src="https://9to5google.com/wp-content/uploads/sites/4/2017/10/google-calendar-web-material-cover.png?w=1600" alt="Google Calendar Makes Working Hours More Prominent 9to5google" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar Makes Working Hours More Prominent 9to5google</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://s0.bukalapak.com/uploads/content_attachment/f86e1f5510a52142bcb97ab5/w-744/fitur-google-calendar-baru-0.jpg" target="_blank">
-							<img class="img-fluid" src="https://s0.bukalapak.com/uploads/content_attachment/f86e1f5510a52142bcb97ab5/w-744/fitur-google-calendar-baru-0.jpg" alt="Tampilan Baru Google Calendar Dengan Fitur Yang Lebih Simpel Dan Praktis Bukareview" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Tampilan Baru Google Calendar Dengan Fitur Yang Lebih Simpel Dan Praktis Bukareview</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.researchgate.net/profile/Murat_Germen/publication/4358763/figure/fig4/AS:668605427511300@1536419364512/Google-Calendar-with-10-Users-important-peoples-schedules-and-summarizing-other-peoples.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.researchgate.net/profile/Murat_Germen/publication/4358763/figure/fig4/AS:668605427511300@1536419364512/Google-Calendar-with-10-Users-important-peoples-schedules-and-summarizing-other-peoples.jpg" alt="Google Calendar With 10 Users Important People S Schedules And Download Scientific Diagram" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar With 10 Users Important People S Schedules And Download Scientific Diagram</p> 
-					</div>
-				</div>
-						 
-		 
-			<div class="posts-images"> 
-				<div class="text-left">
-					<h3>If youve signed into your google account youll already be logged in.</h3>
-					<p class="text-center"><img src="https://miro.medium.com/max/3416/1*aZzoqTfob6X7YAHeVl5itg.png" style="margin-bottom: 8px;"></p>
-
-											<p>
-															<strong>Google calendar</strong>. 
-							
-															Available on android iphone and ipad. 
-															If you dont the only way to update it will be to import another more current snapshot. 
-															Sign in google accounts. 
-															By importing a snapshot of your google calendar into outlook you can see it alongside other calendars in the outlook calendar view. 
-													</p>
-											<p>
-							
-															Search the worlds information including webpages images videos and more. 
-															To dos use reminders to create and view to dos. 
-															Browsers that work with calendar. 
-															If you dont have one yet click create an account. 
-													</p>
-											<p>
-							
-															Once you sign in youll be taken to google calendar. 
-															Integrated online calendars designed for teams spend less time planning and more time doing with shareable calendars that integrate seamlessly with gmail drive contacts sites and meet so you always know whats next. 
-															When recurring events are deleted on google calendar they still appear on the extension and there is no way to delete them. 
-															The google calendar app helps you spend less time managing your schedule and more time enjoying it. 
-													</p>
-											<p>
-							
-															We would like to show you a description here but the site wont allow us. 
-															To change any of your settings go to the top right corner and click settings. 
-															On your computer visit google calendar. 
-															If you already have a google account sign in. 
-													</p>
-											<p>
-							
-															Had to uninstall this to get rid of a ghost event. 
-															To keep the imported calendar up to date subscribe to the google calendar in outlook. 
-															Get the official google calendar app for your android phone and tablet to save time and make the most of every day. 
-															Different ways to view your calendar quickly switch between month week and day view. 
-													</p>
-											<p>
-							
-															If we click on the event pop up the google calendar opens and says that it cant find the event. 
-													</p>
-									</div> 
-			</div> 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://s3.ap-southeast-1.amazonaws.com/magazine.job-like.com/magazine/wp-content/uploads/2019/11/19112112/shutterstock_1422505277.jpg" target="_blank">
-							<img class="img-fluid" src="https://s3.ap-southeast-1.amazonaws.com/magazine.job-like.com/magazine/wp-content/uploads/2019/11/19112112/shutterstock_1422505277.jpg" alt="Tips Mengoptimalkan Google Calendar Untuk Keperluan Kerja" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Tips Mengoptimalkan Google Calendar Untuk Keperluan Kerja</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/f1/42/bf/f142bfa5578599ecee590ad6ffb76bc7.png" data-lightbox="roadtrip" data-title="Google Calendar Google Calendar Calendar Logo Calendar">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/f1/42/bf/f142bfa5578599ecee590ad6ffb76bc7.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Google Calendar Google Calendar Calendar Logo Calendar">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Google Calendar Google Calendar Calendar Logo Calendar.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Google Calendar Google Calendar Calendar Logo Calendar</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://techcrunch.com/wp-content/uploads/2020/01/2.-Clockwise_CalendarDemo_GIF.gif?w=730&amp;crop=1" target="_blank">
-							<img class="img-fluid" src="https://techcrunch.com/wp-content/uploads/2020/01/2.-Clockwise_CalendarDemo_GIF.gif?w=730&amp;crop=1" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gctfiyoaaknkltnpv39u1hn1bs827xry9wzljq Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gctfiyoaaknkltnpv39u1hn1bs827xry9wzljq Usqp Cau</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn57.androidauthority.net/wp-content/uploads/2018/05/Calendar-screenshot-1-840x391.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn57.androidauthority.net/wp-content/uploads/2018/05/Calendar-screenshot-1-840x391.jpg" alt="How To Share A Google Calendar A Step By Step Guide" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Share A Google Calendar A Step By Step Guide</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://specials-images.forbesimg.com/imageserve/5d8581e56de3150009a4ab01/960x0.jpg?fit=scale" target="_blank">
-							<img class="img-fluid" src="https://specials-images.forbesimg.com/imageserve/5d8581e56de3150009a4ab01/960x0.jpg?fit=scale" alt="Read This And Double Check Your Google Calendar Settings" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Read This And Double Check Your Google Calendar Settings</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5727c291c69791092313013f/images/5b11f6232c7d3a0fa9a288a9/file-A5nkQaVxKv.png" target="_blank">
-							<img class="img-fluid" src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5727c291c69791092313013f/images/5b11f6232c7d3a0fa9a288a9/file-A5nkQaVxKv.png" alt="How Mixmax Determines Google Calendar Availability Mixmax Help Center" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How Mixmax Determines Google Calendar Availability Mixmax Help Center</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/7f/fd/b6/7ffdb67bdb72f8ab11fcef0a9cd8693b.jpg" data-lightbox="roadtrip" data-title="Google Calendar Setting Appointments Scheduling Sharing Google Calendar Google Calender Google Tricks">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/7f/fd/b6/7ffdb67bdb72f8ab11fcef0a9cd8693b.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Google Calendar Setting Appointments Scheduling Sharing Google Calendar Google Calender Google Tricks">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Google Calendar Setting Appointments Scheduling Sharing Google Calendar Google Calender Google Tricks.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Google Calendar Setting Appointments Scheduling Sharing Google Calendar Google Calender Google Tricks</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lh3.googleusercontent.com/7QEX1S9qV-GvNF6wzSsW4o1mUjTYRQlRIJ2v1ij5LkZ1ofPAaT4tcfNUtw3X6v2dy25a1NJd5q0b_BQwU-BFlZBVP4rpKJWyGTDEI0WNjzhMogTmzr3mlXiIL_YUJD3DYQuxe8jh" target="_blank">
-							<img class="img-fluid" src="https://lh3.googleusercontent.com/7QEX1S9qV-GvNF6wzSsW4o1mUjTYRQlRIJ2v1ij5LkZ1ofPAaT4tcfNUtw3X6v2dy25a1NJd5q0b_BQwU-BFlZBVP4rpKJWyGTDEI0WNjzhMogTmzr3mlXiIL_YUJD3DYQuxe8jh" alt="Calendar Tips Google Calendar Tips And Tricks G Suite Tips" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Calendar Tips Google Calendar Tips And Tricks G Suite Tips</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.wikihow.com/images_en/thumb/4/42/Share-Your-Google-Calendar-Step-1-Version-10.jpg/v4-460px-Share-Your-Google-Calendar-Step-1-Version-10.jpg.webp" target="_blank">
-							<img class="img-fluid" src="https://www.wikihow.com/images_en/thumb/4/42/Share-Your-Google-Calendar-Step-1-Version-10.jpg/v4-460px-Share-Your-Google-Calendar-Step-1-Version-10.jpg.webp" alt="Cara Berbagi Entri Google Calendar Dengan Gambar Wikihow" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Berbagi Entri Google Calendar Dengan Gambar Wikihow</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://o.aolcdn.com/images/dims?quality=95&amp;image_uri=https%3A%2F%2Fs.yimg.com%2Fuu%2Fapi%2Fres%2F1.2%2FVFAAa6R1SrPUUU.MfAwvQw--%7EB%2FaD05NjA7dz0xNjAwO2FwcGlkPXl0YWNoeW9u%2Fhttps%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D880%252C528%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C960%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-uploaded-images%252F2019-09%252F70d23470-cefe-11e9-bdfc-6b064e4f2faa%26client%3Da1acac3e1b3290917d92%26signature%3D130eae468fc20738c095a8c7a9925d64b1f2b6ed&amp;client=amp-blogside-v2&amp;signature=bc0f5266a6ea3b998d434283c42401809874198f" target="_blank">
-							<img class="img-fluid" src="https://o.aolcdn.com/images/dims?quality=95&amp;image_uri=https%3A%2F%2Fs.yimg.com%2Fuu%2Fapi%2Fres%2F1.2%2FVFAAa6R1SrPUUU.MfAwvQw--%7EB%2FaD05NjA7dz0xNjAwO2FwcGlkPXl0YWNoeW9u%2Fhttps%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D880%252C528%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C960%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-uploaded-images%252F2019-09%252F70d23470-cefe-11e9-bdfc-6b064e4f2faa%26client%3Da1acac3e1b3290917d92%26signature%3D130eae468fc20738c095a8c7a9925d64b1f2b6ed&amp;client=amp-blogside-v2&amp;signature=bc0f5266a6ea3b998d434283c42401809874198f" alt="Google Calendar Will Guess Your Working Hours And Warn Colleagues Engadget" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar Will Guess Your Working Hours And Warn Colleagues Engadget</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://image.flaticon.com/icons/png/512/2702/2702609.png" target="_blank">
-							<img class="img-fluid" src="https://image.flaticon.com/icons/png/512/2702/2702609.png" alt="Google Calendar Free Brands And Logotypes Icons" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar Free Brands And Logotypes Icons</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/f1/ec/44/f1ec44cb8fb3837aaccdbe062bedcc01.jpg" data-lightbox="roadtrip" data-title="How I Am Using Google Calendar To Organize My Life Sheri Graham Helping You Live With Intention And Purpose Calendar Organization Google Calendar Digital Organization">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/f1/ec/44/f1ec44cb8fb3837aaccdbe062bedcc01.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="How I Am Using Google Calendar To Organize My Life Sheri Graham Helping You Live With Intention And Purpose Calendar Organization Google Calendar Digital Organization">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="How I Am Using Google Calendar To Organize My Life Sheri Graham Helping You Live With Intention And Purpose Calendar Organization Google Calendar Digital Organization.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">How I Am Using Google Calendar To Organize My Life Sheri Graham Helping You Live With Intention And Purpose Calendar Organization Google Calendar Digital Organization</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://miro.medium.com/max/1015/1*m4uMdohDG5maiJ0dIwqKuQ.png" target="_blank">
-							<img class="img-fluid" src="https://miro.medium.com/max/1015/1*m4uMdohDG5maiJ0dIwqKuQ.png" alt="How I Ditched To Dos And Use Google Calendar To Manage My Life By Edric Subur Medium" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How I Ditched To Dos And Use Google Calendar To Manage My Life By Edric Subur Medium</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.stack.imgur.com/553ui.png" target="_blank">
-							<img class="img-fluid" src="https://i.stack.imgur.com/553ui.png" alt="Google Calendar Api Not Adding Event And Not Throwing An Error Stack Overflow" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar Api Not Adding Event And Not Throwing An Error Stack Overflow</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://feed.mikle.com/support/wp-content/uploads/sites/2/2017/04/new-gcal-ID.png" target="_blank">
-							<img class="img-fluid" src="https://feed.mikle.com/support/wp-content/uploads/sites/2/2017/04/new-gcal-ID.png" alt="Find Your Google Calendar Id Feedwind Support Feedwind Support" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Find Your Google Calendar Id Feedwind Support Feedwind Support</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.vox-cdn.com/thumbor/xP90sj1FFgDTUZW0QUIicfhHLlI=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/19597729/Screen_Shot_2020_01_03_at_2.05.12_PM.png" target="_blank">
-							<img class="img-fluid" src="https://cdn.vox-cdn.com/thumbor/xP90sj1FFgDTUZW0QUIicfhHLlI=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/19597729/Screen_Shot_2020_01_03_at_2.05.12_PM.png" alt="Google 101 How To Add More Calendars To Your Google Calendar App The Verge" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google 101 How To Add More Calendars To Your Google Calendar App The Verge</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/19/fc/e7/19fce750d674d8c6d7af72392ceb169b.png" data-lightbox="roadtrip" data-title="Google Calendar Desktop App For Windows 10 Mac An Ultimate Guide Google Calendar Today Calendar Calendar">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/19/fc/e7/19fce750d674d8c6d7af72392ceb169b.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Google Calendar Desktop App For Windows 10 Mac An Ultimate Guide Google Calendar Today Calendar Calendar">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Google Calendar Desktop App For Windows 10 Mac An Ultimate Guide Google Calendar Today Calendar Calendar.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Google Calendar Desktop App For Windows 10 Mac An Ultimate Guide Google Calendar Today Calendar Calendar</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://storage.googleapis.com/support-forums-api/attachment/thread-11890453-2045167423021808417.PNG" target="_blank">
-							<img class="img-fluid" src="https://storage.googleapis.com/support-forums-api/attachment/thread-11890453-2045167423021808417.PNG" alt="How Do I Delete Spam Events In Google Calendar That Has Appeared Without Sending An Invitation Calendar Community" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How Do I Delete Spam Events In Google Calendar That Has Appeared Without Sending An Invitation Calendar Community</p> 
-					</div>
+			</div>
+		</div>
+			 
+					<div class="col-12 mb-4">
+				<div class="card">
+										<img class="card-img-top v-cover" src="https://i.pinimg.com/originals/ef/26/8f/ef268f078db78db94c2ca4c89b9169d8.gif" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Google Calendar Desktop App For Windows 10 Mac An Ultimate Guide Google Calendar Today Calendar Calendar">
+										<div class="card-body">
+						<h3 class="h5"><b></b></h3>
+												<div class="col-sm-12 widget"><strong>Related Posts:</strong>
+						<li class="list-group-item"><a href="/google.html">Google Calendar</a></li>
+						<li class="list-group-item"><a href="/google.html">Google</a></li></div>
+						<div class="p-2">Published on:<time class="p-2" itemprop="datePublished" datetime="2020-09-28">2020-09-28</time>
+						<meta itemprop="dateModified" content="2020-09-28">
+						<itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+						By <itemprop="name"><a href="#" title="Posts by Wick Wick" rel="author">Wick Wick</a></div>
+					</div> 
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://1.bp.blogspot.com/-neneFRz8wHs/XyuTjk93wCI/AAAAAAAAJec/pusg3EXq4ywkoWxk30SrOKS5Cc7RPfGigCLcBGAsYHQ/d/google%2Bcalendar%2Bheading.jpg" target="_blank">
-							<img class="img-fluid" src="https://1.bp.blogspot.com/-neneFRz8wHs/XyuTjk93wCI/AAAAAAAAJec/pusg3EXq4ywkoWxk30SrOKS5Cc7RPfGigCLcBGAsYHQ/d/google%2Bcalendar%2Bheading.jpg" alt="Tips Planning Mudah Menggunakan Google Calendar Duckofyork Indonesian Lifestyle Blogger" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Tips Planning Mudah Menggunakan Google Calendar Duckofyork Indonesian Lifestyle Blogger</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.booking-wp-plugin.com/wp-content/uploads/2018/05/google-calendar-sync.png" target="_blank">
-							<img class="img-fluid" src="https://www.booking-wp-plugin.com/wp-content/uploads/2018/05/google-calendar-sync.png" alt="Google Calendar Integration Bookly Appointment Booking And Scheduling Software System" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar Integration Bookly Appointment Booking And Scheduling Software System</p> 
-					</div>
-				</div>
-						 
+			</div>
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://media.gcflearnfree.org/content/560be4f6557fa909dc9cf5a1_09_30_2015/tips_calendar_comand.jpg" target="_blank">
-							<img class="img-fluid" src="https://media.gcflearnfree.org/content/560be4f6557fa909dc9cf5a1_09_30_2015/tips_calendar_comand.jpg" alt="Google Tips Getting Started With Google Calendar" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Tips Getting Started With Google Calendar</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/af/8d/c8/af8dc890e42d7ba8d96f9baf318cbb0c.png" data-lightbox="roadtrip" data-title="Best Google Calendar Hacks For Small Businesses Free Calendar Template Google Calendar Time Management Tips Calendar Management">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/af/8d/c8/af8dc890e42d7ba8d96f9baf318cbb0c.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Best Google Calendar Hacks For Small Businesses Free Calendar Template Google Calendar Time Management Tips Calendar Management">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Best Google Calendar Hacks For Small Businesses Free Calendar Template Google Calendar Time Management Tips Calendar Management.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Best Google Calendar Hacks For Small Businesses Free Calendar Template Google Calendar Time Management Tips Calendar Management</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://blog.tcea.org/wp-content/uploads/2018/05/Screen-Shot-2018-05-10-at-12.33.39-PM-1.png" target="_blank">
-							<img class="img-fluid" src="https://blog.tcea.org/wp-content/uploads/2018/05/Screen-Shot-2018-05-10-at-12.33.39-PM-1.png" alt="A Teacher S Guide To Google Calendar Technotes Blog" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>A Teacher S Guide To Google Calendar Technotes Blog</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn57.androidauthority.net/wp-content/uploads/2017/10/Google-Calendar.png" target="_blank">
-							<img class="img-fluid" src="https://cdn57.androidauthority.net/wp-content/uploads/2017/10/Google-Calendar.png" alt="Google Calendar For Web Gets A Beautiful Design Overhaul" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar For Web Gets A Beautiful Design Overhaul</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lh3.googleusercontent.com/-mhfz9Xp6aNY/XCXkeddF_GI/AAAAAAAAAFs/OhEihRyKAHAaIZ2W4gLoWjjRYZ9jQXF2gCMYCGAYYCw/s640-w640-h400/1.png" target="_blank">
-							<img class="img-fluid" src="https://lh3.googleusercontent.com/-mhfz9Xp6aNY/XCXkeddF_GI/AAAAAAAAAFs/OhEihRyKAHAaIZ2W4gLoWjjRYZ9jQXF2gCMYCGAYYCw/s640-w640-h400/1.png" alt="Jitsi Meet For Google Calendar G Suite Marketplace" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Jitsi Meet For Google Calendar G Suite Marketplace</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://uploads-ssl.webflow.com/5d28c1d9e54cb50686fe75bf/5d36627a4a466c7d4f537878_Step%201.png" target="_blank">
-							<img class="img-fluid" src="https://uploads-ssl.webflow.com/5d28c1d9e54cb50686fe75bf/5d36627a4a466c7d4f537878_Step%201.png" alt="How To Embed Google Calendar Squarespace Tutorial" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Embed Google Calendar Squarespace Tutorial</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/cd/44/5b/cd445b29975d41d3fa001dbc7f7b05cc.png" data-lightbox="roadtrip" data-title="Using Google Calendar To Organize Your Entire Life In 2020 Google Calendar Calendar Organization School Calendar">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/cd/44/5b/cd445b29975d41d3fa001dbc7f7b05cc.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Using Google Calendar To Organize Your Entire Life In 2020 Google Calendar Calendar Organization School Calendar">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Using Google Calendar To Organize Your Entire Life In 2020 Google Calendar Calendar Organization School Calendar.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Using Google Calendar To Organize Your Entire Life In 2020 Google Calendar Calendar Organization School Calendar</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://sites.google.com/a/editorblogger.com/diplomado-implementacion-de-aulas-virtuales/_/rsrc/1472474322323/home/Google-Calendar-icon.png" target="_blank">
-							<img class="img-fluid" src="https://sites.google.com/a/editorblogger.com/diplomado-implementacion-de-aulas-virtuales/_/rsrc/1472474322323/home/Google-Calendar-icon.png" alt="Google Calendar" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://external-preview.redd.it/eNGzUFAIXkEAbDGTyV-yyCuTOsi7KATycyKRBQ7mbic.png?auto=webp&amp;s=bddcf971299684e0a70e32100cb599291e0345af" target="_blank">
-							<img class="img-fluid" src="https://external-preview.redd.it/eNGzUFAIXkEAbDGTyV-yyCuTOsi7KATycyKRBQ7mbic.png?auto=webp&amp;s=bddcf971299684e0a70e32100cb599291e0345af" alt="So I Just Got A Bunch Of Spam In My Google Calendar How Do I Deal With This Google" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>So I Just Got A Bunch Of Spam In My Google Calendar How Do I Deal With This Google</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://s2.bukalapak.com/uploads/content_attachment/7b9e203210e8d7628a16adb5/original/Google-Calendar-vs.jpg" target="_blank">
-							<img class="img-fluid" src="https://s2.bukalapak.com/uploads/content_attachment/7b9e203210e8d7628a16adb5/original/Google-Calendar-vs.jpg" alt="Google Calendar Vs Apple Calendar Mana Yang Lebih Baik Bukareview" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar Vs Apple Calendar Mana Yang Lebih Baik Bukareview</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=google+classroom&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=google+classroom&amp;tbm=isch" alt="3" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>3</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/ef/26/8f/ef268f078db78db94c2ca4c89b9169d8.gif" data-lightbox="roadtrip" data-title="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gctddtkcobgnrtibbgn63 Pcaydoejimz3j83w Usqp Cau">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/ef/26/8f/ef268f078db78db94c2ca4c89b9169d8.gif" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gctddtkcobgnrtibbgn63 Pcaydoejimz3j83w Usqp Cau">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gctddtkcobgnrtibbgn63 Pcaydoejimz3j83w Usqp Cau.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gctddtkcobgnrtibbgn63 Pcaydoejimz3j83w Usqp Cau</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.insider.com/5e711e72c485405d034c7be4" target="_blank">
-							<img class="img-fluid" src="https://i.insider.com/5e711e72c485405d034c7be4" alt="How To Search Your Google Calendar For Events And More Business Insider" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Search Your Google Calendar For Events And More Business Insider</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://static01.nyt.com/images/2018/03/31/technology/personaltech/31techtipwebART/31techtipwebART-superJumbo.jpg" target="_blank">
-							<img class="img-fluid" src="https://static01.nyt.com/images/2018/03/31/technology/personaltech/31techtipwebART/31techtipwebART-superJumbo.jpg" alt="Keeping Personal Appointments Private On Google Calendar The New York Times" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Keeping Personal Appointments Private On Google Calendar The New York Times</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.vox-cdn.com/thumbor/5wQhTye9dJw9YQ5joDuzjiho3Ks=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/19598068/Screenshot__Jan_13__2020_11_35_14_AM___1_.png" target="_blank">
-							<img class="img-fluid" src="https://cdn.vox-cdn.com/thumbor/5wQhTye9dJw9YQ5joDuzjiho3Ks=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/19598068/Screenshot__Jan_13__2020_11_35_14_AM___1_.png" alt="Google 101 How To Add More Calendars To Your Google Calendar App The Verge" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google 101 How To Add More Calendars To Your Google Calendar App The Verge</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lh3.googleusercontent.com/-TAWzsXt4i8c/XaR-U5qZqHI/AAAAAAAAAKo/ijwlXuYwfjA6KbQuWP_cnE5lApaS9_CZgCMYCGAYYCw/s640-w640-h400/C4C_screenshot_1.png" target="_blank">
-							<img class="img-fluid" src="https://lh3.googleusercontent.com/-TAWzsXt4i8c/XaR-U5qZqHI/AAAAAAAAAKo/ijwlXuYwfjA6KbQuWP_cnE5lApaS9_CZgCMYCGAYYCw/s640-w640-h400/C4C_screenshot_1.png" alt="Circuit For Google Calendar G Suite Marketplace" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Circuit For Google Calendar G Suite Marketplace</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/10/e8/c3/10e8c312666b5ac13414c6cf43759124.png" data-lightbox="roadtrip" data-title="Using Google Apps For Business What All You Can Do Google Calendar Social Media Calendar Calendar App">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/10/e8/c3/10e8c312666b5ac13414c6cf43759124.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Using Google Apps For Business What All You Can Do Google Calendar Social Media Calendar Calendar App">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Using Google Apps For Business What All You Can Do Google Calendar Social Media Calendar Calendar App.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Using Google Apps For Business What All You Can Do Google Calendar Social Media Calendar Calendar App</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://idcloudhost.com/wp-content/uploads/2020/04/page-1.jpg" target="_blank">
-							<img class="img-fluid" src="https://idcloudhost.com/wp-content/uploads/2020/04/page-1.jpg" alt="Membuat Reminder Dari Google Sheet Ke Google Calendar Idcloudhost" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Membuat Reminder Dari Google Sheet Ke Google Calendar Idcloudhost</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://karenapp.io/books/gc/images/guide/question_65_image1.png" target="_blank">
-							<img class="img-fluid" src="https://karenapp.io/books/gc/images/guide/question_65_image1.png" alt="Where Is Trash In Google Calendar Google Calendar Handbook" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Where Is Trash In Google Calendar Google Calendar Handbook</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.lifewire.com/thmb/H6J8pDFL_d5pfe0xks6XLZ6jA24=/1584x862/filters:no_upscale():max_bytes(150000):strip_icc()/OpenGoogleCalendar-844c06e0fdd4463fbd74b6259610c294.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.lifewire.com/thmb/H6J8pDFL_d5pfe0xks6XLZ6jA24=/1584x862/filters:no_upscale():max_bytes(150000):strip_icc()/OpenGoogleCalendar-844c06e0fdd4463fbd74b6259610c294.jpg" alt="How To Automatically Add Birthdays To Google Calendar" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Automatically Add Birthdays To Google Calendar</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lh3.googleusercontent.com/O-CIMkjLwYzn704t-4dd0hDdmX9GAejt988cK2IZRSj0VXbxmMkuobAJV-cDecsBYFSOWLd_Xg=w640-h400-e365-rj-sc0x00ffffff" target="_blank">
-							<img class="img-fluid" src="https://lh3.googleusercontent.com/O-CIMkjLwYzn704t-4dd0hDdmX9GAejt988cK2IZRSj0VXbxmMkuobAJV-cDecsBYFSOWLd_Xg=w640-h400-e365-rj-sc0x00ffffff" alt="Event Durations For Google Calendar" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Event Durations For Google Calendar</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://simplecalendar.io/wp-content/uploads/2016/05/simple-calendar-fullcalendar-google-calendar-pro-grid-view.png" target="_blank">
-							<img class="img-fluid" src="https://simplecalendar.io/wp-content/uploads/2016/05/simple-calendar-fullcalendar-google-calendar-pro-grid-view.png" alt="Simple Calendar Wordpress Google Calendar Plugin" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Simple Calendar Wordpress Google Calendar Plugin</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.zapier.com/storage/photos/7ff27ba2c974df98c24e8b6727d8c6d4.gif" target="_blank">
-							<img class="img-fluid" src="https://cdn.zapier.com/storage/photos/7ff27ba2c974df98c24e8b6727d8c6d4.gif" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcq4gunpzbewiyrperyrlbh2bmvlmtgw2i2vaq Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcq4gunpzbewiyrperyrlbh2bmvlmtgw2i2vaq Usqp Cau</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.jessicadeen.com/content/images/Screen-Shot-2019-01-10-at-22.41.00.png" target="_blank">
-							<img class="img-fluid" src="https://cdn.jessicadeen.com/content/images/Screen-Shot-2019-01-10-at-22.41.00.png" alt="Embedding A Google Calendar Without Iframe Using Tockify" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Embedding A Google Calendar Without Iframe Using Tockify</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.vox-cdn.com/thumbor/asR3CPQEnYxyaktGbnwecEkAu0w=/0x0:637x357/1200x800/filters:focal(269x129:369x229)/cdn.vox-cdn.com/uploads/chorus_image/image/60200091/Screen_Shot_2018_06_27_at_1.30.53_PM.0.png" target="_blank">
-							<img class="img-fluid" src="https://cdn.vox-cdn.com/thumbor/asR3CPQEnYxyaktGbnwecEkAu0w=/0x0:637x357/1200x800/filters:focal(269x129:369x229)/cdn.vox-cdn.com/uploads/chorus_image/image/60200091/Screen_Shot_2018_06_27_at_1.30.53_PM.0.png" alt="Google Calendar Now Has An Out Of Office Option The Verge" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar Now Has An Out Of Office Option The Verge</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.gizmochina.com/wp-content/uploads/2020/01/google-calendar-alternatives-1024x555.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.gizmochina.com/wp-content/uploads/2020/01/google-calendar-alternatives-1024x555.jpg" alt="Best Alternatives For Google Calendar Gizmochina" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Best Alternatives For Google Calendar Gizmochina</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://2672686a4cf38e8c2458-2712e00ea34e3076747650c92426bbb5.ssl.cf1.rackcdn.com/2017-03-29-12-55-22.jpeg" target="_blank">
-							<img class="img-fluid" src="https://2672686a4cf38e8c2458-2712e00ea34e3076747650c92426bbb5.ssl.cf1.rackcdn.com/2017-03-29-12-55-22.jpeg" alt="Google Calendar Macstories" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar Macstories</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://clubrunner.blob.core.windows.net/00000008602/Images/Kayako/calendar-sub_google_002.png" target="_blank">
-							<img class="img-fluid" src="https://clubrunner.blob.core.windows.net/00000008602/Images/Kayako/calendar-sub_google_002.png" alt="Adding A Calendar Subscription With Google Calendar Clubrunner Support Center" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Adding A Calendar Subscription With Google Calendar Clubrunner Support Center</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.androidpolice.com/wp-content/uploads/2020/06/12/google-calendar-out-of-office-hero.png" target="_blank">
-							<img class="img-fluid" src="https://www.androidpolice.com/wp-content/uploads/2020/06/12/google-calendar-out-of-office-hero.png" alt="You May Soon Be Able To Call Out Of Office On The Google Calendar App" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>You May Soon Be Able To Call Out Of Office On The Google Calendar App</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.hswstatic.com/gif/google-calendar-1.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.hswstatic.com/gif/google-calendar-1.jpg" alt="How Google Calendar Works Howstuffworks" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How Google Calendar Works Howstuffworks</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://blog.eikontechnology.com/wp-content/uploads/2018/08/google-calendar-2-2.png" target="_blank">
-							<img class="img-fluid" src="http://blog.eikontechnology.com/wp-content/uploads/2018/08/google-calendar-2-2.png" alt="Baru Google Calendar For Web Kini Tampil Dengan Grafis User Interface" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Baru Google Calendar For Web Kini Tampil Dengan Grafis User Interface</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.cedarville.edu/-/media/Images/Information-Technology/Help/calendar-delete.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.cedarville.edu/-/media/Images/Information-Technology/Help/calendar-delete.jpg" alt="Google Calendar How To Delete A Calendar Cedarville University" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar How To Delete A Calendar Cedarville University</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://miro.medium.com/max/3416/1*aZzoqTfob6X7YAHeVl5itg.png" target="_blank">
-							<img class="img-fluid" src="https://miro.medium.com/max/3416/1*aZzoqTfob6X7YAHeVl5itg.png" alt="Google Calendar Api In Your Application Without Oauth Consent Screen By Muhammad Taqi Medium" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar Api In Your Application Without Oauth Consent Screen By Muhammad Taqi Medium</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://storage.googleapis.com/support-forums-api/attachment/thread-25141280-16860462656643401132.png" target="_blank">
-							<img class="img-fluid" src="https://storage.googleapis.com/support-forums-api/attachment/thread-25141280-16860462656643401132.png" alt="Google Calendar And Could Not Add Calender After I Click The Link In The Calendar Notification Email Calendar Community" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar And Could Not Add Calender After I Click The Link In The Calendar Notification Email Calendar Community</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://1.bp.blogspot.com/-a0xMzYjj1hc/W32O0TX7ghI/AAAAAAAAHJE/3ovSbAGnQSYjTopRKcsCAtS8XTg5IZ-aACLcBGAs/s1600/Side%2Bpanel%2Bin%2BGoogle%2BCalendar.gif" target="_blank">
-							<img class="img-fluid" src="https://1.bp.blogspot.com/-a0xMzYjj1hc/W32O0TX7ghI/AAAAAAAAHJE/3ovSbAGnQSYjTopRKcsCAtS8XTg5IZ-aACLcBGAs/s1600/Side%2Bpanel%2Bin%2BGoogle%2BCalendar.gif" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcsgab4rdoxaasdo Gidouad1nbe Crrfamjlw Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcsgab4rdoxaasdo Gidouad1nbe Crrfamjlw Usqp Cau</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://get.todoist.help/hc/article_attachments/360008416839/Todoist_GCal_sidebyside.png" target="_blank">
-							<img class="img-fluid" src="https://get.todoist.help/hc/article_attachments/360008416839/Todoist_GCal_sidebyside.png" alt="Use Google Calendar With Todoist Todoist Help" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Use Google Calendar With Todoist Todoist Help</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/wp-cms/uploads/2020/04/07-google-calendar-dim-past-events.jpg" target="_blank">
-							<img class="img-fluid" src="https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/wp-cms/uploads/2020/04/07-google-calendar-dim-past-events.jpg" alt="26 Best Google Calendar Tips" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>26 Best Google Calendar Tips</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://mlpwp7ewkcnn.i.optimole.com/w:auto/h:auto/q:90/https://kloudless.com/wp-content/uploads/2019/03/Screen-Shot-2019-03-01-at-7.00.17-PM.png" target="_blank">
-							<img class="img-fluid" src="https://mlpwp7ewkcnn.i.optimole.com/w:auto/h:auto/q:90/https://kloudless.com/wp-content/uploads/2019/03/Screen-Shot-2019-03-01-at-7.00.17-PM.png" alt="Finding A Time To Meet Via The Google Calendar Api Kloudless" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Finding A Time To Meet Via The Google Calendar Api Kloudless</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.lynda.com/course/681085/681085-637286238394459497-16x9.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.lynda.com/course/681085/681085-637286238394459497-16x9.jpg" alt="Google Calendar Essential Training" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar Essential Training</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.howtogeek.com/wp-content/uploads/2019/08/google-calendar-spam-events.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.howtogeek.com/wp-content/uploads/2019/08/google-calendar-spam-events.jpg" alt="How To Stop Spammers From Attacking Your Google Calendar" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Stop Spammers From Attacking Your Google Calendar</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.wikihow.com/images_en/thumb/3/37/Share-Your-Google-Calendar-Step-16-Version-7.jpg/v4-460px-Share-Your-Google-Calendar-Step-16-Version-7.jpg.webp" target="_blank">
-							<img class="img-fluid" src="https://www.wikihow.com/images_en/thumb/3/37/Share-Your-Google-Calendar-Step-16-Version-7.jpg/v4-460px-Share-Your-Google-Calendar-Step-16-Version-7.jpg.webp" alt="Cara Berbagi Entri Google Calendar Dengan Gambar Wikihow" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Berbagi Entri Google Calendar Dengan Gambar Wikihow</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://asset-a.grid.id/crop/0x0:0x0/700x0/photo/makemac/2015/03/Google-Calendar-iPhone-a.jpg" target="_blank">
-							<img class="img-fluid" src="https://asset-a.grid.id/crop/0x0:0x0/700x0/photo/makemac/2015/03/Google-Calendar-iPhone-a.jpg" alt="App Google Calendar Akhirnya Tersedia Untuk Iphone Makemac" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>App Google Calendar Akhirnya Tersedia Untuk Iphone Makemac</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=android+google+calendar&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=android+google+calendar&amp;tbm=isch" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcs3azrunxaethzsztkppb0zj 2cl7npk6fm54jtsibhhat9yig6 Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcs3azrunxaethzsztkppb0zj 2cl7npk6fm54jtsibhhat9yig6 Usqp Cau</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://clickup.com/landing/images/google-calendar/clickup-calendar.png" target="_blank">
-							<img class="img-fluid" src="https://clickup.com/landing/images/google-calendar/clickup-calendar.png" alt="Two Way Sync Your Tasks And Events With Google Calendar And Clickup" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Two Way Sync Your Tasks And Events With Google Calendar And Clickup</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.howtogeek.com/wp-content/uploads/2018/01/screenshot.5.png" target="_blank">
-							<img class="img-fluid" src="https://www.howtogeek.com/wp-content/uploads/2018/01/screenshot.5.png" alt="Google Calendar Got Rid Of Its Best Feature In The New Design" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar Got Rid Of Its Best Feature In The New Design</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.lifewire.com/thmb/JX5tXNXctFvnxD41RhgyYfNPfsw=/1271x846/filters:fill(auto,1)/google-calendar-6c9aad8ca5c84dd0893dc1701d411f02.png" target="_blank">
-							<img class="img-fluid" src="https://www.lifewire.com/thmb/JX5tXNXctFvnxD41RhgyYfNPfsw=/1271x846/filters:fill(auto,1)/google-calendar-6c9aad8ca5c84dd0893dc1701d411f02.png" alt="Get A Full Review Of Google Calendar And Its Features" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Get A Full Review Of Google Calendar And Its Features</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.grape.io/img/containers/main/img/google-calendar.png/50810856e97194173c6c84379269201b.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.grape.io/img/containers/main/img/google-calendar.png/50810856e97194173c6c84379269201b.jpg" alt="The Smartest Google Calendar Chat Integration Is Here Grape" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>The Smartest Google Calendar Chat Integration Is Here Grape</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.insider.com/5e711eefc485405d565783f3" target="_blank">
-							<img class="img-fluid" src="https://i.insider.com/5e711eefc485405d565783f3" alt="How To Search Your Google Calendar For Events And More Business Insider" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Search Your Google Calendar For Events And More Business Insider</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://endernet.io/static/media/fullcalendar.546090ab.png" target="_blank">
-							<img class="img-fluid" src="https://endernet.io/static/media/fullcalendar.546090ab.png" alt="Integrating With Google Calendar Api" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Integrating With Google Calendar Api</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lh3.googleusercontent.com/noIHxNJSntsbhjnZ2q8yMRv9SSYT5pJKpDh_eKny3WwaG1Z7uwnIQ4KWmSs_iF7KQgrr8P8b=w640-h400-e365-rj-sc0x00ffffff" target="_blank">
-							<img class="img-fluid" src="https://lh3.googleusercontent.com/noIHxNJSntsbhjnZ2q8yMRv9SSYT5pJKpDh_eKny3WwaG1Z7uwnIQ4KWmSs_iF7KQgrr8P8b=w640-h400-e365-rj-sc0x00ffffff" alt="Google Calendar" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://eventcalendarapp.com/blog/content/images/2019/09/Screenshot-2019-09-04-at-16.10.36.png" target="_blank">
-							<img class="img-fluid" src="https://eventcalendarapp.com/blog/content/images/2019/09/Screenshot-2019-09-04-at-16.10.36.png" alt="How To Embed Google Calendar On Your Website" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Embed Google Calendar On Your Website</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.purdue.edu/gradschool/admissions/ambassadors/wp-content/uploads/2018/02/Calendar-1024x551.png" target="_blank">
-							<img class="img-fluid" src="https://www.purdue.edu/gradschool/admissions/ambassadors/wp-content/uploads/2018/02/Calendar-1024x551.png" alt="Mavs Tips And Tricks With Google Calendar Graduate School Global Ambassadors" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Mavs Tips And Tricks With Google Calendar Graduate School Global Ambassadors</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://9to5google.com/wp-content/uploads/sites/4/2020/06/edit-Google-Calendar-sidebar.png?w=1600" target="_blank">
-							<img class="img-fluid" src="https://9to5google.com/wp-content/uploads/sites/4/2020/06/edit-Google-Calendar-sidebar.png?w=1600" alt="You Can Now Edit Google Calendar From The Gmail Sidebar 9to5google" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>You Can Now Edit Google Calendar From The Gmail Sidebar 9to5google</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://upload.wikimedia.org/wikipedia/en/7/79/Google_Calendar_screenshot.png" target="_blank">
-							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/en/7/79/Google_Calendar_screenshot.png" alt="Google Calendar Wikipedia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar Wikipedia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://selular.id/wp-content/uploads/2019/05/IMG_20190528_082450.jpg" target="_blank">
-							<img class="img-fluid" src="https://selular.id/wp-content/uploads/2019/05/IMG_20190528_082450.jpg" alt="Google Calendar Gulirkan Fitur Mode Gelap Selular Id" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar Gulirkan Fitur Mode Gelap Selular Id</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.amocrm.com/static/images/pages/integrations/logo/google-calendar.png" target="_blank">
-							<img class="img-fluid" src="https://www.amocrm.com/static/images/pages/integrations/logo/google-calendar.png" alt="Google Calendar Integration Amocrm" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar Integration Amocrm</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.wikihow.com/images_en/thumb/a/a4/Share-Your-Google-Calendar-Step-2-Version-10.jpg/v4-460px-Share-Your-Google-Calendar-Step-2-Version-10.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.wikihow.com/images_en/thumb/a/a4/Share-Your-Google-Calendar-Step-2-Version-10.jpg/v4-460px-Share-Your-Google-Calendar-Step-2-Version-10.jpg" alt="Cara Berbagi Entri Google Calendar Dengan Gambar Wikihow" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Berbagi Entri Google Calendar Dengan Gambar Wikihow</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/DayView-Blog_2.gif" target="_blank">
-							<img class="img-fluid" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/DayView-Blog_2.gif" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcrpmgjkfztop5slforvy2vkcnu6crs6yfosgw Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcrpmgjkfztop5slforvy2vkcnu6crs6yfosgw Usqp Cau</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=logo+google+calendar&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=logo+google+calendar&amp;tbm=isch" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcqwqxsnslvwkidmb8jbrqtv9ecffksfsxnsqcv6uzsev8fssbjt Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcqwqxsnslvwkidmb8jbrqtv9ecffksfsxnsqcv6uzsev8fssbjt Usqp Cau</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://storage.googleapis.com/support-forums-api/attachment/thread-19751817-2161411169518830620.png" target="_blank">
-							<img class="img-fluid" src="https://storage.googleapis.com/support-forums-api/attachment/thread-19751817-2161411169518830620.png" alt="I Cannot Delete 1 Event On Google Calendar Reoccurring Events It Disappears And Shows Back Up Calendar Community" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>I Cannot Delete 1 Event On Google Calendar Reoccurring Events It Disappears And Shows Back Up Calendar Community</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i0.wp.com/cdnssl.ubergizmo.com/wp-content/uploads/2019/05/how-to-share-google-calendar-1.jpg" target="_blank">
-							<img class="img-fluid" src="https://i0.wp.com/cdnssl.ubergizmo.com/wp-content/uploads/2019/05/how-to-share-google-calendar-1.jpg" alt="How To Share Your Google Calendar Ubergizmo" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Share Your Google Calendar Ubergizmo</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lh3.googleusercontent.com/uAmEihODD5FgbiYMjBtJs-z0lCHyhqqsXyQICEbb-YgHS0Bekz-kJ0l2SlDX3zX8_ziIPJ3AjdBs5sS3jZ265IQjinXILCOF6M7umSI=w960" target="_blank">
-							<img class="img-fluid" src="https://lh3.googleusercontent.com/uAmEihODD5FgbiYMjBtJs-z0lCHyhqqsXyQICEbb-YgHS0Bekz-kJ0l2SlDX3zX8_ziIPJ3AjdBs5sS3jZ265IQjinXILCOF6M7umSI=w960" alt="Google Calendar Online Calendars For Business G Suite" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar Online Calendars For Business G Suite</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://static.republika.co.id/uploads/images/inpicture_slide/kalender-google-_161108063713-914.jpg" target="_blank">
-							<img class="img-fluid" src="https://static.republika.co.id/uploads/images/inpicture_slide/kalender-google-_161108063713-914.jpg" alt="4 Manfaat Unik Google Calendar Republika Online" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>4 Manfaat Unik Google Calendar Republika Online</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.tripleseat.com/wp-content/uploads/2019/03/googlecalendar-cover.png" target="_blank">
-							<img class="img-fluid" src="https://www.tripleseat.com/wp-content/uploads/2019/03/googlecalendar-cover.png" alt="Google Calendar Tripleseat" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar Tripleseat</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.insider.com/5ddd80d6fd9db26d9400cd7a?width=1100&amp;format=jpeg&amp;auto=webp" target="_blank">
-							<img class="img-fluid" src="https://i.insider.com/5ddd80d6fd9db26d9400cd7a?width=1100&amp;format=jpeg&amp;auto=webp" alt="How To Add Events To Google Calendar On A Computer Business Insider" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Add Events To Google Calendar On A Computer Business Insider</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lh3.googleusercontent.com/7XbbOtO7ZGuplTLfJs_jUYBG46SXvdkjkIXRzlDFfNrZ7aVMOdVs3xnfMls4AoaXR-022hakMA=w640-h400-e365" target="_blank">
-							<img class="img-fluid" src="https://lh3.googleusercontent.com/7XbbOtO7ZGuplTLfJs_jUYBG46SXvdkjkIXRzlDFfNrZ7aVMOdVs3xnfMls4AoaXR-022hakMA=w640-h400-e365" alt="Google Calendar Tags" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar Tags</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.drupal.org/files/project-images/EventFields.png" target="_blank">
-							<img class="img-fluid" src="https://www.drupal.org/files/project-images/EventFields.png" alt="Google Calendar Import Drupal Org" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar Import Drupal Org</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://1.bp.blogspot.com/-CEx2PU6PBF4/Xvn_qp-5DdI/AAAAAAAAI-o/0rHcKJ27NOABOc397p_pyWf_ZABZkSRbQCLcBGAsYHQ/s640/Create%2Bevent.png" target="_blank">
-							<img class="img-fluid" src="https://1.bp.blogspot.com/-CEx2PU6PBF4/Xvn_qp-5DdI/AAAAAAAAI-o/0rHcKJ27NOABOc397p_pyWf_ZABZkSRbQCLcBGAsYHQ/s640/Create%2Bevent.png" alt="G Suite Updates Blog Improved Google Calendar Event Creation On The Web" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>G Suite Updates Blog Improved Google Calendar Event Creation On The Web</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://1.bp.blogspot.com/-NlhECy34jzw/Xyuw_RnAlPI/AAAAAAAAJfQ/tMKgIa4tXP0KOATPrv48ICWmFnHspEMXQCPcBGAYYCw/s1200/sharing%2Bgoogle%2Bcalendar.jpg" target="_blank">
-							<img class="img-fluid" src="https://1.bp.blogspot.com/-NlhECy34jzw/Xyuw_RnAlPI/AAAAAAAAJfQ/tMKgIa4tXP0KOATPrv48ICWmFnHspEMXQCPcBGAYYCw/s1200/sharing%2Bgoogle%2Bcalendar.jpg" alt="Tips Planning Mudah Menggunakan Google Calendar Duckofyork Indonesian Lifestyle Blogger" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Tips Planning Mudah Menggunakan Google Calendar Duckofyork Indonesian Lifestyle Blogger</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://robinpowered.com/blog/wp-content/uploads/2019/05/recurring-meeting-gcal-1170x752.png" target="_blank">
-							<img class="img-fluid" src="https://robinpowered.com/blog/wp-content/uploads/2019/05/recurring-meeting-gcal-1170x752.png" alt="How To Schedule Recurring Meetings In Google Calendar Robin" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Schedule Recurring Meetings In Google Calendar Robin</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://float-production-blog.storage.googleapis.com/2019/03/february-image-calendar-integration@2x.png" target="_blank">
-							<img class="img-fluid" src="https://float-production-blog.storage.googleapis.com/2019/03/february-image-calendar-integration@2x.png" alt="Sync Your Google Calendar Events With Float" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Sync Your Google Calendar Events With Float</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://media.gcflearnfree.org/content/560be4f6557fa909dc9cf5a1_09_30_2015/tips_calendar_intro.jpg" target="_blank">
-							<img class="img-fluid" src="https://media.gcflearnfree.org/content/560be4f6557fa909dc9cf5a1_09_30_2015/tips_calendar_intro.jpg" alt="Google Tips Getting Started With Google Calendar" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Tips Getting Started With Google Calendar</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.dragapp.com/wp-content/uploads/2020/01/google-calendar-guide-1.png" target="_blank">
-							<img class="img-fluid" src="https://www.dragapp.com/wp-content/uploads/2020/01/google-calendar-guide-1.png" alt="Google Calendar The 2020 Ultimate Guide Dragapp Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar The 2020 Ultimate Guide Dragapp Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://storage.googleapis.com/support-forums-api/attachment/thread-10942529-3032904370770011632.jpg" target="_blank">
-							<img class="img-fluid" src="https://storage.googleapis.com/support-forums-api/attachment/thread-10942529-3032904370770011632.jpg" alt="Android Events Don T Sync W Google Web Calendar Calendar Community" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Android Events Don T Sync W Google Web Calendar Calendar Community</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.meistertask.com/blog/wp-content/uploads/2020/01/Google-Calendar-Integration-V2.png" target="_blank">
-							<img class="img-fluid" src="https://www.meistertask.com/blog/wp-content/uploads/2020/01/Google-Calendar-Integration-V2.png" alt="Meistertask Meets Google Calendar Integration Tips And Tricks" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Meistertask Meets Google Calendar Integration Tips And Tricks</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.androidcentral.com/sites/androidcentral.com/files/styles/xlarge/public/article_images/2020/07/icloud-to-google-calendar-8.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.androidcentral.com/sites/androidcentral.com/files/styles/xlarge/public/article_images/2020/07/icloud-to-google-calendar-8.jpg" alt="How To Add An Icloud Calendar To Your Google Calendar On Android Android Central" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Add An Icloud Calendar To Your Google Calendar On Android Android Central</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/HAlMxpffFwI/maxresdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/HAlMxpffFwI/maxresdefault.jpg" alt="How To Embed Google Calendar In Notion Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Embed Google Calendar In Notion Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.lifewire.com/thmb/WyY73e7mB43ADBmfSUb6TqDWdqM=/1919x1027/filters:no_upscale():max_bytes(150000):strip_icc()/001-copy-or-move-all-events-google-calendar-11721812-5c8ff111c9e77c0001eb1c90.png" target="_blank">
-							<img class="img-fluid" src="https://www.lifewire.com/thmb/WyY73e7mB43ADBmfSUb6TqDWdqM=/1919x1027/filters:no_upscale():max_bytes(150000):strip_icc()/001-copy-or-move-all-events-google-calendar-11721812-5c8ff111c9e77c0001eb1c90.png" alt="How To Copy Google Calendar Events To Another Google Calendar" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Copy Google Calendar Events To Another Google Calendar</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://dsitd.ipb.ac.id/wp-content/uploads/2019/11/Membuat-Agenda-Kegiatan-pada-Google-Calendar.jpg" target="_blank">
-							<img class="img-fluid" src="https://dsitd.ipb.ac.id/wp-content/uploads/2019/11/Membuat-Agenda-Kegiatan-pada-Google-Calendar.jpg" alt="Membuat Agenda Kegiatan Pada Google Calendar Direktorat Sistem Infor" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Membuat Agenda Kegiatan Pada Google Calendar Direktorat Sistem Infor</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=icon+google+calendar&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=icon+google+calendar&amp;tbm=isch" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gctq5nxfx8ey0zpl4umvgcbxkuad02vkdqjvaqy5salkpa72giam Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gctq5nxfx8ey0zpl4umvgcbxkuad02vkdqjvaqy5salkpa72giam Usqp Cau</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://solve360.com/images/features-and-walkthroughs/google-calendar-integration/google-calendar-1-find-a-time.google.png" target="_blank">
-							<img class="img-fluid" src="https://solve360.com/images/features-and-walkthroughs/google-calendar-integration/google-calendar-1-find-a-time.google.png" alt="Google Calendar Integration" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar Integration</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://blog.rescuetime.com/wp-content/uploads/2020/08/RescueTIme-Google-Calendar-Guide-Lead.jpg" target="_blank">
-							<img class="img-fluid" src="https://blog.rescuetime.com/wp-content/uploads/2020/08/RescueTIme-Google-Calendar-Guide-Lead.jpg" alt="How To Use Google Calendar To Get Things Done 31 Features Settings" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Use Google Calendar To Get Things Done 31 Features Settings</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.xda-developers.com/files/2019/05/google-calendar-dark.png" target="_blank">
-							<img class="img-fluid" src="https://www.xda-developers.com/files/2019/05/google-calendar-dark.png" alt="Google Calendar Finally Lets You Move Events Across Calendars" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar Finally Lets You Move Events Across Calendars</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/1EjJ55BODn0/maxresdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/1EjJ55BODn0/maxresdefault.jpg" alt="Google Calendar Tutorial 2019 Quick Start Training Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Calendar Tutorial 2019 Quick Start Training Youtube</p> 
-					</div>
-				</div>
-						 
-		 
-
-	 	
-	
-					</div>
+		</div>
+				<div class="clearfix"></div> 
+		<div class="d-block mt-4 p-3">
+			Source : <a href="https://pinterest.com" rel="nofollow noopener">pinterest.com</a>
+		</div>
+						</div>
 				</div> 
 				<div class="col-md-3">
 					<div class="col-sm-12 widget">
-						<h3 class="widget-title">Random Posts</h3>
+						<h3 class="widget-title">RANDOM POST</h3>
 						<ul class="list-group">
-						 
-																	<li class="list-group-item"><a href="jeune-armenien.html">Jeune Armenien</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-and-vin-diesel.html">Rose Leslie And Vin Diesel</a></li>
-																	<li class="list-group-item"><a href="kit-harington-gq.html">Kit Harington Gq</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="google-you-tube-google-youtube.html">Google You Tube Google Youtube</a></li>
-																	<li class="list-group-item"><a href="aserbaidschan-rennstrecke.html">Aserbaidschan Rennstrecke</a></li>
-																	<li class="list-group-item"><a href="galatasaray-fenerbahce-kupa-kiyaslama.html">Galatasaray Fenerbahce Kupa Kiyaslama</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="fenerbahce-boyama.html">Fenerbahce Boyama</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-greys-anatomy.html">Rose Leslie Greys Anatomy</a></li>
-																	<li class="list-group-item"><a href="aserbaidschan-armenien-krieg.html">Aserbaidschan Armenien Krieg</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="galatasaray-crowd.html">Galatasaray Crowd</a></li>
-																	<li class="list-group-item"><a href="st-pauli-non-alcoholic-beer.html">St Pauli Non Alcoholic Beer</a></li>
-																	<li class="list-group-item"><a href="clement-vallandigham.html">Clement Vallandigham</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="google-game.html">Google Game</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-auswaertssieg.html">Dynamo Dresden Auswaertssieg</a></li>
-																	<li class="list-group-item"><a href="wolfgang-clement-krank.html">Wolfgang Clement Krank</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="aserbaidschan-militaer.html">Aserbaidschan Militaer</a></li>
-																	<li class="list-group-item"><a href="galatasaray-coach.html">Galatasaray Coach</a></li>
-																	<li class="list-group-item"><a href="google-v.html">Google V</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="fenerbahce-voleybol.html">Fenerbahce Voleybol</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-cap.html">Dynamo Dresden Cap</a></li>
-																	<li class="list-group-item"><a href="galatasaray-oyunculari-wallpaper.html">Galatasaray Oyunculari Wallpaper</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="st-pauli-fc.html">St Pauli Fc</a></li>
-																	<li class="list-group-item"><a href="mainz-05-gegen-vfb.html">Mainz 05 Gegen Vfb</a></li>
-																	<li class="list-group-item"><a href="st-pauli-hamburg-flag.html">St Pauli Hamburg Flag</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="google-image-search-photo-android.html">Google Image Search Photo Android</a></li>
-																	<li class="list-group-item"><a href="aserbaidschan-gp.html">Aserbaidschan Gp</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-spieler-2020.html">Dynamo Dresden Spieler 2020</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="zaza-enden-fenerbahce.html">Zaza Enden Fenerbahce</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-romantika.html">Fenerbahce Romantika</a></li>
-																	<li class="list-group-item"><a href="youssoufa-moukoko-st-pauli.html">Youssoufa Moukoko St Pauli</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="schalke-trainer.html">Schalke Trainer</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-stadium.html">Dynamo Dresden Stadium</a></li>
-																	<li class="list-group-item"><a href="clement-mine-map.html">Clement Mine Map</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="clement-twins-2020.html">Clement Twins 2020</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-doevme-modelleri.html">Fenerbahce Doevme Modelleri</a></li>
-																	<li class="list-group-item"><a href="google-pacman.html">Google Pacman</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="fenerbahce-duvar.html">Fenerbahce Duvar</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-kupa-toreni.html">Fenerbahce Kupa Toreni</a></li>
-																	<li class="list-group-item"><a href="clement-ogbonnaya.html">Clement Ogbonnaya</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="kit-harington-fans.html">Kit Harington Fans</a></li>
-																	<li class="list-group-item"><a href="google-classroom-login.html">Google Classroom Login</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-smoker.html">Rose Leslie Smoker</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="galatasaray-hazirlik-maclari.html">Galatasaray Hazirlik Maclari</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-ucagi.html">Fenerbahce Ucagi</a></li>
-																	<li class="list-group-item"><a href="aserbaidschan-strand.html">Aserbaidschan Strand</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="aserbaidschan-sprache.html">Aserbaidschan Sprache</a></li>
-																	<li class="list-group-item"><a href="clement-aubert.html">Clement Aubert</a></li>
-																	<li class="list-group-item"><a href="french-open-2020-predictions.html">French Open 2020 Predictions</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="clement-skate-park.html">Clement Skate Park</a></li>
-																	<li class="list-group-item"><a href="google-lens.html">Google Lens</a></li>
-								 
+													<li class="list-group-item"><a href="/google-books.html">Google Books</a></li>
+													<li class="list-group-item"><a href="/google-background.html">Google Background</a></li>
+													<li class="list-group-item"><a href="/manchester-city-vs-leicester-city.html">Manchester City Vs Leicester City</a></li>
+													<li class="list-group-item"><a href="/google-bisnisku.html">Google Bisnisku</a></li>
+													<li class="list-group-item"><a href="/victoria-vanucci.html">Victoria Vanucci</a></li>
+													<li class="list-group-item"><a href="/google-book.html">Google Book</a></li>
+													<li class="list-group-item"><a href="/roland-garros-hoy.html">Roland Garros Hoy</a></li>
+													<li class="list-group-item"><a href="/sheffield-united-vs-leeds.html">Sheffield United Vs Leeds</a></li>
+													<li class="list-group-item"><a href="/lebron-james.html">Lebron James</a></li>
+													<li class="list-group-item"><a href="/joaquin-phoenix.html">Joaquin Phoenix</a></li>
+													<li class="list-group-item"><a href="/google-bisnis.html">Google Bisnis</a></li>
+													<li class="list-group-item"><a href="/manchester-city.html">Manchester City</a></li>
+													<li class="list-group-item"><a href="/roland-garros-2020.html">Roland Garros 2020</a></li>
+													<li class="list-group-item"><a href="/leicester.html">Leicester</a></li>
+													<li class="list-group-item"><a href="/rooney-mara.html">Rooney Mara</a></li>
+													<li class="list-group-item"><a href="/google-analytics.html">Google Analytics</a></li>
+													<li class="list-group-item"><a href="/google-calendar.html">Google Calendar</a></li>
+													<li class="list-group-item"><a href="/google.html">Google</a></li>
+													<li class="list-group-item"><a href="/formula-1.html">Formula 1</a></li>
+													<li class="list-group-item"><a href="/leeds.html">Leeds</a></li>
+													<li class="list-group-item"><a href="/google-buku.html">Google Buku</a></li>
+													<li class="list-group-item"><a href="/bayern-munich.html">Bayern Munich</a></li>
+													<li class="list-group-item"><a href="/leeds-united.html">Leeds United</a></li>
+													<li class="list-group-item"><a href="/google-amerika.html">Google Amerika</a></li>
+													<li class="list-group-item"><a href="/google-camera.html">Google Camera</a></li>
+													<li class="list-group-item"><a href="/google-assistant.html">Google Assistant</a></li>
+													<li class="list-group-item"><a href="/cae.html">Cae</a></li>
+													<li class="list-group-item"><a href="/google-business.html">Google Business</a></li>
+													<li class="list-group-item"><a href="/lakers.html">Lakers</a></li>
+													<li class="list-group-item"><a href="/google-akun.html">Google Akun</a></li>
 						 
 						</ul>
 					</div>
 					<div class="col-sm-12 widget">
-						<script async="async" data-cfasync="false" src="//zqvee2re50mr.com/675cb813fbbeae53ce321baa240173f6/invoke.js"></script>
-<div id="container-675cb813fbbeae53ce321baa240173f6"></div>
 					</div>
 				</div> 
 			</div>
 			<div class="row footer">
 				<div class="col-md-12 text-center">
-										<a href="pages/dmca">Dmca</a>
-										<a href="pages/contact">Contact</a>
-										<a href="pages/privacy-policy">Privacy Policy</a>
-										<a href="pages/copyright">Copyright</a>
-					
-				</div>
+										<a href="/p/dmca.html">Dmca</a>
+										<a href="/p/contact.html">Contact</a>
+										<a href="/p/privacy-policy.html">Privacy Policy</a>
+										<a href="/p/copyright.html">Copyright</a>
+									</div>
 			</div>
 		</div>
 		<!-- <style>
@@ -1152,6 +376,31 @@ a{color: #f42966;text-decoration:none;}
 	  	<br>
 		<a href="#your-offer-url" target="_blank">CTA Link &rarr;</a>
 	</p>
-</div> -->		<script type='text/javascript' src='//zqvee2re50mr.com/a4/31/b2/a431b2df4b60e2629306f7e7e7465d31.js'></script>	</main>
-</body>
+</div> -->
+		<script type='text/javascript' src='//zqvee2re50mr.com/a4/31/b2/a431b2df4b60e2629306f7e7e7465d31.js'></script>	</main>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js" integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+
+	
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+	<script type='text/javascript'>
+		$(document).ready(function()
+	    {
+			$(document).on('click','#image-download',function(e)
+			{
+				e.preventDefault();
+				var url = $(this).data('url');
+				var title = $(this).data('title');			
+				var x=new XMLHttpRequest();
+				x.open( "GET", url , true);
+				x.responseType="blob";
+				x.onload= function(e){download(e.target.response, title, "image/jpg");};
+				x.send();
+			});
+	    });
+	</script>
+	</body>
 </html>

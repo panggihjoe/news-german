@@ -4,1093 +4,385 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" integrity="sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=" crossorigin="anonymous" />
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">	
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<style type="text/css">
-html,body{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;font-weight:400;color:#e1e2e3;background:#111;}
-img{max-width:100%;} 
-.header{padding-bottom:13px;margin-bottom:13px;}
-.container{max-width:1024px;}
-.navbar{margin-bottom:25px;color:#f1f2f3;border-bottom:1px solid #222;background:#111 !important;} 
-.navbar .navbar-brand{margin:0 20px 0 0;font-size:28px;padding:0;line-height:24px;} 
-.row.header,.row.content,.row.footer{widthx:auto;max-widthx:100%;} 
-.row.footer{padding:30px 0;background:#f1ff2f3;border-color:#222;}
-.content .col-sm-12{padding:0;}
-.content .col-md-9s{margin-right:-25px;}  
-.posts-image{width:25%;display:block;float:left;}
-.posts-image-content{width:auto;margin:0 15px 35px 0;position:relative;}
-.posts-image:nth-child(5n) .posts-image-content{margin:0 0 35px 0 !important;} 
-.posts-image img{width:100%;height:150px;object-fit:cover;object-position:center;margin-bottom:10px;
-	-webkit-transition:0.6s opacity;transition:0.6s opacity;}
-.posts-image:hover img{opacity:0.8;}
-.posts-image:hover h2{background:rgba(0, 0, 0, 0.7);} 
-.posts-image h2{z-index:2;position:absolute;font-size:14px;bottom:2px;left:0;right:0;padding:5px;text-align:center;
-	-webkit-transition:0.6s opacity;transition:0.6s background;}
-.posts-image h2 a{color:#e1e2e3;}
-.posts-image-big{display:block;width:100%;}
-.posts-image-big .posts-image-content{margin:0 0 10px !important;}
-.posts-image-big img{height:380px;}
-.posts-image-big h2{text-align:left;padding-left:0;position:relative;font-size:30px;line-height:36px;}
-.posts-image-big h2 a{color:#e1e2e3;}
-.posts-image-big:hover h2{background:none;}
-.posts-image-single .posts-image-content,
-.posts-image-single:nth-child(5n) .posts-image-content{margin:0 15px 15px 0 !important;} 
-.posts-image-single p{font-size:12px;line-height:18px !important;} 
-.posts-images{clear:both;}
-.list-group{}
-.list-group li{padding:0;background:#222;}
-.list-group li a{display:block;padding:8px;}
-.widget{margin-bottom:20px;}
-h3.widget-title{font-size:20px;}
-a{color: #f42966;text-decoration:none;}  
-.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee;}
-.footer a{margin:0 15px;}
-.navi{margin:13px 0 13px 0;}
-.navi a{margin:5px 2px;font-size:95%;} 
-@media  only screen and (min-width:0px) and (max-width:991px){
-	.container{width:auto;max-width:100%;}.navbar{padding:5px 0;}.navbar .container{width:100%;margin:0 15px;}	
-}
-@media  only screen and (min-width:0px) and (max-width:767px){
-	.content .col-md-3{padding:15px;}
-}	 
-@media  only screen and (min-width:481px) and (max-width:640px){ 
-	.posts-image img{height:90px;}
-	.posts-image-big img{height:320px;}
-	.posts-image-single{width:33.3%;}
-	.posts-image-single:nth-child(3n) .posts-image-content{margin-right:0 !important;}
-}	
-@media  only screen and (min-width:0px) and (max-width:480px){
-	.posts-image img{height:80px;}
-	.posts-image-big img{height:240px;}
-	.posts-image-single{width:100%;} 
-	.posts-image-single .posts-image-content{margin:0 !important;}
-	.posts-image-single img{height:auto;}
-}	
+body,html{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;background:#fff}img{max-width:100%}.header{padding-bottom:13px;margin-bottom:13px}.container{max-width:1024px}.navbar{margin-bottom:25px;color:#f1f2f3;border-bottom:1px solid #e1e2e3}.navbar .navbar-brand{margin:0 20px 0 0;font-size:28px;padding:0;line-height:24px}.row.content,.row.footer,.row.header{widthx:auto;max-widthx:100%}.row.footer{padding:30px 0;background:0 0}.content .col-sm-12{padding:0}.content .col-md-9s{margin-right:-25px}.posts-image{width:25%;display:block;float:left}.posts-image-content{width:auto;margin:0 15px 35px 0;position:relative}.posts-image:nth-child(5n) .posts-image-content{margin:0 0 35px!important}.posts-image img{width:100%;height:150px;object-fit:cover;object-position:center;margin-bottom:10px;-webkit-transition:.6s opacity;transition:.6s opacity}.posts-image:hover img{opacity:.8}.posts-image:hover h2{background:rgba(0,0,0,.7)}.posts-image h2{z-index:2;position:absolute;font-size:14px;bottom:2px;left:0;right:0;padding:5px;text-align:center;-webkit-transition:.6s opacity;transition:.6s background}.posts-image h2 a{color:#fff}.posts-image-big{display:block;width:100%}.posts-image-big .posts-image-content{margin:0 0 10px!important}.posts-image-big img{height:380px}.posts-image-big h2{text-align:left;padding-left:0;position:relative;font-size:30px;line-height:36px}.posts-image-big h2 a{color:#111}.posts-image-big:hover h2{background:0 0}.posts-image-single .posts-image-content,.posts-image-single:nth-child(5n) .posts-image-content{margin:0 15px 15px 0!important}.posts-image-single p{font-size:12px;line-height:18px!important}.posts-images{clear:both}.list-group li{padding:0}.list-group li a{display:block;padding:8px}.widget{margin-bottom:20px}h3.widget-title{font-size:20px}a{color:#0000A0;text-decoration:none}.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee}.footer a{margin:0 15px}.navi{margin:13px 0}.navi a{margin:5px 2px;font-size:95%}@media  only screen and (min-width:0px) and (max-width:991px){.container{width:auto;max-width:100%}.navbar{padding:5px 0}.navbar .container{width:100%;margin:0 15px}}@media  only screen and (min-width:0px) and (max-width:767px){.content .col-md-3{padding:15px}}@media  only screen and (min-width:481px) and (max-width:640px){.posts-image img{height:90px}.posts-image-big img{height:320px}.posts-image-single{width:33.3%}.posts-image-single:nth-child(3n) .posts-image-content{margin-right:0!important}}@media  only screen and (min-width:0px) and (max-width:480px){.posts-image img{height:80px}.posts-image-big img{height:240px}.posts-image-single{width:100%}.posts-image-single .posts-image-content{margin:0!important}.posts-image-single img{height:auto}}.v-cover{height: 380px; object-fit: cover;}.v-image{height: 200px; object-fit: cover;}.main{margin-top: 6rem;}.form-inline .form-control{min-width: 300px;}
 	</style>
 	<title>Google Amerika</title>
 	<!-- Histats.com  START (hidden counter) -->
-<a href="/" alt="web site hit counter" target="_blank" >
-<img  src="//sstatic1.histats.com/0.gif?4454171&101" alt="web site hit counter" border="0">
-<!-- Histats.com  END  -->
+<a href="/" alt="" target="_blank" >
+<img  src="//sstatic1.histats.com/0.gif?4454171&101" alt="" border="0">
+<!-- Histats.com  END  -->]
 
-<script type='text/javascript' src='//zqvee2re50mr.com/7c/26/34/7c263438c0a922e610bc1e9951cbc44f.js'></script></head>
+<script type='text/javascript' src='//zqvee2re50mr.com/7c/26/34/7c263438c0a922e610bc1e9951cbc44f.js'></script>
+	<script type="application/ld+json">
+	{
+	  "@context" : "http://schema.org",
+	  "@type" : "Article",
+	  "name" : "Google Amerika",
+	  "author" : {
+	    "@type" : "Person",
+	    "name" : "Tamara Blezinsky"
+	  },
+	  "datePublished" : "2020-09-28",
+	  "image" : "https://i.pinimg.com/736x/64/04/3b/64043b211514852569cf5d5d568f4a72.jpg",
+	  "articleSection" : "Learn how to create your own.",
+	  "articleBody" : "Untuk windows 10 8 1 8 7 64 bit.",
+	  "url" : "/nadia-podoroska.html",
+	  "publisher" : {
+	    "@type" : "Organization",
+	    "name" : "Was Heute im Trend liegt"
+	  },
+	  "aggregateRating" : {
+	    "@type" : "AggregateRating",
+	    "ratingValue" : "4.6",
+	    "ratingCount" : "1500"
+	  }
+	}
+	</script>
+</head>
 <body>
-	<main id="main">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-light ">
-			<div class="container">
-		  <a href="" class="navbar-brand">TRENDING NEWS</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto">				
-								<li class="nav-item"><a class="nav-link" href="pages/dmca">Dmca</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/contact">Contact</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/privacy-policy">Privacy Policy</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/copyright">Copyright</a></li>
-				 
-			</ul> 
-			</div>
-		  </div>
-		</nav>
+	<header class="bg-white fixed-top">			
+		<nav class="navbar navbar-light bg-white mb-0">
+			<div class="container justify-content-center justify-content-sm-between">	
+			  <a href="/" title="Was Heute im Trend liegt" class="navbar-brand mb-1">Was Heute im Trend liegt</a>
+			  <form class="form-inline mb-1" action="/" method="get">
+			    <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search and hit enter.." aria-label="Search">
+			  </form>	
+			</div>			  
+		</nav>				
+	</header>
+	<main id="main" class="main">
 		<div class="container">  
 			<div class="row content">
 				<div class="col-md-9">
-					<div class="col-sm-12">
+					<div class="col-sm-12 p-2">
 
 							<h1>Google Amerika</h1>
 
 	
-	<div class="navi text-left">
-					<p>Halaman dalam kategori situs web amerika serikat kategori ini memiliki 40 halaman dari total 40. Google has many special features to help you find exactly what youre looking for. We would like to show you a description here but the site wont allow us. <br>
-															<a class="badge badge-danger" href="google-amerika.html">google amerika</a>
-																																																																																													</p>
-			</div>
+	<div class="navi text-center">
+					<p align="justify">This map was created by a user. Google has many special features to help you find exactly what you re looking for. Doodle for google 2020 winner. <br>				
+			</p>
+										<a class="badge badge-secondary" href="/sheffield-united-vs-leeds.html">sheffield united vs leeds</a>
+											<a class="badge badge-secondary" href="/vitamina-d.html">vitamina d</a>
+											<a class="badge badge-info" href="/google-calendar.html">google calendar</a>
+											<a class="badge badge-light" href="/google-analytics.html">google analytics</a>
+																<a class="badge badge-primary" href="/armenia.html">armenia</a>
+											<a class="badge badge-danger" href="/victoria-vanucci.html">victoria vanucci</a>
+											<a class="badge badge-danger" href="/nadia-podoroska.html">nadia podoroska</a>
+						</div>
 
 						<script async="async" data-cfasync="false" src="//zqvee2re50mr.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
 <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
 					</div> 
 					<div class="col-sm-12">					
-							
-	
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1546968614/jazcu4lasoqhtjewdukw.jpg" target="_blank">
-							<img class="img-fluid" src="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1546968614/jazcu4lasoqhtjewdukw.jpg" alt="Cerita Fahmi Adimara Terbang Ke Amerika Berkat Google Local Guides Kumparan Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cerita Fahmi Adimara Terbang Ke Amerika Berkat Google Local Guides Kumparan Com</p> 
+						
+		
+	<div class="row">
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/db/19/bd/db19bd2c29a22ccecc493ec9b0ed946e.png" data-lightbox="roadtrip" data-title="Pin Op Vlammen">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/db/19/bd/db19bd2c29a22ccecc493ec9b0ed946e.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Pin Op Vlammen">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Pin Op Vlammen.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Pin Op Vlammen</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.youthmanual.com/assets/file_uploaded/editor/1471963813-rakina-and.jpg" target="_blank">
-							<img class="img-fluid" src="http://www.youthmanual.com/assets/file_uploaded/editor/1471963813-rakina-and.jpg" alt="Rakina Zata Amni Mahasiswa Universitas Indonesia Yang Sukses Kerja Magang Di Kantor Google Dan Square Amerika Serikat Apa Rahasianya Rencanamu" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Rakina Zata Amni Mahasiswa Universitas Indonesia Yang Sukses Kerja Magang Di Kantor Google Dan Square Amerika Serikat Apa Rahasianya Rencanamu</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://gatra.cloud/foldershared/images/2019/fatikhin/06-Jun/IMG_20190602_121527.jpg" target="_blank">
-							<img class="img-fluid" src="https://gatra.cloud/foldershared/images/2019/fatikhin/06-Jun/IMG_20190602_121527.jpg" alt="Google Tersandung Masalah Monopoli Bisnis Di Amerika Serikat Internasional" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Tersandung Masalah Monopoli Bisnis Di Amerika Serikat Internasional</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://mmc.tirto.id/image/otf/500x0/2016/10/10/TIRTO-usa-google_car_elj14_53005001_ratio-16x9.JPG" target="_blank">
-							<img class="img-fluid" src="https://mmc.tirto.id/image/otf/500x0/2016/10/10/TIRTO-usa-google_car_elj14_53005001_ratio-16x9.JPG" alt="Imigran Kaya Di Amerika Tirto Id" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Imigran Kaya Di Amerika Tirto Id</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images-na.ssl-images-amazon.com/images/I/61wEpoSweGL.jpg" target="_blank">
-							<img class="img-fluid" src="https://images-na.ssl-images-amazon.com/images/I/61wEpoSweGL.jpg" alt="Belajar Trading Saham Amerika Profit Dari Saham Ternama Seperti Google Apple Mcdonald S Disney Facebook Indonesian Edition Ryanto Gregorius 9781502478917 Amazon Com Books" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Belajar Trading Saham Amerika Profit Dari Saham Ternama Seperti Google Apple Mcdonald S Disney Facebook Indonesian Edition Ryanto Gregorius 9781502478917 Amazon Com Books</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/73/6e/bc/736ebcee41bb775059de80a7da6d3ad2.jpg" data-lightbox="roadtrip" data-title="Amerika Mura Shopping Google Search Japanese Culture Harajuku American">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/73/6e/bc/736ebcee41bb775059de80a7da6d3ad2.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Amerika Mura Shopping Google Search Japanese Culture Harajuku American">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Amerika Mura Shopping Google Search Japanese Culture Harajuku American.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Amerika Mura Shopping Google Search Japanese Culture Harajuku American</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.dw.com/image/15913256_303.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.dw.com/image/15913256_303.jpg" alt="Samsung Bekerjasama Dengan Ericsson Dan Google Dunia Informasi Terkini Dari Berbagai Penjuru Dunia Dw 28 01 2014" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Samsung Bekerjasama Dengan Ericsson Dan Google Dunia Informasi Terkini Dari Berbagai Penjuru Dunia Dw 28 01 2014</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.sinarharapan.co/foto/2020/09/27/894-google_amrika_android_police-800x450.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.sinarharapan.co/foto/2020/09/27/894-google_amrika_android_police-800x450.jpg" alt="K 9ahstq0bcram" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>K 9ahstq0bcram</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn0-production-images-kly.akamaized.net/uJFMy_zQcEey8PVA_w9soDig2h4=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1316575/original/022787600_1471080844-Android-Lollipop-at-Google-HQ.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn0-production-images-kly.akamaized.net/uJFMy_zQcEey8PVA_w9soDig2h4=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1316575/original/022787600_1471080844-Android-Lollipop-at-Google-HQ.jpg" alt="Seperti Facebook Karyawan Google Bakal Kerja Dari Rumah Hingga Akhir 2020 Tekno Liputan6 Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Seperti Facebook Karyawan Google Bakal Kerja Dari Rumah Hingga Akhir 2020 Tekno Liputan6 Com</p> 
-					</div>
-				</div>
-						 
-		 
-			<div class="posts-images"> 
-				<div class="text-left">
-					<h3>How are they they put together.</h3>
-					<p class="text-center"><img src="https://www.widyatama.ac.id/wp-content/uploads/2019/05/WhatsApp-Image-2019-05-13-at-09.13.57.jpeg" style="margin-bottom: 8px;"></p>
-
-											<p>
-															<strong>Google amerika</strong>. 
-							
-															Buat akun google anda nama nama depan nama depan nama belakang nama belakang. 
-															Google photos is the home for all your photos and videos automatically organized and easy to share. 
-															Google didirikan oleh larry page dan sergey brin saat masih mahasiswa phd. 
-															Google llc adalah sebuah perusahaan multinasional amerika serikat yang berkekhususan pada jasa dan produk internet. 
-													</p>
-											<p>
-							
-															Saya lebih suka menggunakan alamat email saya yang sekarang. 
-															Doodle for google 2020 winner. 
-															Gunakan sedikitnya 8 karakter. 
-															Googles free service instantly translates words phrases and web pages between english and over 100 other languages. 
-													</p>
-											<p>
-							
-															Where do the images come from. 
-															Search the worlds information including webpages images videos and more. 
-															Anda dapat menggunakan huruf angka dan titik. 
-															In this video learn about the pixels planes and people that create google earths 3d imagery. 
-													</p>
-											<p>
-							
-															And how often are they updated. 
-															Sebagian besar labanya berasal dari adwords. 
-															Produk produk tersebut meliputi teknologi pencarian komputasi web perangkat lunak dan periklanan daring. 
-															Google earth is the most photorealistic digital version of our planet. 
-													</p>
-											<p>
-							
-															See the map stats and news for areas affected by covid 19 on google news. 
-													</p>
-									</div> 
-			</div> 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://awsimages.detik.net.id/community/media/visual/2018/05/15/7f688799-299c-4a74-9c8b-dcf7bdfa186f.jpeg?w=750&amp;q=90" target="_blank">
-							<img class="img-fluid" src="https://awsimages.detik.net.id/community/media/visual/2018/05/15/7f688799-299c-4a74-9c8b-dcf7bdfa186f.jpeg?w=750&amp;q=90" alt="Pemuda Riau Pegawai Google Amerika Ontel Kesayangannya" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Pemuda Riau Pegawai Google Amerika Ontel Kesayangannya</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/d0/f3/a4/d0f3a45efdd57156efc168e4eced2a6b.jpg" data-lightbox="roadtrip" data-title="Hearst Mansion Amerika Serikat Rumah Mewah Yang Berada Di Kawasan Elit Beverly Hills Ini Mempunyai Enam Tempat Kediaman Yan Rumah Besar Rumah Mewah Kemewahan">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/d0/f3/a4/d0f3a45efdd57156efc168e4eced2a6b.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Hearst Mansion Amerika Serikat Rumah Mewah Yang Berada Di Kawasan Elit Beverly Hills Ini Mempunyai Enam Tempat Kediaman Yan Rumah Besar Rumah Mewah Kemewahan">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Hearst Mansion Amerika Serikat Rumah Mewah Yang Berada Di Kawasan Elit Beverly Hills Ini Mempunyai Enam Tempat Kediaman Yan Rumah Besar Rumah Mewah Kemewahan.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Hearst Mansion Amerika Serikat Rumah Mewah Yang Berada Di Kawasan Elit Beverly Hills Ini Mempunyai Enam Tempat Kediaman Yan Rumah Besar Rumah Mewah Kemewahan</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://julajuli.com/upload/media/entries/2017/08/170824031643_julajuli.JPG" target="_blank">
-							<img class="img-fluid" src="http://julajuli.com/upload/media/entries/2017/08/170824031643_julajuli.JPG" alt="Google Local Guides Indonesia Siap Berangkat Ke Amerika Julajuli Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Local Guides Indonesia Siap Berangkat Ke Amerika Julajuli Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://media.beritagar.id/2018-07/78872403f07ded5a1cdee24230e0c8a3.jpg" target="_blank">
-							<img class="img-fluid" src="https://media.beritagar.id/2018-07/78872403f07ded5a1cdee24230e0c8a3.jpg" alt="Monopoli Android Membuat Google Didenda Uni Eropa" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Monopoli Android Membuat Google Didenda Uni Eropa</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn1-production-images-kly.akamaized.net/GwwCPgZTY6eLtQu7LQBqOetCqPE=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/thumbnails/2919024/original/013832300_1569222241-pria-yang-hilang-selama-22-tahun-ditemukan-melalui-google-earth-283cf0.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn1-production-images-kly.akamaized.net/GwwCPgZTY6eLtQu7LQBqOetCqPE=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/thumbnails/2919024/original/013832300_1569222241-pria-yang-hilang-selama-22-tahun-ditemukan-melalui-google-earth-283cf0.jpg" alt="Berita Google Earth Hari Ini Kabar Terbaru Terkini Liputan6 Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Berita Google Earth Hari Ini Kabar Terbaru Terkini Liputan6 Com</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2020/03/01/1984381177.jpeg" target="_blank">
-							<img class="img-fluid" src="https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2020/03/01/1984381177.jpeg" alt="Google Dan Amerika Serikat Kembangkan Situs Web Khusus Virus Corona Jadi Langkah Cepat Tanggap Covid 19 Pikiran Rakyat Cirebon" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Dan Amerika Serikat Kembangkan Situs Web Khusus Virus Corona Jadi Langkah Cepat Tanggap Covid 19 Pikiran Rakyat Cirebon</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/b8/3f/c9/b83fc96d65c669dfc225f6750339c4e1.jpg" data-lightbox="roadtrip" data-title="Amerika Witte Achtergrond Vlag Amerika">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/b8/3f/c9/b83fc96d65c669dfc225f6750339c4e1.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Amerika Witte Achtergrond Vlag Amerika">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Amerika Witte Achtergrond Vlag Amerika.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Amerika Witte Achtergrond Vlag Amerika</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.widyatama.ac.id/wp-content/uploads/2019/05/WhatsApp-Image-2019-05-13-at-09.13.57.jpeg" target="_blank">
-							<img class="img-fluid" src="https://www.widyatama.ac.id/wp-content/uploads/2019/05/WhatsApp-Image-2019-05-13-at-09.13.57.jpeg" alt="3 Developer Mahasiswa Indonesia Hadiri Google I O Di Amerika Serikat Universitas Widyatama" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>3 Developer Mahasiswa Indonesia Hadiri Google I O Di Amerika Serikat Universitas Widyatama</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://asset.kompas.com/crop/0x0:1000x500/780x390/data/photo/2017/12/28/8680808.jpg" target="_blank">
-							<img class="img-fluid" src="https://asset.kompas.com/crop/0x0:1000x500/780x390/data/photo/2017/12/28/8680808.jpg" alt="Foto Kompleks Kantor Baru Google Berundak Seperti Sawah" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Foto Kompleks Kantor Baru Google Berundak Seperti Sawah</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://media.suara.com/pictures/480x260/2020/01/08/35870-presiden-amerika-serikat-donald-trump.jpg" target="_blank">
-							<img class="img-fluid" src="https://media.suara.com/pictures/480x260/2020/01/08/35870-presiden-amerika-serikat-donald-trump.jpg" alt="Trump Meradang Google Cs Kena Pajak Digital Di Indonesia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Trump Meradang Google Cs Kena Pajak Digital Di Indonesia</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://asset.kompas.com/crops/2O1_mcH-7OfAo0Nbhu53XCKSOGs=/0x0:1100x733/750x500/data/photo/2020/05/27/5ecdf8dfd11b3.jpg" target="_blank">
-							<img class="img-fluid" src="https://asset.kompas.com/crops/2O1_mcH-7OfAo0Nbhu53XCKSOGs=/0x0:1100x733/750x500/data/photo/2020/05/27/5ecdf8dfd11b3.jpg" alt="6 Juli Google Buka Aktivitas Perkantoran" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>6 Juli Google Buka Aktivitas Perkantoran</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/736x/c3/27/f1/c327f1fa68f30bc49a01e4727a92b9bd.jpg" data-lightbox="roadtrip" data-title="Waspada Ferdinand Gawat Amerika Bikin Peta Papua Di Luar Indonesia">
+											<img class="card-img v-image" src="https://i.pinimg.com/736x/c3/27/f1/c327f1fa68f30bc49a01e4727a92b9bd.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Waspada Ferdinand Gawat Amerika Bikin Peta Papua Di Luar Indonesia">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Waspada Ferdinand Gawat Amerika Bikin Peta Papua Di Luar Indonesia.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Waspada Ferdinand Gawat Amerika Bikin Peta Papua Di Luar Indonesia</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://ecs7.tokopedia.net/img/cache/700/product-1/2020/7/16/2756430/2756430_f6290849-f040-42ea-a887-da1c1d042c04_1000_1000" target="_blank">
-							<img class="img-fluid" src="https://ecs7.tokopedia.net/img/cache/700/product-1/2020/7/16/2756430/2756430_f6290849-f040-42ea-a887-da1c1d042c04_1000_1000" alt="Jual Helm Cakil Hbc Captain Amerika Free Google Promo Terbatas Grey Kota Depok Jual Helm Tokopedia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Jual Helm Cakil Hbc Captain Amerika Free Google Promo Terbatas Grey Kota Depok Jual Helm Tokopedia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://media.hitekno.com/thumbs/2019/03/15/26301-ilustrasi-kantor-google-pixabaydenvit/730x480-img-26301-ilustrasi-kantor-google-pixabaydenvit.jpg" target="_blank">
-							<img class="img-fluid" src="https://media.hitekno.com/thumbs/2019/03/15/26301-ilustrasi-kantor-google-pixabaydenvit/730x480-img-26301-ilustrasi-kantor-google-pixabaydenvit.jpg" alt="Mengira Videonya Dihapus Youtube Pria Ini Mengamuk Di Kantor Google Hitekno Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Mengira Videonya Dihapus Youtube Pria Ini Mengamuk Di Kantor Google Hitekno Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://berita.teknologi.id/uploads/article/1593687299_google%20office%20swenify.jpg" target="_blank">
-							<img class="img-fluid" src="https://berita.teknologi.id/uploads/article/1593687299_google%20office%20swenify.jpg" alt="Google Amerika Instruksikan Karyawannya Untuk Tetap Wfh Sampai September Teknologi Id" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Amerika Instruksikan Karyawannya Untuk Tetap Wfh Sampai September Teknologi Id</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://media.hitekno.com/thumbs/2020/04/19/67506-rumah-yang-diblur-oleh-google-earth-google-earth/o-img-67506-rumah-yang-diblur-oleh-google-earth-google-earth.jpg" target="_blank">
-							<img class="img-fluid" src="https://media.hitekno.com/thumbs/2020/04/19/67506-rumah-yang-diblur-oleh-google-earth-google-earth/o-img-67506-rumah-yang-diblur-oleh-google-earth-google-earth.jpg" alt="Simpan Fakta Mengejutkan Dan Sadis Google Earth Sengaja Blur Rumah Ini" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Simpan Fakta Mengejutkan Dan Sadis Google Earth Sengaja Blur Rumah Ini</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/7d/87/4f/7d874fd8d0fdfb245936d8853b1d15c8.jpg" data-lightbox="roadtrip" data-title="American Flag Wallpapers Wallpaper">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/7d/87/4f/7d874fd8d0fdfb245936d8853b1d15c8.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="American Flag Wallpapers Wallpaper">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="American Flag Wallpapers Wallpaper.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">American Flag Wallpapers Wallpaper</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://asset.kompas.com/crops/rZGRk__LcjFvSXCluMQV4VNAYdA=/114x0:1194x720/750x500/data/photo/2020/06/09/5edf899db1da5.jpg" target="_blank">
-							<img class="img-fluid" src="https://asset.kompas.com/crops/rZGRk__LcjFvSXCluMQV4VNAYdA=/114x0:1194x720/750x500/data/photo/2020/06/09/5edf899db1da5.jpg" alt="2 Turis Asal Amerika Tersesat Di Hutan Karena Ikuti Google Maps Halaman All Kompas Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>2 Turis Asal Amerika Tersesat Di Hutan Karena Ikuti Google Maps Halaman All Kompas Com</p> 
-					</div>
+			</div>
+		</div>
+			 
+					<div class="col-12 mb-4">
+				<div class="card">
+										<img class="card-img-top v-cover" src="https://i.pinimg.com/originals/b8/3f/c9/b83fc96d65c669dfc225f6750339c4e1.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="American Flag Wallpapers Wallpaper">
+										<div class="card-body">
+						<h3 class="h5"><b>Halaman dalam kategori situs web amerika serikat kategori ini memiliki 40 halaman dari total 40.</b></h3>
+													<p class="p-2" align="justify">
+																	<strong>Google amerika</strong>. 
+								
+																	See the map stats and news for areas affected by covid 19 on google news. 
+																	Vertriebspartner der neugart gmbh in amerika. 
+																	Google s free service instantly translates words phrases and web pages between english and over 100 other languages. 
+																	Komputer ini tidak akan menerima update google chrome lagi karena windows xp dan windows vista sudah tidak didukung. 
+															</p>
+													<p class="p-2" align="justify">
+								
+																	Untuk windows 10 8 1 8 7 32 bit. 
+																	We would like to show you a description here but the site won t allow us. 
+																	Google didirikan oleh larry page dan sergey brin saat masih mahasiswa ph d. 
+																	Search the world s information including webpages images videos and more. 
+															</p>
+													<p class="p-2" align="justify">
+								
+																	Google llc adalah sebuah perusahaan multinasional amerika serikat yang berkekhususan pada jasa dan produk internet. 
+																	Sebagian besar labanya berasal dari adwords. 
+																	Produk produk tersebut meliputi teknologi pencarian komputasi web perangkat lunak dan periklanan daring. 
+																	Doodle for google 2020 winner. 
+															</p>
+													<p class="p-2" align="justify">
+								
+																	Untuk windows 10 8 1 8 7 64 bit. 
+																	Learn how to create your own. 
+															</p>
+												<div class="col-sm-12 widget"><strong>Related Posts:</strong>
+						<li class="list-group-item"><a href="/nadia-podoroska.html">Google Amerika</a></li>
+						<li class="list-group-item"><a href="/nadia-podoroska.html">Nadia Podoroska</a></li></div>
+						<div class="p-2">Published on:<time class="p-2" itemprop="datePublished" datetime="2020-09-28">2020-09-28</time>
+						<meta itemprop="dateModified" content="2020-09-28">
+						<itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+						By <itemprop="name"><a href="#" title="Posts by Wick Wick" rel="author">Wick Wick</a></div>
+					</div> 
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://akcdn.detik.net.id/visual/2019/04/28/0cd55cb5-3c6e-4585-9917-3e05afa8fd61_169.jpeg?w=650&amp;q=90" target="_blank">
-							<img class="img-fluid" src="https://akcdn.detik.net.id/visual/2019/04/28/0cd55cb5-3c6e-4585-9917-3e05afa8fd61_169.jpeg?w=650&amp;q=90" alt="Foto Insiden Crane Maut Di Proyek Google" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Foto Insiden Crane Maut Di Proyek Google</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.matamatapolitik.com/wp-content/uploads/sites/2/2019/08/Google-.jpeg" target="_blank">
-							<img class="img-fluid" src="https://www.matamatapolitik.com/wp-content/uploads/sites/2/2019/08/Google-.jpeg" alt="Bagaimana Cia Dan Nsa Membantu Google Memata Matai Warga" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bagaimana Cia Dan Nsa Membantu Google Memata Matai Warga</p> 
-					</div>
-				</div>
-						 
+			</div>
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://awsimages.detik.net.id/customthumb/2015/11/03/1146/Go1.jpg?w=750&amp;q=90" target="_blank">
-							<img class="img-fluid" src="https://awsimages.detik.net.id/customthumb/2015/11/03/1146/Go1.jpg?w=750&amp;q=90" alt="Keluar Masuk Kantor Keren Google Foto 17" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Keluar Masuk Kantor Keren Google Foto 17</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/70/7c/4c/707c4c250a99f0163652347966417d75.jpg" data-lightbox="roadtrip" data-title="Google Assisstant Akan Terpasang Di 1 Miliar Perangkat Periklanan Google Amerika Serikat">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/70/7c/4c/707c4c250a99f0163652347966417d75.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Google Assisstant Akan Terpasang Di 1 Miliar Perangkat Periklanan Google Amerika Serikat">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Google Assisstant Akan Terpasang Di 1 Miliar Perangkat Periklanan Google Amerika Serikat.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Google Assisstant Akan Terpasang Di 1 Miliar Perangkat Periklanan Google Amerika Serikat</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://asset.kompas.com/crop/0x0:1000x500/780x390/data/photo/2017/12/28/3338918450.jpg" target="_blank">
-							<img class="img-fluid" src="https://asset.kompas.com/crop/0x0:1000x500/780x390/data/photo/2017/12/28/3338918450.jpg" alt="Foto Kompleks Kantor Baru Google Berundak Seperti Sawah" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Foto Kompleks Kantor Baru Google Berundak Seperti Sawah</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://akcdn.detik.net.id/visual/2019/10/15/6fc345f9-1d65-4e48-a74a-d2e63655890b_169.jpeg?w=650" target="_blank">
-							<img class="img-fluid" src="https://akcdn.detik.net.id/visual/2019/10/15/6fc345f9-1d65-4e48-a74a-d2e63655890b_169.jpeg?w=650" alt="Google Resmi Meluncurkan Pixel 4 Dan 4 Xl" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Resmi Meluncurkan Pixel 4 Dan 4 Xl</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://awsimages.detik.net.id/visual/2018/01/19/346a9744-cf8e-40d8-8158-3155aa70f155_169.jpeg?w=360&amp;q=90" target="_blank">
-							<img class="img-fluid" src="https://awsimages.detik.net.id/visual/2018/01/19/346a9744-cf8e-40d8-8158-3155aa70f155_169.jpeg?w=360&amp;q=90" alt="Trump Mau Investigasi Ini Yang Dilakukan Google Di China" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Trump Mau Investigasi Ini Yang Dilakukan Google Di China</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.riauonline.co.id/foto/bank/images2/Bos-Google-Pakai-Celana-Pendek.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.riauonline.co.id/foto/bank/images2/Bos-Google-Pakai-Celana-Pendek.jpg" alt="Pakai Celana Pendek Bos Google Dianggap Lecehkan Indonesia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Pakai Celana Pendek Bos Google Dianggap Lecehkan Indonesia</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/cb/d0/fa/cbd0faab37d01977f9cf3c82276cb8d1.jpg" data-lightbox="roadtrip" data-title="Bts Kalahkan The Beatles Di Google Amerika Beatles The Beatles Jonas Brothers">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/cb/d0/fa/cbd0faab37d01977f9cf3c82276cb8d1.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Bts Kalahkan The Beatles Di Google Amerika Beatles The Beatles Jonas Brothers">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Bts Kalahkan The Beatles Di Google Amerika Beatles The Beatles Jonas Brothers.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Bts Kalahkan The Beatles Di Google Amerika Beatles The Beatles Jonas Brothers</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://akcdn.detik.net.id/visual/2015/06/23/e3536281-8a4c-4ea7-a220-993faf0ddb23_169.jpg?w=650" target="_blank">
-							<img class="img-fluid" src="https://akcdn.detik.net.id/visual/2015/06/23/e3536281-8a4c-4ea7-a220-993faf0ddb23_169.jpg?w=650" alt="Ahli Siber Ingatkan Unduhan Pembaruan Google Chrome Palsu" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Ahli Siber Ingatkan Unduhan Pembaruan Google Chrome Palsu</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://asset.kompas.com/crops/bnULWmGybEDXsvwVsLaLnJHvjNY=/0x0:0x0/750x500/data/photo/2016/03/23/1820218kantorgoogle1p.jpg" target="_blank">
-							<img class="img-fluid" src="https://asset.kompas.com/crops/bnULWmGybEDXsvwVsLaLnJHvjNY=/0x0:0x0/750x500/data/photo/2016/03/23/1820218kantorgoogle1p.jpg" alt="Google Cloud Platform Ekspansi Pusat Data Di 70 Lokasi Global Halaman All Kompas Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Cloud Platform Ekspansi Pusat Data Di 70 Lokasi Global Halaman All Kompas Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://gadget.jagatreview.com/wp-content/uploads/2019/11/Google-brings-Play-Points-rewards-program-to-the-US.jpg" target="_blank">
-							<img class="img-fluid" src="http://gadget.jagatreview.com/wp-content/uploads/2019/11/Google-brings-Play-Points-rewards-program-to-the-US.jpg" alt="Google Play Points Tersedia Di Wilayah Amerika Serikat Jagat Gadget" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Play Points Tersedia Di Wilayah Amerika Serikat Jagat Gadget</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://media.beritagar.id/2016-10/original_350/1300x866_ea8159ef0c3f7b2328c7e4d81212d48df2751af1.jpg" target="_blank">
-							<img class="img-fluid" src="https://media.beritagar.id/2016-10/original_350/1300x866_ea8159ef0c3f7b2328c7e4d81212d48df2751af1.jpg" alt="Negara Versus Google Mana Yang Lebih Bijak" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Negara Versus Google Mana Yang Lebih Bijak</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/ea/10/99/ea10994e07632fb65f7fe5281eb33c02.png" data-lightbox="roadtrip" data-title="Huawei Dan Google Kembali Bersatu Trump Kalah Presiden Amerika Kalah Google">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/ea/10/99/ea10994e07632fb65f7fe5281eb33c02.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Huawei Dan Google Kembali Bersatu Trump Kalah Presiden Amerika Kalah Google">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Huawei Dan Google Kembali Bersatu Trump Kalah Presiden Amerika Kalah Google.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Huawei Dan Google Kembali Bersatu Trump Kalah Presiden Amerika Kalah Google</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img.okezone.com/content/2017/06/06/207/1708964/menjelajah-kantor-google-di-california-surganya-para-pekerja-penghasil-aplikasi-teknologi-Qz7UxEptxi.jpg" target="_blank">
-							<img class="img-fluid" src="https://img.okezone.com/content/2017/06/06/207/1708964/menjelajah-kantor-google-di-california-surganya-para-pekerja-penghasil-aplikasi-teknologi-Qz7UxEptxi.jpg" alt="Menjelajah Kantor Google Di California Surganya Para Pekerja Penghasil Aplikasi Teknologi Okezone Techno" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Menjelajah Kantor Google Di California Surganya Para Pekerja Penghasil Aplikasi Teknologi Okezone Techno</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lenteratoday.com/wp-content/uploads/2020/08/google-main-800x450.jpg" target="_blank">
-							<img class="img-fluid" src="https://lenteratoday.com/wp-content/uploads/2020/08/google-main-800x450.jpg" alt="Google Menguji Jaringan Spektrum 6ghz Di 17 Negara Bagian Amerika Lenteratoday Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Menguji Jaringan Spektrum 6ghz Di 17 Negara Bagian Amerika Lenteratoday Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://asset-a.grid.id/crop/0x0:0x0/302x151/photo/2020/01/17/449715696.jpg" target="_blank">
-							<img class="img-fluid" src="https://asset-a.grid.id/crop/0x0:0x0/302x151/photo/2020/01/17/449715696.jpg" alt="Google Bantah Klaim Pemerintah Amerika Kerjasama Mencegah Virus Corona Semua Halaman Nextren Grid Id" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Bantah Klaim Pemerintah Amerika Kerjasama Mencegah Virus Corona Semua Halaman Nextren Grid Id</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://m.ayojakarta.com/images-jakarta/post/articles/2020/05/10/17295/google_di_california.jpg" target="_blank">
-							<img class="img-fluid" src="http://m.ayojakarta.com/images-jakarta/post/articles/2020/05/10/17295/google_di_california.jpg" alt="Google Dan Facebook Perpanjang Wfh Hingga 2021" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Dan Facebook Perpanjang Wfh Hingga 2021</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/736x/64/04/3b/64043b211514852569cf5d5d568f4a72.jpg" data-lightbox="roadtrip" data-title="Kisah Disebalik Kejayaan Syarikat Gergasi Dunia Google Google Blog Incoming Call Screenshot">
+											<img class="card-img v-image" src="https://i.pinimg.com/736x/64/04/3b/64043b211514852569cf5d5d568f4a72.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Kisah Disebalik Kejayaan Syarikat Gergasi Dunia Google Google Blog Incoming Call Screenshot">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Kisah Disebalik Kejayaan Syarikat Gergasi Dunia Google Google Blog Incoming Call Screenshot.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Kisah Disebalik Kejayaan Syarikat Gergasi Dunia Google Google Blog Incoming Call Screenshot</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://balinewsnetwork.com/wp-content/uploads/2016/07/Capture2.png" target="_blank">
-							<img class="img-fluid" src="http://balinewsnetwork.com/wp-content/uploads/2016/07/Capture2.png" alt="Startup Bisnis Indonesia Dari Alumni Stikom Bali Diundang Google Ke Amerika Serikat Bali News Network" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Startup Bisnis Indonesia Dari Alumni Stikom Bali Diundang Google Ke Amerika Serikat Bali News Network</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.suarasurabaya.net/wp-content/uploads/2016/06/kk172841_clip10.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.suarasurabaya.net/wp-content/uploads/2016/06/kk172841_clip10.jpg" alt="Suka Duka Wanita Muslim Asal Surabaya Bekerja Di Google Amerika Suara Surabaya" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Suka Duka Wanita Muslim Asal Surabaya Bekerja Di Google Amerika Suara Surabaya</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn2.tstatic.net/tribunnews/foto/bank/images/tim-sar-gabungan-berhasil-menemu.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn2.tstatic.net/tribunnews/foto/bank/images/tim-sar-gabungan-berhasil-menemu.jpg" alt="Ikut Petunjuk Google Maps Dua Wisatawan Amerika Tersesat Di Bali Tribunnews Com Mobile" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Ikut Petunjuk Google Maps Dua Wisatawan Amerika Tersesat Di Bali Tribunnews Com Mobile</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images.bisnis-cdn.com/posts/2020/04/11/1225503/corona-as-bloomberg.jpg" target="_blank">
-							<img class="img-fluid" src="https://images.bisnis-cdn.com/posts/2020/04/11/1225503/corona-as-bloomberg.jpg" alt="Apple Dan Google Kerja Sama Bangun Aplikasi Pelacak Kontak Covid 19 Teknologi Bisnis Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Apple Dan Google Kerja Sama Bangun Aplikasi Pelacak Kontak Covid 19 Teknologi Bisnis Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://awsimages.detik.net.id/visual/2020/06/21/presiden-as-donald-trump_169.jpeg?w=360&amp;q=90" target="_blank">
-							<img class="img-fluid" src="https://awsimages.detik.net.id/visual/2020/06/21/presiden-as-donald-trump_169.jpeg?w=360&amp;q=90" alt="Trump Batasi Tka Masuk As Google Facebook Cs Ngamuk" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Trump Batasi Tka Masuk As Google Facebook Cs Ngamuk</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://statik.tempo.co/data/2020/03/18/id_924014/924014_720.jpg" target="_blank">
-							<img class="img-fluid" src="https://statik.tempo.co/data/2020/03/18/id_924014/924014_720.jpg" alt="Facebook Twitter Google Bergabung Lawan Hoaks Virus Corona Tekno Tempo Co" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Facebook Twitter Google Bergabung Lawan Hoaks Virus Corona Tekno Tempo Co</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://awsimages.detik.net.id/community/media/visual/2019/02/06/fbec7ea5-1ba8-458f-b16f-d2cb37df834b.png?w=750&amp;q=90" target="_blank">
-							<img class="img-fluid" src="https://awsimages.detik.net.id/community/media/visual/2019/02/06/fbec7ea5-1ba8-458f-b16f-d2cb37df834b.png?w=750&amp;q=90" alt="Karyawan Google Buka Bukaan Suasana Asyik Kantornya" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Karyawan Google Buka Bukaan Suasana Asyik Kantornya</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://m.ayosemarang.com/images-semarang/post/articles/2020/03/14/53650/ponsel-google-pixel-4.jpg" target="_blank">
-							<img class="img-fluid" src="http://m.ayosemarang.com/images-semarang/post/articles/2020/03/14/53650/ponsel-google-pixel-4.jpg" alt="Terbongkar Ini Spesifikasi Dan Harga Google Pixel 4a" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Terbongkar Ini Spesifikasi Dan Harga Google Pixel 4a</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images.bisnis-cdn.com/posts/2017/10/10/697692/20161225160.jpg" target="_blank">
-							<img class="img-fluid" src="https://images.bisnis-cdn.com/posts/2017/10/10/697692/20161225160.jpg" alt="Google Temukan Bukti Campur Tangan Rusia Di Pilpres Amerika 2016 Kabar24 Bisnis Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Temukan Bukti Campur Tangan Rusia Di Pilpres Amerika 2016 Kabar24 Bisnis Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://miro.medium.com/max/8064/1*YefhHsYFC-METLiPMSVRJw.jpeg" target="_blank">
-							<img class="img-fluid" src="https://miro.medium.com/max/8064/1*YefhHsYFC-METLiPMSVRJw.jpeg" alt="Kisah Dari Gontor Ke Google Berawal Dari Informasi Kerjasama Antara By Muhammad Syakir Arif Medium" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Kisah Dari Gontor Ke Google Berawal Dari Informasi Kerjasama Antara By Muhammad Syakir Arif Medium</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.medcom.id/dynamic/content/2019/05/02/1016639/1kiMK6oPL4.jpg?w=480" target="_blank">
-							<img class="img-fluid" src="https://cdn.medcom.id/dynamic/content/2019/05/02/1016639/1kiMK6oPL4.jpg?w=480" alt="Bts Kalahkan The Beatles Di Google Amerika Medcom Id" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bts Kalahkan The Beatles Di Google Amerika Medcom Id</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://akcdn.detik.net.id/visual/2016/04/20/62763c81-96c4-4cce-903d-b93d9f2471f5_169.jpg?w=650" target="_blank">
-							<img class="img-fluid" src="https://akcdn.detik.net.id/visual/2016/04/20/62763c81-96c4-4cce-903d-b93d9f2471f5_169.jpg?w=650" alt="Staf Google Microsoft Yang Dari China Diminta Kerja Di Rumah" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Staf Google Microsoft Yang Dari China Diminta Kerja Di Rumah</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://storage.googleapis.com/support-forums-api/attachment/thread-41217146-6691962605568759504.png" target="_blank">
-							<img class="img-fluid" src="https://storage.googleapis.com/support-forums-api/attachment/thread-41217146-6691962605568759504.png" alt="Saya Tidak Bisa Mengubah Negara Akun Play Store Saya Dari Amerika Ke Play Store Indonesia Google Play Community" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Saya Tidak Bisa Mengubah Negara Akun Play Store Saya Dari Amerika Ke Play Store Indonesia Google Play Community</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://akcdn.detik.net.id/visual/2018/08/28/4e1686cb-d8ab-4ea2-9452-1f76e4ebd529_169.jpeg?w=650" target="_blank">
-							<img class="img-fluid" src="https://akcdn.detik.net.id/visual/2018/08/28/4e1686cb-d8ab-4ea2-9452-1f76e4ebd529_169.jpeg?w=650" alt="Trump Tuding Google Manipulasi Hasil Pencarian Soal Dirinya" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Trump Tuding Google Manipulasi Hasil Pencarian Soal Dirinya</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://wowkeren.com/display/images/photo/2020/07/20/00321198.jpg" target="_blank">
-							<img class="img-fluid" src="https://wowkeren.com/display/images/photo/2020/07/20/00321198.jpg" alt="Google Apple Hilangkan Negaranya Dalam Peta Palestina Meradang" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Apple Hilangkan Negaranya Dalam Peta Palestina Meradang</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.akurat.co/images/uploads/images/akurat_20180406104838_Vk5G9Z.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.akurat.co/images/uploads/images/akurat_20180406104838_Vk5G9Z.jpg" alt="Kasus Corona Masih Tinggi Google Tunda Pembukaan Kantor Di Amerika Serikat" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Kasus Corona Masih Tinggi Google Tunda Pembukaan Kantor Di Amerika Serikat</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.covesia.com/assets/foto/berita/thumb_20200311014651.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.covesia.com/assets/foto/berita/thumb_20200311014651.jpg" alt="Google Minta Semua Karyawan Di Amerika Bekerja Dari Rumah" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Minta Semua Karyawan Di Amerika Bekerja Dari Rumah</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://woop.sgp1.cdn.digitaloceanspaces.com/woop/storage/20190822/145505-lilian-rincon-webp-large.jpg" target="_blank">
-							<img class="img-fluid" src="https://woop.sgp1.cdn.digitaloceanspaces.com/woop/storage/20190822/145505-lilian-rincon-webp-large.jpg" alt="Ternyata Petinggi Google Amerika Adalah Keturunan Indonesia Woop Id" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Ternyata Petinggi Google Amerika Adalah Keturunan Indonesia Woop Id</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://statik.tempo.co/data/2010/01/13/id_24380/24380_620.jpg" target="_blank">
-							<img class="img-fluid" src="https://statik.tempo.co/data/2010/01/13/id_24380/24380_620.jpg" alt="Beijing Anggap Sepi Ancaman Google Amerika Sebaliknya Dunia Tempo Co" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Beijing Anggap Sepi Ancaman Google Amerika Sebaliknya Dunia Tempo Co</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://photo.kontan.co.id/photo/2019/05/24/69119938p.jpg" target="_blank">
-							<img class="img-fluid" src="https://photo.kontan.co.id/photo/2019/05/24/69119938p.jpg" alt="Google Menilai Boikot Huawei Justru Berisiko Merugikan Kepentingan Amerika" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Menilai Boikot Huawei Justru Berisiko Merugikan Kepentingan Amerika</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://akcdn.detik.net.id/visual/2019/06/02/889c9f1c-49fb-4368-9616-bf91430314dc_169.jpeg?w=650" target="_blank">
-							<img class="img-fluid" src="https://akcdn.detik.net.id/visual/2019/06/02/889c9f1c-49fb-4368-9616-bf91430314dc_169.jpeg?w=650" alt="Google Tanggapi Santai Dugaan Monopoli Oleh Pemerintah As" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Tanggapi Santai Dugaan Monopoli Oleh Pemerintah As</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://asset.kompas.com/crops/aMkoms0BJJDF1Ad3YFZWEtZDVew=/0x0:0x0/750x500/data/photo/2016/03/24/2008577gcpp.jpg" target="_blank">
-							<img class="img-fluid" src="https://asset.kompas.com/crops/aMkoms0BJJDF1Ad3YFZWEtZDVew=/0x0:0x0/750x500/data/photo/2016/03/24/2008577gcpp.jpg" alt="Dari Dermaga San Francisco Google Luncurkan Machine Learning Untuk Pengguna Google Cloud Platform Halaman All Kompas Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dari Dermaga San Francisco Google Luncurkan Machine Learning Untuk Pengguna Google Cloud Platform Halaman All Kompas Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://awsimages.detik.net.id/community/media/visual/2017/05/18/718a9546-277c-453f-b784-015c641ba442_169.jpg?w=700&amp;q=90" target="_blank">
-							<img class="img-fluid" src="https://awsimages.detik.net.id/community/media/visual/2017/05/18/718a9546-277c-453f-b784-015c641ba442_169.jpg?w=700&amp;q=90" alt="Menanti Gebrakan Android P Dan Deretan Teknologi Baru Google" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Menanti Gebrakan Android P Dan Deretan Teknologi Baru Google</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://asset.kompas.com/crops/OMd7ZklFqgyMHJxW62pkwLiSyys=/0x0:0x0/750x500/data/photo/2016/03/23/1828280googleplex1p.jpg" target="_blank">
-							<img class="img-fluid" src="https://asset.kompas.com/crops/OMd7ZklFqgyMHJxW62pkwLiSyys=/0x0:0x0/750x500/data/photo/2016/03/23/1828280googleplex1p.jpg" alt="Selain Di Indonesia Pajak Google Dipermasalahkan Di 4 Negara Ini Halaman All Kompas Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Selain Di Indonesia Pajak Google Dipermasalahkan Di 4 Negara Ini Halaman All Kompas Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://static.republika.co.id/uploads/images/inpicture_slide/penggunaan-internet-tiap-tahun-tercatat-terus-bertambah-termasuk-pencarian-_180504130654-167.jpg" target="_blank">
-							<img class="img-fluid" src="https://static.republika.co.id/uploads/images/inpicture_slide/penggunaan-internet-tiap-tahun-tercatat-terus-bertambah-termasuk-pencarian-_180504130654-167.jpg" alt="Google Hentikan Proyek Kontroversial Dengan Pentagon Republika Online" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Hentikan Proyek Kontroversial Dengan Pentagon Republika Online</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.blitarkab.go.id/wp-content/uploads/2019/08/5b77ccc7-6488-45cb-90af-abd974cf82a0.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.blitarkab.go.id/wp-content/uploads/2019/08/5b77ccc7-6488-45cb-90af-abd974cf82a0.jpg" alt="Meski Dari Desa Nyatanya Perempuan Blitar Ini Bisa Ke Amerika Yang Ketiga Kalinya Lewat Google Local Guide" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Meski Dari Desa Nyatanya Perempuan Blitar Ini Bisa Ke Amerika Yang Ketiga Kalinya Lewat Google Local Guide</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdns.klimg.com/merdeka.com/i/w/news/2020/06/26/1191848/540x270/mantan-ceo-google-ungkap-alasan-amerika-serikat-serang-huawei.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdns.klimg.com/merdeka.com/i/w/news/2020/06/26/1191848/540x270/mantan-ceo-google-ungkap-alasan-amerika-serikat-serang-huawei.jpg" alt="Mantan Ceo Google Ungkap Alasan Amerika Serikat Serang Huawei Merdeka Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Mantan Ceo Google Ungkap Alasan Amerika Serikat Serang Huawei Merdeka Com</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://jadiberita.com/wp-content/uploads/2018/05/Hamdanil-Rasyid-Detik.jpg" target="_blank">
-							<img class="img-fluid" src="http://jadiberita.com/wp-content/uploads/2018/05/Hamdanil-Rasyid-Detik.jpg" alt="Kisah Hamdanil Rasyid Pemuda Indonesia Yang Berhasil Kerja Di Google Amerika Serikat Jadiberita Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Kisah Hamdanil Rasyid Pemuda Indonesia Yang Berhasil Kerja Di Google Amerika Serikat Jadiberita Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images.bisnis-cdn.com/posts/2020/06/02/1247211/demo-george-floyd.jpg" target="_blank">
-							<img class="img-fluid" src="https://images.bisnis-cdn.com/posts/2020/06/02/1247211/demo-george-floyd.jpg" alt="Dukung Protes Kematian George Floyd Sony Hingga Google Tunda Perilisan Produk Teknologi Bisnis Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dukung Protes Kematian George Floyd Sony Hingga Google Tunda Perilisan Produk Teknologi Bisnis Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.akurat.co/images/uploads/images/akurat_20191211043449_Jc5v4N.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.akurat.co/images/uploads/images/akurat_20191211043449_Jc5v4N.jpg" alt="Iptek Corona Merebak Google Rekomendasi Karyawan Di Amerika Utara Untuk Kerja Dari Rumah" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Iptek Corona Merebak Google Rekomendasi Karyawan Di Amerika Utara Untuk Kerja Dari Rumah</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://asset.kompas.com/crops/iwYzQbCnqOH71Vm7aQipc3xzDbg=/0x0:1000x667/750x500/data/photo/2017/09/26/1509103334.jpg" target="_blank">
-							<img class="img-fluid" src="https://asset.kompas.com/crops/iwYzQbCnqOH71Vm7aQipc3xzDbg=/0x0:1000x667/750x500/data/photo/2017/09/26/1509103334.jpg" alt="Amerika Serikat Kabulkan Permintaan Google Manfaatkan Kabel Laut As Asia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Amerika Serikat Kabulkan Permintaan Google Manfaatkan Kabel Laut As Asia</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/8vVlt9MtbIM/maxresdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/8vVlt9MtbIM/maxresdefault.jpg" alt="Dapet Akses Vip Bebas Office Tour Google Amerika Kokohreview Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dapet Akses Vip Bebas Office Tour Google Amerika Kokohreview Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images.bisnis-cdn.com/posts/2020/03/11/1211775/306724327_1-14.jpg" target="_blank">
-							<img class="img-fluid" src="https://images.bisnis-cdn.com/posts/2020/03/11/1211775/306724327_1-14.jpg" alt="Google Tutup Kantor Di Amerika Utara Kenapa Ya Kabar24 Bisnis Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Tutup Kantor Di Amerika Utara Kenapa Ya Kabar24 Bisnis Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn0-production-images-kly.akamaized.net/AvUEmu3AeaGq8rNJHqmrQ4GUjR4=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2057643/original/039731700_1522925828-Ghost-Google-Earth-692865.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn0-production-images-kly.akamaized.net/AvUEmu3AeaGq8rNJHqmrQ4GUjR4=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2057643/original/039731700_1522925828-Ghost-Google-Earth-692865.jpg" alt="Menyibak 4 Misteri Google Earth Saat Mengambil Citra Bumi Global Liputan6 Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Menyibak 4 Misteri Google Earth Saat Mengambil Citra Bumi Global Liputan6 Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://statik.tempo.co/data/2020/01/12/id_905369/905369_720.jpg" target="_blank">
-							<img class="img-fluid" src="https://statik.tempo.co/data/2020/01/12/id_905369/905369_720.jpg" alt="Google Bantu Amerika Perangi Virus Corona Dunia Tempo Co" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Bantu Amerika Perangi Virus Corona Dunia Tempo Co</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://rencanamu.id/assets/file_uploaded/blog/1471963393-screen-sho.png" target="_blank">
-							<img class="img-fluid" src="https://rencanamu.id/assets/file_uploaded/blog/1471963393-screen-sho.png" alt="Rakina Zata Amni Mahasiswa Universitas Indonesia Yang Sukses Kerja Magang Di Kantor Google Dan Square Amerika Serikat Apa Rahasianya Rencanamu" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Rakina Zata Amni Mahasiswa Universitas Indonesia Yang Sukses Kerja Magang Di Kantor Google Dan Square Amerika Serikat Apa Rahasianya Rencanamu</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/2018/08/03/3090241787.jpg" target="_blank">
-							<img class="img-fluid" src="https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/2018/08/03/3090241787.jpg" alt="Ditekan Trump Google Bangun Kantor Baru Untuk Rekrut Banyak Pegawai Info Komputer" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Ditekan Trump Google Bangun Kantor Baru Untuk Rekrut Banyak Pegawai Info Komputer</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://static.republika.co.id/uploads/images/inpicture_slide/kantor-pusat-google-di-mountain-view-california-_120810110746-192.jpg" target="_blank">
-							<img class="img-fluid" src="https://static.republika.co.id/uploads/images/inpicture_slide/kantor-pusat-google-di-mountain-view-california-_120810110746-192.jpg" alt="Karyawan Google Tidak Mendapat Tunjangan Selama Wfh Republika Online" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Karyawan Google Tidak Mendapat Tunjangan Selama Wfh Republika Online</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img.okezone.com/content/2019/10/07/320/2113782/google-asia-tenggara-mulai-kejar-amerika-untuk-urusan-ekonomi-digital-4OPOpOSIJf.jpg" target="_blank">
-							<img class="img-fluid" src="https://img.okezone.com/content/2019/10/07/320/2113782/google-asia-tenggara-mulai-kejar-amerika-untuk-urusan-ekonomi-digital-4OPOpOSIJf.jpg" alt="Google Asia Tenggara Mulai Kejar Amerika Untuk Urusan Ekonomi Digital Okezone Economy" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Asia Tenggara Mulai Kejar Amerika Untuk Urusan Ekonomi Digital Okezone Economy</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://makassardigitalvalley.id/wp-content/uploads/2020/05/2018_12_04-17_30_30_cb492fd86f724fd779988fa2682b2025_960x640_thumb.jpg" target="_blank">
-							<img class="img-fluid" src="https://makassardigitalvalley.id/wp-content/uploads/2020/05/2018_12_04-17_30_30_cb492fd86f724fd779988fa2682b2025_960x640_thumb.jpg" alt="Karyawan Google Dan Facebook Bekerja Dari Rumah Hingga Akhir Tahun Makassar Digital Valley" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Karyawan Google Dan Facebook Bekerja Dari Rumah Hingga Akhir Tahun Makassar Digital Valley</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://statik.tempo.co/data/2019/05/29/id_845282/845282_720.jpg" target="_blank">
-							<img class="img-fluid" src="https://statik.tempo.co/data/2019/05/29/id_845282/845282_720.jpg" alt="Dimusuhi Amerika Huawei Gandeng Tomtom Pengganti Google Maps Tekno Tempo Co" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dimusuhi Amerika Huawei Gandeng Tomtom Pengganti Google Maps Tekno Tempo Co</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.polines.ac.id/id/images/FotoArtikel/full_720x480/20180313-600-peserta-dsc-2018.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.polines.ac.id/id/images/FotoArtikel/full_720x480/20180313-600-peserta-dsc-2018.jpg" alt="Mahasiswa Polines Wakili Indonesia Ketemu Google Di Mountain View Amerika" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Mahasiswa Polines Wakili Indonesia Ketemu Google Di Mountain View Amerika</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://awsimages.detik.net.id/community/media/visual/2018/05/15/4c5c5749-dac2-4731-a5a9-a3d77d1e19b3.jpeg?w=750&amp;q=90" target="_blank">
-							<img class="img-fluid" src="https://awsimages.detik.net.id/community/media/visual/2018/05/15/4c5c5749-dac2-4731-a5a9-a3d77d1e19b3.jpeg?w=750&amp;q=90" alt="Pemuda Riau Pegawai Google Amerika Ontel Kesayangannya" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Pemuda Riau Pegawai Google Amerika Ontel Kesayangannya</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.vonis.id/media/uploads/2020/07/facebook-dan-perusahaan-raksasa-amerika-serikat-ini-dipaksa-bayar-di-australia-google-tegas-menolak.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.vonis.id/media/uploads/2020/07/facebook-dan-perusahaan-raksasa-amerika-serikat-ini-dipaksa-bayar-di-australia-google-tegas-menolak.jpg" alt="Facebook Dan Perusahaan Raksasa Amerika Serikat Ini Dipaksa Bayar Di Australia Google Tegas Menolak Vonis Id" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Facebook Dan Perusahaan Raksasa Amerika Serikat Ini Dipaksa Bayar Di Australia Google Tegas Menolak Vonis Id</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://media.suara.com/pictures/653x366/2020/04/19/29476-rumah-yang-diblur-oleh-google-earth-google-earth.jpg" target="_blank">
-							<img class="img-fluid" src="https://media.suara.com/pictures/653x366/2020/04/19/29476-rumah-yang-diblur-oleh-google-earth-google-earth.jpg" alt="Simpan Fakta Mengejutkan Dan Sadis Google Earth Sengaja Blur Rumah Ini" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Simpan Fakta Mengejutkan Dan Sadis Google Earth Sengaja Blur Rumah Ini</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn1-production-images-kly.akamaized.net/9QV2GICzdFe9xLxndMOUzKRforE=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1608719/original/078713600_1496118912-IMG_5172.JPG" target="_blank">
-							<img class="img-fluid" src="https://cdn1-production-images-kly.akamaized.net/9QV2GICzdFe9xLxndMOUzKRforE=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1608719/original/078713600_1496118912-IMG_5172.JPG" alt="Imbas Virus Corona Google Ajak Karyawan Di Amerika Utara Kerja Dari Rumah Tekno Liputan6 Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Imbas Virus Corona Google Ajak Karyawan Di Amerika Utara Kerja Dari Rumah Tekno Liputan6 Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cyberthreat.id/gbr_artikel/google-larang-iklan-masker2_11.jpeg" target="_blank">
-							<img class="img-fluid" src="https://cyberthreat.id/gbr_artikel/google-larang-iklan-masker2_11.jpeg" alt="News Amerika Geser Iran Google Bikin Laman Khusus Covid 19" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>News Amerika Geser Iran Google Bikin Laman Khusus Covid 19</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/C7QB2MAAybM/maxresdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/C7QB2MAAybM/maxresdefault.jpg" alt="Saatnya Kumparan Mengunjungi Kantor Pusat Google Dan Youtube Di Amerika Serikat Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Saatnya Kumparan Mengunjungi Kantor Pusat Google Dan Youtube Di Amerika Serikat Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://akcdn.detik.net.id/visual/2018/12/06/26296b08-0fdd-483e-bdbf-3a96a1e94f0e_169.jpeg?w=650" target="_blank">
-							<img class="img-fluid" src="https://akcdn.detik.net.id/visual/2018/12/06/26296b08-0fdd-483e-bdbf-3a96a1e94f0e_169.jpeg?w=650" alt="Setop Huawei Bakal Jadi Boomerang Untuk Google" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Setop Huawei Bakal Jadi Boomerang Untuk Google</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2020/06/30/3516588882.jpg" target="_blank">
-							<img class="img-fluid" src="https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2020/06/30/3516588882.jpg" alt="Google Hapus Iklan Berbayar Dari Pemilih Pemilu Amerika Serikat Galamedia News" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Hapus Iklan Berbayar Dari Pemilih Pemilu Amerika Serikat Galamedia News</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2020/09/08/474025798.jpg" target="_blank">
-							<img class="img-fluid" src="https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2020/09/08/474025798.jpg" alt="Kisah Tragis Di Balik Rumah Yang Disamarkan Google 3 Wanita Dikurung Dan Dianiaya Belasan Tahun Pikiran Rakyat Depok" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Kisah Tragis Di Balik Rumah Yang Disamarkan Google 3 Wanita Dikurung Dan Dianiaya Belasan Tahun Pikiran Rakyat Depok</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn1.katadata.co.id/media/images/thumb/2020/08/04/2020_08_04-21_12_09_80cd3ad73c4fe67a91c75183d4bf573c_300x200_thumb.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn1.katadata.co.id/media/images/thumb/2020/08/04/2020_08_04-21_12_09_80cd3ad73c4fe67a91c75183d4bf573c_300x200_thumb.jpg" alt="Berita Amerika Serikat Terbaru Hari Ini Kabar Terkini Google Meet Classroom Gmail Youtube Eror Di As Hingga Indonesia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Berita Amerika Serikat Terbaru Hari Ini Kabar Terkini Google Meet Classroom Gmail Youtube Eror Di As Hingga Indonesia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://storage.googleapis.com/support-forums-api/attachment/thread-23251905-8886139198860364381.png" target="_blank">
-							<img class="img-fluid" src="https://storage.googleapis.com/support-forums-api/attachment/thread-23251905-8886139198860364381.png" alt="Saya Tidak Bisa Merubah Negara Dari Amerika Ke Indonesia Play Store Google Play Community" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Saya Tidak Bisa Merubah Negara Dari Amerika Ke Indonesia Play Store Google Play Community</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.akurat.co/images/uploads/images/akurat_20200528111529_3Rs9BV.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.akurat.co/images/uploads/images/akurat_20200528111529_3Rs9BV.jpg" alt="News Buntut Kerusuhan Amerika Serikat Antifa Jadi Trending Pencarian Google" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>News Buntut Kerusuhan Amerika Serikat Antifa Jadi Trending Pencarian Google</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://statik.tempo.co/data/2018/09/30/id_737221/737221_720.jpg" target="_blank">
-							<img class="img-fluid" src="https://statik.tempo.co/data/2018/09/30/id_737221/737221_720.jpg" alt="Masalah Adsense Google Didenda Rp 24 T Oleh Uni Eropa Tekno Tempo Co" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Masalah Adsense Google Didenda Rp 24 T Oleh Uni Eropa Tekno Tempo Co</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://statik.tempo.co/data/2019/05/29/id_845281/845281_720.jpg" target="_blank">
-							<img class="img-fluid" src="https://statik.tempo.co/data/2019/05/29/id_845281/845281_720.jpg" alt="Perusahaan Teknologi Amerika Lobi Pemerintah Soal Huawei Fokus Tempo Co" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Perusahaan Teknologi Amerika Lobi Pemerintah Soal Huawei Fokus Tempo Co</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2019/04/9QwTAcA2AtzAYcuQ2zx6Mm5VJvrWubhb2NsSiSBn.png" target="_blank">
-							<img class="img-fluid" src="https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2019/04/9QwTAcA2AtzAYcuQ2zx6Mm5VJvrWubhb2NsSiSBn.png" alt="Jaksa Agung Amerika Serikat Bakal Selidiki 4 Perusahaan Teknologi Raksasa Dari Facebook Hingga Google Pikiran Rakyat Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Jaksa Agung Amerika Serikat Bakal Selidiki 4 Perusahaan Teknologi Raksasa Dari Facebook Hingga Google Pikiran Rakyat Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img.antaranews.com/cache/800x533/2020/05/20/IMG_5942.jpg" target="_blank">
-							<img class="img-fluid" src="https://img.antaranews.com/cache/800x533/2020/05/20/IMG_5942.jpg" alt="Google Mulai Perketat Iklan Terkait Pemilu Amerika Serikat Antara News Kalimantan Barat" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Mulai Perketat Iklan Terkait Pemilu Amerika Serikat Antara News Kalimantan Barat</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://creaproject.co.id/wp-content/uploads/2019/10/kantor-kreatif-google-amerika-300x239.png" target="_blank">
-							<img class="img-fluid" src="http://creaproject.co.id/wp-content/uploads/2019/10/kantor-kreatif-google-amerika-300x239.png" alt="Desain Kantor Kreatif Google Di Beberapa Negara Crea Nusa Dua Bali Premium Building" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Desain Kantor Kreatif Google Di Beberapa Negara Crea Nusa Dua Bali Premium Building</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.polines.ac.id/id/images/FotoArtikel/full_720x480/20180313-720-mahasiswa-elektro-wakili-ke-google.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.polines.ac.id/id/images/FotoArtikel/full_720x480/20180313-720-mahasiswa-elektro-wakili-ke-google.jpg" alt="Mahasiswa Polines Wakili Indonesia Ketemu Google Di Mountain View Amerika" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Mahasiswa Polines Wakili Indonesia Ketemu Google Di Mountain View Amerika</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn2.tstatic.net/tribunnews/foto/bank/images/ilustrasi-orang-hilang-dengan-mobil-yang-tenggelam-di-google-maps.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn2.tstatic.net/tribunnews/foto/bank/images/ilustrasi-orang-hilang-dengan-mobil-yang-tenggelam-di-google-maps.jpg" alt="22 Tahun Hilang Pria Asal Amerika Serikat Ini Ditemukan Secara Tak Sengaja Melalui Google Maps Tribunnews Com Mobile" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>22 Tahun Hilang Pria Asal Amerika Serikat Ini Ditemukan Secara Tak Sengaja Melalui Google Maps Tribunnews Com Mobile</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://imgsrv.voi.id/WV2ZCyoRS-t49dviW8yZhy6toaraAg9MApm9AjvAhiI/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy82Njg2LzIwMjAwNjAyMjEzNi1tYWluLmpwZw.jpg" target="_blank">
-							<img class="img-fluid" src="https://imgsrv.voi.id/WV2ZCyoRS-t49dviW8yZhy6toaraAg9MApm9AjvAhiI/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy82Njg2LzIwMjAwNjAyMjEzNi1tYWluLmpwZw.jpg" alt="Google Tunda Peluncuran Os Android 11 Karena Demo Rasisme Di Amerika Voice Of Indonesia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Tunda Peluncuran Os Android 11 Karena Demo Rasisme Di Amerika Voice Of Indonesia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://asset.kompas.com/crops/xzDxu0S4nfbD8hx2VV-hoF7HTAk=/0x0:1200x800/750x500/data/photo/2019/05/07/183406361.jpg" target="_blank">
-							<img class="img-fluid" src="https://asset.kompas.com/crops/xzDxu0S4nfbD8hx2VV-hoF7HTAk=/0x0:1200x800/750x500/data/photo/2019/05/07/183406361.jpg" alt="100 000 Pegawai Google Di As Diminta Kerja Dari Rumah Karena Wabah Corona" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>100 000 Pegawai Google Di As Diminta Kerja Dari Rumah Karena Wabah Corona</p> 
-					</div>
-				</div>
-						 
-		 
-
-	 	
-	
-					</div>
+		</div>
+				<div class="clearfix"></div> 
+		<div class="d-block mt-4 p-3">
+			Source : <a href="https://pinterest.com" rel="nofollow noopener">pinterest.com</a>
+		</div>
+						</div>
 				</div> 
 				<div class="col-md-3">
 					<div class="col-sm-12 widget">
-						<h3 class="widget-title">Random Posts</h3>
+						<h3 class="widget-title">RANDOM POST</h3>
 						<ul class="list-group">
-						 
-																	<li class="list-group-item"><a href="kit-harington-dog.html">Kit Harington Dog</a></li>
-																	<li class="list-group-item"><a href="google-trends.html">Google Trends</a></li>
-																	<li class="list-group-item"><a href="galatasaray-graffiti.html">Galatasaray Graffiti</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="st-pauli-ultras-logo.html">St Pauli Ultras Logo</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-pullover.html">Dynamo Dresden Pullover</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-palamut.html">Fenerbahce Palamut</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="google-calendar.html">Google Calendar</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-wallpaper-1920x1080.html">Dynamo Dresden Wallpaper 1920x1080</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-jersey-201920.html">Fenerbahce Jersey 201920</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="clement-rosario.html">Clement Rosario</a></li>
-																	<li class="list-group-item"><a href="armenien-religion-orthodox.html">Armenien Religion Orthodox</a></li>
-																	<li class="list-group-item"><a href="chris-clement-unh.html">Chris Clement Unh</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="dynamo-dresden-blockplan.html">Dynamo Dresden Blockplan</a></li>
-																	<li class="list-group-item"><a href="galatasaray-yeni-forma-sixt.html">Galatasaray Yeni Forma Sixt</a></li>
-																	<li class="list-group-item"><a href="google-qr-code.html">Google Qr Code</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="clement-ouimet.html">Clement Ouimet</a></li>
-																	<li class="list-group-item"><a href="armenien-bilder.html">Armenien Bilder</a></li>
-																	<li class="list-group-item"><a href="galatasaray-jersey-2021.html">Galatasaray Jersey 2021</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="armenien-garni.html">Armenien Garni</a></li>
-																	<li class="list-group-item"><a href="schalke-news.html">Schalke News</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-yeni-transferleri.html">Fenerbahce Yeni Transferleri</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="justizministerin-armenien.html">Justizministerin Armenien</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-wedding-dress.html">Rose Leslie Wedding Dress</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-tribun.html">Fenerbahce Tribun</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="fenerbahce-yeni-sezon-forma.html">Fenerbahce Yeni Sezon Forma</a></li>
-																	<li class="list-group-item"><a href="google-document.html">Google Document</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-kit-harington-height.html">Rose Leslie Kit Harington Height</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="google-yandex-russia-video.html">Google Yandex Russia Video</a></li>
-																	<li class="list-group-item"><a href="clement-giraudet-wedding.html">Clement Giraudet Wedding</a></li>
-																	<li class="list-group-item"><a href="google-akun.html">Google Akun</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="rose-leslie-harry-treadaway-wife.html">Rose Leslie Harry Treadaway Wife</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-beko.html">Fenerbahce Beko</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-maskesi.html">Fenerbahce Maskesi</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="french-open-2020-winner.html">French Open 2020 Winner</a></li>
-																	<li class="list-group-item"><a href="google-in-1998.html">Google In 1998</a></li>
-																	<li class="list-group-item"><a href="google-icon.html">Google Icon</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="dynamo-dresden-vs-hamburger.html">Dynamo Dresden Vs Hamburger</a></li>
-																	<li class="list-group-item"><a href="st-pauli-jacket.html">St Pauli Jacket</a></li>
-																	<li class="list-group-item"><a href="galatasaray-yeni-transferler.html">Galatasaray Yeni Transferler</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="st-pauli-maske-corona.html">St Pauli Maske Corona</a></li>
-																	<li class="list-group-item"><a href="google-recaptcha.html">Google Recaptcha</a></li>
-																	<li class="list-group-item"><a href="st-pauli-wallpaper-hd.html">St Pauli Wallpaper Hd</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="french-open-2020.html">French Open 2020</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-pasta.html">Fenerbahce Pasta</a></li>
-																	<li class="list-group-item"><a href="amy-coney-barrett.html">Amy Coney Barrett</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="dynamo-dresden-neues-trainingsgelaende.html">Dynamo Dresden Neues Trainingsgelaende</a></li>
-																	<li class="list-group-item"><a href="wolfgang-clement.html">Wolfgang Clement</a></li>
-																	<li class="list-group-item"><a href="galatasaray-new-kits.html">Galatasaray New Kits</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="clement-xiv.html">Clement Xiv</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-ile-ilgili-soezler.html">Fenerbahce Ile Ilgili Soezler</a></li>
-								 
+													<li class="list-group-item"><a href="/google-background.html">Google Background</a></li>
+													<li class="list-group-item"><a href="/google-books.html">Google Books</a></li>
+													<li class="list-group-item"><a href="/manchester-city-vs-leicester-city.html">Manchester City Vs Leicester City</a></li>
+													<li class="list-group-item"><a href="/joaquin-phoenix.html">Joaquin Phoenix</a></li>
+													<li class="list-group-item"><a href="/google-book.html">Google Book</a></li>
+													<li class="list-group-item"><a href="/cae.html">Cae</a></li>
+													<li class="list-group-item"><a href="/adesanya.html">Adesanya</a></li>
+													<li class="list-group-item"><a href="/google-amerika.html">Google Amerika</a></li>
+													<li class="list-group-item"><a href="/roland-garros-hoy.html">Roland Garros Hoy</a></li>
+													<li class="list-group-item"><a href="/armenia.html">Armenia</a></li>
+													<li class="list-group-item"><a href="/sheffield-united-contra-leeds.html">Sheffield United Contra Leeds</a></li>
+													<li class="list-group-item"><a href="/google-bego.html">Google Bego</a></li>
+													<li class="list-group-item"><a href="/sheffield-united-vs-leeds.html">Sheffield United Vs Leeds</a></li>
+													<li class="list-group-item"><a href="/federico-coria.html">Federico Coria</a></li>
+													<li class="list-group-item"><a href="/bayern.html">Bayern</a></li>
+													<li class="list-group-item"><a href="/ufc-253.html">Ufc 253</a></li>
+													<li class="list-group-item"><a href="/google-camera.html">Google Camera</a></li>
+													<li class="list-group-item"><a href="/podoroska.html">Podoroska</a></li>
+													<li class="list-group-item"><a href="/google-account.html">Google Account</a></li>
+													<li class="list-group-item"><a href="/sergio-berni.html">Sergio Berni</a></li>
+													<li class="list-group-item"><a href="/google-adwords.html">Google Adwords</a></li>
+													<li class="list-group-item"><a href="/lakers.html">Lakers</a></li>
+													<li class="list-group-item"><a href="/google.html">Google</a></li>
+													<li class="list-group-item"><a href="/bayern-munich.html">Bayern Munich</a></li>
+													<li class="list-group-item"><a href="/city.html">City</a></li>
+													<li class="list-group-item"><a href="/google-assistant.html">Google Assistant</a></li>
+													<li class="list-group-item"><a href="/leeds.html">Leeds</a></li>
+													<li class="list-group-item"><a href="/telekino.html">Telekino</a></li>
+													<li class="list-group-item"><a href="/google-chrome.html">Google Chrome</a></li>
+													<li class="list-group-item"><a href="/nadia-podoroska.html">Nadia Podoroska</a></li>
 						 
 						</ul>
 					</div>
 					<div class="col-sm-12 widget">
-						<script async="async" data-cfasync="false" src="//zqvee2re50mr.com/675cb813fbbeae53ce321baa240173f6/invoke.js"></script>
-<div id="container-675cb813fbbeae53ce321baa240173f6"></div>
 					</div>
 				</div> 
 			</div>
 			<div class="row footer">
 				<div class="col-md-12 text-center">
-										<a href="pages/dmca">Dmca</a>
-										<a href="pages/contact">Contact</a>
-										<a href="pages/privacy-policy">Privacy Policy</a>
-										<a href="pages/copyright">Copyright</a>
-					
-				</div>
+										<a href="/p/dmca.html">Dmca</a>
+										<a href="/p/contact.html">Contact</a>
+										<a href="/p/privacy-policy.html">Privacy Policy</a>
+										<a href="/p/copyright.html">Copyright</a>
+									</div>
 			</div>
 		</div>
 		<!-- <style>
@@ -1112,6 +404,31 @@ a{color: #f42966;text-decoration:none;}
 	  	<br>
 		<a href="#your-offer-url" target="_blank">CTA Link &rarr;</a>
 	</p>
-</div> -->		<script type='text/javascript' src='//zqvee2re50mr.com/a4/31/b2/a431b2df4b60e2629306f7e7e7465d31.js'></script>	</main>
-</body>
+</div> -->
+		<script type='text/javascript' src='//zqvee2re50mr.com/a4/31/b2/a431b2df4b60e2629306f7e7e7465d31.js'></script>	</main>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js" integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+
+	
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+	<script type='text/javascript'>
+		$(document).ready(function()
+	    {
+			$(document).on('click','#image-download',function(e)
+			{
+				e.preventDefault();
+				var url = $(this).data('url');
+				var title = $(this).data('title');			
+				var x=new XMLHttpRequest();
+				x.open( "GET", url , true);
+				x.responseType="blob";
+				x.onload= function(e){download(e.target.response, title, "image/jpg");};
+				x.send();
+			});
+	    });
+	</script>
+	</body>
 </html>

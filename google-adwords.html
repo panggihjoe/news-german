@@ -4,1135 +4,357 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" integrity="sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=" crossorigin="anonymous" />
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">	
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<style type="text/css">
-html,body{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;font-weight:400;color:#e1e2e3;background:#111;}
-img{max-width:100%;} 
-.header{padding-bottom:13px;margin-bottom:13px;}
-.container{max-width:1024px;}
-.navbar{margin-bottom:25px;color:#f1f2f3;border-bottom:1px solid #222;background:#111 !important;} 
-.navbar .navbar-brand{margin:0 20px 0 0;font-size:28px;padding:0;line-height:24px;} 
-.row.header,.row.content,.row.footer{widthx:auto;max-widthx:100%;} 
-.row.footer{padding:30px 0;background:#f1ff2f3;border-color:#222;}
-.content .col-sm-12{padding:0;}
-.content .col-md-9s{margin-right:-25px;}  
-.posts-image{width:25%;display:block;float:left;}
-.posts-image-content{width:auto;margin:0 15px 35px 0;position:relative;}
-.posts-image:nth-child(5n) .posts-image-content{margin:0 0 35px 0 !important;} 
-.posts-image img{width:100%;height:150px;object-fit:cover;object-position:center;margin-bottom:10px;
-	-webkit-transition:0.6s opacity;transition:0.6s opacity;}
-.posts-image:hover img{opacity:0.8;}
-.posts-image:hover h2{background:rgba(0, 0, 0, 0.7);} 
-.posts-image h2{z-index:2;position:absolute;font-size:14px;bottom:2px;left:0;right:0;padding:5px;text-align:center;
-	-webkit-transition:0.6s opacity;transition:0.6s background;}
-.posts-image h2 a{color:#e1e2e3;}
-.posts-image-big{display:block;width:100%;}
-.posts-image-big .posts-image-content{margin:0 0 10px !important;}
-.posts-image-big img{height:380px;}
-.posts-image-big h2{text-align:left;padding-left:0;position:relative;font-size:30px;line-height:36px;}
-.posts-image-big h2 a{color:#e1e2e3;}
-.posts-image-big:hover h2{background:none;}
-.posts-image-single .posts-image-content,
-.posts-image-single:nth-child(5n) .posts-image-content{margin:0 15px 15px 0 !important;} 
-.posts-image-single p{font-size:12px;line-height:18px !important;} 
-.posts-images{clear:both;}
-.list-group{}
-.list-group li{padding:0;background:#222;}
-.list-group li a{display:block;padding:8px;}
-.widget{margin-bottom:20px;}
-h3.widget-title{font-size:20px;}
-a{color: #f42966;text-decoration:none;}  
-.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee;}
-.footer a{margin:0 15px;}
-.navi{margin:13px 0 13px 0;}
-.navi a{margin:5px 2px;font-size:95%;} 
-@media  only screen and (min-width:0px) and (max-width:991px){
-	.container{width:auto;max-width:100%;}.navbar{padding:5px 0;}.navbar .container{width:100%;margin:0 15px;}	
-}
-@media  only screen and (min-width:0px) and (max-width:767px){
-	.content .col-md-3{padding:15px;}
-}	 
-@media  only screen and (min-width:481px) and (max-width:640px){ 
-	.posts-image img{height:90px;}
-	.posts-image-big img{height:320px;}
-	.posts-image-single{width:33.3%;}
-	.posts-image-single:nth-child(3n) .posts-image-content{margin-right:0 !important;}
-}	
-@media  only screen and (min-width:0px) and (max-width:480px){
-	.posts-image img{height:80px;}
-	.posts-image-big img{height:240px;}
-	.posts-image-single{width:100%;} 
-	.posts-image-single .posts-image-content{margin:0 !important;}
-	.posts-image-single img{height:auto;}
-}	
+body,html{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;background:#fff}img{max-width:100%}.header{padding-bottom:13px;margin-bottom:13px}.container{max-width:1024px}.navbar{margin-bottom:25px;color:#f1f2f3;border-bottom:1px solid #e1e2e3}.navbar .navbar-brand{margin:0 20px 0 0;font-size:28px;padding:0;line-height:24px}.row.content,.row.footer,.row.header{widthx:auto;max-widthx:100%}.row.footer{padding:30px 0;background:0 0}.content .col-sm-12{padding:0}.content .col-md-9s{margin-right:-25px}.posts-image{width:25%;display:block;float:left}.posts-image-content{width:auto;margin:0 15px 35px 0;position:relative}.posts-image:nth-child(5n) .posts-image-content{margin:0 0 35px!important}.posts-image img{width:100%;height:150px;object-fit:cover;object-position:center;margin-bottom:10px;-webkit-transition:.6s opacity;transition:.6s opacity}.posts-image:hover img{opacity:.8}.posts-image:hover h2{background:rgba(0,0,0,.7)}.posts-image h2{z-index:2;position:absolute;font-size:14px;bottom:2px;left:0;right:0;padding:5px;text-align:center;-webkit-transition:.6s opacity;transition:.6s background}.posts-image h2 a{color:#fff}.posts-image-big{display:block;width:100%}.posts-image-big .posts-image-content{margin:0 0 10px!important}.posts-image-big img{height:380px}.posts-image-big h2{text-align:left;padding-left:0;position:relative;font-size:30px;line-height:36px}.posts-image-big h2 a{color:#111}.posts-image-big:hover h2{background:0 0}.posts-image-single .posts-image-content,.posts-image-single:nth-child(5n) .posts-image-content{margin:0 15px 15px 0!important}.posts-image-single p{font-size:12px;line-height:18px!important}.posts-images{clear:both}.list-group li{padding:0}.list-group li a{display:block;padding:8px}.widget{margin-bottom:20px}h3.widget-title{font-size:20px}a{color:#0000A0;text-decoration:none}.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee}.footer a{margin:0 15px}.navi{margin:13px 0}.navi a{margin:5px 2px;font-size:95%}@media  only screen and (min-width:0px) and (max-width:991px){.container{width:auto;max-width:100%}.navbar{padding:5px 0}.navbar .container{width:100%;margin:0 15px}}@media  only screen and (min-width:0px) and (max-width:767px){.content .col-md-3{padding:15px}}@media  only screen and (min-width:481px) and (max-width:640px){.posts-image img{height:90px}.posts-image-big img{height:320px}.posts-image-single{width:33.3%}.posts-image-single:nth-child(3n) .posts-image-content{margin-right:0!important}}@media  only screen and (min-width:0px) and (max-width:480px){.posts-image img{height:80px}.posts-image-big img{height:240px}.posts-image-single{width:100%}.posts-image-single .posts-image-content{margin:0!important}.posts-image-single img{height:auto}}.v-cover{height: 380px; object-fit: cover;}.v-image{height: 200px; object-fit: cover;}.main{margin-top: 6rem;}.form-inline .form-control{min-width: 300px;}
 	</style>
 	<title>Google Adwords</title>
 	<!-- Histats.com  START (hidden counter) -->
-<a href="/" alt="web site hit counter" target="_blank" >
-<img  src="//sstatic1.histats.com/0.gif?4454171&101" alt="web site hit counter" border="0">
-<!-- Histats.com  END  -->
+<a href="/" alt="" target="_blank" >
+<img  src="//sstatic1.histats.com/0.gif?4454171&101" alt="" border="0">
+<!-- Histats.com  END  -->]
 
-<script type='text/javascript' src='//zqvee2re50mr.com/7c/26/34/7c263438c0a922e610bc1e9951cbc44f.js'></script></head>
+<script type='text/javascript' src='//zqvee2re50mr.com/7c/26/34/7c263438c0a922e610bc1e9951cbc44f.js'></script>
+	<script type="application/ld+json">
+	{
+	  "@context" : "http://schema.org",
+	  "@type" : "Article",
+	  "name" : "Google Adwords",
+	  "author" : {
+	    "@type" : "Person",
+	    "name" : "Tamara Blezinsky"
+	  },
+	  "datePublished" : "2020-09-28",
+	  "image" : "https://i.pinimg.com/originals/25/4e/2e/254e2e27f23302528766fce17e053751.jpg",
+	  "articleSection" : "",
+	  "articleBody" : "",
+	  "url" : "/sergio-berni.html",
+	  "publisher" : {
+	    "@type" : "Organization",
+	    "name" : "Was Heute im Trend liegt"
+	  },
+	  "aggregateRating" : {
+	    "@type" : "AggregateRating",
+	    "ratingValue" : "4.6",
+	    "ratingCount" : "1500"
+	  }
+	}
+	</script>
+</head>
 <body>
-	<main id="main">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-light ">
-			<div class="container">
-		  <a href="" class="navbar-brand">TRENDING NEWS</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto">				
-								<li class="nav-item"><a class="nav-link" href="pages/dmca">Dmca</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/contact">Contact</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/privacy-policy">Privacy Policy</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/copyright">Copyright</a></li>
-				 
-			</ul> 
-			</div>
-		  </div>
-		</nav>
+	<header class="bg-white fixed-top">			
+		<nav class="navbar navbar-light bg-white mb-0">
+			<div class="container justify-content-center justify-content-sm-between">	
+			  <a href="/" title="Was Heute im Trend liegt" class="navbar-brand mb-1">Was Heute im Trend liegt</a>
+			  <form class="form-inline mb-1" action="/" method="get">
+			    <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search and hit enter.." aria-label="Search">
+			  </form>	
+			</div>			  
+		</nav>				
+	</header>
+	<main id="main" class="main">
 		<div class="container">  
 			<div class="row content">
 				<div class="col-md-9">
-					<div class="col-sm-12">
+					<div class="col-sm-12 p-2">
 
 							<h1>Google Adwords</h1>
 
 	
-	<div class="navi text-left">
-					<p>Only pay for results like clicks to your website or calls to your business. Advertise with google ads in the sponsored links section next to search results to boost website traffic and sales. The right keywords can get your ad in front of the right customers and google ads keyword planner is here to help. <br>
-															<a class="badge badge-light" href="google-adwords.html">google adwords</a>
-																																																																																													</p>
-			</div>
+	<div class="navi text-center">
+										<a class="badge badge-primary" href="/rooney-mara.html">rooney mara</a>
+											<a class="badge badge-success" href="/leicester.html">leicester</a>
+											<a class="badge badge-warning" href="/telekino.html">telekino</a>
+											<a class="badge badge-primary" href="/bayern.html">bayern</a>
+											<a class="badge badge-success" href="/delbonis.html">delbonis</a>
+											<a class="badge badge-info" href="/victoria-vanucci.html">victoria vanucci</a>
+											<a class="badge badge-light" href="/google-adsense.html">google adsense</a>
+											<a class="badge badge-light" href="/sergio-berni.html">sergio berni</a>
+						</div>
 
 						<script async="async" data-cfasync="false" src="//zqvee2re50mr.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
 <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
 					</div> 
 					<div class="col-sm-12">					
-							
-	
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://mk0malcaredecgig0d6a.kinstacdn.com/wp-content/uploads/2019/01/google-adwords-account-suspension-policies.png" target="_blank">
-							<img class="img-fluid" src="https://mk0malcaredecgig0d6a.kinstacdn.com/wp-content/uploads/2019/01/google-adwords-account-suspension-policies.png" alt="Google Adwords Account Suspended Here S How To Fix It Malcare" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Adwords Account Suspended Here S How To Fix It Malcare</p> 
+						
+		
+	<div class="row">
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/ee/27/8c/ee278c0a3316378b55f8771106b8c58a.jpg" data-lightbox="roadtrip" data-title="Google Ads Bin Google Ads Free Credit With 60 000 Free Credit And How In 2020 Google Adwords Google Ads Adwords">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/ee/27/8c/ee278c0a3316378b55f8771106b8c58a.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Google Ads Bin Google Ads Free Credit With 60 000 Free Credit And How In 2020 Google Adwords Google Ads Adwords">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Google Ads Bin Google Ads Free Credit With 60 000 Free Credit And How In 2020 Google Adwords Google Ads Adwords.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Google Ads Bin Google Ads Free Credit With 60 000 Free Credit And How In 2020 Google Adwords Google Ads Adwords</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.disruptiveadvertising.com/wp-content/uploads/2019/02/improve-google-ranking-blog-1280x720.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.disruptiveadvertising.com/wp-content/uploads/2019/02/improve-google-ranking-blog-1280x720.jpg" alt="What Is Google Adwords And Why Do I Need It Disruptive Advertising" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>What Is Google Adwords And Why Do I Need It Disruptive Advertising</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://neilpatel.com/wp-content/uploads/2015/06/image034.png" target="_blank">
-							<img class="img-fluid" src="https://neilpatel.com/wp-content/uploads/2015/06/image034.png" alt="The Entrepreneur S Guide To Google Ads" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>The Entrepreneur S Guide To Google Ads</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://webcdn-adespressoinc.netdna-ssl.com/wp-content/uploads/2019/10/google-adwords-101-2019.png" target="_blank">
-							<img class="img-fluid" src="https://webcdn-adespressoinc.netdna-ssl.com/wp-content/uploads/2019/10/google-adwords-101-2019.png" alt="Google Ads The Complete Guide To Take You From Zero To Hero" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Ads The Complete Guide To Take You From Zero To Hero</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.matawebsite.com/images/blog/inilah_kelebihan_dan_kekurangan_google_adwords_yang_wajib_anda_ketahui.inilah_kelebihan_dan_kekurangan_google_adwords_yang_wajib_anda_ketahui" target="_blank">
-							<img class="img-fluid" src="https://www.matawebsite.com/images/blog/inilah_kelebihan_dan_kekurangan_google_adwords_yang_wajib_anda_ketahui.inilah_kelebihan_dan_kekurangan_google_adwords_yang_wajib_anda_ketahui" alt="Inilah Kelebihan Dan Kekurangan Google Adwords Yang Wajib Anda Ketahui" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Inilah Kelebihan Dan Kekurangan Google Adwords Yang Wajib Anda Ketahui</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/0f/47/ac/0f47ac0dc1f5c3eab3adc7c57807b840.png" data-lightbox="roadtrip" data-title="Google Ads Google Ads Login In 2020 Adwords Google Ads Google Adwords">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/0f/47/ac/0f47ac0dc1f5c3eab3adc7c57807b840.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Google Ads Google Ads Login In 2020 Adwords Google Ads Google Adwords">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Google Ads Google Ads Login In 2020 Adwords Google Ads Google Adwords.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Google Ads Google Ads Login In 2020 Adwords Google Ads Google Adwords</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.niagahoster.co.id/blog/wp-content/uploads/2020/09/Ukuran-Banner-Google-4Ads.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.niagahoster.co.id/blog/wp-content/uploads/2020/09/Ukuran-Banner-Google-4Ads.jpg" alt="C73w7zj1awpdlm" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>C73w7zj1awpdlm</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://doofindermedia.s3.amazonaws.com/blog/2017/09/25/105947-adwords-e-commerce.jpg" target="_blank">
-							<img class="img-fluid" src="https://doofindermedia.s3.amazonaws.com/blog/2017/09/25/105947-adwords-e-commerce.jpg" alt="How To Sell With Your E Commerce Thanks To Google Adwords" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Sell With Your E Commerce Thanks To Google Adwords</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.apexinfotechindia.com/blog/wp-content/uploads/Google-Adawords-Services-in-India.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.apexinfotechindia.com/blog/wp-content/uploads/Google-Adawords-Services-in-India.jpg" alt="7 Facts Of Google Adwords Which Benefits Business Growth Digital Marketing Agency" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>7 Facts Of Google Adwords Which Benefits Business Growth Digital Marketing Agency</p> 
-					</div>
-				</div>
-						 
-		 
-			<div class="posts-images"> 
-				<div class="text-left">
-					<h3>Get in front of customers when theyre searching for businesses like yours on google search and maps.</h3>
-					<p class="text-center"><img src="https://thinkdigital.id/wp-content/uploads/2018/05/google-adwords.jpg" style="margin-bottom: 8px;"></p>
-
-											<p>
-															<strong>Google adwords</strong>. 
-							
-															Only pay for results like clicks to your website or calls to your business. 
-															Iklan anda dapat tampil di google tepat pada saat orang menelusuri produk atau layanan seperti milik anda. 
-															Grow your business with google ads. 
-															Summer apparel get ideas sandals bathing suits jean shorts how keyword planner works. 
-													</p>
-											<p>
-							
-															Search the worlds information including webpages images videos and more. 
-															Google adalah tempat orang menelusuri aktivitas yang akan dilakukan tempat yang akan dituju dan apa yang harus dibeli. 
-															Get in front of customers when theyre searching for businesses like yours on google search and maps. 
-															Grow your business with google ads. 
-													</p>
-											<p>
-							
-															Sign in google accounts. 
-															Sebelum menjelaskan tentang cara menggunakan google adwords ada satu informasi penting yang perlu anda ketahui. 
-															Google has many special features to help you find exactly what youre looking for. 
-															Apakah menggunakan desktop atau seluler iklan di waktu yang tepat dapat mengubah orang menjadi pelanggan yang berharga. 
-													</p>
-											<p>
-							
-															Only pay for results like clicks to your website or calls to your business. 
-															1 844 291 7384 mon fri 9am 9pm et. 
-															Grow your business with google ads. 
-															Go to keyword planner. 
-													</p>
-											<p>
-							
-															Sejak 24 juli 2018 google mengubah nama platform iklan mereka dari google adwords menjadi google adstapi tenang saja secara garis besar cara menggunakan google adwords dan google ads sama. 
-															Get in front of customers when theyre searching for businesses like yours on google search and maps. 
-															Google allows users to search the web for images news products video and other content. 
-															Call to get set up by a google ads specialist. 
-													</p>
-											<p>
-							
-															0800 026 1712 mon fri 9am 6pm. 
-															Call to get set up by a google ads specialist. 
-															Call to get set up by a google ads specialist. 
-													</p>
-									</div> 
-			</div> 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://dmi-uploads.imgix.net/general/google-adwords.jpg?fm=jpg&amp;ixlib=php-1.1.0&amp;q=3&amp;w=2060&amp;s=253d19956e221dc95c59e07f85dba9ea" target="_blank">
-							<img class="img-fluid" src="https://dmi-uploads.imgix.net/general/google-adwords.jpg?fm=jpg&amp;ixlib=php-1.1.0&amp;q=3&amp;w=2060&amp;s=253d19956e221dc95c59e07f85dba9ea" alt="5 Tips For Google Adwords Succes Trends Insights" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>5 Tips For Google Adwords Succes Trends Insights</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/2e/50/85/2e50854cbfe467574c64beb613e7da9e.jpg" data-lightbox="roadtrip" data-title="Google Adwords 200 Threshold Trick Free In 2020 Google Adwords Adwords Create Ads">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/2e/50/85/2e50854cbfe467574c64beb613e7da9e.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Google Adwords 200 Threshold Trick Free In 2020 Google Adwords Adwords Create Ads">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Google Adwords 200 Threshold Trick Free In 2020 Google Adwords Adwords Create Ads.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Google Adwords 200 Threshold Trick Free In 2020 Google Adwords Adwords Create Ads</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://blog.tryadhawk.com/wp-content/uploads/2019/03/google-ads-circle-icon-e1551803670669.png" target="_blank">
-							<img class="img-fluid" src="https://blog.tryadhawk.com/wp-content/uploads/2019/03/google-ads-circle-icon-e1551803670669.png" alt="7 Default Settings In Adwords That Lower Your Roi Adhawk Blog" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>7 Default Settings In Adwords That Lower Your Roi Adhawk Blog</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Logo.max-500x500.png" target="_blank">
-							<img class="img-fluid" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Logo.max-500x500.png" alt="Google Ads Google Blog" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Ads Google Blog</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.searchenginejournal.com/wp-content/uploads/2014/07/Save-Floundering-AdWords-Ca-760x362.png" target="_blank">
-							<img class="img-fluid" src="https://cdn.searchenginejournal.com/wp-content/uploads/2014/07/Save-Floundering-AdWords-Ca-760x362.png" alt="Improve Your Floundering Google Adwords Campaign Sej" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Improve Your Floundering Google Adwords Campaign Sej</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://tbs-marketing.com/wp-content/uploads/2020/01/ENG-Google-Adword-2.jpg" target="_blank">
-							<img class="img-fluid" src="https://tbs-marketing.com/wp-content/uploads/2020/01/ENG-Google-Adword-2.jpg" alt="Google Adwords Ppc Tbs Marketing" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Adwords Ppc Tbs Marketing</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/65/af/38/65af38d5d02bc14ec06f894c76cb03ad.jpg" data-lightbox="roadtrip" data-title="Google Ads Bin Google Adword Bin Google Ads Free 450 Free Google Ads C In 2020 Adwords Google Ads Google Adwords">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/65/af/38/65af38d5d02bc14ec06f894c76cb03ad.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Google Ads Bin Google Adword Bin Google Ads Free 450 Free Google Ads C In 2020 Adwords Google Ads Google Adwords">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Google Ads Bin Google Adword Bin Google Ads Free 450 Free Google Ads C In 2020 Adwords Google Ads Google Adwords.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Google Ads Bin Google Adword Bin Google Ads Free 450 Free Google Ads C In 2020 Adwords Google Ads Google Adwords</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.marketingdonut.co.uk/sites/default/files/production/image/nine-steps-choosing-keywords-google-adwords_1382216957.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.marketingdonut.co.uk/sites/default/files/production/image/nine-steps-choosing-keywords-google-adwords_1382216957.jpg" alt="Nine Steps To Choosing Google Ads Keywords Marketing Donut" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Nine Steps To Choosing Google Ads Keywords Marketing Donut</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.searchenginewatch.com/wp-content/uploads/sites/25/2018/06/the-new-adwords-dashboard.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.searchenginewatch.com/wp-content/uploads/sites/25/2018/06/the-new-adwords-dashboard.jpg" alt="Using The New Google Adwords Dashboard Search Engine Watch" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Using The New Google Adwords Dashboard Search Engine Watch</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lh3.googleusercontent.com/Jj5eyjCrPUOok6fECnSe3nCiJPS1nTbqcskzxGJI53PpqFTdb5MvjmTxvBL42AQU-g=w600-rwa" target="_blank">
-							<img class="img-fluid" src="https://lh3.googleusercontent.com/Jj5eyjCrPUOok6fECnSe3nCiJPS1nTbqcskzxGJI53PpqFTdb5MvjmTxvBL42AQU-g=w600-rwa" alt="Menyalin Atau Memindahkan Kampanye Bantuan Google Ads Editor" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Menyalin Atau Memindahkan Kampanye Bantuan Google Ads Editor</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://wordstream-files-prod.s3.amazonaws.com/s3fs-public/styles/simple_image/public/images/media/images/google-ads_3.png?hwfqcfhECQONVGY5RhiXttJBYEFd9IXG&amp;itok=cxh9OmIM" target="_blank">
-							<img class="img-fluid" src="https://wordstream-files-prod.s3.amazonaws.com/s3fs-public/styles/simple_image/public/images/media/images/google-ads_3.png?hwfqcfhECQONVGY5RhiXttJBYEFd9IXG&amp;itok=cxh9OmIM" alt="Google Ads What Are Google Ads How Do They Work Wordstream" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Ads What Are Google Ads How Do They Work Wordstream</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/fe/d9/cf/fed9cf670ca0232d7c8288d14dc7cee8.jpg" data-lightbox="roadtrip" data-title="Google Adwords Adwords Google Adwords Google Ads">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/fe/d9/cf/fed9cf670ca0232d7c8288d14dc7cee8.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Google Adwords Adwords Google Adwords Google Ads">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Google Adwords Adwords Google Adwords Google Ads.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Google Adwords Adwords Google Adwords Google Ads</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=facebook+ads&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=facebook+ads&amp;tbm=isch" alt="1" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>1</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://alexandralyu.files.wordpress.com/2018/11/1646734_a465_2.jpg" target="_blank">
-							<img class="img-fluid" src="https://alexandralyu.files.wordpress.com/2018/11/1646734_a465_2.jpg" alt="Writing Sample The Ten Critical Things Pr Students Must Know About Google Ads Alexandra Lyu" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Writing Sample The Ten Critical Things Pr Students Must Know About Google Ads Alexandra Lyu</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://agencyanalytics.com/assets/feature/screenshot/google-aadwords-dashboard-1513223986.png" target="_blank">
-							<img class="img-fluid" src="https://agencyanalytics.com/assets/feature/screenshot/google-aadwords-dashboard-1513223986.png" alt="Google Ads Reporting Tool Google Adwords Agencyanalytics" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Ads Reporting Tool Google Adwords Agencyanalytics</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://grapadinews.co.id/wp-content/uploads/2018/12/Facebook-Ads-vs.-Google-Ads-and-Remarketing.jpg" target="_blank">
-							<img class="img-fluid" src="https://grapadinews.co.id/wp-content/uploads/2018/12/Facebook-Ads-vs.-Google-Ads-and-Remarketing.jpg" alt="Fb Ads Vs Google Adwords Mana Yang Lebih Unggul Grapadi News" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fb Ads Vs Google Adwords Mana Yang Lebih Unggul Grapadi News</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/82/6e/64/826e648502a973a3b91dc1f884f3a78f.png" data-lightbox="roadtrip" data-title="Google Adwords The Small Business Guide Google Adwords Infographic Infographic Marketing Adwords">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/82/6e/64/826e648502a973a3b91dc1f884f3a78f.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Google Adwords The Small Business Guide Google Adwords Infographic Infographic Marketing Adwords">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Google Adwords The Small Business Guide Google Adwords Infographic Infographic Marketing Adwords.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Google Adwords The Small Business Guide Google Adwords Infographic Infographic Marketing Adwords</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img-a.udemycdn.com/course/750x422/1351142_ffec_6.jpg" target="_blank">
-							<img class="img-fluid" src="https://img-a.udemycdn.com/course/750x422/1351142_ffec_6.jpg" alt="Advanced Google Ads Adwords Training Updated For 2020 Udemy" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Advanced Google Ads Adwords Training Updated For 2020 Udemy</p> 
-					</div>
+			</div>
+		</div>
+			 
+					<div class="col-12 mb-4">
+				<div class="card">
+										<img class="card-img-top v-cover" src="https://i.pinimg.com/originals/0f/47/ac/0f47ac0dc1f5c3eab3adc7c57807b840.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Google Adwords The Small Business Guide Google Adwords Infographic Infographic Marketing Adwords">
+										<div class="card-body">
+						<h3 class="h5"><b></b></h3>
+												<div class="col-sm-12 widget"><strong>Related Posts:</strong>
+						<li class="list-group-item"><a href="/sergio-berni.html">Google Adwords</a></li>
+						<li class="list-group-item"><a href="/sergio-berni.html">Sergio Berni</a></li></div>
+						<div class="p-2">Published on:<time class="p-2" itemprop="datePublished" datetime="2020-09-28">2020-09-28</time>
+						<meta itemprop="dateModified" content="2020-09-28">
+						<itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+						By <itemprop="name"><a href="#" title="Posts by Wick Wick" rel="author">Wick Wick</a></div>
+					</div> 
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.ssdi.co.id/wp-content/uploads/2018/11/lg_576262ab41785.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.ssdi.co.id/wp-content/uploads/2018/11/lg_576262ab41785.jpg" alt="Tutorial Google Adwords Google Ads Lengkap Untuk Pemula Pt Sanjaya Solusi Digital Indonesia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Tutorial Google Adwords Google Ads Lengkap Untuk Pemula Pt Sanjaya Solusi Digital Indonesia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://neilpatel.com/wp-content/uploads/2015/10/googleadwords.jpg" target="_blank">
-							<img class="img-fluid" src="https://neilpatel.com/wp-content/uploads/2015/10/googleadwords.jpg" alt="Google Adwords Made Simple A Step By Step Guide" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Adwords Made Simple A Step By Step Guide</p> 
-					</div>
-				</div>
-						 
+			</div>
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://don16obqbay2c.cloudfront.net/wp-content/uploads/How-to-Run-Paid-Search-Ads-1503668928.png" target="_blank">
-							<img class="img-fluid" src="http://don16obqbay2c.cloudfront.net/wp-content/uploads/How-to-Run-Paid-Search-Ads-1503668928.png" alt="Google Adwords Untuk Toko Online 9 Tips Hemat Uang" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Adwords Untuk Toko Online 9 Tips Hemat Uang</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/11/f7/df/11f7dfd655f4a71258ce4b72283eb061.png" data-lightbox="roadtrip" data-title="What Is Google Adwords Display Network Remarketing Adwords Google Adwords">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/11/f7/df/11f7dfd655f4a71258ce4b72283eb061.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="What Is Google Adwords Display Network Remarketing Adwords Google Adwords">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="What Is Google Adwords Display Network Remarketing Adwords Google Adwords.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">What Is Google Adwords Display Network Remarketing Adwords Google Adwords</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://searchengineland.com/figz/wp-content/seloads/2018/05/Header_Image.png" target="_blank">
-							<img class="img-fluid" src="https://searchengineland.com/figz/wp-content/seloads/2018/05/Header_Image.png" alt="Pause Underperforming Ads With This Updated Adwords Script" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Pause Underperforming Ads With This Updated Adwords Script</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://wordstream-files-prod.s3.amazonaws.com/s3fs-public/styles/simple_image/public/images/google-display-network-reach.jpg?1moKi_iliyeCBXkOhk1Hl.jkc6AZGZ13&amp;itok=4R7w4kcY" target="_blank">
-							<img class="img-fluid" src="https://wordstream-files-prod.s3.amazonaws.com/s3fs-public/styles/simple_image/public/images/google-display-network-reach.jpg?1moKi_iliyeCBXkOhk1Hl.jkc6AZGZ13&amp;itok=4R7w4kcY" alt="How To Use Google Ads A Crash Course Wordstream" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Use Google Ads A Crash Course Wordstream</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.vevos.digital/wp-content/uploads/2018/10/GoogleAds.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.vevos.digital/wp-content/uploads/2018/10/GoogleAds.jpg" alt="Google Adwords Service In Bali Jakarta Vevos Digital" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Adwords Service In Bali Jakarta Vevos Digital</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://jdc.co.id/wp-content/uploads/2019/06/jasa-google-adwords-jakarta.png" target="_blank">
-							<img class="img-fluid" src="https://jdc.co.id/wp-content/uploads/2019/06/jasa-google-adwords-jakarta.png" alt="Jasa Google Adwords Jakarta Pakar Google Adwords Jdc" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Jasa Google Adwords Jakarta Pakar Google Adwords Jdc</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/83/4a/54/834a542e40affeccb1cd9c217a5e135c.jpg" data-lightbox="roadtrip" data-title="How To Advertise On Google Step By Step Google Adwords Tutorial 2020 In 2020 Google Ads Google Adwords Adwords">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/83/4a/54/834a542e40affeccb1cd9c217a5e135c.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="How To Advertise On Google Step By Step Google Adwords Tutorial 2020 In 2020 Google Ads Google Adwords Adwords">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="How To Advertise On Google Step By Step Google Adwords Tutorial 2020 In 2020 Google Ads Google Adwords Adwords.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">How To Advertise On Google Step By Step Google Adwords Tutorial 2020 In 2020 Google Ads Google Adwords Adwords</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/IqPp5hFj-LQ/maxresdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/IqPp5hFj-LQ/maxresdefault.jpg" alt="Google Ads Cost Calculator To Estimate Keyword Pricing Monthly Budget Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Ads Cost Calculator To Estimate Keyword Pricing Monthly Budget Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://meson-digital.com/wp-content/uploads/2019/08/Contoh-Iklan-Google-Ads-1.jpg" target="_blank">
-							<img class="img-fluid" src="https://meson-digital.com/wp-content/uploads/2019/08/Contoh-Iklan-Google-Ads-1.jpg" alt="Iklan Google Ads Sebelum Memulainya Baca Ini Terlebih Dahulu" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Iklan Google Ads Sebelum Memulainya Baca Ini Terlebih Dahulu</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.seo-nerd.com/wp-content/uploads/google-adwords-serp.png" target="_blank">
-							<img class="img-fluid" src="https://www.seo-nerd.com/wp-content/uploads/google-adwords-serp.png" alt="Google Ads Sea Seo Nerd" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Ads Sea Seo Nerd</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=google+adsense&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=google+adsense&amp;tbm=isch" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gctwx9nxwzexky2ki84hf9mymo2rdcc8vlfcaks6r Qdx5pipqhc Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gctwx9nxwzexky2ki84hf9mymo2rdcc8vlfcaks6r Qdx5pipqhc Usqp Cau</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/7f/dd/60/7fdd6022e8b631ea9fd151d224864f1b.jpg" data-lightbox="roadtrip" data-title="Google Ads Bin Google Adword Bin How To Get Google Free Credit Google Ads New Trick Proof Google Adwords Ideas Of House B In 2020 Adwords Google Ads Google Free">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/7f/dd/60/7fdd6022e8b631ea9fd151d224864f1b.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Google Ads Bin Google Adword Bin How To Get Google Free Credit Google Ads New Trick Proof Google Adwords Ideas Of House B In 2020 Adwords Google Ads Google Free">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Google Ads Bin Google Adword Bin How To Get Google Free Credit Google Ads New Trick Proof Google Adwords Ideas Of House B In 2020 Adwords Google Ads Google Free.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Google Ads Bin Google Adword Bin How To Get Google Free Credit Google Ads New Trick Proof Google Adwords Ideas Of House B In 2020 Adwords Google Ads Google Free</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.sharetribe.com/academy/wp-content/uploads/2016/08/GoogleAdWords-AdExample-next-to-search-results.png" target="_blank">
-							<img class="img-fluid" src="https://www.sharetribe.com/academy/wp-content/uploads/2016/08/GoogleAdWords-AdExample-next-to-search-results.png" alt="How To Get Started With Google Ads For Your Marketplace Marketplace Academy By Sharetribe" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Get Started With Google Ads For Your Marketplace Marketplace Academy By Sharetribe</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.strategybeam.com/wp-content/uploads/2019/01/what-is-ctr-google-adwords-feat-strategybeam.png" target="_blank">
-							<img class="img-fluid" src="https://www.strategybeam.com/wp-content/uploads/2019/01/what-is-ctr-google-adwords-feat-strategybeam.png" alt="Everything You Need To Know About Ctr In Google Adwords In Under 4 Minutes Strategybeam" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Everything You Need To Know About Ctr In Google Adwords In Under 4 Minutes Strategybeam</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.akudigital.com/bisnis-tips/wp-content/uploads/2020/05/google-adwords.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.akudigital.com/bisnis-tips/wp-content/uploads/2020/05/google-adwords.jpg" alt="5 Manfaat Google Adwords Iklan Di Pencarian Google Akudigital" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>5 Manfaat Google Adwords Iklan Di Pencarian Google Akudigital</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://s3.amazonaws.com/Supermetrics/images/new+google+ads+interface+blogpost/newgoogleads1.png" target="_blank">
-							<img class="img-fluid" src="https://s3.amazonaws.com/Supermetrics/images/new+google+ads+interface+blogpost/newgoogleads1.png" alt="Google Ads Dashboard What You Need To Know" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Ads Dashboard What You Need To Know</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/25/4e/2e/254e2e27f23302528766fce17e053751.jpg" data-lightbox="roadtrip" data-title="Google Adwords Adobe Illustrator Ai Templates For All 2017 Display Banner Ad Sizes Free Download Ignite Online Banner Ads Display Banners Banner Ad Sizes">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/25/4e/2e/254e2e27f23302528766fce17e053751.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Google Adwords Adobe Illustrator Ai Templates For All 2017 Display Banner Ad Sizes Free Download Ignite Online Banner Ads Display Banners Banner Ad Sizes">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Google Adwords Adobe Illustrator Ai Templates For All 2017 Display Banner Ad Sizes Free Download Ignite Online Banner Ads Display Banners Banner Ad Sizes.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Google Adwords Adobe Illustrator Ai Templates For All 2017 Display Banner Ad Sizes Free Download Ignite Online Banner Ads Display Banners Banner Ad Sizes</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.dewaweb.com/blog/wp-content/uploads/2018/08/dewaweb-blog-goodbye-google-adwords-hello-google-ads-1280x720.png" target="_blank">
-							<img class="img-fluid" src="https://www.dewaweb.com/blog/wp-content/uploads/2018/08/dewaweb-blog-goodbye-google-adwords-hello-google-ads-1280x720.png" alt="Google Adwords Berubah Menjadi Google Ads Apa Perbedaannya" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Adwords Berubah Menjadi Google Ads Apa Perbedaannya</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.popwebdesign.net/images/marketing/graphics/header-google-campaign.png" target="_blank">
-							<img class="img-fluid" src="https://www.popwebdesign.net/images/marketing/graphics/header-google-campaign.png" alt="Adwords Campaigns Google Ads" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Adwords Campaigns Google Ads</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.searchenginejournal.com/wp-content/uploads/2017/11/AdWords-Express-Tips-760x400.png" target="_blank">
-							<img class="img-fluid" src="https://cdn.searchenginejournal.com/wp-content/uploads/2017/11/AdWords-Express-Tips-760x400.png" alt="10 Tips To Get The Most Out Of Google Adwords Express" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>10 Tips To Get The Most Out Of Google Adwords Express</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.exabytes.co.id/blog/wp-content/uploads/2019/09/WhatsApp-Image-2019-09-27-at-09.42.16.jpeg" target="_blank">
-							<img class="img-fluid" src="https://www.exabytes.co.id/blog/wp-content/uploads/2019/09/WhatsApp-Image-2019-09-27-at-09.42.16.jpeg" alt="Mana Yang Lebih Efektif Facebook Ads Atau Google Adwords Blog Exabytes Indonesia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Mana Yang Lebih Efektif Facebook Ads Atau Google Adwords Blog Exabytes Indonesia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/Cz9N9bUOwWA/maxresdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/Cz9N9bUOwWA/maxresdefault.jpg" alt="Introducing Firebase And Google Adwords Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Introducing Firebase And Google Adwords Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://idwebhost.com/blog/wp-content/uploads/2019/05/antara-seo-dan-google-adwords-atau-ads.jpg" target="_blank">
-							<img class="img-fluid" src="https://idwebhost.com/blog/wp-content/uploads/2019/05/antara-seo-dan-google-adwords-atau-ads.jpg" alt="Mana Yang Terbaik Antara Seo Dan Google Adwords" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Mana Yang Terbaik Antara Seo Dan Google Adwords</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Logo.max-1500x1500.png" target="_blank">
-							<img class="img-fluid" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Logo.max-1500x1500.png" alt="Google Ads Google Blog" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Ads Google Blog</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.searchenginejournal.com/wp-content/uploads/2019/09/ec005aa3-f826-4ea6-9f0e-8e9152806289.jpeg" target="_blank">
-							<img class="img-fluid" src="https://cdn.searchenginejournal.com/wp-content/uploads/2019/09/ec005aa3-f826-4ea6-9f0e-8e9152806289.jpeg" alt="Google Ads Changes The Design Of Call Only Ads Search Engine Journal" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Ads Changes The Design Of Call Only Ads Search Engine Journal</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://rectmedia.com/wp-content/uploads/2015/12/search-computer-analytics-data-ss-1920.jpg" target="_blank">
-							<img class="img-fluid" src="https://rectmedia.com/wp-content/uploads/2015/12/search-computer-analytics-data-ss-1920.jpg" alt="Keuntungan Beriklan Menggunakan Google Adwords Pt Rect Media Komputindo" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Keuntungan Beriklan Menggunakan Google Adwords Pt Rect Media Komputindo</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.mainstreetroi.com/wp-content/uploads/2014/03/3-Reasons-Why-You-Should-Start-Advertising-with-Google-AdWords.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.mainstreetroi.com/wp-content/uploads/2014/03/3-Reasons-Why-You-Should-Start-Advertising-with-Google-AdWords.jpg" alt="3 Reasons Why You Should Start Advertising With Google Adwords Main Street Roi" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>3 Reasons Why You Should Start Advertising With Google Adwords Main Street Roi</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.zelst.co.uk/wp-content/uploads/2018/08/google-adwords-google-ads-1080x675.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.zelst.co.uk/wp-content/uploads/2018/08/google-adwords-google-ads-1080x675.jpg" alt="Why Has Google Adwords Become Google Ads A Google Rebrand" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Why Has Google Adwords Become Google Ads A Google Rebrand</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://meson-digital.com/wp-content/uploads/2018/05/iklan-google-adword-pay-per-click-1024x646.jpg" target="_blank">
-							<img class="img-fluid" src="https://meson-digital.com/wp-content/uploads/2018/05/iklan-google-adword-pay-per-click-1024x646.jpg" alt="Pay Per Click Atau Iklan Google Adword Penjelasan Lengkap" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Pay Per Click Atau Iklan Google Adword Penjelasan Lengkap</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://blog.tryadhawk.com/wp-content/uploads/2018/01/Hack-google-adwords.png" target="_blank">
-							<img class="img-fluid" src="https://blog.tryadhawk.com/wp-content/uploads/2018/01/Hack-google-adwords.png" alt="How To Hack Google Adwords For Your Startup" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Hack Google Adwords For Your Startup</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://mk0toffeedevt0mrb1pb.kinstacdn.com/wp-content/uploads/2014/06/google-adwords-1200x900.png" target="_blank">
-							<img class="img-fluid" src="https://mk0toffeedevt0mrb1pb.kinstacdn.com/wp-content/uploads/2014/06/google-adwords-1200x900.png" alt="Apa Itu Google Adwords Apa Keuntungan Menggunakannya" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Apa Itu Google Adwords Apa Keuntungan Menggunakannya</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://upload.wikimedia.org/wikipedia/commons/6/6d/Logo-google-adwords.png" target="_blank">
-							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Logo-google-adwords.png" alt="Google Adwords Wikipedia Bahasa Indonesia Ensiklopedia Bebas" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Adwords Wikipedia Bahasa Indonesia Ensiklopedia Bebas</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://dmi-uploads.imgix.net/general/Blog-Google.jpg?fm=jpg&amp;ixlib=php-1.1.0&amp;q=3&amp;w=2060&amp;s=28ed4501829e95fc237c65f164f958af" target="_blank">
-							<img class="img-fluid" src="https://dmi-uploads.imgix.net/general/Blog-Google.jpg?fm=jpg&amp;ixlib=php-1.1.0&amp;q=3&amp;w=2060&amp;s=28ed4501829e95fc237c65f164f958af" alt="The Beginners Guide To Google Ads" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>The Beginners Guide To Google Ads</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.lyfemarketing.com/blog/wp-content/uploads/2018/02/adwords-tips.png" target="_blank">
-							<img class="img-fluid" src="https://www.lyfemarketing.com/blog/wp-content/uploads/2018/02/adwords-tips.png" alt="26 Adwords Tips And Tricks That Every Marketer Like You Should Know" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>26 Adwords Tips And Tricks That Every Marketer Like You Should Know</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://realsocialseo.com/wp-content/uploads/2018/02/Google-AdWords-640x355.png" target="_blank">
-							<img class="img-fluid" src="https://realsocialseo.com/wp-content/uploads/2018/02/Google-AdWords-640x355.png" alt="Google Adwords Coupons Realsocialseo" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Adwords Coupons Realsocialseo</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://wordstream-files-prod.s3.amazonaws.com/s3fs-public/styles/simple_image/public/images/adwords-software-bridges-gap-between-adwords-tools-search-marketers-use.jpg?bBzGRu6WN3IssZqZXw5z46UUParq4_.7&amp;itok=u24yYkda" target="_blank">
-							<img class="img-fluid" src="https://wordstream-files-prod.s3.amazonaws.com/s3fs-public/styles/simple_image/public/images/adwords-software-bridges-gap-between-adwords-tools-search-marketers-use.jpg?bBzGRu6WN3IssZqZXw5z46UUParq4_.7&amp;itok=u24yYkda" alt="Google Ads Software Get More Out Of Your Google Account Wordstream" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Ads Software Get More Out Of Your Google Account Wordstream</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://erudite-indonesia.com/images/adwordstraining.jpg" target="_blank">
-							<img class="img-fluid" src="http://erudite-indonesia.com/images/adwordstraining.jpg" alt="Adwords Training Google Adwords Training Di Jakarta Indonesia Erudite Training" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Adwords Training Google Adwords Training Di Jakarta Indonesia Erudite Training</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.leadsquared.com/wp-content/uploads/2017/04/benefits-of-google-adwords.png" target="_blank">
-							<img class="img-fluid" src="https://www.leadsquared.com/wp-content/uploads/2017/04/benefits-of-google-adwords.png" alt="7 Benefits Of Google Adwords To Grow Your Business Leadsquared" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>7 Benefits Of Google Adwords To Grow Your Business Leadsquared</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://thinkdigital.id/wp-content/uploads/2018/05/google-adwords.jpg" target="_blank">
-							<img class="img-fluid" src="https://thinkdigital.id/wp-content/uploads/2018/05/google-adwords.jpg" alt="Jasa Iklan Google Adwords Think Digital Indonesia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Jasa Iklan Google Adwords Think Digital Indonesia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.doxadigital.com/wp-content/uploads/2017/05/google-adwords.png" target="_blank">
-							<img class="img-fluid" src="https://www.doxadigital.com/wp-content/uploads/2017/05/google-adwords.png" alt="2 Manfaat Google Adwords Selain Beriklan Yang Perlu Anda Tahu Doxadigital Creative Agency" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>2 Manfaat Google Adwords Selain Beriklan Yang Perlu Anda Tahu Doxadigital Creative Agency</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.bmconsulting.in/blog/wp-content/uploads/2017/05/adwords.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.bmconsulting.in/blog/wp-content/uploads/2017/05/adwords.jpg" alt="Basic Concepts Of The Google Adwords Tool Digital Marketing Inbound Marketing Blog" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Basic Concepts Of The Google Adwords Tool Digital Marketing Inbound Marketing Blog</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.onlinerealassets.com/wp-content/uploads/2018/08/google.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.onlinerealassets.com/wp-content/uploads/2018/08/google.jpg" alt="Why Your Business Benefits From Google Adwords Online Real Assets" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Why Your Business Benefits From Google Adwords Online Real Assets</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://rectmedia.com/wp-content/uploads/2019/09/jasa-iklan-google-009.png" target="_blank">
-							<img class="img-fluid" src="https://rectmedia.com/wp-content/uploads/2019/09/jasa-iklan-google-009.png" alt="Jasa Iklan Google Ads Google Adwords Pt Rect Media Komputindo" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Jasa Iklan Google Ads Google Adwords Pt Rect Media Komputindo</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://storage.googleapis.com/support-forums-api/attachment/thread-9038860-7088064326509650298.png" target="_blank">
-							<img class="img-fluid" src="https://storage.googleapis.com/support-forums-api/attachment/thread-9038860-7088064326509650298.png" alt="I Can T Open Google Ads Editor Error Google Ads Community" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>I Can T Open Google Ads Editor Error Google Ads Community</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://fabrikbrands.com/wp-content/uploads/AdWords-Keyword-Research-1-scaled.jpg" target="_blank">
-							<img class="img-fluid" src="https://fabrikbrands.com/wp-content/uploads/AdWords-Keyword-Research-1-scaled.jpg" alt="Your Guide To Google Adwords Keyword Researchfabrik Brands" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Your Guide To Google Adwords Keyword Researchfabrik Brands</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://pewarta-indonesia.com/wp-content/uploads/2020/05/Iklan-Google-AdWords.jpg" target="_blank">
-							<img class="img-fluid" src="https://pewarta-indonesia.com/wp-content/uploads/2020/05/Iklan-Google-AdWords.jpg" alt="Mengelola Iklan Google Adwords Dengan Benar Untuk Meminimalisir Biaya" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Mengelola Iklan Google Adwords Dengan Benar Untuk Meminimalisir Biaya</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.doxadigital.com/wp-content/uploads/2016/09/blog-doxadigital-google-adwords-vs-adsense.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.doxadigital.com/wp-content/uploads/2016/09/blog-doxadigital-google-adwords-vs-adsense.jpg" alt="Perbedaan Antara Google Adwords Dan Google Adsense Doxadigital Creative Agency" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Perbedaan Antara Google Adwords Dan Google Adsense Doxadigital Creative Agency</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images-na.ssl-images-amazon.com/images/I/81kJqShdPFL.jpg" target="_blank">
-							<img class="img-fluid" src="https://images-na.ssl-images-amazon.com/images/I/81kJqShdPFL.jpg" alt="Ultimate Guide To Google Adwords How To Access 100 Million People In 10 Minutes Ultimate Series Amazon Co Uk Marshall Rhodes 9781599185422 Books" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Ultimate Guide To Google Adwords How To Access 100 Million People In 10 Minutes Ultimate Series Amazon Co Uk Marshall Rhodes 9781599185422 Books</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images-na.ssl-images-amazon.com/images/I/412JOoqC53L._AC_UL600_SR480,600_.jpg" target="_blank">
-							<img class="img-fluid" src="https://images-na.ssl-images-amazon.com/images/I/412JOoqC53L._AC_UL600_SR480,600_.jpg" alt="Advanced Google Adwords Geddes Brad 0884769544216 Amazon Com Books" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Advanced Google Adwords Geddes Brad 0884769544216 Amazon Com Books</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://ioeti.org/wp-content/uploads/2019/08/2147928_247f_2.jpg" target="_blank">
-							<img class="img-fluid" src="https://ioeti.org/wp-content/uploads/2019/08/2147928_247f_2.jpg" alt="Google Adwords Display Ioeti" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Adwords Display Ioeti</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://blog.sribu.com/wp-content/uploads/2019/11/Tutorial-Lengkap-Mengunakan-Google-Adwords-0-649x325.jpg" target="_blank">
-							<img class="img-fluid" src="https://blog.sribu.com/wp-content/uploads/2019/11/Tutorial-Lengkap-Mengunakan-Google-Adwords-0-649x325.jpg" alt="Google Ads Adalah Salah Satu Fitur Google Ini Cara Menggunakannya" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Ads Adalah Salah Satu Fitur Google Ini Cara Menggunakannya</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.mainstreetroi.com/wp-content/uploads/2018/03/how-to-set-up-google-adwords.png" target="_blank">
-							<img class="img-fluid" src="https://www.mainstreetroi.com/wp-content/uploads/2018/03/how-to-set-up-google-adwords.png" alt="Everything You Need To Know To Get Started With Google Adwords" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Everything You Need To Know To Get Started With Google Adwords</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://edge45.co.uk/wp-content/uploads/2019/11/Google-ads-image-1150x1150.jpg" target="_blank">
-							<img class="img-fluid" src="https://edge45.co.uk/wp-content/uploads/2019/11/Google-ads-image-1150x1150.jpg" alt="The History Of Adwords A Comprehensive Timeline Edge45" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>The History Of Adwords A Comprehensive Timeline Edge45</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.techfor.id/wp-content/uploads/2019/12/google-adwords.png" target="_blank">
-							<img class="img-fluid" src="https://www.techfor.id/wp-content/uploads/2019/12/google-adwords.png" alt="Cara Beriklan Dan Mengembangkan Bisnis Anda Dengan Google Adwords" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Beriklan Dan Mengembangkan Bisnis Anda Dengan Google Adwords</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://dwblog-ecdf.kxcdn.com/wp-content/uploads/2018/08/google-ads-logo-dewaweb-1024x461.png" target="_blank">
-							<img class="img-fluid" src="https://dwblog-ecdf.kxcdn.com/wp-content/uploads/2018/08/google-ads-logo-dewaweb-1024x461.png" alt="Google Adwords Berubah Menjadi Google Ads Apa Perbedaannya" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Adwords Berubah Menjadi Google Ads Apa Perbedaannya</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=display+google+ads&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=display+google+ads&amp;tbm=isch" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gct2ewhlkkl6br1y6lbi5gj8koruib170uxsdsnqdj8do46vdge0 Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gct2ewhlkkl6br1y6lbi5gj8koruib170uxsdsnqdj8do46vdge0 Usqp Cau</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://webcdn-adespressoinc.netdna-ssl.com/wp-content/uploads/2018/12/Bids-Budgets-1024x472.png" target="_blank">
-							<img class="img-fluid" src="https://webcdn-adespressoinc.netdna-ssl.com/wp-content/uploads/2018/12/Bids-Budgets-1024x472.png" alt="How To Use Google Ads Recommendations Tool To Create Ads That Convert" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Use Google Ads Recommendations Tool To Create Ads That Convert</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://storage.googleapis.com/support-kms-prod/2xEzW6SOUYKuD5W9N4XxBUvtXu9RhJKsdMJ6" target="_blank">
-							<img class="img-fluid" src="https://storage.googleapis.com/support-kms-prod/2xEzW6SOUYKuD5W9N4XxBUvtXu9RhJKsdMJ6" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcqmyrjpwypozucm199s6iu9p Zx1dzkq22zkw Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcqmyrjpwypozucm199s6iu9p Zx1dzkq22zkw Usqp Cau</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://rectmedia.com/wp-content/uploads/2019/01/Cara-Memasang-Iklan-di-Google-1-1024x683.jpg" target="_blank">
-							<img class="img-fluid" src="https://rectmedia.com/wp-content/uploads/2019/01/Cara-Memasang-Iklan-di-Google-1-1024x683.jpg" alt="Apa Itu Google Adwords Pt Rect Media Komputindo" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Apa Itu Google Adwords Pt Rect Media Komputindo</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://5.imimg.com/data5/KT/QO/MY-54646436/google-adwords-services-500x500.jpg" target="_blank">
-							<img class="img-fluid" src="https://5.imimg.com/data5/KT/QO/MY-54646436/google-adwords-services-500x500.jpg" alt="" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p></p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/743/cached.offlinehbpl.hbpl.co.uk/news/OMC/adwordstoads-20180705093400942.jpg" target="_blank">
-							<img class="img-fluid" src="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/743/cached.offlinehbpl.hbpl.co.uk/news/OMC/adwordstoads-20180705093400942.jpg" alt="Google S Adwords Rebrand Signals A Move Away From Keyword Driven Sem" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google S Adwords Rebrand Signals A Move Away From Keyword Driven Sem</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://neilpatel.com/wp-content/uploads/2017/04/googleadwords.png" target="_blank">
-							<img class="img-fluid" src="https://neilpatel.com/wp-content/uploads/2017/04/googleadwords.png" alt="How To Dominate Adwords Using Close Variants" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Dominate Adwords Using Close Variants</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Ads_logo.svg/1200px-Google_Ads_logo.svg.png" target="_blank">
-							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Ads_logo.svg/1200px-Google_Ads_logo.svg.png" alt="Google Ads Wikipedia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Ads Wikipedia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.akudigital.com/bisnis-tips/wp-content/uploads/2020/05/google-adwords-600x400.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.akudigital.com/bisnis-tips/wp-content/uploads/2020/05/google-adwords-600x400.jpg" alt="5 Manfaat Google Adwords Iklan Di Pencarian Google Akudigital" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>5 Manfaat Google Adwords Iklan Di Pencarian Google Akudigital</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://customersnowmarketing.com/wp-content/uploads/2017/08/blog1.png" target="_blank">
-							<img class="img-fluid" src="http://customersnowmarketing.com/wp-content/uploads/2017/08/blog1.png" alt="Why Are Google Ads Powerful For Your Business Customers Now Marketing" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Why Are Google Ads Powerful For Your Business Customers Now Marketing</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://searchengineland.com/figz/wp-content/seloads/2015/09/google-adwords-green3-1920.jpg" target="_blank">
-							<img class="img-fluid" src="https://searchengineland.com/figz/wp-content/seloads/2015/09/google-adwords-green3-1920.jpg" alt="The Right Way To Get Dynamic With Google Adwords" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>The Right Way To Get Dynamic With Google Adwords</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://semrush-kb.s3.amazonaws.com/uploads/2018/09/18/1-google-ads.png" target="_blank">
-							<img class="img-fluid" src="https://semrush-kb.s3.amazonaws.com/uploads/2018/09/18/1-google-ads.png" alt="Importing A Google Ads Campaign To Semrush Workflow Semrush Toolkits Semrush" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Importing A Google Ads Campaign To Semrush Workflow Semrush Toolkits Semrush</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://wordstream-files-prod.s3.amazonaws.com/s3fs-public/styles/simple_image/public/images/media/images/new-google-ads-interface-1538738144.jpg?iIMEQgywJd9RBvFEAgLKyWX1EbfssKES&amp;itok=Dc59RzuA" target="_blank">
-							<img class="img-fluid" src="https://wordstream-files-prod.s3.amazonaws.com/s3fs-public/styles/simple_image/public/images/media/images/new-google-ads-interface-1538738144.jpg?iIMEQgywJd9RBvFEAgLKyWX1EbfssKES&amp;itok=Dc59RzuA" alt="How To Use Google Ads A Crash Course Wordstream" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Use Google Ads A Crash Course Wordstream</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.digitalmenta.com/wp-content/uploads/2019/04/vincular-google-adwords-con-google-analytics.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.digitalmenta.com/wp-content/uploads/2019/04/vincular-google-adwords-con-google-analytics.jpg" alt="Link Google Ads With Google Analytics Digital Menta" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Link Google Ads With Google Analytics Digital Menta</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://searchengineland.com/figz/wp-content/seloads/2019/03/google-ads-editor-screensnap.jpg" target="_blank">
-							<img class="img-fluid" src="https://searchengineland.com/figz/wp-content/seloads/2019/03/google-ads-editor-screensnap.jpg" alt="My Top 10 Favorite Things About The New Google Ads Editor" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>My Top 10 Favorite Things About The New Google Ads Editor</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://data-flair.training/blogs/wp-content/uploads/sites/2/2019/02/Google-AdWords-01.jpg" target="_blank">
-							<img class="img-fluid" src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2019/02/Google-AdWords-01.jpg" alt="How To Use Google Adwords Create Your Ad Campaign Dataflair" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Use Google Adwords Create Your Ad Campaign Dataflair</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.fixwebsiteissues.com/wp-content/uploads/2019/11/google-ads.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.fixwebsiteissues.com/wp-content/uploads/2019/11/google-ads.jpg" alt="Google Adwords How And Why To Use Fix Website Issues Fixing Website Erros And Hacked Website Repair" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Adwords How And Why To Use Fix Website Issues Fixing Website Erros And Hacked Website Repair</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://assets.contents.io/asset_DpLH1131.png" target="_blank">
-							<img class="img-fluid" src="https://assets.contents.io/asset_DpLH1131.png" alt="Google Adwords Advertising Integration Segment" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Adwords Advertising Integration Segment</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.doxadigital.com/wp-content/uploads/2019/04/biaya-google-adwords-google-ads.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.doxadigital.com/wp-content/uploads/2019/04/biaya-google-adwords-google-ads.jpg" alt="Biaya Google Adwords Dan Cara Tentukan Anggaran Iklan Google" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Biaya Google Adwords Dan Cara Tentukan Anggaran Iklan Google</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://developers.google.com/adwords/api/images/image-maps-legend.png" target="_blank">
-							<img class="img-fluid" src="https://developers.google.com/adwords/api/images/image-maps-legend.png" alt="Entity Relationships Adwords Api Google Developers" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Entity Relationships Adwords Api Google Developers</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.hallaminternet.com/assets/google-search-results-1024x759.png" target="_blank">
-							<img class="img-fluid" src="https://www.hallaminternet.com/assets/google-search-results-1024x759.png" alt="5 Beginner Tips For Dominating Google Ads" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>5 Beginner Tips For Dominating Google Ads</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://mk0hootsuiteblof6bud.kinstacdn.com/wp-content/uploads/2019/05/google-ads.svg" target="_blank">
-							<img class="img-fluid" src="https://mk0hootsuiteblof6bud.kinstacdn.com/wp-content/uploads/2019/05/google-ads.svg" alt="M5gsvankrvo4 M" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>M5gsvankrvo4 M</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.business2community.com/wp-content/uploads/2016/03/google-adwords-1024x576.png.png" target="_blank">
-							<img class="img-fluid" src="https://cdn.business2community.com/wp-content/uploads/2016/03/google-adwords-1024x576.png.png" alt="How To Use Google Adwords To Promote Your Content Business 2 Community" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Use Google Adwords To Promote Your Content Business 2 Community</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.searchenginejournal.com/wp-content/uploads/2018/06/google-ads.png" target="_blank">
-							<img class="img-fluid" src="https://cdn.searchenginejournal.com/wp-content/uploads/2018/06/google-ads.png" alt="Google Adwords Is Now Google Ads" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Adwords Is Now Google Ads</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lh3.googleusercontent.com/nupo3HWMIUeuul9r2IBSfpBo568bL-STG9nA71dUuW97DnhAXFgm2WWjczhTFqRHQZRf5VA-_PmxIZaIAXhOUrzfr5unPjFuW9za=w0" target="_blank">
-							<img class="img-fluid" src="https://lh3.googleusercontent.com/nupo3HWMIUeuul9r2IBSfpBo568bL-STG9nA71dUuW97DnhAXFgm2WWjczhTFqRHQZRf5VA-_PmxIZaIAXhOUrzfr5unPjFuW9za=w0" alt="Get More Customers With Easy Online Advertising Google Ads" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Get More Customers With Easy Online Advertising Google Ads</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=icon+google+ads&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=icon+google+ads&amp;tbm=isch" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcthmohhyscz4wrah3cus Cdwqdlcay1fsmekxzcxflvtd Vkpw1 Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcthmohhyscz4wrah3cus Cdwqdlcay1fsmekxzcxflvtd Vkpw1 Usqp Cau</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://kubix.digital/img/blog/_blogImageMain/google-adwords-new-updates-and-features.jpg" target="_blank">
-							<img class="img-fluid" src="https://kubix.digital/img/blog/_blogImageMain/google-adwords-new-updates-and-features.jpg" alt="The Most Important Google Adwords Product Updates 2017 Kubix Digital" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>The Most Important Google Adwords Product Updates 2017 Kubix Digital</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://storage.googleapis.com/support-forums-api/attachment/thread-29787494-16502299470454976594.jpg" target="_blank">
-							<img class="img-fluid" src="https://storage.googleapis.com/support-forums-api/attachment/thread-29787494-16502299470454976594.jpg" alt="Ada Yang Menjual Saldo Google Ads Limit 500 Ribu Harga 65 Ribu Ribu Bagaimana Cara Kerja Nya Google Ads Community" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Ada Yang Menjual Saldo Google Ads Limit 500 Ribu Harga 65 Ribu Ribu Bagaimana Cara Kerja Nya Google Ads Community</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://data-flair.training/blogs/wp-content/uploads/sites/2/2019/02/Benefits-of-Google-Ads.jpg" target="_blank">
-							<img class="img-fluid" src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2019/02/Benefits-of-Google-Ads.jpg" alt="How To Use Google Adwords Create Your Ad Campaign Dataflair" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Use Google Adwords Create Your Ad Campaign Dataflair</p> 
-					</div>
-				</div>
-						 
-		 
-
-	 	
-	
-					</div>
+		</div>
+				<div class="clearfix"></div> 
+		<div class="d-block mt-4 p-3">
+			Source : <a href="https://pinterest.com" rel="nofollow noopener">pinterest.com</a>
+		</div>
+						</div>
 				</div> 
 				<div class="col-md-3">
 					<div class="col-sm-12 widget">
-						<h3 class="widget-title">Random Posts</h3>
+						<h3 class="widget-title">RANDOM POST</h3>
 						<ul class="list-group">
-						 
-																	<li class="list-group-item"><a href="fenerbahce-vedat-muriqi.html">Fenerbahce Vedat Muriqi</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-real-life-kit-harington.html">Rose Leslie Real Life Kit Harington</a></li>
-																	<li class="list-group-item"><a href="galatasaray-yeni-forma-2020.html">Galatasaray Yeni Forma 2020</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="dynamo-dresden-k-block-logo.html">Dynamo Dresden K Block Logo</a></li>
-																	<li class="list-group-item"><a href="clement-rhum.html">Clement Rhum</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-bileklik.html">Fenerbahce Bileklik</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="sehenswuerdigkeit-jerewan-armenien.html">Sehenswuerdigkeit Jerewan Armenien</a></li>
-																	<li class="list-group-item"><a href="clement-rodzielski.html">Clement Rodzielski</a></li>
-																	<li class="list-group-item"><a href="google-doodle-hari-ini.html">Google Doodle Hari Ini</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="dynamo-dresden-u15.html">Dynamo Dresden U15</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-jersey-2020.html">Fenerbahce Jersey 2020</a></li>
-																	<li class="list-group-item"><a href="tuerkiye-aserbaidschan.html">Tuerkiye Aserbaidschan</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="fenerbahce-arka-plan.html">Fenerbahce Arka Plan</a></li>
-																	<li class="list-group-item"><a href="kit-harington-dancing.html">Kit Harington Dancing</a></li>
-																	<li class="list-group-item"><a href="galatasaray-dovme.html">Galatasaray Dovme</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="google-lens.html">Google Lens</a></li>
-																	<li class="list-group-item"><a href="google-inko.html">Google Inko</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-twitter.html">Fenerbahce Twitter</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="st-pauli-logo-skull.html">St Pauli Logo Skull</a></li>
-																	<li class="list-group-item"><a href="galatasaray-resimleri-2020.html">Galatasaray Resimleri 2020</a></li>
-																	<li class="list-group-item"><a href="aserbaidschan-landscape.html">Aserbaidschan Landscape</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="aserbaidschan-eu.html">Aserbaidschan Eu</a></li>
-																	<li class="list-group-item"><a href="aserbaidschan-fotos.html">Aserbaidschan Fotos</a></li>
-																	<li class="list-group-item"><a href="ryo-miyaichi-st-pauli.html">Ryo Miyaichi St Pauli</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="clement-white.html">Clement White</a></li>
-																	<li class="list-group-item"><a href="clement-of-alexandria.html">Clement Of Alexandria</a></li>
-																	<li class="list-group-item"><a href="weinladen-st-pauli.html">Weinladen St Pauli</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="google-bego.html">Google Bego</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-engagement-ring.html">Rose Leslie Engagement Ring</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-vs-hsv.html">Dynamo Dresden Vs Hsv</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="clement-grenier.html">Clement Grenier</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-seytan-kupa.html">Fenerbahce Seytan Kupa</a></li>
-																	<li class="list-group-item"><a href="google-elek.html">Google Elek</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="schalke-werder-bremen.html">Schalke Werder Bremen</a></li>
-																	<li class="list-group-item"><a href="armenien-urlaub-gefaehrlich.html">Armenien Urlaub Gefaehrlich</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-as-ygritte.html">Rose Leslie As Ygritte</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="armenien-urlaub.html">Armenien Urlaub</a></li>
-																	<li class="list-group-item"><a href="google-mask.html">Google Mask</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-liga.html">Dynamo Dresden Liga</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="clement-canopy.html">Clement Canopy</a></li>
-																	<li class="list-group-item"><a href="google-rainbow.html">Google Rainbow</a></li>
-																	<li class="list-group-item"><a href="clement-xplor-mso.html">Clement Xplor Mso</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="armenien-karte-heute.html">Armenien Karte Heute</a></li>
-																	<li class="list-group-item"><a href="armenien-bg.html">Armenien Bg</a></li>
-																	<li class="list-group-item"><a href="galatasaray-vs.html">Galatasaray Vs</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="google-in-1998.html">Google In 1998</a></li>
-																	<li class="list-group-item"><a href="galatasaray-fenerbahce-wallpaper.html">Galatasaray Fenerbahce Wallpaper</a></li>
-																	<li class="list-group-item"><a href="jeune-armenien.html">Jeune Armenien</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="clement-lenglet-france.html">Clement Lenglet France</a></li>
-																	<li class="list-group-item"><a href="tatev-armenien.html">Tatev Armenien</a></li>
-								 
+													<li class="list-group-item"><a href="/bayern-munich.html">Bayern Munich</a></li>
+													<li class="list-group-item"><a href="/google-calendar.html">Google Calendar</a></li>
+													<li class="list-group-item"><a href="/joaquin-phoenix.html">Joaquin Phoenix</a></li>
+													<li class="list-group-item"><a href="/vitamina-d.html">Vitamina D</a></li>
+													<li class="list-group-item"><a href="/adesanya.html">Adesanya</a></li>
+													<li class="list-group-item"><a href="/google-adwords.html">Google Adwords</a></li>
+													<li class="list-group-item"><a href="/azerbaiy%C3%A1n.html">Azerbaiyán</a></li>
+													<li class="list-group-item"><a href="/leeds.html">Leeds</a></li>
+													<li class="list-group-item"><a href="/cae.html">Cae</a></li>
+													<li class="list-group-item"><a href="/google-background.html">Google Background</a></li>
+													<li class="list-group-item"><a href="/google-ads.html">Google Ads</a></li>
+													<li class="list-group-item"><a href="/rooney-mara.html">Rooney Mara</a></li>
+													<li class="list-group-item"><a href="/kecmanovic.html">Kecmanovic</a></li>
+													<li class="list-group-item"><a href="/nadia-podoroska.html">Nadia Podoroska</a></li>
+													<li class="list-group-item"><a href="/google-cendekia.html">Google Cendekia</a></li>
+													<li class="list-group-item"><a href="/google-bisnisku.html">Google Bisnisku</a></li>
+													<li class="list-group-item"><a href="/google-bego.html">Google Bego</a></li>
+													<li class="list-group-item"><a href="/google-book.html">Google Book</a></li>
+													<li class="list-group-item"><a href="/ufc-253.html">Ufc 253</a></li>
+													<li class="list-group-item"><a href="/google-class.html">Google Class</a></li>
+													<li class="list-group-item"><a href="/google-bisnis.html">Google Bisnis</a></li>
+													<li class="list-group-item"><a href="/google-business.html">Google Business</a></li>
+													<li class="list-group-item"><a href="/bayern.html">Bayern</a></li>
+													<li class="list-group-item"><a href="/manchester-city.html">Manchester City</a></li>
+													<li class="list-group-item"><a href="/google-camera.html">Google Camera</a></li>
+													<li class="list-group-item"><a href="/google-amerika.html">Google Amerika</a></li>
+													<li class="list-group-item"><a href="/leeds-united.html">Leeds United</a></li>
+													<li class="list-group-item"><a href="/google-bahasa-inggris.html">Google Bahasa Inggris</a></li>
+													<li class="list-group-item"><a href="/google-account.html">Google Account</a></li>
+													<li class="list-group-item"><a href="/delbonis.html">Delbonis</a></li>
 						 
 						</ul>
 					</div>
 					<div class="col-sm-12 widget">
-						<script async="async" data-cfasync="false" src="//zqvee2re50mr.com/675cb813fbbeae53ce321baa240173f6/invoke.js"></script>
-<div id="container-675cb813fbbeae53ce321baa240173f6"></div>
 					</div>
 				</div> 
 			</div>
 			<div class="row footer">
 				<div class="col-md-12 text-center">
-										<a href="pages/dmca">Dmca</a>
-										<a href="pages/contact">Contact</a>
-										<a href="pages/privacy-policy">Privacy Policy</a>
-										<a href="pages/copyright">Copyright</a>
-					
-				</div>
+										<a href="/p/dmca.html">Dmca</a>
+										<a href="/p/contact.html">Contact</a>
+										<a href="/p/privacy-policy.html">Privacy Policy</a>
+										<a href="/p/copyright.html">Copyright</a>
+									</div>
 			</div>
 		</div>
 		<!-- <style>
@@ -1154,6 +376,31 @@ a{color: #f42966;text-decoration:none;}
 	  	<br>
 		<a href="#your-offer-url" target="_blank">CTA Link &rarr;</a>
 	</p>
-</div> -->		<script type='text/javascript' src='//zqvee2re50mr.com/a4/31/b2/a431b2df4b60e2629306f7e7e7465d31.js'></script>	</main>
-</body>
+</div> -->
+		<script type='text/javascript' src='//zqvee2re50mr.com/a4/31/b2/a431b2df4b60e2629306f7e7e7465d31.js'></script>	</main>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js" integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+
+	
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+	<script type='text/javascript'>
+		$(document).ready(function()
+	    {
+			$(document).on('click','#image-download',function(e)
+			{
+				e.preventDefault();
+				var url = $(this).data('url');
+				var title = $(this).data('title');			
+				var x=new XMLHttpRequest();
+				x.open( "GET", url , true);
+				x.responseType="blob";
+				x.onload= function(e){download(e.target.response, title, "image/jpg");};
+				x.send();
+			});
+	    });
+	</script>
+	</body>
 </html>

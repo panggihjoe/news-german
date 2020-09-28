@@ -4,1129 +4,357 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" integrity="sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=" crossorigin="anonymous" />
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">	
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<style type="text/css">
-html,body{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;font-weight:400;color:#e1e2e3;background:#111;}
-img{max-width:100%;} 
-.header{padding-bottom:13px;margin-bottom:13px;}
-.container{max-width:1024px;}
-.navbar{margin-bottom:25px;color:#f1f2f3;border-bottom:1px solid #222;background:#111 !important;} 
-.navbar .navbar-brand{margin:0 20px 0 0;font-size:28px;padding:0;line-height:24px;} 
-.row.header,.row.content,.row.footer{widthx:auto;max-widthx:100%;} 
-.row.footer{padding:30px 0;background:#f1ff2f3;border-color:#222;}
-.content .col-sm-12{padding:0;}
-.content .col-md-9s{margin-right:-25px;}  
-.posts-image{width:25%;display:block;float:left;}
-.posts-image-content{width:auto;margin:0 15px 35px 0;position:relative;}
-.posts-image:nth-child(5n) .posts-image-content{margin:0 0 35px 0 !important;} 
-.posts-image img{width:100%;height:150px;object-fit:cover;object-position:center;margin-bottom:10px;
-	-webkit-transition:0.6s opacity;transition:0.6s opacity;}
-.posts-image:hover img{opacity:0.8;}
-.posts-image:hover h2{background:rgba(0, 0, 0, 0.7);} 
-.posts-image h2{z-index:2;position:absolute;font-size:14px;bottom:2px;left:0;right:0;padding:5px;text-align:center;
-	-webkit-transition:0.6s opacity;transition:0.6s background;}
-.posts-image h2 a{color:#e1e2e3;}
-.posts-image-big{display:block;width:100%;}
-.posts-image-big .posts-image-content{margin:0 0 10px !important;}
-.posts-image-big img{height:380px;}
-.posts-image-big h2{text-align:left;padding-left:0;position:relative;font-size:30px;line-height:36px;}
-.posts-image-big h2 a{color:#e1e2e3;}
-.posts-image-big:hover h2{background:none;}
-.posts-image-single .posts-image-content,
-.posts-image-single:nth-child(5n) .posts-image-content{margin:0 15px 15px 0 !important;} 
-.posts-image-single p{font-size:12px;line-height:18px !important;} 
-.posts-images{clear:both;}
-.list-group{}
-.list-group li{padding:0;background:#222;}
-.list-group li a{display:block;padding:8px;}
-.widget{margin-bottom:20px;}
-h3.widget-title{font-size:20px;}
-a{color: #f42966;text-decoration:none;}  
-.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee;}
-.footer a{margin:0 15px;}
-.navi{margin:13px 0 13px 0;}
-.navi a{margin:5px 2px;font-size:95%;} 
-@media  only screen and (min-width:0px) and (max-width:991px){
-	.container{width:auto;max-width:100%;}.navbar{padding:5px 0;}.navbar .container{width:100%;margin:0 15px;}	
-}
-@media  only screen and (min-width:0px) and (max-width:767px){
-	.content .col-md-3{padding:15px;}
-}	 
-@media  only screen and (min-width:481px) and (max-width:640px){ 
-	.posts-image img{height:90px;}
-	.posts-image-big img{height:320px;}
-	.posts-image-single{width:33.3%;}
-	.posts-image-single:nth-child(3n) .posts-image-content{margin-right:0 !important;}
-}	
-@media  only screen and (min-width:0px) and (max-width:480px){
-	.posts-image img{height:80px;}
-	.posts-image-big img{height:240px;}
-	.posts-image-single{width:100%;} 
-	.posts-image-single .posts-image-content{margin:0 !important;}
-	.posts-image-single img{height:auto;}
-}	
+body,html{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;background:#fff}img{max-width:100%}.header{padding-bottom:13px;margin-bottom:13px}.container{max-width:1024px}.navbar{margin-bottom:25px;color:#f1f2f3;border-bottom:1px solid #e1e2e3}.navbar .navbar-brand{margin:0 20px 0 0;font-size:28px;padding:0;line-height:24px}.row.content,.row.footer,.row.header{widthx:auto;max-widthx:100%}.row.footer{padding:30px 0;background:0 0}.content .col-sm-12{padding:0}.content .col-md-9s{margin-right:-25px}.posts-image{width:25%;display:block;float:left}.posts-image-content{width:auto;margin:0 15px 35px 0;position:relative}.posts-image:nth-child(5n) .posts-image-content{margin:0 0 35px!important}.posts-image img{width:100%;height:150px;object-fit:cover;object-position:center;margin-bottom:10px;-webkit-transition:.6s opacity;transition:.6s opacity}.posts-image:hover img{opacity:.8}.posts-image:hover h2{background:rgba(0,0,0,.7)}.posts-image h2{z-index:2;position:absolute;font-size:14px;bottom:2px;left:0;right:0;padding:5px;text-align:center;-webkit-transition:.6s opacity;transition:.6s background}.posts-image h2 a{color:#fff}.posts-image-big{display:block;width:100%}.posts-image-big .posts-image-content{margin:0 0 10px!important}.posts-image-big img{height:380px}.posts-image-big h2{text-align:left;padding-left:0;position:relative;font-size:30px;line-height:36px}.posts-image-big h2 a{color:#111}.posts-image-big:hover h2{background:0 0}.posts-image-single .posts-image-content,.posts-image-single:nth-child(5n) .posts-image-content{margin:0 15px 15px 0!important}.posts-image-single p{font-size:12px;line-height:18px!important}.posts-images{clear:both}.list-group li{padding:0}.list-group li a{display:block;padding:8px}.widget{margin-bottom:20px}h3.widget-title{font-size:20px}a{color:#0000A0;text-decoration:none}.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee}.footer a{margin:0 15px}.navi{margin:13px 0}.navi a{margin:5px 2px;font-size:95%}@media  only screen and (min-width:0px) and (max-width:991px){.container{width:auto;max-width:100%}.navbar{padding:5px 0}.navbar .container{width:100%;margin:0 15px}}@media  only screen and (min-width:0px) and (max-width:767px){.content .col-md-3{padding:15px}}@media  only screen and (min-width:481px) and (max-width:640px){.posts-image img{height:90px}.posts-image-big img{height:320px}.posts-image-single{width:33.3%}.posts-image-single:nth-child(3n) .posts-image-content{margin-right:0!important}}@media  only screen and (min-width:0px) and (max-width:480px){.posts-image img{height:80px}.posts-image-big img{height:240px}.posts-image-single{width:100%}.posts-image-single .posts-image-content{margin:0!important}.posts-image-single img{height:auto}}.v-cover{height: 380px; object-fit: cover;}.v-image{height: 200px; object-fit: cover;}.main{margin-top: 6rem;}.form-inline .form-control{min-width: 300px;}
 	</style>
 	<title>Google Chrome</title>
 	<!-- Histats.com  START (hidden counter) -->
-<a href="/" alt="web site hit counter" target="_blank" >
-<img  src="//sstatic1.histats.com/0.gif?4454171&101" alt="web site hit counter" border="0">
-<!-- Histats.com  END  -->
+<a href="/" alt="" target="_blank" >
+<img  src="//sstatic1.histats.com/0.gif?4454171&101" alt="" border="0">
+<!-- Histats.com  END  -->]
 
-<script type='text/javascript' src='//zqvee2re50mr.com/7c/26/34/7c263438c0a922e610bc1e9951cbc44f.js'></script></head>
+<script type='text/javascript' src='//zqvee2re50mr.com/7c/26/34/7c263438c0a922e610bc1e9951cbc44f.js'></script>
+	<script type="application/ld+json">
+	{
+	  "@context" : "http://schema.org",
+	  "@type" : "Article",
+	  "name" : "Google Chrome",
+	  "author" : {
+	    "@type" : "Person",
+	    "name" : "Tamara Blezinsky"
+	  },
+	  "datePublished" : "2020-09-28",
+	  "image" : "https://i.pinimg.com/originals/fb/c0/59/fbc0599971b65c1789ad5d39e867f611.jpg",
+	  "articleSection" : "",
+	  "articleBody" : "",
+	  "url" : "/joaquin-phoenix.html",
+	  "publisher" : {
+	    "@type" : "Organization",
+	    "name" : "Was Heute im Trend liegt"
+	  },
+	  "aggregateRating" : {
+	    "@type" : "AggregateRating",
+	    "ratingValue" : "4.6",
+	    "ratingCount" : "1500"
+	  }
+	}
+	</script>
+</head>
 <body>
-	<main id="main">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-light ">
-			<div class="container">
-		  <a href="" class="navbar-brand">TRENDING NEWS</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto">				
-								<li class="nav-item"><a class="nav-link" href="pages/dmca">Dmca</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/contact">Contact</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/privacy-policy">Privacy Policy</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/copyright">Copyright</a></li>
-				 
-			</ul> 
-			</div>
-		  </div>
-		</nav>
+	<header class="bg-white fixed-top">			
+		<nav class="navbar navbar-light bg-white mb-0">
+			<div class="container justify-content-center justify-content-sm-between">	
+			  <a href="/" title="Was Heute im Trend liegt" class="navbar-brand mb-1">Was Heute im Trend liegt</a>
+			  <form class="form-inline mb-1" action="/" method="get">
+			    <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search and hit enter.." aria-label="Search">
+			  </form>	
+			</div>			  
+		</nav>				
+	</header>
+	<main id="main" class="main">
 		<div class="container">  
 			<div class="row content">
 				<div class="col-md-9">
-					<div class="col-sm-12">
+					<div class="col-sm-12 p-2">
 
 							<h1>Google Chrome</h1>
 
 	
-	<div class="navi text-left">
-					<p>Use one box for everything type in the address bar and get. Version 57 of google chrome arrives with several new features foremost among them a savings in the memory and cpu consumptionthe most popular browser in the world has always had a serious. Search the worlds information including webpages images videos and more. <br>
-															<a class="badge badge-light" href="google-chrome.html">google chrome</a>
-																																																																																													</p>
-			</div>
+	<div class="navi text-center">
+										<a class="badge badge-primary" href="/manchester-city.html">manchester city</a>
+											<a class="badge badge-secondary" href="/victoria-vanucci.html">victoria vanucci</a>
+											<a class="badge badge-info" href="/lebron-james.html">lebron james</a>
+											<a class="badge badge-success" href="/bayern-munich.html">bayern munich</a>
+											<a class="badge badge-warning" href="/sergio-berni.html">sergio berni</a>
+											<a class="badge badge-dark" href="/bayern.html">bayern</a>
+											<a class="badge badge-primary" href="/armenia.html">armenia</a>
+											<a class="badge badge-info" href="/joaquin-phoenix.html">joaquin phoenix</a>
+						</div>
 
 						<script async="async" data-cfasync="false" src="//zqvee2re50mr.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
 <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
 					</div> 
 					<div class="col-sm-12">					
-							
-	
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cnet3.cbsistatic.com/img/Z83NrzghHHtUJYRmWjLjSI6W7yM=/940x0/2019/05/09/11e2ae17-626d-4f80-9f18-8b8f6d0a34e3/google-chrome-logo-rubiks-cube-3.jpg" target="_blank">
-							<img class="img-fluid" src="https://cnet3.cbsistatic.com/img/Z83NrzghHHtUJYRmWjLjSI6W7yM=/940x0/2019/05/09/11e2ae17-626d-4f80-9f18-8b8f6d0a34e3/google-chrome-logo-rubiks-cube-3.jpg" alt="Google S Plan For Chrome Capability Has A Big Security Risk Cnet" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google S Plan For Chrome Capability Has A Big Security Risk Cnet</p> 
+						
+		
+	<div class="row">
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/2c/20/84/2c20847eac6d32d89e68b77204ab4111.png" data-lightbox="roadtrip" data-title="Chrome Web Browser By Google Chrome Apps Chrome Web App">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/2c/20/84/2c20847eac6d32d89e68b77204ab4111.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Chrome Web Browser By Google Chrome Apps Chrome Web App">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Chrome Web Browser By Google Chrome Apps Chrome Web App.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Chrome Web Browser By Google Chrome Apps Chrome Web App</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://zdnet4.cbsistatic.com/hub/i/r/2018/11/22/3537d7d0-bf96-401e-8d88-934f35884a16/resize/1200x900/ddb15e48489401c05500439e4d89692a/googlechrome.png" target="_blank">
-							<img class="img-fluid" src="https://zdnet4.cbsistatic.com/hub/i/r/2018/11/22/3537d7d0-bf96-401e-8d88-934f35884a16/resize/1200x900/ddb15e48489401c05500439e4d89692a/googlechrome.png" alt="Google Reveals Chrome Zero Day Under Active Attacks Zdnet" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Reveals Chrome Zero Day Under Active Attacks Zdnet</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn0-production-images-kly.akamaized.net/NdzZlVKizG60ss0sgSSFWUrHL-4=/673x379/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1128439/original/004296000_1454313560-Google_chrome.png" target="_blank">
-							<img class="img-fluid" src="https://cdn0-production-images-kly.akamaized.net/NdzZlVKizG60ss0sgSSFWUrHL-4=/673x379/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1128439/original/004296000_1454313560-Google_chrome.png" alt="Cara Hemat Kuota Data Internet Di Google Chrome Pada Pc Citizen6 Liputan6 Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Hemat Kuota Data Internet Di Google Chrome Pada Pc Citizen6 Liputan6 Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://storage.googleapis.com/support-forums-api/attachment/thread-9096874-14126381395424178007.jpg" target="_blank">
-							<img class="img-fluid" src="https://storage.googleapis.com/support-forums-api/attachment/thread-9096874-14126381395424178007.jpg" alt="Whats Meaning Whatsapp Work With Google Chrome 49 Google Chrome Community" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Whats Meaning Whatsapp Work With Google Chrome 49 Google Chrome Community</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn0-production-images-kly.akamaized.net/jAWEiJXDhy1m5TpwE-4pDoWeT6I=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/711463/original/google_chrome.png" target="_blank">
-							<img class="img-fluid" src="https://cdn0-production-images-kly.akamaized.net/jAWEiJXDhy1m5TpwE-4pDoWeT6I=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/711463/original/google_chrome.png" alt="7 Fitur Di Google Chrome Yang Patut Kamu Ketahui Tekno Liputan6 Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>7 Fitur Di Google Chrome Yang Patut Kamu Ketahui Tekno Liputan6 Com</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/35/84/1d/35841d4b9b4a549cc1148b19fc0f6569.png" data-lightbox="roadtrip" data-title="Google Chrome Download Latest Version 2020 Free Soft Famous Chrome Apps Chrome Download">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/35/84/1d/35841d4b9b4a549cc1148b19fc0f6569.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Google Chrome Download Latest Version 2020 Free Soft Famous Chrome Apps Chrome Download">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Google Chrome Download Latest Version 2020 Free Soft Famous Chrome Apps Chrome Download.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Google Chrome Download Latest Version 2020 Free Soft Famous Chrome Apps Chrome Download</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=10156682472414492" target="_blank">
-							<img class="img-fluid" src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=10156682472414492" alt="Google Chrome Home Facebook" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome Home Facebook</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.ayobandung.com/upload/bank_image/small/google-chrome-sekarang-bisa-lebih-cepat_thumb.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.ayobandung.com/upload/bank_image/small/google-chrome-sekarang-bisa-lebih-cepat_thumb.jpg" alt="Unik Google Chrome Sekarang Bisa Lebih Cepat" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Unik Google Chrome Sekarang Bisa Lebih Cepat</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lh3.googleusercontent.com/WiaHLUv4q0F1lZGdADq8IgrDGXQkbEEBwV-pjUfO9newcSypbOEqPUQFHs4cXrLKVw=w412-h220-rw" target="_blank">
-							<img class="img-fluid" src="https://lh3.googleusercontent.com/WiaHLUv4q0F1lZGdADq8IgrDGXQkbEEBwV-pjUfO9newcSypbOEqPUQFHs4cXrLKVw=w412-h220-rw" alt="Google Chrome Fast Secure Apps On Google Play" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome Fast Secure Apps On Google Play</p> 
-					</div>
-				</div>
-						 
-		 
-			<div class="posts-images"> 
-				<div class="text-left">
-					<h3>Google chrome is a fast easy to use and secure web browser.</h3>
-					<p class="text-center"><img src="https://asset-a.grid.id/crop/0x0:0x0/360x240/photo/2019/07/06/2612675367.jpg" style="margin-bottom: 8px;"></p>
-
-											<p>
-															<strong>Google chrome</strong>. 
-							
-															Google chrome integrates seamlessly with your google account gmail drive hangouts calendar etc. 
-															One of chromes biggest strengths is its comprehensive web store which contains thousands of apps extensions games. 
-															Google chrome finally reduces memory and cpu drain. 
-															Designed for android chrome brings you personalized news articles quick links to your favorite sites downloads and google search and google translate built in. 
-													</p>
-											<p>
-							
-															When you are connected with your account it is possible to synchronise data between several computers using google chrome. 
-															Zoom for google chrome. 
-															Extensions to organize your day. 
-															Download now to enjoy the same chrome web browser experience you love across all your devices. 
-													</p>
-											<p>
-							
-															Get more done with the new google chrome. 
-															Google has many special features to help you find exactly what youre looking for. 
-															For windows 108187 64 bit. 
-															For windows 108187 32 bit. 
-													</p>
-											<p>
-							
-															Google chrome is a browser that combines a minimal design with sophisticated technology to make the web faster safer and easier. 
-															Chrome is designed to offer its users a fast and easy browsing experience reason why its user interface is rather cleangoogle has put efforts into making its browser a safe one with great settings information and cookies management built in tools. 
-															A more simple secure and faster web browser than ever with googles smarts built in. 
-															Linguix is the best way to find and eliminate spelling issues in your english texts anywhere on the web. 
-													</p>
-											<p>
-							
-															While a few days ago we were singing the praises of all the novelties of the latest version of firefox today its the turn of its number 1 rival. 
-															Google chrome for windows and mac is a free web browser developed by internet giant google. 
-															Dualless for those who dont have dual monitor. 
-															This computer will no longer receive google chrome updates because windows xp and windows vista are no longer supported. 
-													</p>
-									</div> 
-			</div> 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn1-production-images-kly.akamaized.net/WuAOpLuPwKJJcf9D8TUPgbxS2T0=/673x379/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2948827/original/085122100_1571911847-google-chrome-sign.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn1-production-images-kly.akamaized.net/WuAOpLuPwKJJcf9D8TUPgbxS2T0=/673x379/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2948827/original/085122100_1571911847-google-chrome-sign.jpg" alt="Berita Google Chrome Hari Ini Kabar Terbaru Terkini Liputan6 Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Berita Google Chrome Hari Ini Kabar Terbaru Terkini Liputan6 Com</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/25/cb/12/25cb125f913f7af06ef4560d65fa75c7.png" data-lightbox="roadtrip" data-title="Pin By Next On My Board In 2020 Chrome Icon Google Chrome Logo">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/25/cb/12/25cb125f913f7af06ef4560d65fa75c7.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Pin By Next On My Board In 2020 Chrome Icon Google Chrome Logo">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Pin By Next On My Board In 2020 Chrome Icon Google Chrome Logo.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Pin By Next On My Board In 2020 Chrome Icon Google Chrome Logo</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Chrome_icon_%28September_2014%29.svg/1200px-Google_Chrome_icon_%28September_2014%29.svg.png" target="_blank">
-							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Chrome_icon_%28September_2014%29.svg/1200px-Google_Chrome_icon_%28September_2014%29.svg.png" alt="Google Chrome Wikipedia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome Wikipedia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://asset-a.grid.id/crop/0x0:0x0/360x240/photo/2019/07/06/2612675367.jpg" target="_blank">
-							<img class="img-fluid" src="https://asset-a.grid.id/crop/0x0:0x0/360x240/photo/2019/07/06/2612675367.jpg" alt="Google Berhenti Dukung Aplikasi Browser Chrome Mulai Juni 2020 Info Komputer" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Berhenti Dukung Aplikasi Browser Chrome Mulai Juni 2020 Info Komputer</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/7a/2c/f1/7a2cf11c-cab0-0aaf-5818-83f14add0b90/pr_source.png/643x0w.jpg" target="_blank">
-							<img class="img-fluid" src="https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/7a/2c/f1/7a2cf11c-cab0-0aaf-5818-83f14add0b90/pr_source.png/643x0w.jpg" alt="Google Chrome On The App Store" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome On The App Store</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://winpoin.com/wp-content/uploads/2020/04/Image-40-2.jpg" target="_blank">
-							<img class="img-fluid" src="https://winpoin.com/wp-content/uploads/2020/04/Image-40-2.jpg" alt="Cara Menjadikan Google Chrome Sebagai Browser Default Winpoin" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Menjadikan Google Chrome Sebagai Browser Default Winpoin</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/5a/c2/08/5ac2088221f700876c0630ba679d7da4.jpg" data-lightbox="roadtrip" data-title="Download Google Chrome 2020 Latest Update Version Google Chrome Chrome Google">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/5a/c2/08/5ac2088221f700876c0630ba679d7da4.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Download Google Chrome 2020 Latest Update Version Google Chrome Chrome Google">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Download Google Chrome 2020 Latest Update Version Google Chrome Chrome Google.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Download Google Chrome 2020 Latest Update Version Google Chrome Chrome Google</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.gadgets360cdn.com/large/google_chrome_69_signin_ndtv_1537789970245.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.gadgets360cdn.com/large/google_chrome_69_signin_ndtv_1537789970245.jpg" alt="Google Chrome Automatically Signs You In When You Log In To Gmail Or Youtube Should You Be Worried Ndtv Gadgets 360" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome Automatically Signs You In When You Log In To Gmail Or Youtube Should You Be Worried Ndtv Gadgets 360</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://risetcdn.jatimtimes.com/images/2020/06/19/Google-Chrome-Foto-Mashable-India0298f9c12420f435.jpg" target="_blank">
-							<img class="img-fluid" src="https://risetcdn.jatimtimes.com/images/2020/06/19/Google-Chrome-Foto-Mashable-India0298f9c12420f435.jpg" alt="Waspada 32 Juta Pengguna Google Chrome Terancam Virus Jahat Ini Bahayanya Jatim Times" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Waspada 32 Juta Pengguna Google Chrome Terancam Virus Jahat Ini Bahayanya Jatim Times</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.insider.com/5f2daa430ef18804090df487?width=600&amp;format=jpeg&amp;auto=webp" target="_blank">
-							<img class="img-fluid" src="https://i.insider.com/5f2daa430ef18804090df487?width=600&amp;format=jpeg&amp;auto=webp" alt="How To Stop Google Chrome From Blocking Downloads Business Insider" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Stop Google Chrome From Blocking Downloads Business Insider</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://selular.id/wp-content/uploads/2017/03/Google-Chrome.jpg" target="_blank">
-							<img class="img-fluid" src="https://selular.id/wp-content/uploads/2017/03/Google-Chrome.jpg" alt="Google Chrome Gulirkan Update Terbaru Untuk Iphone Selular Id" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome Gulirkan Update Terbaru Untuk Iphone Selular Id</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/dd/5f/3e/dd5f3e689b7b3bf91ec595ffa8594b2c.jpg" data-lightbox="roadtrip" data-title="How To Downlaod Install Google Chrome 2015 100 Working Business Advertising Google Chrome Computer Knowledge">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/dd/5f/3e/dd5f3e689b7b3bf91ec595ffa8594b2c.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="How To Downlaod Install Google Chrome 2015 100 Working Business Advertising Google Chrome Computer Knowledge">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="How To Downlaod Install Google Chrome 2015 100 Working Business Advertising Google Chrome Computer Knowledge.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">How To Downlaod Install Google Chrome 2015 100 Working Business Advertising Google Chrome Computer Knowledge</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://petunjuk.id/wp-content/uploads/2020/07/Tentang-Google-Chrome.jpg" target="_blank">
-							<img class="img-fluid" src="https://petunjuk.id/wp-content/uploads/2020/07/Tentang-Google-Chrome.jpg" alt="Cara Update Google Chrome Pc Versi Terbaru Dengan Cepat" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Update Google Chrome Pc Versi Terbaru Dengan Cepat</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn2.portableapps.com/GoogleChromePortable_small.png" target="_blank">
-							<img class="img-fluid" src="https://cdn2.portableapps.com/GoogleChromePortable_small.png" alt="Google Chrome Portable Web Browser Portableapps Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome Portable Web Browser Portableapps Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images.macrumors.com/article-new/2020/09/ios14-and-default-chrome-feature.jpg" target="_blank">
-							<img class="img-fluid" src="https://images.macrumors.com/article-new/2020/09/ios14-and-default-chrome-feature.jpg" alt="Ios 14 How To Set Google Chrome As The Default Browser On Iphone And Ipad Macrumors" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Ios 14 How To Set Google Chrome As The Default Browser On Iphone And Ipad Macrumors</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://screenshots.dgtcdn.net/images/t_app-cover-s,f_auto/p/b2e6d43a-96bf-11e6-a674-00163ed833e7/945312510/chrome-google-chrome_screen1.jpg" target="_blank">
-							<img class="img-fluid" src="https://screenshots.dgtcdn.net/images/t_app-cover-s,f_auto/p/b2e6d43a-96bf-11e6-a674-00163ed833e7/945312510/chrome-google-chrome_screen1.jpg" alt="Download Google Chrome For Windows Free 74 0 3729 6" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Download Google Chrome For Windows Free 74 0 3729 6</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/47/a0/7b/47a07bec4f23949a8c6f434186fab722.png" data-lightbox="roadtrip" data-title="Navegador Da Web Google Chrome Google Chrome Web Google Google">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/47/a0/7b/47a07bec4f23949a8c6f434186fab722.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Navegador Da Web Google Chrome Google Chrome Web Google Google">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Navegador Da Web Google Chrome Google Chrome Web Google Google.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Navegador Da Web Google Chrome Google Chrome Web Google Google</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Google_Chrome_75_screenshot.png/1200px-Google_Chrome_75_screenshot.png" target="_blank">
-							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Google_Chrome_75_screenshot.png/1200px-Google_Chrome_75_screenshot.png" alt="Google Chrome Wikidata" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome Wikidata</p> 
-					</div>
+			</div>
+		</div>
+			 
+					<div class="col-12 mb-4">
+				<div class="card">
+										<img class="card-img-top v-cover" src="https://i.pinimg.com/564x/8a/82/4b/8a824b57c393449c3244e5c73bdf99cc.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Navegador Da Web Google Chrome Google Chrome Web Google Google">
+										<div class="card-body">
+						<h3 class="h5"><b></b></h3>
+												<div class="col-sm-12 widget"><strong>Related Posts:</strong>
+						<li class="list-group-item"><a href="/joaquin-phoenix.html">Google Chrome</a></li>
+						<li class="list-group-item"><a href="/joaquin-phoenix.html">Joaquin Phoenix</a></li></div>
+						<div class="p-2">Published on:<time class="p-2" itemprop="datePublished" datetime="2020-09-28">2020-09-28</time>
+						<meta itemprop="dateModified" content="2020-09-28">
+						<itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+						By <itemprop="name"><a href="#" title="Posts by Wick Wick" rel="author">Wick Wick</a></div>
+					</div> 
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.xda-developers.com/files/2020/09/Google-Chrome-85-Secure-DNS-Android-featured.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.xda-developers.com/files/2020/09/Google-Chrome-85-Secure-DNS-Android-featured.jpg" alt="Google Chrome For Android Adds Secure Dns For Safer More Private Browsing" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome For Android Adds Secure Dns For Safer More Private Browsing</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://fajar.co.id/wp-content/uploads/2020/07/enCNPo3ZFN63WQpTnG6abV-1200-80-750x469-1-700x469.png" target="_blank">
-							<img class="img-fluid" src="https://fajar.co.id/wp-content/uploads/2020/07/enCNPo3ZFN63WQpTnG6abV-1200-80-750x469-1-700x469.png" alt="Waspada Update Google Chrome Palsu Fajar" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Waspada Update Google Chrome Palsu Fajar</p> 
-					</div>
-				</div>
-						 
+			</div>
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.wizcase.com/wp-content/uploads/2020/02/Download-Chrome-1.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.wizcase.com/wp-content/uploads/2020/02/Download-Chrome-1.jpg" alt="Google Chrome Versi Terbaru 2020 Download Gratis Dan Review" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome Versi Terbaru 2020 Download Gratis Dan Review</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/564x/8a/82/4b/8a824b57c393449c3244e5c73bdf99cc.jpg" data-lightbox="roadtrip" data-title="Google Chrome Download Google Chrome App Google Chrome App Download Tecteem In 2020 Chrome Apps Chrome Web App">
+											<img class="card-img v-image" src="https://i.pinimg.com/564x/8a/82/4b/8a824b57c393449c3244e5c73bdf99cc.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Google Chrome Download Google Chrome App Google Chrome App Download Tecteem In 2020 Chrome Apps Chrome Web App">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Google Chrome Download Google Chrome App Google Chrome App Download Tecteem In 2020 Chrome Apps Chrome Web App.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Google Chrome Download Google Chrome App Google Chrome App Download Tecteem In 2020 Chrome Apps Chrome Web App</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://static.toiimg.com/thumb/msid-72370719,width-1200,resizemode-4/72370719.jpg" target="_blank">
-							<img class="img-fluid" src="https://static.toiimg.com/thumb/msid-72370719,width-1200,resizemode-4/72370719.jpg" alt="Google Chrome Update Google Chrome Now Allows Users To Search Drive Data From The Address Bar Latest News Gadgets Now" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome Update Google Chrome Now Allows Users To Search Drive Data From The Address Bar Latest News Gadgets Now</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi/f3wgsrnhm38n5ybm_1582718515.jpeg?tr=w-812,h-464" target="_blank">
-							<img class="img-fluid" src="https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi/f3wgsrnhm38n5ybm_1582718515.jpeg?tr=w-812,h-464" alt="Google Chrome Hit With Critical Bug Update Now And Ensure Data Safety Details Here Republic World" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome Hit With Critical Bug Update Now And Ensure Data Safety Details Here Republic World</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://selular.id/wp-content/uploads/2018/07/Google-Chrome-Logo-1080x675-1200x750.jpg" target="_blank">
-							<img class="img-fluid" src="https://selular.id/wp-content/uploads/2018/07/Google-Chrome-Logo-1080x675-1200x750.jpg" alt="Google Chrome Hadirkan Fitur Live Captions Di Desktop Selular Id" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome Hadirkan Fitur Live Captions Di Desktop Selular Id</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.searchenginejournal.com/wp-content/uploads/2020/08/chrome-86-dev-tools-5f3fa01e3db7d-760x400.png" target="_blank">
-							<img class="img-fluid" src="https://cdn.searchenginejournal.com/wp-content/uploads/2020/08/chrome-86-dev-tools-5f3fa01e3db7d-760x400.png" alt="Google Chrome 86 Dev Tools Update" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome 86 Dev Tools Update</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/33/5f/19/335f1992deafdd78d8fae6fee19e0b12.jpg" data-lightbox="roadtrip" data-title="Color Chrome Logo Logos Logo Google Blog Logo">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/33/5f/19/335f1992deafdd78d8fae6fee19e0b12.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Color Chrome Logo Logos Logo Google Blog Logo">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Color Chrome Logo Logos Logo Google Blog Logo.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Color Chrome Logo Logos Logo Google Blog Logo</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://sukabumiupdate.com/uploads/news/images/770x413/-_200311211918-830.jpg" target="_blank">
-							<img class="img-fluid" src="https://sukabumiupdate.com/uploads/news/images/770x413/-_200311211918-830.jpg" alt="Cara Mematikan Pemberitahuan Permintaan Pop Up Di Google Chrome" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Mematikan Pemberitahuan Permintaan Pop Up Di Google Chrome</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://berita.teknologi.id/uploads/article/1596475121_image.png" target="_blank">
-							<img class="img-fluid" src="https://berita.teknologi.id/uploads/article/1596475121_image.png" alt="4 Cara Memperbaiki Google Chrome Yang Tidak Bisa Dibuka Di Pc Teknologi Id" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>4 Cara Memperbaiki Google Chrome Yang Tidak Bisa Dibuka Di Pc Teknologi Id</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://asset.kompas.com/crops/gqWZLj82w2ApMN26RzoN_gmnuUc=/39x0:702x442/750x500/data/photo/2019/07/20/5d32922b871e9.jpg" target="_blank">
-							<img class="img-fluid" src="https://asset.kompas.com/crops/gqWZLj82w2ApMN26RzoN_gmnuUc=/39x0:702x442/750x500/data/photo/2019/07/20/5d32922b871e9.jpg" alt="Tab Di Google Chrome Kini Bisa Diwarnai Dan Dikelompokkan" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Tab Di Google Chrome Kini Bisa Diwarnai Dan Dikelompokkan</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.wikihow.com/images_en/thumb/4/45/Update-Google-Chrome-Step-1-Version-7.jpg/v4-460px-Update-Google-Chrome-Step-1-Version-7.jpg.webp" target="_blank">
-							<img class="img-fluid" src="https://www.wikihow.com/images_en/thumb/4/45/Update-Google-Chrome-Step-1-Version-7.jpg/v4-460px-Update-Google-Chrome-Step-1-Version-7.jpg.webp" alt="3 Cara Untuk Memperbarui Google Chrome Wikihow" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>3 Cara Untuk Memperbarui Google Chrome Wikihow</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/fc/9e/66/fc9e6687bd1b63080ab3d1a0369bcbb2.png" data-lightbox="roadtrip" data-title="11 Cool Google Chrome Extensions For Youtube">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/fc/9e/66/fc9e6687bd1b63080ab3d1a0369bcbb2.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="11 Cool Google Chrome Extensions For Youtube">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="11 Cool Google Chrome Extensions For Youtube.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">11 Cool Google Chrome Extensions For Youtube</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.google.com/chrome/static/images/benefits/module-1/save_password_global_desktop.png" target="_blank">
-							<img class="img-fluid" src="https://www.google.com/chrome/static/images/benefits/module-1/save_password_global_desktop.png" alt="Google Chrome Web Browser" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome Web Browser</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=firefox+logo&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=firefox+logo&amp;tbm=isch" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcsxlpvvwqa6ligbvyxbkm7qkrjvzbkqrtloybe 4njqlpizrfqz Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcsxlpvvwqa6ligbvyxbkm7qkrjvzbkqrtloybe 4njqlpizrfqz Usqp Cau</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images.idgesg.net/images/article/2018/02/slide-14_chrome-logo-100748748-large.jpg" target="_blank">
-							<img class="img-fluid" src="https://images.idgesg.net/images/article/2018/02/slide-14_chrome-logo-100748748-large.jpg" alt="How Ad Blocking Works In Google S Chrome Browser Computerworld" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How Ad Blocking Works In Google S Chrome Browser Computerworld</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cyberthreat.id/gbr_artikel/chrome_12.jpg" target="_blank">
-							<img class="img-fluid" src="https://cyberthreat.id/gbr_artikel/chrome_12.jpg" alt="News Protokol Doh Di Google Chrome Dikritik Ancaman Kian Terbuka Cyberthreat Id" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>News Protokol Doh Di Google Chrome Dikritik Ancaman Kian Terbuka Cyberthreat Id</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/fb/c0/59/fbc0599971b65c1789ad5d39e867f611.jpg" data-lightbox="roadtrip" data-title="Free Download Google Chrome For Pc Mobile Android Ipad Iphone Mac Linux Free Download Download Free">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/fb/c0/59/fbc0599971b65c1789ad5d39e867f611.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Free Download Google Chrome For Pc Mobile Android Ipad Iphone Mac Linux Free Download Download Free">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Free Download Google Chrome For Pc Mobile Android Ipad Iphone Mac Linux Free Download Download Free.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Free Download Google Chrome For Pc Mobile Android Ipad Iphone Mac Linux Free Download Download Free</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://venturebeat.com/wp-content/uploads/2018/01/chrome_firefox_logos.png?w=1200&amp;strip=all" target="_blank">
-							<img class="img-fluid" src="https://venturebeat.com/wp-content/uploads/2018/01/chrome_firefox_logos.png?w=1200&amp;strip=all" alt="Probeat Google Chrome And Mozilla Firefox Are Bringing Back The Browser Wars Venturebeat" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Probeat Google Chrome And Mozilla Firefox Are Bringing Back The Browser Wars Venturebeat</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://s0.bukalapak.com/uploads/content_attachment/0d8542de1222337f695cebb5/w-744/blogger-chrome-extension-main.jpg" target="_blank">
-							<img class="img-fluid" src="https://s0.bukalapak.com/uploads/content_attachment/0d8542de1222337f695cebb5/w-744/blogger-chrome-extension-main.jpg" alt="7 Ekstensi Google Chrome Wajib Instal Untuk Para Blogger Bukareview" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>7 Ekstensi Google Chrome Wajib Instal Untuk Para Blogger Bukareview</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://9to5google.com/wp-content/uploads/sites/4/2020/02/google_chrome_microsoft_edge_1.jpg?quality=82&amp;strip=all&amp;w=1600" target="_blank">
-							<img class="img-fluid" src="https://9to5google.com/wp-content/uploads/sites/4/2020/02/google_chrome_microsoft_edge_1.jpg?quality=82&amp;strip=all&amp;w=1600" alt="Google Pushes Microsoft Edge Users To Chrome W Pop Ups 9to5google" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Pushes Microsoft Edge Users To Chrome W Pop Ups 9to5google</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.pinimg.com/originals/d9/60/4c/d9604cb7482f822bd76b396bd563ad26.png" target="_blank">
-							<img class="img-fluid" src="https://i.pinimg.com/originals/d9/60/4c/d9604cb7482f822bd76b396bd563ad26.png" alt="Icone Google Chrome Hd Vector Illustrator Ai Google Logo New Chrome Google" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Icone Google Chrome Hd Vector Illustrator Ai Google Logo New Chrome Google</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.akurat.co/images/uploads/images/akurat_20190211081051_1868gI.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.akurat.co/images/uploads/images/akurat_20190211081051_1868gI.jpg" alt="Iptek Google Chrome Menghadirkan Fitur Live Caption Untuk Desktop" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Iptek Google Chrome Menghadirkan Fitur Live Caption Untuk Desktop</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://delante.co/wp-content/uploads/2019/11/przegladarka-google-chrome-definicja.png" target="_blank">
-							<img class="img-fluid" src="https://delante.co/wp-content/uploads/2019/11/przegladarka-google-chrome-definicja.png" alt="Google Chrome What Is It Definition Delante Seo Sem Glossary" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome What Is It Definition Delante Seo Sem Glossary</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://asset.kompas.com/crop/0x0:1000x500/780x390/data/photo/2018/09/05/3233801457.jpg" target="_blank">
-							<img class="img-fluid" src="https://asset.kompas.com/crop/0x0:1000x500/780x390/data/photo/2018/09/05/3233801457.jpg" alt="Ulang Tahun Google Chrome Dapat Penyegaran Tampilan" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Ulang Tahun Google Chrome Dapat Penyegaran Tampilan</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://venturebeat.com/wp-content/uploads/2018/09/chrome-logo-evolution.png?w=1200&amp;strip=all" target="_blank">
-							<img class="img-fluid" src="https://venturebeat.com/wp-content/uploads/2018/09/chrome-logo-evolution.png?w=1200&amp;strip=all" alt="As Chrome Turns 10 Google Bets On Ai And Ar Venturebeat" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>As Chrome Turns 10 Google Bets On Ai And Ar Venturebeat</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn1-production-images-kly.akamaized.net/E0Jjvx1ngnFmFAA6Ne1kL0tB0_c=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2351315/original/090397900_1536124065-Google_crome.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn1-production-images-kly.akamaized.net/E0Jjvx1ngnFmFAA6Ne1kL0tB0_c=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2351315/original/090397900_1536124065-Google_crome.jpg" alt="Google Perbaiki Fitur Login Otomatis Pada Pembaruan Chrome Terbaru Tekno Liputan6 Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Perbaiki Fitur Login Otomatis Pada Pembaruan Chrome Terbaru Tekno Liputan6 Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images.sftcdn.net/images/t_app-cover-m,f_auto/p/b2e6d43a-96bf-11e6-a674-00163ed833e7/2066122660/chrome-Chrome1.png" target="_blank">
-							<img class="img-fluid" src="https://images.sftcdn.net/images/t_app-cover-m,f_auto/p/b2e6d43a-96bf-11e6-a674-00163ed833e7/2066122660/chrome-Chrome1.png" alt="Download Google Chrome 64 Bit Free Latest Version" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Download Google Chrome 64 Bit Free Latest Version</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://storage.googleapis.com/support-forums-api/attachment/thread-5704780-10204637833206474331.jpg" target="_blank">
-							<img class="img-fluid" src="https://storage.googleapis.com/support-forums-api/attachment/thread-5704780-10204637833206474331.jpg" alt="Unable To Change Chrome Theme It Only Change The Top Bar Google Chrome Community" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Unable To Change Chrome Theme It Only Change The Top Bar Google Chrome Community</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://developers.google.com/web/tools/chrome-devtools/images/inspect.png" target="_blank">
-							<img class="img-fluid" src="https://developers.google.com/web/tools/chrome-devtools/images/inspect.png" alt="Open Chrome Devtools Google Developers" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Open Chrome Devtools Google Developers</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://idwebhost.com/blog/wp-content/uploads/2018/07/3.jpg" target="_blank">
-							<img class="img-fluid" src="https://idwebhost.com/blog/wp-content/uploads/2018/07/3.jpg" alt="Wajib Diketahui 5 Ekstensi Vpn Terbaik Untuk Google Chrome" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Wajib Diketahui 5 Ekstensi Vpn Terbaik Untuk Google Chrome</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.xda-developers.com/files/2020/04/Google-Chrome-featured-2.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.xda-developers.com/files/2020/04/Google-Chrome-featured-2.jpg" alt="Google Chrome In Lite Mode Will Stream Videos In Low Resolution To Save Data" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome In Lite Mode Will Stream Videos In Low Resolution To Save Data</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.idntimes.com/content-images/community/2020/05/untitled-2-91711930525e101d36a0a9a8f88db49f.png" target="_blank">
-							<img class="img-fluid" src="https://cdn.idntimes.com/content-images/community/2020/05/untitled-2-91711930525e101d36a0a9a8f88db49f.png" alt="Gak Ada Internet Ini Cara Ubah Dino Di Game Google Chrome Jadi Sonic" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Gak Ada Internet Ini Cara Ubah Dino Di Game Google Chrome Jadi Sonic</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://download.id/wp-content/uploads/2014/10/google-chrome.png" target="_blank">
-							<img class="img-fluid" src="https://download.id/wp-content/uploads/2014/10/google-chrome.png" alt="Download Google Chrome Terbaru Gratis 85 0 4183 121 Offline Installer" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Download Google Chrome Terbaru Gratis 85 0 4183 121 Offline Installer</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=firefox&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=firefox&amp;tbm=isch" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcqblomxgjqaab2lqlyu7ukx1elam 3jkcjbysf9kdv9iqjjblou Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcqblomxgjqaab2lqlyu7ukx1elam 3jkcjbysf9kdv9iqjjblou Usqp Cau</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2020/02/07/537067637.png" target="_blank">
-							<img class="img-fluid" src="https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2020/02/07/537067637.png" alt="Update Pihak Google Akan Blokir Iklan Berat Di Google Chrome Ringtimes Banyuwangi" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Update Pihak Google Akan Blokir Iklan Berat Di Google Chrome Ringtimes Banyuwangi</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://mmc.tirto.id/image/otf/880x495/2017/08/07/Aplikasi-google-02--ISTOCK_ratio-16x9.jpg" target="_blank">
-							<img class="img-fluid" src="https://mmc.tirto.id/image/otf/880x495/2017/08/07/Aplikasi-google-02--ISTOCK_ratio-16x9.jpg" alt="Cara Setting Google Chrome Untuk Melindungi Privasi Tirto Id" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Setting Google Chrome Untuk Melindungi Privasi Tirto Id</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://9to5google.com/wp-content/uploads/sites/4/2019/04/google-chrome-cloud-cover.png?w=1600" target="_blank">
-							<img class="img-fluid" src="https://9to5google.com/wp-content/uploads/sites/4/2019/04/google-chrome-cloud-cover.png?w=1600" alt="Google Chrome Boosts App Malware Defense W Cloud Scans 9to5google" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome Boosts App Malware Defense W Cloud Scans 9to5google</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://mytechdecisions.com/wp-content/uploads/2020/04/Untitled-1000x500.png" target="_blank">
-							<img class="img-fluid" src="https://mytechdecisions.com/wp-content/uploads/2020/04/Untitled-1000x500.png" alt="Tab Groups Available In New Google Chrome Update My Techdecisions" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Tab Groups Available In New Google Chrome Update My Techdecisions</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lh3.googleusercontent.com/WPIJiEaY1kOU3-zogfv11ILu-mCaKhdq7hy2LXZ7JoLFTqGW3ZUXpRCTM7_dvPuBgB0" target="_blank">
-							<img class="img-fluid" src="https://lh3.googleusercontent.com/WPIJiEaY1kOU3-zogfv11ILu-mCaKhdq7hy2LXZ7JoLFTqGW3ZUXpRCTM7_dvPuBgB0" alt="Google Chrome Fast Secure Apps On Google Play" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome Fast Secure Apps On Google Play</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://asset-a.grid.id/crop/0x0:0x0/360x240/photo/2018/09/06/785274387.jpg" target="_blank">
-							<img class="img-fluid" src="https://asset-a.grid.id/crop/0x0:0x0/360x240/photo/2018/09/06/785274387.jpg" alt="Google Chrome Akan Singkirkan Iklan Yang Halangi Tampilan Konten Info Komputer" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome Akan Singkirkan Iklan Yang Halangi Tampilan Konten Info Komputer</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.howtogeek.com/wp-content/uploads/2020/02/Google-Chrome-Logo-2.png" target="_blank">
-							<img class="img-fluid" src="https://www.howtogeek.com/wp-content/uploads/2020/02/Google-Chrome-Logo-2.png" alt="How To Install Or Uninstall The Google Chrome Browser" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Install Or Uninstall The Google Chrome Browser</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.tenforums.com/attachments/tutorials/115664d1483378160-change-homepage-google-chrome-windows-chrome_default_homepage.png" target="_blank">
-							<img class="img-fluid" src="https://www.tenforums.com/attachments/tutorials/115664d1483378160-change-homepage-google-chrome-windows-chrome_default_homepage.png" alt="Change Homepage In Google Chrome For Windows Tutorials" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Change Homepage In Google Chrome For Windows Tutorials</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://api.jatimnet.com/jinet/assets/media/news/news/image_front/Chrome_akan_Peringatkan_Pengguna_Terkait_Unduhan_Berbahaya.png" target="_blank">
-							<img class="img-fluid" src="http://api.jatimnet.com/jinet/assets/media/news/news/image_front/Chrome_akan_Peringatkan_Pengguna_Terkait_Unduhan_Berbahaya.png" alt="Chrome Akan Peringatkan Pengguna Dari Unduhan Berbahaya" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Chrome Akan Peringatkan Pengguna Dari Unduhan Berbahaya</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://static.arenalte.com/uploads/2018/10/Google-Chrome-Explore-1.jpg" target="_blank">
-							<img class="img-fluid" src="https://static.arenalte.com/uploads/2018/10/Google-Chrome-Explore-1.jpg" alt="Google Hadirkan Fitur Baru Explore Pada Antarmuka Browser Chrome" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Hadirkan Fitur Baru Explore Pada Antarmuka Browser Chrome</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.pcmag.com/imagery/reviews/068mCnb1wutJY2XXnLJBXrD-6.1569477855.fit_scale.size_1028x578.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.pcmag.com/imagery/reviews/068mCnb1wutJY2XXnLJBXrD-6.1569477855.fit_scale.size_1028x578.jpg" alt="Google Chrome Review Pcmag" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome Review Pcmag</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.google.com/chrome/static/images/dev/chrome-dev-logo.svg" target="_blank">
-							<img class="img-fluid" src="https://www.google.com/chrome/static/images/dev/chrome-dev-logo.svg" alt="Chrome Dev" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Chrome Dev</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://asset-a.grid.id/crop/0x0:0x0/360x240/photo/2020/06/12/1651756065.jpg" target="_blank">
-							<img class="img-fluid" src="https://asset-a.grid.id/crop/0x0:0x0/360x240/photo/2020/06/12/1651756065.jpg" alt="Nih Fitur Fitur Unik Google Chrome Yang Menarik Anda Ketahui Semua Halaman Info Komputer" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Nih Fitur Fitur Unik Google Chrome Yang Menarik Anda Ketahui Semua Halaman Info Komputer</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn1.katadata.co.id/media/images/thumb/2020/05/08/Pac-Man-2020_05_08-15_54_14_f1ed0dfe7f259083dce497ffa81449b6_620x413_thumb.png" target="_blank">
-							<img class="img-fluid" src="https://cdn1.katadata.co.id/media/images/thumb/2020/05/08/Pac-Man-2020_05_08-15_54_14_f1ed0dfe7f259083dce497ffa81449b6_620x413_thumb.png" alt="Ahli It Waspadai Update Palsu Google Chrome Berisi Malware Gadget Katadata Co Id" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Ahli It Waspadai Update Palsu Google Chrome Berisi Malware Gadget Katadata Co Id</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/Ew_ReoK1zMc/maxresdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/Ew_ReoK1zMc/maxresdefault.jpg" alt="How To Install Google Chrome On Windows 10 2020 Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Install Google Chrome On Windows 10 2020 Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.thesslstore.com/blog/wp-content/uploads/2020/06/google-chrome-one-year-validity.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.thesslstore.com/blog/wp-content/uploads/2020/06/google-chrome-one-year-validity.jpg" alt="Google Chrome To Join Apple S Safari In One Year Certificate Validity Hashed Out By The Ssl Store" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome To Join Apple S Safari In One Year Certificate Validity Hashed Out By The Ssl Store</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.neow.in/news/images/uploaded/2018/09/1536096832_google_chrome_69.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.neow.in/news/images/uploaded/2018/09/1536096832_google_chrome_69.jpg" alt="Google Chrome 84 0 4147 125 Offline Installer Neowin" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome 84 0 4147 125 Offline Installer Neowin</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.vox-cdn.com/thumbor/NLK4aejILPo4V8SLeX0Z0jtFuPU=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/6676117/chromelogo.0.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.vox-cdn.com/thumbor/NLK4aejILPo4V8SLeX0Z0jtFuPU=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/6676117/chromelogo.0.jpg" alt="Microsoft Removes Google S Chrome Installer From The Windows Store The Verge" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Microsoft Removes Google S Chrome Installer From The Windows Store The Verge</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://tr2.cbsistatic.com/hub/i/2018/08/31/745bf1bd-3547-4db4-b1aa-097d4db48155/00-birthday.jpg" target="_blank">
-							<img class="img-fluid" src="https://tr2.cbsistatic.com/hub/i/2018/08/31/745bf1bd-3547-4db4-b1aa-097d4db48155/00-birthday.jpg" alt="Photos 10 Years Of Google Chrome Techrepublic" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Photos 10 Years Of Google Chrome Techrepublic</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://blog.anugrahpratama.com/wp-content/uploads/2020/07/software-google-chrome-840x500@2x.jpg" target="_blank">
-							<img class="img-fluid" src="https://blog.anugrahpratama.com/wp-content/uploads/2020/07/software-google-chrome-840x500@2x.jpg" alt="Software Google Chrome Memakan Ram Yang Besar Di Laptop" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Software Google Chrome Memakan Ram Yang Besar Di Laptop</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img.okezone.com/content/2020/08/26/16/2267813/banyak-orang-bekerja-dari-rumah-google-chrome-di-upgrade-agar-10-lebih-cepat-0AlmzCiLBe.jpg" target="_blank">
-							<img class="img-fluid" src="https://img.okezone.com/content/2020/08/26/16/2267813/banyak-orang-bekerja-dari-rumah-google-chrome-di-upgrade-agar-10-lebih-cepat-0AlmzCiLBe.jpg" alt="Banyak Orang Bekerja Dari Rumah Google Chrome Di Upgrade 10 Lebih Cepat Okezone Techno" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Banyak Orang Bekerja Dari Rumah Google Chrome Di Upgrade 10 Lebih Cepat Okezone Techno</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.termasmedia.com/images/internet/mengaktifkan-menu-ekstensi-google-chrome.png" target="_blank">
-							<img class="img-fluid" src="https://www.termasmedia.com/images/internet/mengaktifkan-menu-ekstensi-google-chrome.png" alt="Cara Mengaktifkan Menu Ekstensi Di Browser Google Chrome" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Mengaktifkan Menu Ekstensi Di Browser Google Chrome</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://4.bp.blogspot.com/-SAlsUK_Hwkw/TYGj8pt-kbI/AAAAAAAAAqE/blsfUwJWdbU/s1600/Google%2BChrome%2Bicon%2Bnew.png" target="_blank">
-							<img class="img-fluid" src="http://4.bp.blogspot.com/-SAlsUK_Hwkw/TYGj8pt-kbI/AAAAAAAAAqE/blsfUwJWdbU/s1600/Google%2BChrome%2Bicon%2Bnew.png" alt="The Branding Source New Logo Google Chrome Icon" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>The Branding Source New Logo Google Chrome Icon</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.xda-developers.com/files/2020/01/google-chrome-logo.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.xda-developers.com/files/2020/01/google-chrome-logo.jpg" alt="Google Chrome 80 Stable Update Rolling Out For Android And Desktop" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome 80 Stable Update Rolling Out For Android And Desktop</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2020/01/21/1019483566.jpg" target="_blank">
-							<img class="img-fluid" src="https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2020/01/21/1019483566.jpg" alt="Microsoft Bikin Browser Edge Chromium Untuk Saingi Google Chrome Pikiran Rakyat Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Microsoft Bikin Browser Edge Chromium Untuk Saingi Google Chrome Pikiran Rakyat Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img.okezone.com/content/2020/03/23/207/2187927/google-chrome-82-dibatalkan-gara-gara-virus-corona-yv5xofDL4v.jpg" target="_blank">
-							<img class="img-fluid" src="https://img.okezone.com/content/2020/03/23/207/2187927/google-chrome-82-dibatalkan-gara-gara-virus-corona-yv5xofDL4v.jpg" alt="Google Chrome 82 Dibatalkan Gara Gara Virus Corona Okezone Techno" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome 82 Dibatalkan Gara Gara Virus Corona Okezone Techno</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://okemedan.com/wp-content/uploads/2020/07/GoogleChrome.jpg" target="_blank">
-							<img class="img-fluid" src="https://okemedan.com/wp-content/uploads/2020/07/GoogleChrome.jpg" alt="Awas Ahli Siber Ingatkan Unduhan Pembaruan Google Chrome Palsu Okemedan Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Awas Ahli Siber Ingatkan Unduhan Pembaruan Google Chrome Palsu Okemedan Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://nokiafans.id/wp-content/uploads/2018/03/Chrome-Logo-1000x570.png" target="_blank">
-							<img class="img-fluid" src="https://nokiafans.id/wp-content/uploads/2018/03/Chrome-Logo-1000x570.png" alt="5 Tips Dan Trik Tersembunyi Untuk Google Chrome Di Android Nokiafans Id" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>5 Tips Dan Trik Tersembunyi Untuk Google Chrome Di Android Nokiafans Id</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://content.nexus.support.com/5b557b9559124044bb566bfc31a09c80/e12dbf10a25d11e8a234bdd9a96fa21f.png" target="_blank">
-							<img class="img-fluid" src="https://content.nexus.support.com/5b557b9559124044bb566bfc31a09c80/e12dbf10a25d11e8a234bdd9a96fa21f.png" alt="How To Fix Crashes For Google Chrome On A Mac Support Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How To Fix Crashes For Google Chrome On A Mac Support Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img.utdstc.com/screen/3/google-chrome-009.jpg:800" target="_blank">
-							<img class="img-fluid" src="https://img.utdstc.com/screen/3/google-chrome-009.jpg:800" alt="Google Chrome 85 0 4183 102 Untuk Mac Unduh" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome 85 0 4183 102 Untuk Mac Unduh</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://asset.kompas.com/crops/GV45iNaN3q9_ywCr8ntvsyjZGBk=/0x0:960x640/750x500/data/photo/2020/02/26/5e563c734ab33.jpg" target="_blank">
-							<img class="img-fluid" src="https://asset.kompas.com/crops/GV45iNaN3q9_ywCr8ntvsyjZGBk=/0x0:960x640/750x500/data/photo/2020/02/26/5e563c734ab33.jpg" alt="Google Tambal Tiga Celah Keamanan Di Chrome" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Tambal Tiga Celah Keamanan Di Chrome</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://storage.googleapis.com/support-forums-api/attachment/thread-3444713-10970646043940725580.jpg" target="_blank">
-							<img class="img-fluid" src="https://storage.googleapis.com/support-forums-api/attachment/thread-3444713-10970646043940725580.jpg" alt="Why Is The Header And Shelf So Big Google Chrome Community" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Why Is The Header And Shelf So Big Google Chrome Community</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.bleepstatic.com/content/hl-images/2020/08/24/Chrome.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.bleepstatic.com/content/hl-images/2020/08/24/Chrome.jpg" alt="Google Chrome Starts Blocking Ads That Slow Down The Browser" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome Starts Blocking Ads That Slow Down The Browser</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=google+chromecast&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=google+chromecast&amp;tbm=isch" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcsrxg9lkje4pzsbamtkgljbzl9uxqo17q84uxpg1 A Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcsrxg9lkje4pzsbamtkgljbzl9uxqo17q84uxpg1 A Usqp Cau</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images.livemint.com/img/2019/12/27/600x338/TA_-_2019-07-04T145836.269_1562232542867_1577430952383.png" target="_blank">
-							<img class="img-fluid" src="https://images.livemint.com/img/2019/12/27/600x338/TA_-_2019-07-04T145836.269_1562232542867_1577430952383.png" alt="Google Chrome Hit With Fresh Bugs Users Report On Losing Secondary Profiles" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome Hit With Fresh Bugs Users Report On Losing Secondary Profiles</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.google.com/chrome/static/images/canary/chrome-canary-logo.svg" target="_blank">
-							<img class="img-fluid" src="https://www.google.com/chrome/static/images/canary/chrome-canary-logo.svg" alt="Chrome Canary" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Chrome Canary</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://thegeekpage.com/wp-content/uploads/2016/03/chrome.jpg" target="_blank">
-							<img class="img-fluid" src="https://thegeekpage.com/wp-content/uploads/2016/03/chrome.jpg" alt="Top 10 Google Chrome Tips And Tricks" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Top 10 Google Chrome Tips And Tricks</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://gamebrott.com/wp-content/uploads/2020/08/Google-chrome-android-1200x900-1.jpg" target="_blank">
-							<img class="img-fluid" src="https://gamebrott.com/wp-content/uploads/2020/08/Google-chrome-android-1200x900-1.jpg" alt="Update Terbaru Google Chrome Di Android Akan Lebih Hemat Baterai Gamebrott Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Update Terbaru Google Chrome Di Android Akan Lebih Hemat Baterai Gamebrott Com</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cnet2.cbsistatic.com/img/cjxpzni3baS7f2ocDLuxBf_qRyg=/940x0/2018/09/02/c47c1892-21bb-4894-a383-de442748a627/old-google-chrome-icon-logo.jpg" target="_blank">
-							<img class="img-fluid" src="https://cnet2.cbsistatic.com/img/cjxpzni3baS7f2ocDLuxBf_qRyg=/940x0/2018/09/02/c47c1892-21bb-4894-a383-de442748a627/old-google-chrome-icon-logo.jpg" alt="Google Chrome S Biggest Challenge At Age 10 Might Just Be Its Own Success Cnet" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome S Biggest Challenge At Age 10 Might Just Be Its Own Success Cnet</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://upload.wikimedia.org/wikipedia/id/thumb/5/51/Google_Chrome_on_Windows_10_screenshot.png/300px-Google_Chrome_on_Windows_10_screenshot.png" target="_blank">
-							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/id/thumb/5/51/Google_Chrome_on_Windows_10_screenshot.png/300px-Google_Chrome_on_Windows_10_screenshot.png" alt="Google Chrome Wikipedia Bahasa Indonesia Ensiklopedia Bebas" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome Wikipedia Bahasa Indonesia Ensiklopedia Bebas</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.wikihow.com/images/5/54/Change-the-Default-Language-in-Google-Chrome-Step-10-Version-4.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.wikihow.com/images/5/54/Change-the-Default-Language-in-Google-Chrome-Step-10-Version-4.jpg" alt="Cara Mengubah Bahasa Utama Di Google Chrome 10 Langkah" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Mengubah Bahasa Utama Di Google Chrome 10 Langkah</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=logo+google+chrome&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=logo+google+chrome&amp;tbm=isch" alt="1" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>1</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://petunjuk.id/wp-content/uploads/2020/05/Setelan-Chrome.jpg" target="_blank">
-							<img class="img-fluid" src="https://petunjuk.id/wp-content/uploads/2020/05/Setelan-Chrome.jpg" alt="Cara Mengganti Tema Google Chrome Pc 2020" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Mengganti Tema Google Chrome Pc 2020</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img.informer.com/p0/google-chrome-v74-main-window-outlook.png" target="_blank">
-							<img class="img-fluid" src="https://img.informer.com/p0/google-chrome-v74-main-window-outlook.png" alt="Google Chrome 74 0 Download Free Chrome Exe" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome 74 0 Download Free Chrome Exe</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://storage.googleapis.com/support-forums-api/attachment/thread-3480805-14734696013962902091.png" target="_blank">
-							<img class="img-fluid" src="https://storage.googleapis.com/support-forums-api/attachment/thread-3480805-14734696013962902091.png" alt="When I Open Chrome It Opens With A Weird Icon Google Chrome Community" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>When I Open Chrome It Opens With A Weird Icon Google Chrome Community</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img-z.okeinfo.net/library/images/2018/07/16/3veqefno97iv1faokano_17384.jpg" target="_blank">
-							<img class="img-fluid" src="https://img-z.okeinfo.net/library/images/2018/07/16/3veqefno97iv1faokano_17384.jpg" alt="Google Chrome Tingkatkan Keamanan Dan Tampilan Baru Okezone Techno" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome Tingkatkan Keamanan Dan Tampilan Baru Okezone Techno</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.termasmedia.com/images/internet/merubah-setelan-bahasa-browser-google-chrome.png" target="_blank">
-							<img class="img-fluid" src="https://www.termasmedia.com/images/internet/merubah-setelan-bahasa-browser-google-chrome.png" alt="Cara Mengubah Atau Mengganti Setelan Bahasa Di Browser Google Chrome" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Mengubah Atau Mengganti Setelan Bahasa Di Browser Google Chrome</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.ayobandung.com/upload/bank_image/small/begini-cara-matikan-pemberitahuan-permintaan-pop-up-google-chrome_thumb.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.ayobandung.com/upload/bank_image/small/begini-cara-matikan-pemberitahuan-permintaan-pop-up-google-chrome_thumb.jpg" alt="Gadget Begini Cara Sinkronisasi Bookmark Google Chrome Ke Ponsel" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Gadget Begini Cara Sinkronisasi Bookmark Google Chrome Ke Ponsel</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.termasmedia.com/images/internet/memperbarui-update-browser-google-chrome.png" target="_blank">
-							<img class="img-fluid" src="https://www.termasmedia.com/images/internet/memperbarui-update-browser-google-chrome.png" alt="Cara Memperbarui Update Browser Google Chrome" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Memperbarui Update Browser Google Chrome</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn57.androidauthority.net/wp-content/uploads/2018/09/Chrome-69_design.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn57.androidauthority.net/wp-content/uploads/2018/09/Chrome-69_design.jpg" alt="Google Chrome Director Everyone Is Unsatisfied By Urls They Suck" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Chrome Director Everyone Is Unsatisfied By Urls They Suck</p> 
-					</div>
-				</div>
-						 
-		 
-
-	 	
-	
-					</div>
+		</div>
+				<div class="clearfix"></div> 
+		<div class="d-block mt-4 p-3">
+			Source : <a href="https://pinterest.com" rel="nofollow noopener">pinterest.com</a>
+		</div>
+						</div>
 				</div> 
 				<div class="col-md-3">
 					<div class="col-sm-12 widget">
-						<h3 class="widget-title">Random Posts</h3>
+						<h3 class="widget-title">RANDOM POST</h3>
 						<ul class="list-group">
-						 
-																	<li class="list-group-item"><a href="aserbaidschan-formel-1.html">Aserbaidschan Formel 1</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-mont.html">Fenerbahce Mont</a></li>
-																	<li class="list-group-item"><a href="galatasaray-whatsapp-duvar-kagidi.html">Galatasaray Whatsapp Duvar Kagidi</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="fenerbahce-nostalji.html">Fenerbahce Nostalji</a></li>
-																	<li class="list-group-item"><a href="fc-st-pauli-wallpaper.html">Fc St Pauli Wallpaper</a></li>
-																	<li class="list-group-item"><a href="ryo-miyaichi-st-pauli.html">Ryo Miyaichi St Pauli</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="galatasaray-kacinci-sirada.html">Galatasaray Kacinci Sirada</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-rechts.html">Dynamo Dresden Rechts</a></li>
-																	<li class="list-group-item"><a href="st-pauli-u14.html">St Pauli U14</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="rose-leslie-ygrid.html">Rose Leslie Ygrid</a></li>
-																	<li class="list-group-item"><a href="aserbaidschan-azerbaijan.html">Aserbaidschan Azerbaijan</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-castle-aberdeenshire.html">Rose Leslie Castle Aberdeenshire</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="galatasaray-beyaz-forma.html">Galatasaray Beyaz Forma</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-wallpaper-1920x1080.html">Dynamo Dresden Wallpaper 1920x1080</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-retro-shirt.html">Dynamo Dresden Retro Shirt</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="aserbaidschan-sehenswuerdigkeiten.html">Aserbaidschan Sehenswuerdigkeiten</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-yeni-sezon-forma.html">Fenerbahce Yeni Sezon Forma</a></li>
-																	<li class="list-group-item"><a href="galatasaray-trikot.html">Galatasaray Trikot</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="dynamo-dresden-boehmermann.html">Dynamo Dresden Boehmermann</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-kuchen.html">Dynamo Dresden Kuchen</a></li>
-																	<li class="list-group-item"><a href="clement-valla.html">Clement Valla</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="kit-harington-doppelganger.html">Kit Harington Doppelganger</a></li>
-																	<li class="list-group-item"><a href="kit-harington-and-richard-madden.html">Kit Harington And Richard Madden</a></li>
-																	<li class="list-group-item"><a href="schalke.html">Schalke</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="fenerbahce-doevmeleri.html">Fenerbahce Doevmeleri</a></li>
-																	<li class="list-group-item"><a href="clement-leroux-parted-ways.html">Clement Leroux Parted Ways</a></li>
-																	<li class="list-group-item"><a href="leslie-siebert-rose-mcgowan.html">Leslie Siebert Rose Mcgowan</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="aserbaidschan-landscape.html">Aserbaidschan Landscape</a></li>
-																	<li class="list-group-item"><a href="st-pauli-non-alcoholic-beer.html">St Pauli Non Alcoholic Beer</a></li>
-																	<li class="list-group-item"><a href="formel-1-heute.html">Formel 1 Heute</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="fenerbahce-quotes.html">Fenerbahce Quotes</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-arma.html">Fenerbahce Arma</a></li>
-																	<li class="list-group-item"><a href="galatasaray-guitar.html">Galatasaray Guitar</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="kit-harington-house.html">Kit Harington House</a></li>
-																	<li class="list-group-item"><a href="google-vr.html">Google Vr</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-vs-hamburger.html">Dynamo Dresden Vs Hamburger</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="clement-of-alexandria-quotes.html">Clement Of Alexandria Quotes</a></li>
-																	<li class="list-group-item"><a href="kit-harington-brother.html">Kit Harington Brother</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-u17.html">Dynamo Dresden U17</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="galatasaray-soezleri-resimli.html">Galatasaray Soezleri Resimli</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-hatay.html">Fenerbahce Hatay</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-new-town.html">Rose Leslie New Town</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="armenien-hauptstadt-eriwan.html">Armenien Hauptstadt Eriwan</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-raeuchermann.html">Dynamo Dresden Raeuchermann</a></li>
-																	<li class="list-group-item"><a href="aserbaidschan-fussball.html">Aserbaidschan Fussball</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="clement-isong.html">Clement Isong</a></li>
-																	<li class="list-group-item"><a href="clement-zwillinge-heute.html">Clement Zwillinge Heute</a></li>
-																	<li class="list-group-item"><a href="google-photo.html">Google Photo</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="st-pauli-youll-never-walk-alone.html">St Pauli Youll Never Walk Alone</a></li>
-																	<li class="list-group-item"><a href="galatasaray-messi.html">Galatasaray Messi</a></li>
-								 
+													<li class="list-group-item"><a href="/manchester-city.html">Manchester City</a></li>
+													<li class="list-group-item"><a href="/google-bisnisku.html">Google Bisnisku</a></li>
+													<li class="list-group-item"><a href="/google-books.html">Google Books</a></li>
+													<li class="list-group-item"><a href="/victoria-vanucci.html">Victoria Vanucci</a></li>
+													<li class="list-group-item"><a href="/google-buku.html">Google Buku</a></li>
+													<li class="list-group-item"><a href="/nadia-podoroska.html">Nadia Podoroska</a></li>
+													<li class="list-group-item"><a href="/sheffield-united-contra-leeds.html">Sheffield United Contra Leeds</a></li>
+													<li class="list-group-item"><a href="/lebron-james.html">Lebron James</a></li>
+													<li class="list-group-item"><a href="/google-calendar.html">Google Calendar</a></li>
+													<li class="list-group-item"><a href="/formula-1.html">Formula 1</a></li>
+													<li class="list-group-item"><a href="/rooney-mara.html">Rooney Mara</a></li>
+													<li class="list-group-item"><a href="/google-account.html">Google Account</a></li>
+													<li class="list-group-item"><a href="/roland-garros-2020.html">Roland Garros 2020</a></li>
+													<li class="list-group-item"><a href="/google-book.html">Google Book</a></li>
+													<li class="list-group-item"><a href="/armenia.html">Armenia</a></li>
+													<li class="list-group-item"><a href="/ufc-253.html">Ufc 253</a></li>
+													<li class="list-group-item"><a href="/google-business.html">Google Business</a></li>
+													<li class="list-group-item"><a href="/google.html">Google</a></li>
+													<li class="list-group-item"><a href="/sheffield-united-vs-leeds.html">Sheffield United Vs Leeds</a></li>
+													<li class="list-group-item"><a href="/vitamina-d.html">Vitamina D</a></li>
+													<li class="list-group-item"><a href="/google-adsense.html">Google Adsense</a></li>
+													<li class="list-group-item"><a href="/podoroska.html">Podoroska</a></li>
+													<li class="list-group-item"><a href="/leicester.html">Leicester</a></li>
+													<li class="list-group-item"><a href="/cae.html">Cae</a></li>
+													<li class="list-group-item"><a href="/joaquin-phoenix.html">Joaquin Phoenix</a></li>
+													<li class="list-group-item"><a href="/google-cendekia.html">Google Cendekia</a></li>
+													<li class="list-group-item"><a href="/lakers.html">Lakers</a></li>
+													<li class="list-group-item"><a href="/city.html">City</a></li>
+													<li class="list-group-item"><a href="/kecmanovic.html">Kecmanovic</a></li>
+													<li class="list-group-item"><a href="/google-bisnis.html">Google Bisnis</a></li>
 						 
 						</ul>
 					</div>
 					<div class="col-sm-12 widget">
-						<script async="async" data-cfasync="false" src="//zqvee2re50mr.com/675cb813fbbeae53ce321baa240173f6/invoke.js"></script>
-<div id="container-675cb813fbbeae53ce321baa240173f6"></div>
 					</div>
 				</div> 
 			</div>
 			<div class="row footer">
 				<div class="col-md-12 text-center">
-										<a href="pages/dmca">Dmca</a>
-										<a href="pages/contact">Contact</a>
-										<a href="pages/privacy-policy">Privacy Policy</a>
-										<a href="pages/copyright">Copyright</a>
-					
-				</div>
+										<a href="/p/dmca.html">Dmca</a>
+										<a href="/p/contact.html">Contact</a>
+										<a href="/p/privacy-policy.html">Privacy Policy</a>
+										<a href="/p/copyright.html">Copyright</a>
+									</div>
 			</div>
 		</div>
 		<!-- <style>
@@ -1148,6 +376,31 @@ a{color: #f42966;text-decoration:none;}
 	  	<br>
 		<a href="#your-offer-url" target="_blank">CTA Link &rarr;</a>
 	</p>
-</div> -->		<script type='text/javascript' src='//zqvee2re50mr.com/a4/31/b2/a431b2df4b60e2629306f7e7e7465d31.js'></script>	</main>
-</body>
+</div> -->
+		<script type='text/javascript' src='//zqvee2re50mr.com/a4/31/b2/a431b2df4b60e2629306f7e7e7465d31.js'></script>	</main>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js" integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+
+	
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+	<script type='text/javascript'>
+		$(document).ready(function()
+	    {
+			$(document).on('click','#image-download',function(e)
+			{
+				e.preventDefault();
+				var url = $(this).data('url');
+				var title = $(this).data('title');			
+				var x=new XMLHttpRequest();
+				x.open( "GET", url , true);
+				x.responseType="blob";
+				x.onload= function(e){download(e.target.response, title, "image/jpg");};
+				x.send();
+			});
+	    });
+	</script>
+	</body>
 </html>

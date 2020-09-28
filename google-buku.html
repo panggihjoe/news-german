@@ -4,1120 +4,357 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" integrity="sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=" crossorigin="anonymous" />
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">	
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<style type="text/css">
-html,body{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;font-weight:400;color:#e1e2e3;background:#111;}
-img{max-width:100%;} 
-.header{padding-bottom:13px;margin-bottom:13px;}
-.container{max-width:1024px;}
-.navbar{margin-bottom:25px;color:#f1f2f3;border-bottom:1px solid #222;background:#111 !important;} 
-.navbar .navbar-brand{margin:0 20px 0 0;font-size:28px;padding:0;line-height:24px;} 
-.row.header,.row.content,.row.footer{widthx:auto;max-widthx:100%;} 
-.row.footer{padding:30px 0;background:#f1ff2f3;border-color:#222;}
-.content .col-sm-12{padding:0;}
-.content .col-md-9s{margin-right:-25px;}  
-.posts-image{width:25%;display:block;float:left;}
-.posts-image-content{width:auto;margin:0 15px 35px 0;position:relative;}
-.posts-image:nth-child(5n) .posts-image-content{margin:0 0 35px 0 !important;} 
-.posts-image img{width:100%;height:150px;object-fit:cover;object-position:center;margin-bottom:10px;
-	-webkit-transition:0.6s opacity;transition:0.6s opacity;}
-.posts-image:hover img{opacity:0.8;}
-.posts-image:hover h2{background:rgba(0, 0, 0, 0.7);} 
-.posts-image h2{z-index:2;position:absolute;font-size:14px;bottom:2px;left:0;right:0;padding:5px;text-align:center;
-	-webkit-transition:0.6s opacity;transition:0.6s background;}
-.posts-image h2 a{color:#e1e2e3;}
-.posts-image-big{display:block;width:100%;}
-.posts-image-big .posts-image-content{margin:0 0 10px !important;}
-.posts-image-big img{height:380px;}
-.posts-image-big h2{text-align:left;padding-left:0;position:relative;font-size:30px;line-height:36px;}
-.posts-image-big h2 a{color:#e1e2e3;}
-.posts-image-big:hover h2{background:none;}
-.posts-image-single .posts-image-content,
-.posts-image-single:nth-child(5n) .posts-image-content{margin:0 15px 15px 0 !important;} 
-.posts-image-single p{font-size:12px;line-height:18px !important;} 
-.posts-images{clear:both;}
-.list-group{}
-.list-group li{padding:0;background:#222;}
-.list-group li a{display:block;padding:8px;}
-.widget{margin-bottom:20px;}
-h3.widget-title{font-size:20px;}
-a{color: #f42966;text-decoration:none;}  
-.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee;}
-.footer a{margin:0 15px;}
-.navi{margin:13px 0 13px 0;}
-.navi a{margin:5px 2px;font-size:95%;} 
-@media  only screen and (min-width:0px) and (max-width:991px){
-	.container{width:auto;max-width:100%;}.navbar{padding:5px 0;}.navbar .container{width:100%;margin:0 15px;}	
-}
-@media  only screen and (min-width:0px) and (max-width:767px){
-	.content .col-md-3{padding:15px;}
-}	 
-@media  only screen and (min-width:481px) and (max-width:640px){ 
-	.posts-image img{height:90px;}
-	.posts-image-big img{height:320px;}
-	.posts-image-single{width:33.3%;}
-	.posts-image-single:nth-child(3n) .posts-image-content{margin-right:0 !important;}
-}	
-@media  only screen and (min-width:0px) and (max-width:480px){
-	.posts-image img{height:80px;}
-	.posts-image-big img{height:240px;}
-	.posts-image-single{width:100%;} 
-	.posts-image-single .posts-image-content{margin:0 !important;}
-	.posts-image-single img{height:auto;}
-}	
+body,html{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;background:#fff}img{max-width:100%}.header{padding-bottom:13px;margin-bottom:13px}.container{max-width:1024px}.navbar{margin-bottom:25px;color:#f1f2f3;border-bottom:1px solid #e1e2e3}.navbar .navbar-brand{margin:0 20px 0 0;font-size:28px;padding:0;line-height:24px}.row.content,.row.footer,.row.header{widthx:auto;max-widthx:100%}.row.footer{padding:30px 0;background:0 0}.content .col-sm-12{padding:0}.content .col-md-9s{margin-right:-25px}.posts-image{width:25%;display:block;float:left}.posts-image-content{width:auto;margin:0 15px 35px 0;position:relative}.posts-image:nth-child(5n) .posts-image-content{margin:0 0 35px!important}.posts-image img{width:100%;height:150px;object-fit:cover;object-position:center;margin-bottom:10px;-webkit-transition:.6s opacity;transition:.6s opacity}.posts-image:hover img{opacity:.8}.posts-image:hover h2{background:rgba(0,0,0,.7)}.posts-image h2{z-index:2;position:absolute;font-size:14px;bottom:2px;left:0;right:0;padding:5px;text-align:center;-webkit-transition:.6s opacity;transition:.6s background}.posts-image h2 a{color:#fff}.posts-image-big{display:block;width:100%}.posts-image-big .posts-image-content{margin:0 0 10px!important}.posts-image-big img{height:380px}.posts-image-big h2{text-align:left;padding-left:0;position:relative;font-size:30px;line-height:36px}.posts-image-big h2 a{color:#111}.posts-image-big:hover h2{background:0 0}.posts-image-single .posts-image-content,.posts-image-single:nth-child(5n) .posts-image-content{margin:0 15px 15px 0!important}.posts-image-single p{font-size:12px;line-height:18px!important}.posts-images{clear:both}.list-group li{padding:0}.list-group li a{display:block;padding:8px}.widget{margin-bottom:20px}h3.widget-title{font-size:20px}a{color:#0000A0;text-decoration:none}.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee}.footer a{margin:0 15px}.navi{margin:13px 0}.navi a{margin:5px 2px;font-size:95%}@media  only screen and (min-width:0px) and (max-width:991px){.container{width:auto;max-width:100%}.navbar{padding:5px 0}.navbar .container{width:100%;margin:0 15px}}@media  only screen and (min-width:0px) and (max-width:767px){.content .col-md-3{padding:15px}}@media  only screen and (min-width:481px) and (max-width:640px){.posts-image img{height:90px}.posts-image-big img{height:320px}.posts-image-single{width:33.3%}.posts-image-single:nth-child(3n) .posts-image-content{margin-right:0!important}}@media  only screen and (min-width:0px) and (max-width:480px){.posts-image img{height:80px}.posts-image-big img{height:240px}.posts-image-single{width:100%}.posts-image-single .posts-image-content{margin:0!important}.posts-image-single img{height:auto}}.v-cover{height: 380px; object-fit: cover;}.v-image{height: 200px; object-fit: cover;}.main{margin-top: 6rem;}.form-inline .form-control{min-width: 300px;}
 	</style>
 	<title>Google Buku</title>
 	<!-- Histats.com  START (hidden counter) -->
-<a href="/" alt="web site hit counter" target="_blank" >
-<img  src="//sstatic1.histats.com/0.gif?4454171&101" alt="web site hit counter" border="0">
-<!-- Histats.com  END  -->
+<a href="/" alt="" target="_blank" >
+<img  src="//sstatic1.histats.com/0.gif?4454171&101" alt="" border="0">
+<!-- Histats.com  END  -->]
 
-<script type='text/javascript' src='//zqvee2re50mr.com/7c/26/34/7c263438c0a922e610bc1e9951cbc44f.js'></script></head>
+<script type='text/javascript' src='//zqvee2re50mr.com/7c/26/34/7c263438c0a922e610bc1e9951cbc44f.js'></script>
+	<script type="application/ld+json">
+	{
+	  "@context" : "http://schema.org",
+	  "@type" : "Article",
+	  "name" : "Google Buku",
+	  "author" : {
+	    "@type" : "Person",
+	    "name" : "Tamara Blezinsky"
+	  },
+	  "datePublished" : "2020-09-28",
+	  "image" : "https://i.pinimg.com/236x/3f/3f/91/3f3f914c2c30b24862a0b4ebb28b749a.jpg",
+	  "articleSection" : "",
+	  "articleBody" : "",
+	  "url" : "/google-calendar.html",
+	  "publisher" : {
+	    "@type" : "Organization",
+	    "name" : "Was Heute im Trend liegt"
+	  },
+	  "aggregateRating" : {
+	    "@type" : "AggregateRating",
+	    "ratingValue" : "4.6",
+	    "ratingCount" : "1500"
+	  }
+	}
+	</script>
+</head>
 <body>
-	<main id="main">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-light ">
-			<div class="container">
-		  <a href="" class="navbar-brand">TRENDING NEWS</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto">				
-								<li class="nav-item"><a class="nav-link" href="pages/dmca">Dmca</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/contact">Contact</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/privacy-policy">Privacy Policy</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/copyright">Copyright</a></li>
-				 
-			</ul> 
-			</div>
-		  </div>
-		</nav>
+	<header class="bg-white fixed-top">			
+		<nav class="navbar navbar-light bg-white mb-0">
+			<div class="container justify-content-center justify-content-sm-between">	
+			  <a href="/" title="Was Heute im Trend liegt" class="navbar-brand mb-1">Was Heute im Trend liegt</a>
+			  <form class="form-inline mb-1" action="/" method="get">
+			    <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search and hit enter.." aria-label="Search">
+			  </form>	
+			</div>			  
+		</nav>				
+	</header>
+	<main id="main" class="main">
 		<div class="container">  
 			<div class="row content">
 				<div class="col-md-9">
-					<div class="col-sm-12">
+					<div class="col-sm-12 p-2">
 
 							<h1>Google Buku</h1>
 
 	
-	<div class="navi text-left">
-					<p>Jelajahi ebookstore terbesar di dunia dan baca lewat web tablet ponsel atau ereader mulai hari ini. Buku buku yang tersedia nggak kalah bagus dan berkualitasnya seperti buku berbayar kok. Membaca mendownload mengutip menautkan atau menerjemahkan buku atau majalah. <br>
-															<a class="badge badge-info" href="google-buku.html">google buku</a>
-																																																																																													</p>
-			</div>
+	<div class="navi text-center">
+										<a class="badge badge-light" href="/lebron-james.html">lebron james</a>
+											<a class="badge badge-dark" href="/google-background.html">google background</a>
+											<a class="badge badge-danger" href="/google-business.html">google business</a>
+											<a class="badge badge-success" href="/rooney-mara.html">rooney mara</a>
+											<a class="badge badge-danger" href="/nadia-podoroska.html">nadia podoroska</a>
+											<a class="badge badge-info" href="/google-ads.html">google ads</a>
+											<a class="badge badge-light" href="/sergio-berni.html">sergio berni</a>
+											<a class="badge badge-light" href="/google-calendar.html">google calendar</a>
+						</div>
 
 						<script async="async" data-cfasync="false" src="//zqvee2re50mr.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
 <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
 					</div> 
 					<div class="col-sm-12">					
-							
-	
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://books.google.co.id/googlebooks/public_lg.gif" target="_blank">
-							<img class="img-fluid" src="https://books.google.co.id/googlebooks/public_lg.gif" alt="Penelusuran Buku Google" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Penelusuran Buku Google</p> 
+						
+		
+	<div class="row">
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/f5/ea/24/f5ea2435b865435d54a876966d4dae04.png" data-lightbox="roadtrip" data-title="Tentang Kamu Unedited Version Tere Liye Google Buku Novel Buku Tertawa">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/f5/ea/24/f5ea2435b865435d54a876966d4dae04.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Tentang Kamu Unedited Version Tere Liye Google Buku Novel Buku Tertawa">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Tentang Kamu Unedited Version Tere Liye Google Buku Novel Buku Tertawa.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Tentang Kamu Unedited Version Tere Liye Google Buku Novel Buku Tertawa</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.bukulokomedia.com/foto_banner/cover-google-adsense.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.bukulokomedia.com/foto_banner/cover-google-adsense.jpg" alt="Cara Benar Dan Teruji Belajar Google Adsense" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Benar Dan Teruji Belajar Google Adsense</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://aptoide.co.id/wp-content/uploads/2020/04/cara-download-buku-di-google-book-di-android.jpg" target="_blank">
-							<img class="img-fluid" src="https://aptoide.co.id/wp-content/uploads/2020/04/cara-download-buku-di-google-book-di-android.jpg" alt="Cara Download Buku Di Google Book Lengkap Dengan Gambar 2020" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Download Buku Di Google Book Lengkap Dengan Gambar 2020</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://barakumbara.files.wordpress.com/2011/04/gbd3a.png" target="_blank">
-							<img class="img-fluid" src="https://barakumbara.files.wordpress.com/2011/04/gbd3a.png" alt="Cara Download Ebook Di Google Buku Menggunakan Google Book Downloader Portable Barakumbara" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Download Ebook Di Google Buku Menggunakan Google Book Downloader Portable Barakumbara</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.wikihow.com/images_en/thumb/9/91/Buy-Books-on-Google-Step-2-Version-2.jpg/v4-460px-Buy-Books-on-Google-Step-2-Version-2.jpg.webp" target="_blank">
-							<img class="img-fluid" src="https://www.wikihow.com/images_en/thumb/9/91/Buy-Books-on-Google-Step-2-Version-2.jpg/v4-460px-Buy-Books-on-Google-Step-2-Version-2.jpg.webp" alt="3 Cara Untuk Membeli Buku Di Google Wikihow" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>3 Cara Untuk Membeli Buku Di Google Wikihow</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/70/a9/82/70a982101c0872f2eedf42b6bd8b1a2f.png" data-lightbox="roadtrip" data-title="Cara Menggunakan Google Bukudi Google Buku Anda Dapat Membaca Buku Dan Majalah Mendownloadnya Mengutipnya Dan Menerjemahkannya B Membaca Buku Buku Membaca">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/70/a9/82/70a982101c0872f2eedf42b6bd8b1a2f.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Cara Menggunakan Google Bukudi Google Buku Anda Dapat Membaca Buku Dan Majalah Mendownloadnya Mengutipnya Dan Menerjemahkannya B Membaca Buku Buku Membaca">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Cara Menggunakan Google Bukudi Google Buku Anda Dapat Membaca Buku Dan Majalah Mendownloadnya Mengutipnya Dan Menerjemahkannya B Membaca Buku Buku Membaca.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Cara Menggunakan Google Bukudi Google Buku Anda Dapat Membaca Buku Dan Majalah Mendownloadnya Mengutipnya Dan Menerjemahkannya B Membaca Buku Buku Membaca</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/ShR8n1jpWMA/hqdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/ShR8n1jpWMA/hqdefault.jpg" alt="Download Buku Dari Google Books Dengan Gooreader Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Download Buku Dari Google Books Dengan Gooreader Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://penerbitbukudeepublish.com/wp-content/uploads/2018/04/Tutorial-Google-Drive-dan-Google-Apps-Ifan-Prihandi-Convert-depnm.jpg" target="_blank">
-							<img class="img-fluid" src="https://penerbitbukudeepublish.com/wp-content/uploads/2018/04/Tutorial-Google-Drive-dan-Google-Apps-Ifan-Prihandi-Convert-depnm.jpg" alt="Buku Tutorial Google Drive Dan Google Apps Penerbit Deepublish" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Buku Tutorial Google Drive Dan Google Apps Penerbit Deepublish</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://qph.fs.quoracdn.net/main-qimg-219346150d566607306870fda1204c93" target="_blank">
-							<img class="img-fluid" src="https://qph.fs.quoracdn.net/main-qimg-219346150d566607306870fda1204c93" alt="Bagaimana Cara Menjual Buku Di Google Play Quora" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bagaimana Cara Menjual Buku Di Google Play Quora</p> 
-					</div>
-				</div>
-						 
-		 
-			<div class="posts-images"> 
-				<div class="text-left">
-					<h3>Search the worlds most comprehensive index of full text books.</h3>
-					<p class="text-center"><img src="https://cf.shopee.co.id/file/f37232100be85e52ae16f81e02b3534a" style="margin-bottom: 8px;"></p>
-
-											<p>
-															<strong>Google buku</strong>. 
-							
-															Tanpa perlu berlama lama seperti ini panduannya. 
-															Buat kamu yang ingin tahu cara download buku di google book gratis kamu bisa memanfaatkan free ebooks yang ada di google books. 
-															Buka aplikasi google play books. 
-															Buku tertentu disediakan oleh penerbit sementara yang lainnya dipindai sebagai bagian dari project perpustakaan. 
-													</p>
-											<p>
-							
-															Jelajahi ebookstore terbesar di dunia dan baca lewat web tablet ponsel atau ereader mulai hari ini. 
-															Pilih dari jutaan komik ebook buku teks dan buku audio terlaris. 
-															Google play buku adalah aplikasi yang anda perlukan untuk menikmati buku audio dan ebook yang dibeli dari google play. 
-															Download buku untuk dibaca atau didengarkan kapan saja di mana saja. 
-													</p>
-											<p>
-							
-															Dalam buku ini dijelaskan secara sederhana tentang konsep dan konteks ekonomi makro dan ilmunya. 
-															Pada bagian akhir di sampaikan sedikit ide untuk melakukan riset tentang pertumbuhan ekonomi inflasi dan pengangguran secara nonrecursive. 
-															Buka google play sekarang. 
-															Buka google play sekarang. 
-													</p>
-											<p>
-							
-															Jelajahi ebookstore terbesar di dunia dan baca lewat web tablet ponsel atau ereader mulai hari ini. 
-															Setelah selesai membaca temukan buku favorit berikutnya dari rekomendasi yang dipersonalisasi hanya untuk anda. 
-															Belanja buku di google play. 
-															Buka google play sekarang. 
-													</p>
-											<p>
-							
-															Belanja buku di google play. 
-															Masih banyak lagi account options. 
-															Di google buku anda dapat membaca buku dan majalah mendownloadnya mengutipnya dan menerjemahkannya. 
-															Penerbit tentang privasi persyaratan bantuan tentang privasi persyaratan bantuan. 
-													</p>
-											<p>
-							
-															Telusuri indeks buku teks paling komprehensif di dunia. 
-															Belanja buku di google play. 
-													</p>
-									</div> 
-			</div> 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://urip.files.wordpress.com/2013/09/google-book.jpg" target="_blank">
-							<img class="img-fluid" src="https://urip.files.wordpress.com/2013/09/google-book.jpg" alt="Cara Mendownload Halaman Buku Yang Tidak Terdownload Dengan Google Book Downloader Blog Urip Guru Kimia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Mendownload Halaman Buku Yang Tidak Terdownload Dengan Google Book Downloader Blog Urip Guru Kimia</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/53/5c/7c/535c7c98befc776a6910e2e2c8f8eb46.jpg" data-lightbox="roadtrip" data-title="Intelegensi Embun Pagi Penelusuran Google Buku Novel Ungkapan">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/53/5c/7c/535c7c98befc776a6910e2e2c8f8eb46.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Intelegensi Embun Pagi Penelusuran Google Buku Novel Ungkapan">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Intelegensi Embun Pagi Penelusuran Google Buku Novel Ungkapan.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Intelegensi Embun Pagi Penelusuran Google Buku Novel Ungkapan</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.mizan.com/wp-content/uploads/2018/12/ebook-gratis-full-1.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.mizan.com/wp-content/uploads/2018/12/ebook-gratis-full-1.jpg" alt="Kenapa Harus Bayar Kalau Bisa Gratis Baca E Book Gratis Di Google Play Books Mizan" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Kenapa Harus Bayar Kalau Bisa Gratis Baca E Book Gratis Di Google Play Books Mizan</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.ahsaniku.com/wp-content/uploads/2020/02/Cara-Download-Buku-di-Google-Book.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.ahsaniku.com/wp-content/uploads/2020/02/Cara-Download-Buku-di-Google-Book.jpg" alt="6 Cara Download Buku Di Google Book Gampang Banget" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>6 Cara Download Buku Di Google Book Gampang Banget</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://developers.google.com/search/docs/data-types/images/books01.png?hl=id" target="_blank">
-							<img class="img-fluid" src="https://developers.google.com/search/docs/data-types/images/books01.png?hl=id" alt="Buku Penelusuran Untuk Developer Google Developers" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Buku Penelusuran Untuk Developer Google Developers</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://s0.bukalapak.com/img/5895634012/s-330-330/Buku_Bisnis_Jualan_Laris_Dari_Google_Defriansyah.jpg.webp" target="_blank">
-							<img class="img-fluid" src="https://s0.bukalapak.com/img/5895634012/s-330-330/Buku_Bisnis_Jualan_Laris_Dari_Google_Defriansyah.jpg.webp" alt="Jual Produk Dari Google Buku Murah Dan Terlengkap Agustus 2020 Bukalapak" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Jual Produk Dari Google Buku Murah Dan Terlengkap Agustus 2020 Bukalapak</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/52/d4/ca/52d4ca9c32ff618611a54fcec01f22c3.png" data-lightbox="roadtrip" data-title="Cover Buku Novel Google Search Di 2020 Buku">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/52/d4/ca/52d4ca9c32ff618611a54fcec01f22c3.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Cover Buku Novel Google Search Di 2020 Buku">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Cover Buku Novel Google Search Di 2020 Buku.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Cover Buku Novel Google Search Di 2020 Buku</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://4.bp.blogspot.com/-FGCawSpuyDY/WySx3pjgNUI/AAAAAAAAFRs/ONF0m_gKHUk6pps8zgEGj437a3WFkaxaQCLcBGAs/w700/Cara%2BDownload%2BBuku%2Bdari%2BGoogle%2BBooks%2Bdi%2BAndroid%2BSecara%2BGratis%2Bdan%2BLegal%2B-%2Bwww.heru.my.id.JPG" target="_blank">
-							<img class="img-fluid" src="https://4.bp.blogspot.com/-FGCawSpuyDY/WySx3pjgNUI/AAAAAAAAFRs/ONF0m_gKHUk6pps8zgEGj437a3WFkaxaQCLcBGAs/w700/Cara%2BDownload%2BBuku%2Bdari%2BGoogle%2BBooks%2Bdi%2BAndroid%2BSecara%2BGratis%2Bdan%2BLegal%2B-%2Bwww.heru.my.id.JPG" alt="Cara Download Buku Dari Google Books Di Android Secara Gratis Dan Legal" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Download Buku Dari Google Books Di Android Secara Gratis Dan Legal</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.4meahc.com/img/web-search/6/how-use-ngram-viewer-tool-google-books.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.4meahc.com/img/web-search/6/how-use-ngram-viewer-tool-google-books.jpg" alt="Cara Menggunakan Alat Peraga Ngram Di Google Buku" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Menggunakan Alat Peraga Ngram Di Google Buku</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://yorsha.com/wp-content/uploads/2020/01/g7-618x215.png" target="_blank">
-							<img class="img-fluid" src="https://yorsha.com/wp-content/uploads/2020/01/g7-618x215.png" alt="Akun Google Play Book Siap Jual Buku Yorsha" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Akun Google Play Book Siap Jual Buku Yorsha</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://yosseandreasbmahome.files.wordpress.com/2019/02/screenshot-1_li.jpg" target="_blank">
-							<img class="img-fluid" src="https://yosseandreasbmahome.files.wordpress.com/2019/02/screenshot-1_li.jpg" alt="Langkah Langkah Mencari Buku E Book Dengan Google Books Yosse Blog S" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Langkah Langkah Mencari Buku E Book Dengan Google Books Yosse Blog S</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/96/1b/e8/961be8a211ffed8afdf157bcab8342a8.png" data-lightbox="roadtrip" data-title="Menerbitkan Sendiri Buku Di Google Play Book Store Buku Novel Google Play">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/96/1b/e8/961be8a211ffed8afdf157bcab8342a8.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Menerbitkan Sendiri Buku Di Google Play Book Store Buku Novel Google Play">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Menerbitkan Sendiri Buku Di Google Play Book Store Buku Novel Google Play.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Menerbitkan Sendiri Buku Di Google Play Book Store Buku Novel Google Play</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i2.wp.com/www.blogpress.id/wp-content/uploads/2020/06/Google-Book-Downloader.png?resize=722%2C506&amp;ssl=1" target="_blank">
-							<img class="img-fluid" src="https://i2.wp.com/www.blogpress.id/wp-content/uploads/2020/06/Google-Book-Downloader.png?resize=722%2C506&amp;ssl=1" alt="Cara Download Buku Di Google Book Downloader Dengan Mudah" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Download Buku Di Google Book Downloader Dengan Mudah</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.berakal.com/wp-content/uploads/2019/10/Cara-Download-Buku-di-Google-Book.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.berakal.com/wp-content/uploads/2019/10/Cara-Download-Buku-di-Google-Book.jpg" alt="3 Cara Download Buku Di Google Book Gratis Pc Hp" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>3 Cara Download Buku Di Google Book Gratis Pc Hp</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i2.wp.com/www.thelastsurvivors.org/wp-content/uploads/2019/08/cara-mendownload-buku-di-google-book-full.png" target="_blank">
-							<img class="img-fluid" src="https://i2.wp.com/www.thelastsurvivors.org/wp-content/uploads/2019/08/cara-mendownload-buku-di-google-book-full.png" alt="3 Cara Download Buku Dari Google Book Downloader Secara Gratis" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>3 Cara Download Buku Dari Google Book Downloader Secara Gratis</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://ecs7.tokopedia.net/img/cache/700/product-1/2018/1/12/3135501/3135501_d499c759-cff1-4158-b119-b6dff9bb8924_1008_840.png" target="_blank">
-							<img class="img-fluid" src="https://ecs7.tokopedia.net/img/cache/700/product-1/2018/1/12/3135501/3135501_d499c759-cff1-4158-b119-b6dff9bb8924_1008_840.png" alt="Jual Buku Banjir Order Dari Google Jakarta Selatan Alona Indonesia Store Tokopedia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Jual Buku Banjir Order Dari Google Jakarta Selatan Alona Indonesia Store Tokopedia</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/c5/6a/8b/c56a8b0ccadcc5d74136d474b4282fd2.png" data-lightbox="roadtrip" data-title="Tentang Kamu Unedited Version Tere Liye Google Buku Novel Empati Wawancara">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/c5/6a/8b/c56a8b0ccadcc5d74136d474b4282fd2.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Tentang Kamu Unedited Version Tere Liye Google Buku Novel Empati Wawancara">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Tentang Kamu Unedited Version Tere Liye Google Buku Novel Empati Wawancara.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Tentang Kamu Unedited Version Tere Liye Google Buku Novel Empati Wawancara</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn2.tstatic.net/style/foto/bank/images/google-buku.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn2.tstatic.net/style/foto/bank/images/google-buku.jpg" alt="Cara Pakai Google Books Baca Buku Pilihanmu Dengan Praktis Bisa Download Hingga Menerjemahkan Tribunstyle Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Pakai Google Books Baca Buku Pilihanmu Dengan Praktis Bisa Download Hingga Menerjemahkan Tribunstyle Com</p> 
-					</div>
+			</div>
+		</div>
+			 
+					<div class="col-12 mb-4">
+				<div class="card">
+										<img class="card-img-top v-cover" src="https://i.pinimg.com/originals/be/2a/eb/be2aeb8a4296ac90a475ae898739ef2e.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Tentang Kamu Unedited Version Tere Liye Google Buku Novel Empati Wawancara">
+										<div class="card-body">
+						<h3 class="h5"><b></b></h3>
+												<div class="col-sm-12 widget"><strong>Related Posts:</strong>
+						<li class="list-group-item"><a href="/google-calendar.html">Google Buku</a></li>
+						<li class="list-group-item"><a href="/google-calendar.html">Google Calendar</a></li></div>
+						<div class="p-2">Published on:<time class="p-2" itemprop="datePublished" datetime="2020-09-28">2020-09-28</time>
+						<meta itemprop="dateModified" content="2020-09-28">
+						<itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+						By <itemprop="name"><a href="#" title="Posts by Wick Wick" rel="author">Wick Wick</a></div>
+					</div> 
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i0.wp.com/romeltea.com/wp-content/uploads/2013/09/google-books-buku-google.jpg?fit=583%2C328&amp;ssl=1&amp;resize=1280%2C720" target="_blank">
-							<img class="img-fluid" src="https://i0.wp.com/romeltea.com/wp-content/uploads/2013/09/google-books-buku-google.jpg?fit=583%2C328&amp;ssl=1&amp;resize=1280%2C720" alt="Cara Download Buku Google Google Books Romeltea Online" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Download Buku Google Google Books Romeltea Online</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/vVt70F4n8kI/hqdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/vVt70F4n8kI/hqdefault.jpg" alt="Cara Mendownload Buku Dari Google Books Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Mendownload Buku Dari Google Books Youtube</p> 
-					</div>
-				</div>
-						 
+			</div>
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://hrm-soft.com/img/online-services-2018/how-to-download-books-from-google-books-for-free-3.jpg" target="_blank">
-							<img class="img-fluid" src="https://hrm-soft.com/img/online-services-2018/how-to-download-books-from-google-books-for-free-3.jpg" alt="Cara Untuk Mendownload Buku Dari Google Books Secara Gratis Layanan Hrm Soft Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Untuk Mendownload Buku Dari Google Books Secara Gratis Layanan Hrm Soft Com</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/be/2a/eb/be2aeb8a4296ac90a475ae898739ef2e.jpg" data-lightbox="roadtrip" data-title="Wage Rudolf Soepratman Anthony C Hutabarat Google Buku Riwayat Hidup Hidup">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/be/2a/eb/be2aeb8a4296ac90a475ae898739ef2e.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Wage Rudolf Soepratman Anthony C Hutabarat Google Buku Riwayat Hidup Hidup">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Wage Rudolf Soepratman Anthony C Hutabarat Google Buku Riwayat Hidup Hidup.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Wage Rudolf Soepratman Anthony C Hutabarat Google Buku Riwayat Hidup Hidup</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://blog.evercoss.com/wp-content/uploads/2016/10/84070-tutorial2bmembeli2bdan2bmembaca2bbuku2bdi2bgoogle2bplay2bstore2b-2bscreenshot2b5.jpg" target="_blank">
-							<img class="img-fluid" src="http://blog.evercoss.com/wp-content/uploads/2016/10/84070-tutorial2bmembeli2bdan2bmembaca2bbuku2bdi2bgoogle2bplay2bstore2b-2bscreenshot2b5.jpg" alt="Tutorial Membeli Dan Membaca Buku Atau Komik Dari Google Play Store" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Tutorial Membeli Dan Membaca Buku Atau Komik Dari Google Play Store</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cf.shopee.co.id/file/c6fedd63bc34c0b638ef85548f7182eb" target="_blank">
-							<img class="img-fluid" src="https://cf.shopee.co.id/file/c6fedd63bc34c0b638ef85548f7182eb" alt="Buku Jualan Laris Dari Google Bonus 60 Ebook Shopee Indonesia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Buku Jualan Laris Dari Google Bonus 60 Ebook Shopee Indonesia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://studiopikiran.files.wordpress.com/2019/03/screenshot_20190323_134559.png" target="_blank">
-							<img class="img-fluid" src="https://studiopikiran.files.wordpress.com/2019/03/screenshot_20190323_134559.png" alt="Cara Membaca E Book Google Play Book Di Pc Linux Windows Studio Pikiran" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Membaca E Book Google Play Book Di Pc Linux Windows Studio Pikiran</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.dakwatuna.com/wp-content/uploads/2015/11/cover-buku-apple-vs-google.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.dakwatuna.com/wp-content/uploads/2015/11/cover-buku-apple-vs-google.jpg" alt="Apple Vs Google Perseteruan Korporasi Besar Yang Melahirkan Revolusi Teknologi Digital Dakwatuna Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Apple Vs Google Perseteruan Korporasi Besar Yang Melahirkan Revolusi Teknologi Digital Dakwatuna Com</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/474x/e5/43/6b/e5436ba202a75222b0f8c3ed40b23826.jpg" data-lightbox="roadtrip" data-title="Buku Kas Penelusuran Google Buku Moto Telepon">
+											<img class="card-img v-image" src="https://i.pinimg.com/474x/e5/43/6b/e5436ba202a75222b0f8c3ed40b23826.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Buku Kas Penelusuran Google Buku Moto Telepon">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Buku Kas Penelusuran Google Buku Moto Telepon.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Buku Kas Penelusuran Google Buku Moto Telepon</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://awsimages.detik.net.id/community/media/visual/2019/06/29/fde7e47c-2800-4a65-bdcc-59a419df0b6a_43.png?w=700&amp;q=90" target="_blank">
-							<img class="img-fluid" src="https://awsimages.detik.net.id/community/media/visual/2019/06/29/fde7e47c-2800-4a65-bdcc-59a419df0b6a_43.png?w=700&amp;q=90" alt="4 Cara Pakai Google Books Aplikasi Serba Bisa Dari Google" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>4 Cara Pakai Google Books Aplikasi Serba Bisa Dari Google</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.gurusiana.id/bima-content/60289fc34f41ba0356d81db8d8dde70f/2019/09/20/l-img20190920052610f6453969be2d19bedbac053cabbb934120190920052718-bimacms.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.gurusiana.id/bima-content/60289fc34f41ba0356d81db8d8dde70f/2019/09/20/l-img20190920052610f6453969be2d19bedbac053cabbb934120190920052718-bimacms.jpg" alt="Buku Vs Google" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Buku Vs Google</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://bloggerperempuan.co.id/wp-content/uploads/2020/04/Cara-Transfer-Buku-dari-Google-Play-Book-ke-Kindle-DARLA.jpg" target="_blank">
-							<img class="img-fluid" src="https://bloggerperempuan.co.id/wp-content/uploads/2020/04/Cara-Transfer-Buku-dari-Google-Play-Book-ke-Kindle-DARLA.jpg" alt="Cara Transfer Buku Dari Google Play Book Ke Kindle Blogger Perempuan" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Transfer Buku Dari Google Play Book Ke Kindle Blogger Perempuan</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://assets.kompasiana.com/items/album/2017/01/03/screenshot-2016-12-31-16-13-21-586b061c2bb0bdc60e625c3a.png?t=o&amp;v=760" target="_blank">
-							<img class="img-fluid" src="https://assets.kompasiana.com/items/album/2017/01/03/screenshot-2016-12-31-16-13-21-586b061c2bb0bdc60e625c3a.png?t=o&amp;v=760" alt="Begini Cara Mudah Beli Buku Digital Lewat Google Play Store Halaman 1 Kompasiana Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Begini Cara Mudah Beli Buku Digital Lewat Google Play Store Halaman 1 Kompasiana Com</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/37/d0/2b/37d02b4baba30e83a522b17bf8bb72d7.png" data-lightbox="roadtrip" data-title="Pengantin Pengganti Ebook Ditulis Oleh Alfylla Baca Buku Ini Menggunakan Aplikasi Google Play Buku Di Pc Android Perangkat I Membaca Buku Buku Google Play">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/37/d0/2b/37d02b4baba30e83a522b17bf8bb72d7.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Pengantin Pengganti Ebook Ditulis Oleh Alfylla Baca Buku Ini Menggunakan Aplikasi Google Play Buku Di Pc Android Perangkat I Membaca Buku Buku Google Play">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Pengantin Pengganti Ebook Ditulis Oleh Alfylla Baca Buku Ini Menggunakan Aplikasi Google Play Buku Di Pc Android Perangkat I Membaca Buku Buku Google Play.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Pengantin Pengganti Ebook Ditulis Oleh Alfylla Baca Buku Ini Menggunakan Aplikasi Google Play Buku Di Pc Android Perangkat I Membaca Buku Buku Google Play</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://upload.wikimedia.org/wikipedia/id/4/40/Google_Play_Books.png" target="_blank">
-							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/id/4/40/Google_Play_Books.png" alt="Google Play Buku Wikipedia Bahasa Indonesia Ensiklopedia Bebas" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Play Buku Wikipedia Bahasa Indonesia Ensiklopedia Bebas</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.udacoding.com/wp-content/uploads/2019/09/WhatsApp-Image-2019-09-16-at-9.04.11-AM.jpeg" target="_blank">
-							<img class="img-fluid" src="http://www.udacoding.com/wp-content/uploads/2019/09/WhatsApp-Image-2019-09-16-at-9.04.11-AM.jpeg" alt="Kini Buku Udacoding Tersedia Di Google Play Book Udacoding" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Kini Buku Udacoding Tersedia Di Google Play Book Udacoding</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://1.bp.blogspot.com/-q1DHNRTh6nA/WUc1N3Mf0rI/AAAAAAAANzA/8_eKbZerXoAz3XjKLATneDfPpE5em8ZiwCLcBGAs/s1600/googleplaybook.jpg" target="_blank">
-							<img class="img-fluid" src="https://1.bp.blogspot.com/-q1DHNRTh6nA/WUc1N3Mf0rI/AAAAAAAANzA/8_eKbZerXoAz3XjKLATneDfPpE5em8ZiwCLcBGAs/s1600/googleplaybook.jpg" alt="Membeli Buku Digital Di Google Play Ternyata Bisa Pakai Pulsa Innnayah" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Membeli Buku Digital Di Google Play Ternyata Bisa Pakai Pulsa Innnayah</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i1.wp.com/romeltea.com/wp-content/uploads/2013/09/download-buku-google-book.png?resize=458%2C280" target="_blank">
-							<img class="img-fluid" src="https://i1.wp.com/romeltea.com/wp-content/uploads/2013/09/download-buku-google-book.png?resize=458%2C280" alt="Cara Download Buku Google Google Books Romeltea Online" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Download Buku Google Google Books Romeltea Online</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/236x/3f/3f/91/3f3f914c2c30b24862a0b4ebb28b749a.jpg" data-lightbox="roadtrip" data-title="Belajar Menulis Huruf Dan Angka Untuk Balita Oleh Aris Lesmana Buku Di Google Play Ilmu Sosial Huruf Belajar">
+											<img class="card-img v-image" src="https://i.pinimg.com/236x/3f/3f/91/3f3f914c2c30b24862a0b4ebb28b749a.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Belajar Menulis Huruf Dan Angka Untuk Balita Oleh Aris Lesmana Buku Di Google Play Ilmu Sosial Huruf Belajar">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Belajar Menulis Huruf Dan Angka Untuk Balita Oleh Aris Lesmana Buku Di Google Play Ilmu Sosial Huruf Belajar.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Belajar Menulis Huruf Dan Angka Untuk Balita Oleh Aris Lesmana Buku Di Google Play Ilmu Sosial Huruf Belajar</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.nesabamedia.com/wp-content/uploads/2019/08/Langkah-1-1.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.nesabamedia.com/wp-content/uploads/2019/08/Langkah-1-1.jpg" alt="3 Cara Download Buku Di Google Book Lengkap Gambar" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>3 Cara Download Buku Di Google Book Lengkap Gambar</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://flapkomindo.co.id/wp-content/uploads/2019/03/Download-buku-gratis-di-Google-Books.jpg" target="_blank">
-							<img class="img-fluid" src="https://flapkomindo.co.id/wp-content/uploads/2019/03/Download-buku-gratis-di-Google-Books.jpg" alt="Download Buku Gratis Di Google Books" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Download Buku Gratis Di Google Books</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://s0.bukalapak.com/img/5617103213/w-1000/Terlaris___Buku_Banjir_Order_Dari_Google_buku_terlaris.png" target="_blank">
-							<img class="img-fluid" src="https://s0.bukalapak.com/img/5617103213/w-1000/Terlaris___Buku_Banjir_Order_Dari_Google_buku_terlaris.png" alt="Jual Terlaris Buku Banjir Order Dari Google Buku Terlaris Di Lapak Sukma Store Sukma Store" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Jual Terlaris Buku Banjir Order Dari Google Buku Terlaris Di Lapak Sukma Store Sukma Store</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cf.shopee.co.id/file/f37232100be85e52ae16f81e02b3534a" target="_blank">
-							<img class="img-fluid" src="https://cf.shopee.co.id/file/f37232100be85e52ae16f81e02b3534a" alt="Buku Mahir Google Ads Gus Nana Billionairestore Shopee Indonesia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Buku Mahir Google Ads Gus Nana Billionairestore Shopee Indonesia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://id.androidxyz.com/wp-content/uploads/2019/01/Cara-Download-Buku-Gratis-di-Play-Store-Tanpa-Kartu-Kredit.jpg" target="_blank">
-							<img class="img-fluid" src="https://id.androidxyz.com/wp-content/uploads/2019/01/Cara-Download-Buku-Gratis-di-Play-Store-Tanpa-Kartu-Kredit.jpg" alt="Cara Download Buku Gratis Di Play Store Tanpa Kartu Kredit Android Xyz" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Download Buku Gratis Di Play Store Tanpa Kartu Kredit Android Xyz</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://1.bp.blogspot.com/-J5AJLb_sihY/U_bwj8KKvlI/AAAAAAAAGAg/M-5ZVIIkWrI/s1600/google_books.jpg" target="_blank">
-							<img class="img-fluid" src="https://1.bp.blogspot.com/-J5AJLb_sihY/U_bwj8KKvlI/AAAAAAAAGAg/M-5ZVIIkWrI/s1600/google_books.jpg" alt="Cara Download Buku Google Google Books Romeltea Media" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Download Buku Google Google Books Romeltea Media</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://2.bp.blogspot.com/-081hIoExpX8/WNioECz0_AI/AAAAAAAADJs/7MIWmGcakuEUlnYyz-Eyd7fmsLMdOvWPwCLcB/s1600/google-play-book-01.jpg" target="_blank">
-							<img class="img-fluid" src="https://2.bp.blogspot.com/-081hIoExpX8/WNioECz0_AI/AAAAAAAADJs/7MIWmGcakuEUlnYyz-Eyd7fmsLMdOvWPwCLcB/s1600/google-play-book-01.jpg" alt="Cara Mudah Beli Buku Digital Di Google Tanpa Kartu Kredit La Ode Ahmad" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Mudah Beli Buku Digital Di Google Tanpa Kartu Kredit La Ode Ahmad</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://w7.pngwing.com/pngs/25/87/png-transparent-google-books-google-logo-google-play-books-history-of-books.png" target="_blank">
-							<img class="img-fluid" src="https://w7.pngwing.com/pngs/25/87/png-transparent-google-books-google-logo-google-play-books-history-of-books.png" alt="Google Buku Google Logo Google Play Buku Sejarah Buku Teks Membaca Logo Png Pngwing" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Buku Google Logo Google Play Buku Sejarah Buku Teks Membaca Logo Png Pngwing</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://media.karousell.com/media/photos/products/2018/03/10/buku_notes_google_1520665525_18c8f9a00" target="_blank">
-							<img class="img-fluid" src="https://media.karousell.com/media/photos/products/2018/03/10/buku_notes_google_1520665525_18c8f9a00" alt="Buku Notes Google Buku Alat Tulis Buku Pelajaran Di Carousell" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Buku Notes Google Buku Alat Tulis Buku Pelajaran Di Carousell</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.biem.co/wp-content/uploads/2018/04/ebook-di-Google.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.biem.co/wp-content/uploads/2018/04/ebook-di-Google.jpg" alt="Jual E Book Di Google Playstore Bisa Kaya Kenapa Penulis Hanya Jual Buku Fisik Biem Co" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Jual E Book Di Google Playstore Bisa Kaya Kenapa Penulis Hanya Jual Buku Fisik Biem Co</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://portal.billionairestore.co.id/wp-content/uploads/2018/11/JLDG-DEPAN-BELAKANG-ALIT.png" target="_blank">
-							<img class="img-fluid" src="https://portal.billionairestore.co.id/wp-content/uploads/2018/11/JLDG-DEPAN-BELAKANG-ALIT.png" alt="Buku Jualan Laris Dari Google Portal Billionaire Store" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Buku Jualan Laris Dari Google Portal Billionaire Store</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lovingindonesia.com/wp-content/uploads/2020/04/book-2-1.png" target="_blank">
-							<img class="img-fluid" src="https://lovingindonesia.com/wp-content/uploads/2020/04/book-2-1.png" alt="Panduan Buku Mahir Google Ads Belajar Cara Pasang Iklan Di Google Loving Indonesia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Panduan Buku Mahir Google Ads Belajar Cara Pasang Iklan Di Google Loving Indonesia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://ecs7.tokopedia.net/img/cache/700/product-1/2018/10/1/4191622/4191622_75db964e-06e0-46d7-a623-c811eaa9d149_2048_2048.jpg" target="_blank">
-							<img class="img-fluid" src="https://ecs7.tokopedia.net/img/cache/700/product-1/2018/10/1/4191622/4191622_75db964e-06e0-46d7-a623-c811eaa9d149_2048_2048.jpg" alt="Jual Diskon Jualan Laris Dari Google Buku Bisnis Billionaire Store Kota Bandung Billionaire Store Promo Tokopedia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Jual Diskon Jualan Laris Dari Google Buku Bisnis Billionaire Store Kota Bandung Billionaire Store Promo Tokopedia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://erudisi.com/wp-content/uploads/2016/05/google-buku.jpg" target="_blank">
-							<img class="img-fluid" src="https://erudisi.com/wp-content/uploads/2016/05/google-buku.jpg" alt="Google Buku" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Buku</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.maulanaahsan.com/wp-content/uploads/2018/11/Cara-Upload-Ebook-PDF-Ke-Google-Books-Untuk-Koleksi-Pribadi.png" target="_blank">
-							<img class="img-fluid" src="https://www.maulanaahsan.com/wp-content/uploads/2018/11/Cara-Upload-Ebook-PDF-Ke-Google-Books-Untuk-Koleksi-Pribadi.png" alt="Cara Upload Ebook Pdf Ke Google Books Untuk Koleksi Pribadi" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Upload Ebook Pdf Ke Google Books Untuk Koleksi Pribadi</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i1.wp.com/www.blogpress.id/wp-content/uploads/2020/06/Google-Play-Book.png?resize=750%2C451&amp;ssl=1" target="_blank">
-							<img class="img-fluid" src="https://i1.wp.com/www.blogpress.id/wp-content/uploads/2020/06/Google-Play-Book.png?resize=750%2C451&amp;ssl=1" alt="Cara Download Buku Di Google Book Downloader Dengan Mudah" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Download Buku Di Google Book Downloader Dengan Mudah</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://books.google.co.id/googlebooks/example_lg.gif" target="_blank">
-							<img class="img-fluid" src="https://books.google.co.id/googlebooks/example_lg.gif" alt="Penelusuran Buku Google" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Penelusuran Buku Google</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://1.bp.blogspot.com/-3z_kcuTapJY/WCu9dYQqOXI/AAAAAAAACSc/ku5VEK0mhuY0DAo40F7zE1LWUAn6aaDjwCLcB/s1600/download-google-book-dengan-gbookdownloader.jpg" target="_blank">
-							<img class="img-fluid" src="https://1.bp.blogspot.com/-3z_kcuTapJY/WCu9dYQqOXI/AAAAAAAACSc/ku5VEK0mhuY0DAo40F7zE1LWUAn6aaDjwCLcB/s1600/download-google-book-dengan-gbookdownloader.jpg" alt="Cara Download Buku Di Google Book Super Cepat" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Download Buku Di Google Book Super Cepat</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://upload.wikimedia.org/wikipedia/commons/f/f6/Hand_of_Google.png" target="_blank">
-							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Hand_of_Google.png" alt="Google Buku Wikiwand" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Buku Wikiwand</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://1.bp.blogspot.com/-iZq9NPKqfJQ/Xw7EOnYq9WI/AAAAAAAAGYs/UuttPg9a0WsoGWhsyGDkRNbjTDf6YHQpwCLcBGAsYHQ/s496/cara%2Bdownload%2Bbuku%2Bdi%2Bandroid%2B-%2Bwww.reviewsteknologiku.tech.jpg" target="_blank">
-							<img class="img-fluid" src="https://1.bp.blogspot.com/-iZq9NPKqfJQ/Xw7EOnYq9WI/AAAAAAAAGYs/UuttPg9a0WsoGWhsyGDkRNbjTDf6YHQpwCLcBGAsYHQ/s496/cara%2Bdownload%2Bbuku%2Bdi%2Bandroid%2B-%2Bwww.reviewsteknologiku.tech.jpg" alt="Cara Download Buku Di Google Play Books Gratis Offline Review Teknologi Sekarang" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Download Buku Di Google Play Books Gratis Offline Review Teknologi Sekarang</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://media.karousell.com/media/photos/products/2017/11/30/buku_kisah_sukses_google_1512056185_d95ffa10.jpg" target="_blank">
-							<img class="img-fluid" src="https://media.karousell.com/media/photos/products/2017/11/30/buku_kisah_sukses_google_1512056185_d95ffa10.jpg" alt="Buku Kisah Sukses Google Buku Alat Tulis Buku Di Carousell" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Buku Kisah Sukses Google Buku Alat Tulis Buku Di Carousell</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://1.bp.blogspot.com/-lwcKj9-4PsA/Xw6EIpFwx_I/AAAAAAAAGXM/FQO1t9-neNUUMhvD2pCm3GrIhhm4Bwn_wCLcBGAsYHQ/s569/cara%2Bdownload%2Bbuku%2Bdi%2Bgoogle%2Bbook.JPG" target="_blank">
-							<img class="img-fluid" src="https://1.bp.blogspot.com/-lwcKj9-4PsA/Xw6EIpFwx_I/AAAAAAAAGXM/FQO1t9-neNUUMhvD2pCm3GrIhhm4Bwn_wCLcBGAsYHQ/s569/cara%2Bdownload%2Bbuku%2Bdi%2Bgoogle%2Bbook.JPG" alt="Cara Download Buku Di Google Book Di Android Laptop Gbooksdownloader Review Teknologi Sekarang" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Download Buku Di Google Book Di Android Laptop Gbooksdownloader Review Teknologi Sekarang</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i2.wp.com/pindahlubang.com/wp-content/uploads/2020/03/Cara-Download-Buku-Di-Google-Book.jpg?ssl=1" target="_blank">
-							<img class="img-fluid" src="https://i2.wp.com/pindahlubang.com/wp-content/uploads/2020/03/Cara-Download-Buku-Di-Google-Book.jpg?ssl=1" alt="Cara Download Buku Di Google Book Dengan 4 Metode Mudah" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Download Buku Di Google Book Dengan 4 Metode Mudah</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://2.bp.blogspot.com/-3B3uzqv5JBI/WCu82bSCwbI/AAAAAAAACSY/9aE1x6YraG8cgtUmCsHvVs4x_UrwmvfVwCLcB/s1600/cara-download-buku-di-google-book.jpg" target="_blank">
-							<img class="img-fluid" src="https://2.bp.blogspot.com/-3B3uzqv5JBI/WCu82bSCwbI/AAAAAAAACSY/9aE1x6YraG8cgtUmCsHvVs4x_UrwmvfVwCLcB/s1600/cara-download-buku-di-google-book.jpg" alt="Cara Download Buku Di Google Book Super Cepat" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Download Buku Di Google Book Super Cepat</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://1.bp.blogspot.com/-1bAxFX8DY9s/VNTa83UyWHI/AAAAAAAAAA4/RVYtD4Rb0Zc/s1600/Google-Books.png" target="_blank">
-							<img class="img-fluid" src="http://1.bp.blogspot.com/-1bAxFX8DY9s/VNTa83UyWHI/AAAAAAAAAA4/RVYtD4Rb0Zc/s1600/Google-Books.png" alt="Ingin Tahu Hack Google Book" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Ingin Tahu Hack Google Book</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://miro.medium.com/max/1536/0*AZFB7lL6lrJXzu8N.png" target="_blank">
-							<img class="img-fluid" src="https://miro.medium.com/max/1536/0*AZFB7lL6lrJXzu8N.png" alt="17 Website Terbaik Untuk Download Buku Gratis By Adminbacaansebentar Medium" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>17 Website Terbaik Untuk Download Buku Gratis By Adminbacaansebentar Medium</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://mmc.tirto.id/image/otf/500x0/2020/04/07/istock-482769131_ratio-16x9.jpg" target="_blank">
-							<img class="img-fluid" src="https://mmc.tirto.id/image/otf/500x0/2020/04/07/istock-482769131_ratio-16x9.jpg" alt="Ketahui Cara Membeli Meminjam Membaca Buku Di Google Play Books Tirto Id" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Ketahui Cara Membeli Meminjam Membaca Buku Di Google Play Books Tirto Id</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://bacolah.com/wp-content/uploads/2018/02/hasil-conver-acsm-ke-pdf.jpg" target="_blank">
-							<img class="img-fluid" src="https://bacolah.com/wp-content/uploads/2018/02/hasil-conver-acsm-ke-pdf.jpg" alt="Cara Download Dan Membaca Buku Google Play Book Di Pdf Komputer Bacolah Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Download Dan Membaca Buku Google Play Book Di Pdf Komputer Bacolah Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://2.bp.blogspot.com/-3D3C79BFkc8/W8p7ZL9AOnI/AAAAAAAAI5k/5-HBvh79O4wf8OmsepS5PxURcBnSk8-fACLcBGAs/s1600/Buka%2Bbuku%2Burip.jpg" target="_blank">
-							<img class="img-fluid" src="https://2.bp.blogspot.com/-3D3C79BFkc8/W8p7ZL9AOnI/AAAAAAAAI5k/5-HBvh79O4wf8OmsepS5PxURcBnSk8-fACLcBGAs/s1600/Buka%2Bbuku%2Burip.jpg" alt="Cara Lain Mendowload Halaman Google Book Urip Dot Info" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Lain Mendowload Halaman Google Book Urip Dot Info</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://refrez.com/wp-content/uploads/2019/12/ebook-scaled-1030x687.jpeg" target="_blank">
-							<img class="img-fluid" src="https://refrez.com/wp-content/uploads/2019/12/ebook-scaled-1030x687.jpeg" alt="Cara Download Buku Di Google Books Refrez" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Download Buku Di Google Books Refrez</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cf.shopee.co.id/file/9f4ce3016a4c93349356378581342581" target="_blank">
-							<img class="img-fluid" src="https://cf.shopee.co.id/file/9f4ce3016a4c93349356378581342581" alt="Buku Google Form Dan Implementasinya Oleh Eka Shopee Indonesia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Buku Google Form Dan Implementasinya Oleh Eka Shopee Indonesia</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://1.bp.blogspot.com/-3QWrfd24Gn4/W8p6piGL_nI/AAAAAAAAI5c/1iPCif4wWfwMM10PHQqxRGP0WzbVwzMAACLcBGAs/s1600/google%2Bbook%2Burip%2Binfo.jpg" target="_blank">
-							<img class="img-fluid" src="https://1.bp.blogspot.com/-3QWrfd24Gn4/W8p6piGL_nI/AAAAAAAAI5c/1iPCif4wWfwMM10PHQqxRGP0WzbVwzMAACLcBGAs/s1600/google%2Bbook%2Burip%2Binfo.jpg" alt="Cara Lain Mendowload Halaman Google Book Urip Dot Info" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Lain Mendowload Halaman Google Book Urip Dot Info</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/b1qMjuhcnqA/hqdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/b1qMjuhcnqA/hqdefault.jpg" alt="Cara Mendownload Buku Di Google Book Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Mendownload Buku Di Google Book Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://ascensionortho.com/wp-content/uploads/2019/11/study-3.jpg" target="_blank">
-							<img class="img-fluid" src="https://ascensionortho.com/wp-content/uploads/2019/11/study-3.jpg" alt="Apa Saja Yang Bisa Didapatkan Di Google Buku Ascen" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Apa Saja Yang Bisa Didapatkan Di Google Buku Ascen</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://ebooks.gramedia.com/ebook-covers/4086/big_covers/ID_EMK2013MTH05TRGA_B.jpg" target="_blank">
-							<img class="img-fluid" src="https://ebooks.gramedia.com/ebook-covers/4086/big_covers/ID_EMK2013MTH05TRGA_B.jpg" alt="Jual Buku 80 Trik Rahasia Google Adsense Oleh Jubilee Enterprise Gramedia Digital Indonesia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Jual Buku 80 Trik Rahasia Google Adsense Oleh Jubilee Enterprise Gramedia Digital Indonesia</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://ebooks.gramedia.com/ebook-covers/50468/image_highres/ID_SSGA2020MTH01SG.jpg" target="_blank">
-							<img class="img-fluid" src="https://ebooks.gramedia.com/ebook-covers/50468/image_highres/ID_SSGA2020MTH01SG.jpg" alt="Jual Buku Step By Step Google Adsense Oleh Dedik Kurniawan Gramedia Digital Indonesia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Jual Buku Step By Step Google Adsense Oleh Dedik Kurniawan Gramedia Digital Indonesia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.wikihow.com/images_en/thumb/1/18/Buy-Books-on-Google-Step-1-Version-2.jpg/v4-460px-Buy-Books-on-Google-Step-1-Version-2.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.wikihow.com/images_en/thumb/1/18/Buy-Books-on-Google-Step-1-Version-2.jpg/v4-460px-Buy-Books-on-Google-Step-1-Version-2.jpg" alt="3 Cara Untuk Membeli Buku Di Google Wikihow" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>3 Cara Untuk Membeli Buku Di Google Wikihow</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://jenikaray.com/wp-content/uploads/2018/02/g7.png" target="_blank">
-							<img class="img-fluid" src="https://jenikaray.com/wp-content/uploads/2018/02/g7.png" alt="Google Play Books Aplikasi Penuh Manfaat Bagi Pecinta Buku Jeni Karay" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Play Books Aplikasi Penuh Manfaat Bagi Pecinta Buku Jeni Karay</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://1.bp.blogspot.com/-sflTTQTmQ9A/XUoenykaNxI/AAAAAAAAEjE/48rghxvNjV8xHGo8fkNbJurGZvcVbcJCgCLcBGAs/w1200-h630-p-k-no-nu/ebook.PNG" target="_blank">
-							<img class="img-fluid" src="https://1.bp.blogspot.com/-sflTTQTmQ9A/XUoenykaNxI/AAAAAAAAEjE/48rghxvNjV8xHGo8fkNbJurGZvcVbcJCgCLcBGAs/w1200-h630-p-k-no-nu/ebook.PNG" alt="Tutorial Cara Membuat Akun Google Play Books Kumpulan Remaja" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Tutorial Cara Membuat Akun Google Play Books Kumpulan Remaja</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://ebooks.gramedia.com/ebook-covers/44811/image_highres/ID_GTF2018MTH10GTF.jpg" target="_blank">
-							<img class="img-fluid" src="https://ebooks.gramedia.com/ebook-covers/44811/image_highres/ID_GTF2018MTH10GTF.jpg" alt="Jual Buku Google S Top 25 Features Oleh Asmad Community Gramedia Digital Indonesia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Jual Buku Google S Top 25 Features Oleh Asmad Community Gramedia Digital Indonesia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.klik-kanan.com/blog/wp-content/uploads/2008/11/google-book-search.jpeg" target="_blank">
-							<img class="img-fluid" src="http://www.klik-kanan.com/blog/wp-content/uploads/2008/11/google-book-search.jpeg" alt="Mikrotik Membaca Buku Secara Online" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Mikrotik Membaca Buku Secara Online</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://inwepo.co/wp-content/uploads/2019/12/Formulir-minat-online.jpg" target="_blank">
-							<img class="img-fluid" src="https://inwepo.co/wp-content/uploads/2019/12/Formulir-minat-online.jpg" alt="Cara Menjual Buku Ebook Di Google Play Books Inwepo" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Menjual Buku Ebook Di Google Play Books Inwepo</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.teknoplace.web.id/wp-content/uploads/2018/06/books.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.teknoplace.web.id/wp-content/uploads/2018/06/books.jpg" alt="Google Berikan Kredit Books Store Rp 40 000 Untuk Pengguna Di Indonesia Teknoplace" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Berikan Kredit Books Store Rp 40 000 Untuk Pengguna Di Indonesia Teknoplace</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i0.wp.com/teknoding.com/wp-content/uploads/2020/06/cara-download-ebook-gratis-google-book.png?fit=1366%2C768&amp;ssl=1" target="_blank">
-							<img class="img-fluid" src="https://i0.wp.com/teknoding.com/wp-content/uploads/2020/06/cara-download-ebook-gratis-google-book.png?fit=1366%2C768&amp;ssl=1" alt="Cara Download Ebook Gratis Di Google Play Book Legal" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Download Ebook Gratis Di Google Play Book Legal</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn2.tstatic.net/jatim/foto/bank/images/happy-little-soul-the-devils-son_20171211_153525.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn2.tstatic.net/jatim/foto/bank/images/happy-little-soul-the-devils-son_20171211_153525.jpg" alt="Butuh Referensi Bacaan Ini 5 Buku Terbaik Tahun 2017 Yang Bisa Didownload Lewat Google Play Store Tribun Jatim" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Butuh Referensi Bacaan Ini 5 Buku Terbaik Tahun 2017 Yang Bisa Didownload Lewat Google Play Store Tribun Jatim</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://aqli.org/images/Hotpromo2019.jpg" target="_blank">
-							<img class="img-fluid" src="https://aqli.org/images/Hotpromo2019.jpg" alt="E Book Hot Promo 2019" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>E Book Hot Promo 2019</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://woiden.com/wp-content/uploads/2019/01/Google-Books-Online-Reading-Woiden.jpg" target="_blank">
-							<img class="img-fluid" src="https://woiden.com/wp-content/uploads/2019/01/Google-Books-Online-Reading-Woiden.jpg" alt="Cara Download Google Books Dengan File Pdf Secara Gratis Woiden" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Download Google Books Dengan File Pdf Secara Gratis Woiden</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://books.google.co.id/googlebooks/excerpt_lg.gif" target="_blank">
-							<img class="img-fluid" src="https://books.google.co.id/googlebooks/excerpt_lg.gif" alt="Penelusuran Buku Google" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Penelusuran Buku Google</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1586315257/mave5j1wxh2onlxzgn0p.jpg" target="_blank">
-							<img class="img-fluid" src="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1586315257/mave5j1wxh2onlxzgn0p.jpg" alt="Cara Membeli Dan Menyewa Buku Di Google Play Book Kumparan Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Membeli Dan Menyewa Buku Di Google Play Book Kumparan Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://toko.bukujagoan.com/wp-content/uploads/2020/03/Mahir-Google-Ads.jpg" target="_blank">
-							<img class="img-fluid" src="https://toko.bukujagoan.com/wp-content/uploads/2020/03/Mahir-Google-Ads.jpg" alt="Mahir Google Ads Target Lebih Tepat Omset Naik Melesat Buku Jagoan" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Mahir Google Ads Target Lebih Tepat Omset Naik Melesat Buku Jagoan</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=google+slides&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=google+slides&amp;tbm=isch" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gctgv18270yeiualuycd2x1ziqwgiukmscejrcnvqnexv7qnlcoy Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gctgv18270yeiualuycd2x1ziqwgiukmscejrcnvqnexv7qnlcoy Usqp Cau</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://barakumbara.files.wordpress.com/2011/04/gbd33c.png" target="_blank">
-							<img class="img-fluid" src="https://barakumbara.files.wordpress.com/2011/04/gbd33c.png" alt="Cara Download Ebook Di Google Buku Menggunakan Google Book Downloader Portable Barakumbara" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Download Ebook Di Google Buku Menggunakan Google Book Downloader Portable Barakumbara</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cf.shopee.co.id/file/a624ba13986eee2f61d6cbbc5bd6811c" target="_blank">
-							<img class="img-fluid" src="https://cf.shopee.co.id/file/a624ba13986eee2f61d6cbbc5bd6811c" alt="Buku Tutorial Google Drive Dan Google Apps Shopee Indonesia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Buku Tutorial Google Drive Dan Google Apps Shopee Indonesia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://1.bp.blogspot.com/-fP1NGsmX70U/XTkeHl42WXI/AAAAAAAAF5E/d7J_B0ywzYYM6cR5WBYwe8nEXWFkQBx5wCLcBGAs/s1600/google-play-books-publisher.jpg" target="_blank">
-							<img class="img-fluid" src="https://1.bp.blogspot.com/-fP1NGsmX70U/XTkeHl42WXI/AAAAAAAAF5E/d7J_B0ywzYYM6cR5WBYwe8nEXWFkQBx5wCLcBGAs/s1600/google-play-books-publisher.jpg" alt="Cara Menjual Buku Lewat Google Play Books" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Menjual Buku Lewat Google Play Books</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Google_Play_Books_icon_%282016%29.svg/512px-Google_Play_Books_icon_%282016%29.svg.png" target="_blank">
-							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Google_Play_Books_icon_%282016%29.svg/512px-Google_Play_Books_icon_%282016%29.svg.png" alt="Google Play Buku Wikipedia Bahasa Indonesia Ensiklopedia Bebas" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Google Play Buku Wikipedia Bahasa Indonesia Ensiklopedia Bebas</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://asset-a.grid.id/crop/0x0:0x0/360x240/photo/intisarifoto/original/28296_ayo-unduh-buku-gratis-di-google-play-books.png" target="_blank">
-							<img class="img-fluid" src="https://asset-a.grid.id/crop/0x0:0x0/360x240/photo/intisarifoto/original/28296_ayo-unduh-buku-gratis-di-google-play-books.png" alt="Ayo Unduh Buku Gratis Di Google Play Books Intisari" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Ayo Unduh Buku Gratis Di Google Play Books Intisari</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cf.shopee.co.id/file/8456940526d2bdfed1da34875198de66" target="_blank">
-							<img class="img-fluid" src="https://cf.shopee.co.id/file/8456940526d2bdfed1da34875198de66" alt="Buku Google Adsense Cara Benar Dan Teruji Belajar Google Adsense Shopee Indonesia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Buku Google Adsense Cara Benar Dan Teruji Belajar Google Adsense Shopee Indonesia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=google+image+search&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=google+image+search&amp;tbm=isch" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcqh724hbdhvsrzb0ucm2o1nmwgjo1avjrogfkcxph7vu5edug3g Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcqh724hbdhvsrzb0ucm2o1nmwgjo1avjrogfkcxph7vu5edug3g Usqp Cau</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/eD3k8ulDMRc/maxresdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/eD3k8ulDMRc/maxresdefault.jpg" alt="Buku Gratis 1 Di Google Books Dengan Cara Ini Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Buku Gratis 1 Di Google Books Dengan Cara Ini Youtube</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://esportsk.b-cdn.net/wp-content/uploads/2020/06/file-26-450x300.png" target="_blank">
-							<img class="img-fluid" src="https://esportsk.b-cdn.net/wp-content/uploads/2020/06/file-26-450x300.png" alt="Cara Mendownload Buku Di Google Books Secara Gratis Esportsku" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Mendownload Buku Di Google Books Secara Gratis Esportsku</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://qph.fs.quoracdn.net/main-qimg-fcedfbeebe7107a8239b627356026456" target="_blank">
-							<img class="img-fluid" src="https://qph.fs.quoracdn.net/main-qimg-fcedfbeebe7107a8239b627356026456" alt="Bagaimana Cara Menjual Buku Di Google Play Quora" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bagaimana Cara Menjual Buku Di Google Play Quora</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://4.bp.blogspot.com/-NmYK1fOUmFo/WCu_XD3LlfI/AAAAAAAACSo/km7icgDdWDwR1_TNX82Sj4dZsIA4VtSxACLcB/s640/cara-download-buku-di-google-book-super-cepat.jpg" target="_blank">
-							<img class="img-fluid" src="https://4.bp.blogspot.com/-NmYK1fOUmFo/WCu_XD3LlfI/AAAAAAAACSo/km7icgDdWDwR1_TNX82Sj4dZsIA4VtSxACLcB/s640/cara-download-buku-di-google-book-super-cepat.jpg" alt="Cara Download Buku Di Google Book Super Cepat" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Download Buku Di Google Book Super Cepat</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://penerbitbukudeepublish.com/wp-content/uploads/2019/10/review-buku-panduan-google-drive.jpg" target="_blank">
-							<img class="img-fluid" src="https://penerbitbukudeepublish.com/wp-content/uploads/2019/10/review-buku-panduan-google-drive.jpg" alt="Review Buku Tentang Panduan Lengkap Google Drive Dan Google Apps" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Review Buku Tentang Panduan Lengkap Google Drive Dan Google Apps</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://1.bp.blogspot.com/-2Kj6rpCqrUw/U_bw6GU-e8I/AAAAAAAAGAo/r3cZpYVjrdw/s1600/google-books-downloader.jpg" target="_blank">
-							<img class="img-fluid" src="https://1.bp.blogspot.com/-2Kj6rpCqrUw/U_bw6GU-e8I/AAAAAAAAGAo/r3cZpYVjrdw/s1600/google-books-downloader.jpg" alt="Cara Download Buku Google Google Books Romeltea Media" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cara Download Buku Google Google Books Romeltea Media</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://ebooks.gramedia.com/ebook-covers/44642/image_highres/ID_PIGA2018MTH10PIGA.jpg" target="_blank">
-							<img class="img-fluid" src="https://ebooks.gramedia.com/ebook-covers/44642/image_highres/ID_PIGA2018MTH10PIGA.jpg" alt="Jual Buku Passive Income Dari Google Adsense Oleh Jefferly Helianthusonfri Gramedia Digital Indonesia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Jual Buku Passive Income Dari Google Adsense Oleh Jefferly Helianthusonfri Gramedia Digital Indonesia</p> 
-					</div>
-				</div>
-						 
-		 
-
-	 	
-	
-					</div>
+		</div>
+				<div class="clearfix"></div> 
+		<div class="d-block mt-4 p-3">
+			Source : <a href="https://pinterest.com" rel="nofollow noopener">pinterest.com</a>
+		</div>
+						</div>
 				</div> 
 				<div class="col-md-3">
 					<div class="col-sm-12 widget">
-						<h3 class="widget-title">Random Posts</h3>
+						<h3 class="widget-title">RANDOM POST</h3>
 						<ul class="list-group">
-						 
-																	<li class="list-group-item"><a href="wolfgang-clement-krankheit.html">Wolfgang Clement Krankheit</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-got.html">Rose Leslie Got</a></li>
-																	<li class="list-group-item"><a href="clement-yang.html">Clement Yang</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="rose-leslie-and-kit-harrington.html">Rose Leslie And Kit Harrington</a></li>
-																	<li class="list-group-item"><a href="kit-harington-y-rose-leslie-2019.html">Kit Harington Y Rose Leslie 2019</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-vin-diesel.html">Rose Leslie Vin Diesel</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="aserbaidschan-strand.html">Aserbaidschan Strand</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-instagram-account.html">Rose Leslie Instagram Account</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-scarf.html">Dynamo Dresden Scarf</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="dynamo-dresden-mannschaftsfoto.html">Dynamo Dresden Mannschaftsfoto</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-nostalji.html">Fenerbahce Nostalji</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-auto.html">Dynamo Dresden Auto</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="fc-st-pauli-logo.html">Fc St Pauli Logo</a></li>
-																	<li class="list-group-item"><a href="google-earth-indonesia.html">Google Earth Indonesia</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-childhood-home.html">Rose Leslie Childhood Home</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="galatasaray-images.html">Galatasaray Images</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-peliculas-y-programas-de-television.html">Rose Leslie Peliculas Y Programas De Television</a></li>
-																	<li class="list-group-item"><a href="armenien-world-map.html">Armenien World Map</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="google-pixel.html">Google Pixel</a></li>
-																	<li class="list-group-item"><a href="galatasaray-dergisi.html">Galatasaray Dergisi</a></li>
-																	<li class="list-group-item"><a href="armenien-karte-europa.html">Armenien Karte Europa</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="galatasaray-uefa-kupasi-wallpaper.html">Galatasaray Uefa Kupasi Wallpaper</a></li>
-																	<li class="list-group-item"><a href="google-search.html">Google Search</a></li>
-																	<li class="list-group-item"><a href="armenien-eriwan.html">Armenien Eriwan</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="dynamo-dresden-pullover.html">Dynamo Dresden Pullover</a></li>
-																	<li class="list-group-item"><a href="praesident-von-aserbaidschan.html">Praesident Von Aserbaidschan</a></li>
-																	<li class="list-group-item"><a href="google-translate-sunda.html">Google Translate Sunda</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="galatasaray-png.html">Galatasaray Png</a></li>
-																	<li class="list-group-item"><a href="armenien-georgien.html">Armenien Georgien</a></li>
-																	<li class="list-group-item"><a href="galatasaray-crest.html">Galatasaray Crest</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="google-youtube-video.html">Google Youtube Video</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-flagge.html">Dynamo Dresden Flagge</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-ygritte.html">Rose Leslie Ygritte</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="clement-raphalalani.html">Clement Raphalalani</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-camouflage.html">Dynamo Dresden Camouflage</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-kit-2021.html">Dynamo Dresden Kit 2021</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="st-pauli-astra.html">St Pauli Astra</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-fsv-zwickau.html">Dynamo Dresden Fsv Zwickau</a></li>
-																	<li class="list-group-item"><a href="french-open-2020-tv-schedule.html">French Open 2020 Tv Schedule</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="galatasaray-messi.html">Galatasaray Messi</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-stadion.html">Dynamo Dresden Stadion</a></li>
-																	<li class="list-group-item"><a href="galatasaray-graffiti.html">Galatasaray Graffiti</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="kit-harington-beard.html">Kit Harington Beard</a></li>
-																	<li class="list-group-item"><a href="galatasaray-kit-2020.html">Galatasaray Kit 2020</a></li>
-																	<li class="list-group-item"><a href="google-qr-code.html">Google Qr Code</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="dynamo-dresden-ultras.html">Dynamo Dresden Ultras</a></li>
-																	<li class="list-group-item"><a href="st-pauli-na-beer.html">St Pauli Na Beer</a></li>
-																	<li class="list-group-item"><a href="fc-bayern.html">Fc Bayern</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="galatasaray-kacinci-sirada.html">Galatasaray Kacinci Sirada</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-cubuklu.html">Fenerbahce Cubuklu</a></li>
-								 
+													<li class="list-group-item"><a href="/victoria-vanucci.html">Victoria Vanucci</a></li>
+													<li class="list-group-item"><a href="/google-chrome.html">Google Chrome</a></li>
+													<li class="list-group-item"><a href="/leeds-united.html">Leeds United</a></li>
+													<li class="list-group-item"><a href="/armenia.html">Armenia</a></li>
+													<li class="list-group-item"><a href="/leeds-hoy.html">Leeds Hoy</a></li>
+													<li class="list-group-item"><a href="/city.html">City</a></li>
+													<li class="list-group-item"><a href="/delbonis.html">Delbonis</a></li>
+													<li class="list-group-item"><a href="/podoroska.html">Podoroska</a></li>
+													<li class="list-group-item"><a href="/adesanya.html">Adesanya</a></li>
+													<li class="list-group-item"><a href="/azerbaiy%C3%A1n.html">Azerbaiyán</a></li>
+													<li class="list-group-item"><a href="/sheffield-united-contra-leeds.html">Sheffield United Contra Leeds</a></li>
+													<li class="list-group-item"><a href="/vitamina-d.html">Vitamina D</a></li>
+													<li class="list-group-item"><a href="/google.html">Google</a></li>
+													<li class="list-group-item"><a href="/manchester-city.html">Manchester City</a></li>
+													<li class="list-group-item"><a href="/google-amerika.html">Google Amerika</a></li>
+													<li class="list-group-item"><a href="/google-business.html">Google Business</a></li>
+													<li class="list-group-item"><a href="/joaquin-phoenix.html">Joaquin Phoenix</a></li>
+													<li class="list-group-item"><a href="/lakers.html">Lakers</a></li>
+													<li class="list-group-item"><a href="/google-bisnisku.html">Google Bisnisku</a></li>
+													<li class="list-group-item"><a href="/google-art.html">Google Art</a></li>
+													<li class="list-group-item"><a href="/telekino.html">Telekino</a></li>
+													<li class="list-group-item"><a href="/google-adwords.html">Google Adwords</a></li>
+													<li class="list-group-item"><a href="/roland-garros-2020.html">Roland Garros 2020</a></li>
+													<li class="list-group-item"><a href="/google-bego.html">Google Bego</a></li>
+													<li class="list-group-item"><a href="/bayern-munich.html">Bayern Munich</a></li>
+													<li class="list-group-item"><a href="/cae.html">Cae</a></li>
+													<li class="list-group-item"><a href="/bayern.html">Bayern</a></li>
+													<li class="list-group-item"><a href="/lebron-james.html">Lebron James</a></li>
+													<li class="list-group-item"><a href="/google-class.html">Google Class</a></li>
+													<li class="list-group-item"><a href="/google-analytics.html">Google Analytics</a></li>
 						 
 						</ul>
 					</div>
 					<div class="col-sm-12 widget">
-						<script async="async" data-cfasync="false" src="//zqvee2re50mr.com/675cb813fbbeae53ce321baa240173f6/invoke.js"></script>
-<div id="container-675cb813fbbeae53ce321baa240173f6"></div>
 					</div>
 				</div> 
 			</div>
 			<div class="row footer">
 				<div class="col-md-12 text-center">
-										<a href="pages/dmca">Dmca</a>
-										<a href="pages/contact">Contact</a>
-										<a href="pages/privacy-policy">Privacy Policy</a>
-										<a href="pages/copyright">Copyright</a>
-					
-				</div>
+										<a href="/p/dmca.html">Dmca</a>
+										<a href="/p/contact.html">Contact</a>
+										<a href="/p/privacy-policy.html">Privacy Policy</a>
+										<a href="/p/copyright.html">Copyright</a>
+									</div>
 			</div>
 		</div>
 		<!-- <style>
@@ -1139,6 +376,31 @@ a{color: #f42966;text-decoration:none;}
 	  	<br>
 		<a href="#your-offer-url" target="_blank">CTA Link &rarr;</a>
 	</p>
-</div> -->		<script type='text/javascript' src='//zqvee2re50mr.com/a4/31/b2/a431b2df4b60e2629306f7e7e7465d31.js'></script>	</main>
-</body>
+</div> -->
+		<script type='text/javascript' src='//zqvee2re50mr.com/a4/31/b2/a431b2df4b60e2629306f7e7e7465d31.js'></script>	</main>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js" integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+
+	
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+	<script type='text/javascript'>
+		$(document).ready(function()
+	    {
+			$(document).on('click','#image-download',function(e)
+			{
+				e.preventDefault();
+				var url = $(this).data('url');
+				var title = $(this).data('title');			
+				var x=new XMLHttpRequest();
+				x.open( "GET", url , true);
+				x.responseType="blob";
+				x.onload= function(e){download(e.target.response, title, "image/jpg");};
+				x.send();
+			});
+	    });
+	</script>
+	</body>
 </html>
