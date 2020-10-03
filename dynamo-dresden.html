@@ -4,1125 +4,463 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" integrity="sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=" crossorigin="anonymous" />
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">	
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<style type="text/css">
-html,body{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;font-weight:400;color:#e1e2e3;background:#111;}
-img{max-width:100%;} 
-.header{padding-bottom:13px;margin-bottom:13px;}
-.container{max-width:1024px;}
-.navbar{margin-bottom:25px;color:#f1f2f3;border-bottom:1px solid #222;background:#111 !important;} 
-.navbar .navbar-brand{margin:0 20px 0 0;font-size:28px;padding:0;line-height:24px;} 
-.row.header,.row.content,.row.footer{widthx:auto;max-widthx:100%;} 
-.row.footer{padding:30px 0;background:#f1ff2f3;border-color:#222;}
-.content .col-sm-12{padding:0;}
-.content .col-md-9s{margin-right:-25px;}  
-.posts-image{width:25%;display:block;float:left;}
-.posts-image-content{width:auto;margin:0 15px 35px 0;position:relative;}
-.posts-image:nth-child(5n) .posts-image-content{margin:0 0 35px 0 !important;} 
-.posts-image img{width:100%;height:150px;object-fit:cover;object-position:center;margin-bottom:10px;
-	-webkit-transition:0.6s opacity;transition:0.6s opacity;}
-.posts-image:hover img{opacity:0.8;}
-.posts-image:hover h2{background:rgba(0, 0, 0, 0.7);} 
-.posts-image h2{z-index:2;position:absolute;font-size:14px;bottom:2px;left:0;right:0;padding:5px;text-align:center;
-	-webkit-transition:0.6s opacity;transition:0.6s background;}
-.posts-image h2 a{color:#e1e2e3;}
-.posts-image-big{display:block;width:100%;}
-.posts-image-big .posts-image-content{margin:0 0 10px !important;}
-.posts-image-big img{height:380px;}
-.posts-image-big h2{text-align:left;padding-left:0;position:relative;font-size:30px;line-height:36px;}
-.posts-image-big h2 a{color:#e1e2e3;}
-.posts-image-big:hover h2{background:none;}
-.posts-image-single .posts-image-content,
-.posts-image-single:nth-child(5n) .posts-image-content{margin:0 15px 15px 0 !important;} 
-.posts-image-single p{font-size:12px;line-height:18px !important;} 
-.posts-images{clear:both;}
-.list-group{}
-.list-group li{padding:0;background:#222;}
-.list-group li a{display:block;padding:8px;}
-.widget{margin-bottom:20px;}
-h3.widget-title{font-size:20px;}
-a{color: #f42966;text-decoration:none;}  
-.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee;}
-.footer a{margin:0 15px;}
-.navi{margin:13px 0 13px 0;}
-.navi a{margin:5px 2px;font-size:95%;} 
-@media  only screen and (min-width:0px) and (max-width:991px){
-	.container{width:auto;max-width:100%;}.navbar{padding:5px 0;}.navbar .container{width:100%;margin:0 15px;}	
-}
-@media  only screen and (min-width:0px) and (max-width:767px){
-	.content .col-md-3{padding:15px;}
-}	 
-@media  only screen and (min-width:481px) and (max-width:640px){ 
-	.posts-image img{height:90px;}
-	.posts-image-big img{height:320px;}
-	.posts-image-single{width:33.3%;}
-	.posts-image-single:nth-child(3n) .posts-image-content{margin-right:0 !important;}
-}	
-@media  only screen and (min-width:0px) and (max-width:480px){
-	.posts-image img{height:80px;}
-	.posts-image-big img{height:240px;}
-	.posts-image-single{width:100%;} 
-	.posts-image-single .posts-image-content{margin:0 !important;}
-	.posts-image-single img{height:auto;}
-}	
+body,html{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;background:#fff}img{max-width:100%}.header{padding-bottom:13px;margin-bottom:13px}.container{max-width:1024px}.navbar{margin-bottom:25px;color:#f1f2f3;border-bottom:1px solid #e1e2e3}.navbar .navbar-brand{margin:0 20px 0 0;font-size:28px;padding:0;line-height:24px}.row.content,.row.footer,.row.header{widthx:auto;max-widthx:100%}.row.footer{padding:30px 0;background:0 0}.content .col-sm-12{padding:0}.content .col-md-9s{margin-right:-25px}.posts-image{width:25%;display:block;float:left}.posts-image-content{width:auto;margin:0 15px 35px 0;position:relative}.posts-image:nth-child(5n) .posts-image-content{margin:0 0 35px!important}.posts-image img{width:100%;height:150px;object-fit:cover;object-position:center;margin-bottom:10px;-webkit-transition:.6s opacity;transition:.6s opacity}.posts-image:hover img{opacity:.8}.posts-image:hover h2{background:rgba(0,0,0,.7)}.posts-image h2{z-index:2;position:absolute;font-size:14px;bottom:2px;left:0;right:0;padding:5px;text-align:center;-webkit-transition:.6s opacity;transition:.6s background}.posts-image h2 a{color:#fff}.posts-image-big{display:block;width:100%}.posts-image-big .posts-image-content{margin:0 0 10px!important}.posts-image-big img{height:380px}.posts-image-big h2{text-align:left;padding-left:0;position:relative;font-size:30px;line-height:36px}.posts-image-big h2 a{color:#111}.posts-image-big:hover h2{background:0 0}.posts-image-single .posts-image-content,.posts-image-single:nth-child(5n) .posts-image-content{margin:0 15px 15px 0!important}.posts-image-single p{font-size:12px;line-height:18px!important}.posts-images{clear:both}.list-group li{padding:0}.list-group li a{display:block;padding:8px}.widget{margin-bottom:20px}h3.widget-title{font-size:20px}a{color:#0000A0;text-decoration:none}.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee}.footer a{margin:0 15px}.navi{margin:13px 0}.navi a{margin:5px 2px;font-size:95%}@media  only screen and (min-width:0px) and (max-width:991px){.container{width:auto;max-width:100%}.navbar{padding:5px 0}.navbar .container{width:100%;margin:0 15px}}@media  only screen and (min-width:0px) and (max-width:767px){.content .col-md-3{padding:15px}}@media  only screen and (min-width:481px) and (max-width:640px){.posts-image img{height:90px}.posts-image-big img{height:320px}.posts-image-single{width:33.3%}.posts-image-single:nth-child(3n) .posts-image-content{margin-right:0!important}}@media  only screen and (min-width:0px) and (max-width:480px){.posts-image img{height:80px}.posts-image-big img{height:240px}.posts-image-single{width:100%}.posts-image-single .posts-image-content{margin:0!important}.posts-image-single img{height:auto}}.v-cover{height: 380px; object-fit: cover;}.v-image{height: 200px; object-fit: cover;}.main{margin-top: 6rem;}.form-inline .form-control{min-width: 300px;}
 	</style>
 	<title>Dynamo Dresden</title>
 	<!-- Histats.com  START (hidden counter) -->
-<a href="/" alt="web site hit counter" target="_blank" >
-<img  src="//sstatic1.histats.com/0.gif?4454171&101" alt="web site hit counter" border="0">
-<!-- Histats.com  END  -->
+<a href="/" alt="" target="_blank" >
+<img  src="//sstatic1.histats.com/0.gif?4454171&101" alt="" border="0">
+<!-- Histats.com  END  -->]
 
-<script type='text/javascript' src='//zqvee2re50mr.com/7c/26/34/7c263438c0a922e610bc1e9951cbc44f.js'></script></head>
+<script type='text/javascript' src='//zqvee2re50mr.com/7c/26/34/7c263438c0a922e610bc1e9951cbc44f.js'></script>
+	<script type="application/ld+json">
+	{
+	  "@context" : "http://schema.org",
+	  "@type" : "Article",
+	  "name" : "Dynamo Dresden",
+	  "author" : {
+	    "@type" : "Person",
+	    "name" : "Tamara Blezinsky"
+	  },
+	  "datePublished" : "2020-10-03",
+	  "image" : "https://i.pinimg.com/originals/f7/82/1a/f7821aa6cfa39e3fe7d1f547b0510d27.jpg",
+	  "articleSection" : "",
+	  "articleBody" : "",
+	  "url" : "/3-oktober-2020.html",
+	  "publisher" : {
+	    "@type" : "Organization",
+	    "name" : "Was Heute im Trend liegt"
+	  },
+	  "aggregateRating" : {
+	    "@type" : "AggregateRating",
+	    "ratingValue" : "4.6",
+	    "ratingCount" : "1500"
+	  }
+	}
+	</script>
+</head>
 <body>
-	<main id="main">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-light ">
-			<div class="container">
-		  <a href="" class="navbar-brand">TRENDING NEWS</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto">				
-								<li class="nav-item"><a class="nav-link" href="pages/dmca">Dmca</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/contact">Contact</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/privacy-policy">Privacy Policy</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/copyright">Copyright</a></li>
-				 
-			</ul> 
-			</div>
-		  </div>
-		</nav>
+	<header class="bg-white fixed-top">			
+		<nav class="navbar navbar-light bg-white mb-0">
+			<div class="container justify-content-center justify-content-sm-between">	
+			  <a href="/" title="Was Heute im Trend liegt" class="navbar-brand mb-1">Was Heute im Trend liegt</a>
+			  <form class="form-inline mb-1" action="/" method="get">
+			    <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search and hit enter.." aria-label="Search">
+			  </form>	
+			</div>			  
+		</nav>				
+	</header>
+	<main id="main" class="main">
 		<div class="container">  
 			<div class="row content">
 				<div class="col-md-9">
-					<div class="col-sm-12">
+					<div class="col-sm-12 p-2">
 
 							<h1>Dynamo Dresden</h1>
 
 	
-	<div class="navi text-left">
-					<p>After the reunification of germany dynamo played four seasons. Offizielle website des vereins sg dynamo dresden ev. Dynamo dresden merupakan sebuah tim sepak bola jerman yang bermain di divisi dua 2. <br>
-															<a class="badge badge-secondary" href="dynamo-dresden-logo.html">dynamo dresden logo</a>
-																				<a class="badge badge-success" href="dynamo-dresden-vs-norwich-city.html">dynamo dresden vs norwich city</a>
-																				<a class="badge badge-success" href="dynamo-dresden.html">dynamo dresden</a>
-																				<a class="badge badge-dark" href="dynamo-dresden-stadium.html">dynamo dresden stadium</a>
-																				<a class="badge badge-info" href="dynamo-dresden-fans.html">dynamo dresden fans</a>
-																				<a class="badge badge-secondary" href="dynamo-dresden-kit.html">dynamo dresden kit</a>
-																				<a class="badge badge-light" href="dynamo-dresden-fc.html">dynamo dresden fc</a>
-																				<a class="badge badge-primary" href="dynamo-dresden-stadion.html">dynamo dresden stadion</a>
-																				<a class="badge badge-success" href="dynamo-dresden-trikot.html">dynamo dresden trikot</a>
-																					</p>
-			</div>
+	<div class="navi text-center">
+										<a class="badge badge-dark" href="/3-oktober-sternzeichen.html">3 oktober sternzeichen</a>
+											<a class="badge badge-success" href="/g%C3%B6tze.html">götze</a>
+											<a class="badge badge-warning" href="/rogue-nation.html">rogue nation</a>
+											<a class="badge badge-primary" href="/remdesivir.html">remdesivir</a>
+											<a class="badge badge-primary" href="/shadowlands.html">shadowlands</a>
+											<a class="badge badge-primary" href="/biden.html">biden</a>
+											<a class="badge badge-success" href="/mario-g%C3%B6tze-2012.html">mario götze 2012</a>
+											<a class="badge badge-danger" href="/3-oktober-2020.html">3 oktober 2020</a>
+						</div>
 
 						<script async="async" data-cfasync="false" src="//zqvee2re50mr.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
 <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
 					</div> 
 					<div class="col-sm-12">					
-							
-	
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images-na.ssl-images-amazon.com/images/I/71WC56OIM7L._AC_SX466_.jpg" target="_blank">
-							<img class="img-fluid" src="https://images-na.ssl-images-amazon.com/images/I/71WC56OIM7L._AC_SX466_.jpg" alt="Sg Dynamo Dresden Dresden Amazon Co Uk Sports Outdoors" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Sg Dynamo Dresden Dresden Amazon Co Uk Sports Outdoors</p> 
+						
+		
+	<div class="row">
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/56/3e/c9/563ec90cf3c0ada3e9199cf3d5eab284.jpg" data-lightbox="roadtrip" data-title="Sportgemeinschaft Dynamo Dresden E V Sgd Dynamo Germany Sports Team Logos Soccer Logo Football Team Logos">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/56/3e/c9/563ec90cf3c0ada3e9199cf3d5eab284.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Sportgemeinschaft Dynamo Dresden E V Sgd Dynamo Germany Sports Team Logos Soccer Logo Football Team Logos">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Sportgemeinschaft Dynamo Dresden E V Sgd Dynamo Germany Sports Team Logos Soccer Logo Football Team Logos.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Sportgemeinschaft Dynamo Dresden E V Sgd Dynamo Germany Sports Team Logos Soccer Logo Football Team Logos</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Bundesarchiv_Bild_183-1989-0419-044%2C_Uefa-Cup%2C_Dynamo_Dresden_-_VFB_Stuttgart_1-1.jpg/220px-Bundesarchiv_Bild_183-1989-0419-044%2C_Uefa-Cup%2C_Dynamo_Dresden_-_VFB_Stuttgart_1-1.jpg" target="_blank">
-							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Bundesarchiv_Bild_183-1989-0419-044%2C_Uefa-Cup%2C_Dynamo_Dresden_-_VFB_Stuttgart_1-1.jpg/220px-Bundesarchiv_Bild_183-1989-0419-044%2C_Uefa-Cup%2C_Dynamo_Dresden_-_VFB_Stuttgart_1-1.jpg" alt="Dynamo Dresden Wikipedia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden Wikipedia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.footballuser.com/formations/2020/08/1820468_SG_Dynamo_Dresden.jpg" target="_blank">
-							<img class="img-fluid" src="http://www.footballuser.com/formations/2020/08/1820468_SG_Dynamo_Dresden.jpg" alt="All Sg Dynamo Dresden Germany Football Formations" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>All Sg Dynamo Dresden Germany Football Formations</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.akurat.co/images/uploads/images/akurat_20200510033113_6F5743.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.akurat.co/images/uploads/images/akurat_20200510033113_6F5743.jpg" alt="Bundesliga Siap Dimulai Dynamo Dresden Justru Karantina Pemain Mereka" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bundesliga Siap Dimulai Dynamo Dresden Justru Karantina Pemain Mereka</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.pinimg.com/originals/89/06/c5/8906c5ab81a63bae77d358afb2360e04.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.pinimg.com/originals/89/06/c5/8906c5ab81a63bae77d358afb2360e04.jpg" alt="Sg Dynamo Dresden 1976 Retro Football Association Football Germany Team" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Sg Dynamo Dresden 1976 Retro Football Association Football Germany Team</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/fd/bc/d0/fdbcd0ecdba0c7039fabca4b1a5657c6.jpg" data-lightbox="roadtrip" data-title="Dresden Story Targets And Restrictions Dynamo Dresden Erzgebirge Aue Dresden">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/fd/bc/d0/fdbcd0ecdba0c7039fabca4b1a5657c6.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Dresden Story Targets And Restrictions Dynamo Dresden Erzgebirge Aue Dresden">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Dresden Story Targets And Restrictions Dynamo Dresden Erzgebirge Aue Dresden.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Dresden Story Targets And Restrictions Dynamo Dresden Erzgebirge Aue Dresden</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images.daznservices.com/di/library/GOAL/38/46/dynamo-dresden-2-bundesliga_1bb9wka5ifmtg1v9pkh9rmv1cy.jpg?t=-19117247&amp;quality=100" target="_blank">
-							<img class="img-fluid" src="https://images.daznservices.com/di/library/GOAL/38/46/dynamo-dresden-2-bundesliga_1bb9wka5ifmtg1v9pkh9rmv1cy.jpg?t=-19117247&amp;quality=100" alt="Restart Kompetisi Jerman Dalam Dilema Seluruh Skuad Dynamo Dresden Sekarang Diisolasi Goal Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Restart Kompetisi Jerman Dalam Dilema Seluruh Skuad Dynamo Dresden Sekarang Diisolasi Goal Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images.sportbuzzer.de/v1/photos/raw/dynamofans/large-16-9" target="_blank">
-							<img class="img-fluid" src="https://images.sportbuzzer.de/v1/photos/raw/dynamofans/large-16-9" alt="Dynamo Dresden Starts Ticket Sales For A Cup Game Against Hsv World Today News" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden Starts Ticket Sales For A Cup Game Against Hsv World Today News</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.dw.com/image/35950142_303.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.dw.com/image/35950142_303.jpg" alt="Dynamo Dresden Fined Over Bull S Head Thrown Near Pitch Sports German Football And Major International Sports News Dw 07 11 2016" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden Fined Over Bull S Head Thrown Near Pitch Sports German Football And Major International Sports News Dw 07 11 2016</p> 
-					</div>
-				</div>
-						 
-		 
-			<div class="posts-images"> 
-				<div class="text-left">
-					<h3>Watch dfb pokal online on monday september 14 2020.</h3>
-					<p class="text-center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Dynamo_Dresden_kblock.jpg/220px-Dynamo_Dresden_kblock.jpg" style="margin-bottom: 8px;"></p>
-
-											<p>
-															<strong>Dynamo dresden</strong>. 
-							
-															Wir sind der groesste sportverein der neuen bundeslaender. 
-															Everything you need to know about the friendly match between dynamo dresden and norwich city 26 august 2020. 
-															Seragam mereka berwarna kuning. 
-															Summary stats lineups and scores besoccer. 
-													</p>
-											<p>
-							
-															Klub ini pernah menjadi klub raksasa di jerman timur. 
-															Bundesligadidirikan pada tahun 1953berbasis di dresdenklub ini memainkan pertandingan kandangnya di gluecksgas stadion yang berkapasitas 32066 penonton. 
-															Sg dynamo dresden vs hamburger sv streaming stream video. 
-															Herzlich willkommen auf dem offiziellen youtube kanal der sg dynamo dresden. 
-													</p>
-											<p>
-							
-															All information about dynamo dresden 3. 
-															Everything you need to know about the friendly match between erzgebirge aue and dynamo dresden 05 september 2020. 
-															Sportgemeinschaft dynamo dresden ev commonly known as sg dynamo dresden or dynamo dresden is a german football club in dresden saxony. 
-															Includes match details preview prediction video betting odds recent form and. 
-													</p>
-											<p>
-							
-															Dynamo dresdens boss along with the clubs sporting director ralf minge has overseen an overhaul of the squad. 
-															Dont miss the most important football matches while navigating as usual through the pages of your choice. 
-															Summary stats lineups and scores besoccer dont miss the most important football matches while navigating as usual through the pages of your choice. 
-															Activate the firefox sidebar. 
-													</p>
-											<p>
-							
-															Dynamo dresden defender marc wachs underwent emergency surgery on tuesday following a shooting incident that left the players aunt dead. 
-															Liga current squad with market values transfers rumours player stats fixtures news. 
-															Mit allen news und infos zur aktuellen saison sowie einem grossen bereich fuer fans. 
-															Dresdens wachs has surgery after shooting. 
-													</p>
-											<p>
-							
-															It was founded on 12 april 1953 as a club affiliated with the east german police and became one of the most popular and successful clubs in east german football winning eight league titles. 
-															Dresden have signed 13 players this window with the latest paul will expected to feature today. 
-													</p>
-									</div> 
-			</div> 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/2017-08-11_TuS_Koblenz_vs._SG_Dynamo_Dresden_%28DFB-Pokal%29_by_Sandro_Halank%E2%80%93106.jpg/1200px-2017-08-11_TuS_Koblenz_vs._SG_Dynamo_Dresden_%28DFB-Pokal%29_by_Sandro_Halank%E2%80%93106.jpg" target="_blank">
-							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/2017-08-11_TuS_Koblenz_vs._SG_Dynamo_Dresden_%28DFB-Pokal%29_by_Sandro_Halank%E2%80%93106.jpg/1200px-2017-08-11_TuS_Koblenz_vs._SG_Dynamo_Dresden_%28DFB-Pokal%29_by_Sandro_Halank%E2%80%93106.jpg" alt="Dynamo Dresden Wikidata" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden Wikidata</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/90/8f/78/908f785928f4065bb0980f4d90ef147d.png" data-lightbox="roadtrip" data-title="Download Wallpapers Sg Dynamo Dresden Logo 4k German Football Club Material Design Yellow Red Abstraction Dresden Germany Bundesliga 2 Football Besthqw Dresden German Football Clubs Football Logo">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/90/8f/78/908f785928f4065bb0980f4d90ef147d.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Download Wallpapers Sg Dynamo Dresden Logo 4k German Football Club Material Design Yellow Red Abstraction Dresden Germany Bundesliga 2 Football Besthqw Dresden German Football Clubs Football Logo">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Download Wallpapers Sg Dynamo Dresden Logo 4k German Football Club Material Design Yellow Red Abstraction Dresden Germany Bundesliga 2 Football Besthqw Dresden German Football Clubs Football Logo.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Download Wallpapers Sg Dynamo Dresden Logo 4k German Football Club Material Design Yellow Red Abstraction Dresden Germany Bundesliga 2 Football Besthqw Dresden German Football Clubs Football Logo</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/r3Lk64zIV7c/hqdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/r3Lk64zIV7c/hqdefault.jpg" alt="Dynamo Dresden Ultras World Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden Ultras World Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.dw.com/image/51034331_401.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.dw.com/image/51034331_401.jpg" alt="Dynamo Dresden And The Soko Dynamo 58 Affected But They Mean All Of Us Sports German Football And Major International Sports News Dw 29 10 2019" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden And The Soko Dynamo 58 Affected But They Mean All Of Us Sports German Football And Major International Sports News Dw 29 10 2019</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdnuploads.aa.com.tr/uploads/Contents/2020/05/10/thumbs_b_c_687544b993dd70e0ad506f0686e3fed4.jpg?v=123712" target="_blank">
-							<img class="img-fluid" src="https://cdnuploads.aa.com.tr/uploads/Contents/2020/05/10/thumbs_b_c_687544b993dd70e0ad506f0686e3fed4.jpg?v=123712" alt="2 Pemain Bola Dynamo Dresden Positif Korona Seluruh Tim Dikarantina" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>2 Pemain Bola Dynamo Dresden Positif Korona Seluruh Tim Dikarantina</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://kornfootballfonts.files.wordpress.com/2017/09/dynamodresden-17-18.jpg" target="_blank">
-							<img class="img-fluid" src="https://kornfootballfonts.files.wordpress.com/2017/09/dynamodresden-17-18.jpg" alt="Dynamo Dresden 17 18 Vector Font Kornfootballfonts" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden 17 18 Vector Font Kornfootballfonts</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/b1/cb/e6/b1cbe6bddfa2d497369d979239b0e49d.jpg" data-lightbox="roadtrip" data-title="Dynamo Dresden 1989 Champion Dynamo Dresden Leben In Der Ddr Ddr">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/b1/cb/e6/b1cbe6bddfa2d497369d979239b0e49d.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Dynamo Dresden 1989 Champion Dynamo Dresden Leben In Der Ddr Ddr">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Dynamo Dresden 1989 Champion Dynamo Dresden Leben In Der Ddr Ddr.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Dynamo Dresden 1989 Champion Dynamo Dresden Leben In Der Ddr Ddr</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.koran-jakarta.com/images/article/php_9b0zo_resized.jpg" target="_blank">
-							<img class="img-fluid" src="http://www.koran-jakarta.com/images/article/php_9b0zo_resized.jpg" alt="Dynamo Dresden Karantina Skuatnya Akibat Dua Kasus Positif Covid 19 Koran Jakarta" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden Karantina Skuatnya Akibat Dua Kasus Positif Covid 19 Koran Jakarta</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://theloppy.com/wp-content/uploads/2020/05/Dynamo-Dresden-squad-put-in-two-week-quarantine-after-two-new.jpg" target="_blank">
-							<img class="img-fluid" src="http://theloppy.com/wp-content/uploads/2020/05/Dynamo-Dresden-squad-put-in-two-week-quarantine-after-two-new.jpg" alt="Dynamo Dresden Squad Put In Two Week Quarantine After Two New Coronavirus Cases And Will Miss Bundesliga 2 Return The Sun The Loppy" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden Squad Put In Two Week Quarantine After Two New Coronavirus Cases And Will Miss Bundesliga 2 Return The Sun The Loppy</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images-na.ssl-images-amazon.com/images/I/61MkGFtCqvL._AC_SX466_.jpg" target="_blank">
-							<img class="img-fluid" src="https://images-na.ssl-images-amazon.com/images/I/61MkGFtCqvL._AC_SX466_.jpg" alt="Sg Dynamo Dresden Flag Coat Of Arms 80 X 120 Cm Amazon Co Uk Sports Outdoors" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Sg Dynamo Dresden Flag Coat Of Arms 80 X 120 Cm Amazon Co Uk Sports Outdoors</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images-na.ssl-images-amazon.com/images/I/61jckZh2GJL._AC_SX425_.jpg" target="_blank">
-							<img class="img-fluid" src="https://images-na.ssl-images-amazon.com/images/I/61jckZh2GJL._AC_SX425_.jpg" alt="Dynamo Dresden Skyline Bed Linen 135 X 200 Cm Black Amazon De Sport Freizeit" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden Skyline Bed Linen 135 X 200 Cm Black Amazon De Sport Freizeit</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/cd/94/04/cd9404ccca7b87eeb1b7e0637885eeb6.png" data-lightbox="roadtrip" data-title="Download Wallpapers Sg Dynamo Dresden 4k Yellow Black Silk Flag German Football Club Logo Emblem 2 Bundesliga Football Dresden Germany Second Bundesli German Football Clubs Dresden Football Logo">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/cd/94/04/cd9404ccca7b87eeb1b7e0637885eeb6.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Download Wallpapers Sg Dynamo Dresden 4k Yellow Black Silk Flag German Football Club Logo Emblem 2 Bundesliga Football Dresden Germany Second Bundesli German Football Clubs Dresden Football Logo">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Download Wallpapers Sg Dynamo Dresden 4k Yellow Black Silk Flag German Football Club Logo Emblem 2 Bundesliga Football Dresden Germany Second Bundesli German Football Clubs Dresden Football Logo.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Download Wallpapers Sg Dynamo Dresden 4k Yellow Black Silk Flag German Football Club Logo Emblem 2 Bundesliga Football Dresden Germany Second Bundesli German Football Clubs Dresden Football Logo</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.designfootball.com/images/joomgallery/originals/football_crests_8/dynamo_dresden_crest_redesign_20191006_1701559874.png" target="_blank">
-							<img class="img-fluid" src="https://www.designfootball.com/images/joomgallery/originals/football_crests_8/dynamo_dresden_crest_redesign_20191006_1701559874.png" alt="Dynamo Dresden Crest Redesign" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden Crest Redesign</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.canaries.co.uk/siteassets/image/2020-21-season/pre-season/sc-verl/fil-verl-norwich-044.jpg/Large" target="_blank">
-							<img class="img-fluid" src="https://www.canaries.co.uk/siteassets/image/2020-21-season/pre-season/sc-verl/fil-verl-norwich-044.jpg/Large" alt="Watch Live Dynamo Dresden V Norwich City 3pm Uk News Norwich City" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Watch Live Dynamo Dresden V Norwich City 3pm Uk News Norwich City</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://1.bp.blogspot.com/-MVpetKxlf3k/Wz9IRMHhPEI/AAAAAAABnBw/8bQF5vNN4gw4-EXiiXVE_CCuU89Szze-QCLcBGAs/s738/craft-dynamo-dresden-18-19-home-kit-1.jpg" target="_blank">
-							<img class="img-fluid" src="https://1.bp.blogspot.com/-MVpetKxlf3k/Wz9IRMHhPEI/AAAAAAABnBw/8bQF5vNN4gw4-EXiiXVE_CCuU89Szze-QCLcBGAs/s738/craft-dynamo-dresden-18-19-home-kit-1.jpg" alt="Craft Dynamo Dresden 18 19 Home Away Kits Released Footy Headlines" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Craft Dynamo Dresden 18 19 Home Away Kits Released Footy Headlines</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://svww.de/fileadmin/_processed_/7/3/csm_Juni_Dresden_Bericht_e3bc62f57a.jpeg" target="_blank">
-							<img class="img-fluid" src="https://svww.de/fileadmin/_processed_/7/3/csm_Juni_Dresden_Bericht_e3bc62f57a.jpeg" alt="Svww Last Minute Defeat To Dynamo Dresden" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Svww Last Minute Defeat To Dynamo Dresden</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/bf/3a/5f/bf3a5fa64a33aa9672a36ef0c883bcdc.jpg" data-lightbox="roadtrip" data-title="Stadion Dresden Dynamo Dresden Dresden Fussball Bundesliga">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/bf/3a/5f/bf3a5fa64a33aa9672a36ef0c883bcdc.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Stadion Dresden Dynamo Dresden Dresden Fussball Bundesliga">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Stadion Dresden Dynamo Dresden Dresden Fussball Bundesliga.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Stadion Dresden Dynamo Dresden Dresden Fussball Bundesliga</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/QTyBTEkLXCw/maxresdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/QTyBTEkLXCw/maxresdefault.jpg" alt="Late Game Comeback Dynamo Dresden Career Mode 2 Fifa 20 Career Mode Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Late Game Comeback Dynamo Dresden Career Mode 2 Fifa 20 Career Mode Youtube</p> 
-					</div>
+			</div>
+		</div>
+			 
+					<div class="col-12 mb-4">
+				<div class="card">
+										<img class="card-img-top v-cover" src="https://i.pinimg.com/originals/25/39/2d/25392d58d59160a42c4ee181bc628dc7.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Stadion Dresden Dynamo Dresden Dresden Fussball Bundesliga">
+										<div class="card-body">
+						<h3 class="h5"><b></b></h3>
+												<div class="col-sm-12 widget"><strong>Related Posts:</strong>
+						<li class="list-group-item"><a href="/3-oktober-2020.html">Dynamo Dresden</a></li>
+						<li class="list-group-item"><a href="/3-oktober-2020.html">3 Oktober 2020</a></li></div>
+						<div class="p-2">Published on:<time class="p-2" itemprop="datePublished" datetime="2020-10-03">2020-10-03</time>
+						<meta itemprop="dateModified" content="2020-10-03">
+						<itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+						By <itemprop="name"><a href="#" title="Posts by Wick Wick" rel="author">Wick Wick</a></div>
+					</div> 
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.eurosport.com/2020/05/09/2816685-58098728-2560-1440.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.eurosport.com/2020/05/09/2816685-58098728-2560-1440.jpg" alt="Coronavirus Bundesliga 2 Side Dynamo Dresden Go Into 14 Day Quarantine Eurosport" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Coronavirus Bundesliga 2 Side Dynamo Dresden Go Into 14 Day Quarantine Eurosport</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images-na.ssl-images-amazon.com/images/I/61dgbgo4xPL._AC_SX425_.jpg" target="_blank">
-							<img class="img-fluid" src="https://images-na.ssl-images-amazon.com/images/I/61dgbgo4xPL._AC_SX425_.jpg" alt="Sg Dynamo Dresden Bath Towel Classic 70 X 140 Cm Amazon Co Uk Sports Outdoors" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Sg Dynamo Dresden Bath Towel Classic 70 X 140 Cm Amazon Co Uk Sports Outdoors</p> 
-					</div>
-				</div>
-						 
+			</div>
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.dynamo-dresden.de/fileadmin/upload/News/Bilder/Saison_19_20/02_August/190813_PR-Jeremejeff.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.dynamo-dresden.de/fileadmin/upload/News/Bilder/Saison_19_20/02_August/190813_PR-Jeremejeff.jpg" alt="Dynamo Verpflichtet Alexander Jeremejeff" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Verpflichtet Alexander Jeremejeff</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/39/5e/06/395e0622b0ebaedd47a93a7f2bef6fdc.jpg" data-lightbox="roadtrip" data-title="Dinamo Dresda Ultras Dresden Ultras Football Sport Games">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/39/5e/06/395e0622b0ebaedd47a93a7f2bef6fdc.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Dinamo Dresda Ultras Dresden Ultras Football Sport Games">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Dinamo Dresda Ultras Dresden Ultras Football Sport Games.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Dinamo Dresda Ultras Dresden Ultras Football Sport Games</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://4.bp.blogspot.com/-CnK880S7BJw/Xxvwcz5-XiI/AAAAAAAATzQ/iSP0KT5Dix826ZAlcP83U7Wn0aT43wSAwCLcBGAsYHQ/s550/dynamo-dresden-20-21-home-kit-2.jpg" target="_blank">
-							<img class="img-fluid" src="https://4.bp.blogspot.com/-CnK880S7BJw/Xxvwcz5-XiI/AAAAAAAATzQ/iSP0KT5Dix826ZAlcP83U7Wn0aT43wSAwCLcBGAsYHQ/s550/dynamo-dresden-20-21-home-kit-2.jpg" alt="Dynamo Dresden 20 21 Home Away Goalkeeper Kit Released Footy Headlines" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden 20 21 Home Away Goalkeeper Kit Released Footy Headlines</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://specialonesfootballclubs.com/wp-content/uploads/2019/05/st-pauli-fans-dresden.jpg" target="_blank">
-							<img class="img-fluid" src="https://specialonesfootballclubs.com/wp-content/uploads/2019/05/st-pauli-fans-dresden.jpg" alt="Fc St Pauli Fans Display Awesome Choreo At Dynamo Dresden Special Ones Football Clubs" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fc St Pauli Fans Display Awesome Choreo At Dynamo Dresden Special Ones Football Clubs</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://gibbos92.files.wordpress.com/2020/05/dynamo_dresden_rudolf_harbig_stadion-24.jpg?w=1440" target="_blank">
-							<img class="img-fluid" src="https://gibbos92.files.wordpress.com/2020/05/dynamo_dresden_rudolf_harbig_stadion-24.jpg?w=1440" alt="Sg Dynamo Dresden Rudolf Harbig Stadion Gibbo S 92" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Sg Dynamo Dresden Rudolf Harbig Stadion Gibbo S 92</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i2.wp.com/cdn.mdr.de/sport/fussball_2bl/dynamo-dresden-karlsruher-sc-116_v-variantBig16x9_wm-true_zc-ecbbafc6.jpg?ssl=1" target="_blank">
-							<img class="img-fluid" src="https://i2.wp.com/cdn.mdr.de/sport/fussball_2bl/dynamo-dresden-karlsruher-sc-116_v-variantBig16x9_wm-true_zc-ecbbafc6.jpg?ssl=1" alt="Dynamo Dresden Gains First Glimmer Of Hope Thanks To Terrazzino Archyde" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden Gains First Glimmer Of Hope Thanks To Terrazzino Archyde</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/15/11/5d/15115de24d1aac73d99b751edb3a9b74.png" data-lightbox="roadtrip" data-title="Sportgemeinschaft Dynamo Dresden E V Dresden Ale Escudos De Futebol Times De Futebol Futebol">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/15/11/5d/15115de24d1aac73d99b751edb3a9b74.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Sportgemeinschaft Dynamo Dresden E V Dresden Ale Escudos De Futebol Times De Futebol Futebol">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Sportgemeinschaft Dynamo Dresden E V Dresden Ale Escudos De Futebol Times De Futebol Futebol.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Sportgemeinschaft Dynamo Dresden E V Dresden Ale Escudos De Futebol Times De Futebol Futebol</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://media-cdn.tripadvisor.com/media/photo-s/10/c7/31/cb/dynamo-dresden.jpg" target="_blank">
-							<img class="img-fluid" src="https://media-cdn.tripadvisor.com/media/photo-s/10/c7/31/cb/dynamo-dresden.jpg" alt="Dynamo Dresden Picture Of Ddv Stadion Dresden Tripadvisor" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden Picture Of Ddv Stadion Dresden Tripadvisor</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i0.wp.com/betweendistances.com/wp-content/uploads/2016/11/img_2000.jpg" target="_blank">
-							<img class="img-fluid" src="https://i0.wp.com/betweendistances.com/wp-content/uploads/2016/11/img_2000.jpg" alt="Away Days Football Army Dynamo Dresden Between Distances" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Away Days Football Army Dynamo Dresden Between Distances</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i0.wp.com/betweendistances.com/wp-content/uploads/2016/11/img_1961.jpg" target="_blank">
-							<img class="img-fluid" src="https://i0.wp.com/betweendistances.com/wp-content/uploads/2016/11/img_1961.jpg" alt="Away Days Football Army Dynamo Dresden Between Distances" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Away Days Football Army Dynamo Dresden Between Distances</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Dynamo_Dresden_kblock.jpg/220px-Dynamo_Dresden_kblock.jpg" target="_blank">
-							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Dynamo_Dresden_kblock.jpg/220px-Dynamo_Dresden_kblock.jpg" alt="Dynamo Dresden Wikipedia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden Wikipedia</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/89/06/c5/8906c5ab81a63bae77d358afb2360e04.jpg" data-lightbox="roadtrip" data-title="Sg Dynamo Dresden 1976">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/89/06/c5/8906c5ab81a63bae77d358afb2360e04.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Sg Dynamo Dresden 1976">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Sg Dynamo Dresden 1976.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Sg Dynamo Dresden 1976</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=341000749338694" target="_blank">
-							<img class="img-fluid" src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=341000749338694" alt="Dynamo Dresden News Geruchte Home Facebook" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden News Geruchte Home Facebook</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.dw.com/image/51084404_303.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.dw.com/image/51084404_303.jpg" alt="Dynamo Dresden And The Soko Dynamo 58 Affected But They Mean All Of Us Sports German Football And Major International Sports News Dw 29 10 2019" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden And The Soko Dynamo 58 Affected But They Mean All Of Us Sports German Football And Major International Sports News Dw 29 10 2019</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://media.gettyimages.com/photos/christoph-daferner-of-dynamo-dresden-is-challenged-by-toni-leistner-picture-id1272461534?s=612x612" target="_blank">
-							<img class="img-fluid" src="https://media.gettyimages.com/photos/christoph-daferner-of-dynamo-dresden-is-challenged-by-toni-leistner-picture-id1272461534?s=612x612" alt="24 221 Dynamo Dresden Photos And Premium High Res Pictures Getty Images" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>24 221 Dynamo Dresden Photos And Premium High Res Pictures Getty Images</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://4.bp.blogspot.com/-lYk4cnX1u4s/XN7mfvHRElI/AAAAAAAB5Ys/obaSTI0tTIcMzOj9Gsnml-yN9dtDG9wrgCLcBGAs/s738/dynamo-dresden-19-20-home-kit-1.jpg" target="_blank">
-							<img class="img-fluid" src="https://4.bp.blogspot.com/-lYk4cnX1u4s/XN7mfvHRElI/AAAAAAAB5Ys/obaSTI0tTIcMzOj9Gsnml-yN9dtDG9wrgCLcBGAs/s738/dynamo-dresden-19-20-home-kit-1.jpg" alt="Dynamo Dresden 19 20 Home Goalkeeper Kits Released Footy Headlines" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden 19 20 Home Goalkeeper Kits Released Footy Headlines</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/a5/e4/35/a5e435c4b62f04847e1b0537d17df6d3.jpg" data-lightbox="roadtrip" data-title="Bd Original Ddr Fussball Bierdeckel Dynamo Dresden Dynamo Dresden Bierdeckel Ddr">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/a5/e4/35/a5e435c4b62f04847e1b0537d17df6d3.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Bd Original Ddr Fussball Bierdeckel Dynamo Dresden Dynamo Dresden Bierdeckel Ddr">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Bd Original Ddr Fussball Bierdeckel Dynamo Dresden Dynamo Dresden Bierdeckel Ddr.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Bd Original Ddr Fussball Bierdeckel Dynamo Dresden Dynamo Dresden Bierdeckel Ddr</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.pinimg.com/originals/b6/7c/81/b67c81a9d03b024d6c91910057b294fd.png" target="_blank">
-							<img class="img-fluid" src="https://i.pinimg.com/originals/b6/7c/81/b67c81a9d03b024d6c91910057b294fd.png" alt="Dynamo Dresden Photo Sg Dynamo Dresden Dynamo Dresden Dresden Hintergrund" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden Photo Sg Dynamo Dresden Dynamo Dresden Dresden Hintergrund</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img.beritasatu.com/cache/beritasatu/910x580-2/121482314752.jpg" target="_blank">
-							<img class="img-fluid" src="https://img.beritasatu.com/cache/beritasatu/910x580-2/121482314752.jpg" alt="Bek Dynamo Dresden Jadi Korban Penembakan" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bek Dynamo Dresden Jadi Korban Penembakan</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.pinimg.com/originals/b1/cb/e6/b1cbe6bddfa2d497369d979239b0e49d.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.pinimg.com/originals/b1/cb/e6/b1cbe6bddfa2d497369d979239b0e49d.jpg" alt="Dynamo Dresden 1989 Champion Dynamo Dresden Leben In Der Ddr Ddr" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden 1989 Champion Dynamo Dresden Leben In Der Ddr Ddr</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.getfootballnewsgermany.com/assets/ssv-jahn-regensburg-v-sg-dynamo-dresden-second-bundesliga-806x537.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.getfootballnewsgermany.com/assets/ssv-jahn-regensburg-v-sg-dynamo-dresden-second-bundesliga-806x537.jpg" alt="Dynamo Dresden Squad Placed In Two Week Quarantine Get German Football News" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden Squad Placed In Two Week Quarantine Get German Football News</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/25/39/2d/25392d58d59160a42c4ee181bc628dc7.jpg" data-lightbox="roadtrip" data-title="Dynamo Dresden X Sonnenhof Grossaspach Mosaico Da Torcida Do Dynamo No Jogo De Hoje Pela 3ª Divisao Do Campeonato Alemao Dynamo Dresden Dynamo">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/25/39/2d/25392d58d59160a42c4ee181bc628dc7.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Dynamo Dresden X Sonnenhof Grossaspach Mosaico Da Torcida Do Dynamo No Jogo De Hoje Pela 3ª Divisao Do Campeonato Alemao Dynamo Dresden Dynamo">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Dynamo Dresden X Sonnenhof Grossaspach Mosaico Da Torcida Do Dynamo No Jogo De Hoje Pela 3ª Divisao Do Campeonato Alemao Dynamo Dresden Dynamo.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Dynamo Dresden X Sonnenhof Grossaspach Mosaico Da Torcida Do Dynamo No Jogo De Hoje Pela 3ª Divisao Do Campeonato Alemao Dynamo Dresden Dynamo</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://besthqwallpapers.com/Uploads/7-12-2019/114657/thumb2-dynamo-dresden-fc-golden-logo-bundesliga-2-yellow-metal-background-football.jpg" target="_blank">
-							<img class="img-fluid" src="https://besthqwallpapers.com/Uploads/7-12-2019/114657/thumb2-dynamo-dresden-fc-golden-logo-bundesliga-2-yellow-metal-background-football.jpg" alt="Download Wallpapers Dynamo Dresden Fc Golden Logo Bundesliga 2 Yellow Metal Background Football Sg Dynamo Dresden German Football Club Dynamo Dresden Logo Soccer Germany For Desktop Free Pictures For Desktop Free" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Download Wallpapers Dynamo Dresden Fc Golden Logo Bundesliga 2 Yellow Metal Background Football Sg Dynamo Dresden German Football Club Dynamo Dresden Logo Soccer Germany For Desktop Free Pictures For Desktop Free</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.footballshirtculture.com/images/stories/dynamo-dresden-2020-2021-home-shirt/dynamo_dresden_2020_2021_home_shirt_i.jpg" target="_blank">
-							<img class="img-fluid" src="http://www.footballshirtculture.com/images/stories/dynamo-dresden-2020-2021-home-shirt/dynamo_dresden_2020_2021_home_shirt_i.jpg" alt="Dynamo Dresden 2020 21 Craft Home Shirt 20 21 Kits Football Shirt Blog" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden 2020 21 Craft Home Shirt 20 21 Kits Football Shirt Blog</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/SG-Dynamo-Dresden-v-FC-Erzgebirge-Aue---Second-Bun-11cf35e489f5ac7d2d5ddbf6110282e6.jpg" target="_blank">
-							<img class="img-fluid" src="https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/SG-Dynamo-Dresden-v-FC-Erzgebirge-Aue---Second-Bun-11cf35e489f5ac7d2d5ddbf6110282e6.jpg" alt="Dynamo Dresden Squad Placed In 2 Week Isolation After Positive Covid 19 Tests Just 1 Week Before German Restart" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden Squad Placed In 2 Week Isolation After Positive Covid 19 Tests Just 1 Week Before German Restart</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB13R0A0.img?h=552&amp;w=750&amp;m=6&amp;q=60&amp;u=t&amp;o=f&amp;l=f" target="_blank">
-							<img class="img-fluid" src="http://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB13R0A0.img?h=552&amp;w=750&amp;m=6&amp;q=60&amp;u=t&amp;o=f&amp;l=f" alt="German Football Faces Restart Dilemma After Entire Dynamo Dresden Squad Enters Quarantine" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>German Football Faces Restart Dilemma After Entire Dynamo Dresden Squad Enters Quarantine</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/0f/6c/ee/0f6ceeb2d0083213f600e29aacad98a7.jpg" data-lightbox="roadtrip" data-title="Pin On Camiseta De Times">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/0f/6c/ee/0f6ceeb2d0083213f600e29aacad98a7.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Pin On Camiseta De Times">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Pin On Camiseta De Times.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Pin On Camiseta De Times</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=dynamo+dresden+kit+19/20&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=dynamo+dresden+kit+19/20&amp;tbm=isch" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcs3rdeae03maguint Fgrsfdfmxyfn3f6nptn2k4vc Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcs3rdeae03maguint Fgrsfdfmxyfn3f6nptn2k4vc Usqp Cau</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.dw.com/image/38836968_401.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.dw.com/image/38836968_401.jpg" alt="Dynamo Dresden And The Soko Dynamo 58 Affected But They Mean All Of Us Sports German Football And Major International Sports News Dw 29 10 2019" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden And The Soko Dynamo 58 Affected But They Mean All Of Us Sports German Football And Major International Sports News Dw 29 10 2019</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1925195834252503" target="_blank">
-							<img class="img-fluid" src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1925195834252503" alt="Dynamo Dresden News Geruchte Added A New Dynamo Dresden News Geruchte Facebook" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden News Geruchte Added A New Dynamo Dresden News Geruchte Facebook</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1458124807774849" target="_blank">
-							<img class="img-fluid" src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1458124807774849" alt="Dynamo Dresden 2004er Home Facebook" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden 2004er Home Facebook</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/6c/77/f5/6c77f57804935968a3b57d8b2ae2fe69.jpg" data-lightbox="roadtrip" data-title="Dynamo Dresden 16 17 Home Kit Released Football Kits Dresden Football Shirts">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/6c/77/f5/6c77f57804935968a3b57d8b2ae2fe69.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Dynamo Dresden 16 17 Home Kit Released Football Kits Dresden Football Shirts">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Dynamo Dresden 16 17 Home Kit Released Football Kits Dresden Football Shirts.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Dynamo Dresden 16 17 Home Kit Released Football Kits Dresden Football Shirts</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://upload.wikimedia.org/wikipedia/commons/1/17/2019-08-10_TuS_Dassendorf_vs._SG_Dynamo_Dresden_%28DFB-Pokal%29_by_Sandro_Halank%E2%80%93368.jpg" target="_blank">
-							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/1/17/2019-08-10_TuS_Dassendorf_vs._SG_Dynamo_Dresden_%28DFB-Pokal%29_by_Sandro_Halank%E2%80%93368.jpg" alt="File 2019 08 10 Tus Dassendorf Vs Sg Dynamo Dresden Dfb Pokal By Sandro Halank 368 Jpg Wikimedia Commons" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>File 2019 08 10 Tus Dassendorf Vs Sg Dynamo Dresden Dfb Pokal By Sandro Halank 368 Jpg Wikimedia Commons</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.vox-cdn.com/thumbor/R9DTh7FYNizqa1NfVqTdfuWK6Ac=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/21808642/1181596836.jpg.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.vox-cdn.com/thumbor/R9DTh7FYNizqa1NfVqTdfuWK6Ac=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/21808642/1181596836.jpg.jpg" alt="Paul Will Leaves Bayern Munich For Dynamo Dresden Bavarian Football Works" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Paul Will Leaves Bayern Munich For Dynamo Dresden Bavarian Football Works</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://ichef.bbci.co.uk/onesport/cps/624/cpsprodpb/13305/production/_114379587_leistener_getty.jpg" target="_blank">
-							<img class="img-fluid" src="https://ichef.bbci.co.uk/onesport/cps/624/cpsprodpb/13305/production/_114379587_leistener_getty.jpg" alt="Toni Leistner Hamburg Defender Confronts Dynamo Dresden Fans Bbc Sport" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Toni Leistner Hamburg Defender Confronts Dynamo Dresden Fans Bbc Sport</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://c8.alamy.com/comp/T001AA/dresden-germany-16th-mar-2019-soccer-2nd-bundesliga-sg-dynamo-dresden-1st-fc-magdeburg-26th-matchday-in-the-rudolf-harbig-stadium-dynamos-fans-form-a-choreography-at-the-beginning-of-the-game-credit-robert-michaeldpa-zentralbilddpa-important-note-in-accordance-with-the-requirements-of-the-dfl-deutsche-fuball-liga-or-the-dfb-deutscher-fuball-bund-it-is-prohibited-to-use-or-have-used-photographs-taken-in-the-stadium-andor-the-match-in-the-form-of-sequence-images-andor-video-like-photo-sequencesdpaalamy-live-news-T001AA.jpg" target="_blank">
-							<img class="img-fluid" src="https://c8.alamy.com/comp/T001AA/dresden-germany-16th-mar-2019-soccer-2nd-bundesliga-sg-dynamo-dresden-1st-fc-magdeburg-26th-matchday-in-the-rudolf-harbig-stadium-dynamos-fans-form-a-choreography-at-the-beginning-of-the-game-credit-robert-michaeldpa-zentralbilddpa-important-note-in-accordance-with-the-requirements-of-the-dfl-deutsche-fuball-liga-or-the-dfb-deutscher-fuball-bund-it-is-prohibited-to-use-or-have-used-photographs-taken-in-the-stadium-andor-the-match-in-the-form-of-sequence-images-andor-video-like-photo-sequencesdpaalamy-live-news-T001AA.jpg" alt="Dresden Germany 16th Mar 2019 Soccer 2nd Bundesliga Sg Dynamo Dresden 1st Fc Magdeburg 26th Matchday" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dresden Germany 16th Mar 2019 Soccer 2nd Bundesliga Sg Dynamo Dresden 1st Fc Magdeburg 26th Matchday</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/4f/0c/43/4f0c43180c497e97d8cac8bb07a185ca.jpg" data-lightbox="roadtrip" data-title="Ddr Meister In Fussball 1989 Dynamo Dresden Ddr Fussball Dynamo Dresden Dresden Ddr">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/4f/0c/43/4f0c43180c497e97d8cac8bb07a185ca.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Ddr Meister In Fussball 1989 Dynamo Dresden Ddr Fussball Dynamo Dresden Dresden Ddr">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Ddr Meister In Fussball 1989 Dynamo Dresden Ddr Fussball Dynamo Dresden Dresden Ddr.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Ddr Meister In Fussball 1989 Dynamo Dresden Ddr Fussball Dynamo Dresden Dresden Ddr</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://majalahdunia.com/wp-content/uploads/2020/06/Holstein-Kiel-Vs-Dynamo-Dresden.jpg" target="_blank">
-							<img class="img-fluid" src="https://majalahdunia.com/wp-content/uploads/2020/06/Holstein-Kiel-Vs-Dynamo-Dresden.jpg" alt="Prediksi Holstein Kiel Vs Dynamo Dresden 18 Juni 2020 Pukul 23 30 Wib Majalah Dunia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Prediksi Holstein Kiel Vs Dynamo Dresden 18 Juni 2020 Pukul 23 30 Wib Majalah Dunia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://fromboothferrytogermanydotcom.files.wordpress.com/2018/02/dynamo-dresden-tifo.jpeg?w=656" target="_blank">
-							<img class="img-fluid" src="https://fromboothferrytogermanydotcom.files.wordpress.com/2018/02/dynamo-dresden-tifo.jpeg?w=656" alt="The Curious Case Of Dynamo Dresden From Boothferry To Germany" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>The Curious Case Of Dynamo Dresden From Boothferry To Germany</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://besthqwallpapers.com/Uploads/29-8-2018/63606/thumb2-dynamo-dresden-fc-4k-grunge-logo-bundesliga-2.jpg" target="_blank">
-							<img class="img-fluid" src="https://besthqwallpapers.com/Uploads/29-8-2018/63606/thumb2-dynamo-dresden-fc-4k-grunge-logo-bundesliga-2.jpg" alt="Download Wallpapers Dynamo Dresden Fc 4k Grunge Logo Bundesliga 2 Creative German Football Team Black Stone Sg Dynamo Dresden Emblem Asphalt Texture Germany Fc Dynamo Dresden For Desktop Free Pictures For Desktop" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Download Wallpapers Dynamo Dresden Fc 4k Grunge Logo Bundesliga 2 Creative German Football Team Black Stone Sg Dynamo Dresden Emblem Asphalt Texture Germany Fc Dynamo Dresden For Desktop Free Pictures For Desktop</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://c8.alamy.com/comp/XA399D/germany-dresden-dynamo-dresden-playing-at-gluecksgas-stadium-XA399D.jpg" target="_blank">
-							<img class="img-fluid" src="https://c8.alamy.com/comp/XA399D/germany-dresden-dynamo-dresden-playing-at-gluecksgas-stadium-XA399D.jpg" alt="Germany Dresden Dynamo Dresden Playing At Gluecksgas Stadium Stock Photo Alamy" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Germany Dresden Dynamo Dresden Playing At Gluecksgas Stadium Stock Photo Alamy</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/f7/82/1a/f7821aa6cfa39e3fe7d1f547b0510d27.jpg" data-lightbox="roadtrip" data-title="Dynamo Dresden S Team Ahead Of The 1980 81 Season Germany Team Football Club Retro Football">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/f7/82/1a/f7821aa6cfa39e3fe7d1f547b0510d27.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Dynamo Dresden S Team Ahead Of The 1980 81 Season Germany Team Football Club Retro Football">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Dynamo Dresden S Team Ahead Of The 1980 81 Season Germany Team Football Club Retro Football.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Dynamo Dresden S Team Ahead Of The 1980 81 Season Germany Team Football Club Retro Football</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=dynamo+dresden+kit&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=dynamo+dresden+kit&amp;tbm=isch" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcs3rdeae03maguint Fgrsfdfmxyfn3f6nptn2k4vc Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcs3rdeae03maguint Fgrsfdfmxyfn3f6nptn2k4vc Usqp Cau</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=dynamo+dresden+jersey&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=dynamo+dresden+jersey&amp;tbm=isch" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcs3rdeae03maguint Fgrsfdfmxyfn3f6nptn2k4vc Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcs3rdeae03maguint Fgrsfdfmxyfn3f6nptn2k4vc Usqp Cau</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://tmssl.akamaized.net/images/foto/stadionnormal/dynamo-dresden-choreo-rekord-1585317488-35011.jpg?lm=1585317502" target="_blank">
-							<img class="img-fluid" src="https://tmssl.akamaized.net/images/foto/stadionnormal/dynamo-dresden-choreo-rekord-1585317488-35011.jpg?lm=1585317502" alt="Sg Dynamo Dresden Stadium Rudolf Harbig Stadion Transfermarkt" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Sg Dynamo Dresden Stadium Rudolf Harbig Stadion Transfermarkt</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.prod.www.spiegel.de/images/04eba41d-8490-4164-a747-e81285f4a0a5_w1280_r1.77_fpx58.95_fpy44.99.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.prod.www.spiegel.de/images/04eba41d-8490-4164-a747-e81285f4a0a5_w1280_r1.77_fpx58.95_fpy44.99.jpg" alt="2 League Dynamo Dresden Powerless And Helpless In The Fight Against Relegation Archyde" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>2 League Dynamo Dresden Powerless And Helpless In The Fight Against Relegation Archyde</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.deltaprediksi.com/wp-content/uploads/2020/09/Dynamo-Dresden-vs-Hamburg-SV.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.deltaprediksi.com/wp-content/uploads/2020/09/Dynamo-Dresden-vs-Hamburg-SV.jpg" alt="Prediksi Dynamo Dresden Vs Hamburger Sv 14 September 2020 Deltaprediksi" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Prediksi Dynamo Dresden Vs Hamburger Sv 14 September 2020 Deltaprediksi</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.pinimg.com/originals/84/80/cb/8480cbdddf0de384835a8f5ea31c0c0b.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.pinimg.com/originals/84/80/cb/8480cbdddf0de384835a8f5ea31c0c0b.jpg" alt="Dynamo Dresden Dynamo Dresden Dresden Fussball Bundesliga" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden Dynamo Dresden Dresden Fussball Bundesliga</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Bundesarchiv_Bild_183-M1031-0300%2C_DDR-Sportler_des_Jahres_1973%2C_Mannschaftsfoto_Dynamo_Dresden.jpg/220px-Bundesarchiv_Bild_183-M1031-0300%2C_DDR-Sportler_des_Jahres_1973%2C_Mannschaftsfoto_Dynamo_Dresden.jpg" target="_blank">
-							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Bundesarchiv_Bild_183-M1031-0300%2C_DDR-Sportler_des_Jahres_1973%2C_Mannschaftsfoto_Dynamo_Dresden.jpg/220px-Bundesarchiv_Bild_183-M1031-0300%2C_DDR-Sportler_des_Jahres_1973%2C_Mannschaftsfoto_Dynamo_Dresden.jpg" alt="Dynamo Dresden Wikipedia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden Wikipedia</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images5.alphacoders.com/102/thumb-1920-1024960.jpg" target="_blank">
-							<img class="img-fluid" src="https://images5.alphacoders.com/102/thumb-1920-1024960.jpg" alt="1 Dynamo Dresden Hd Wallpapers Background Images Wallpaper Abyss" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>1 Dynamo Dresden Hd Wallpapers Background Images Wallpaper Abyss</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.dw.com/image/18288119_303.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.dw.com/image/18288119_303.jpg" alt="Dynamo Dresden Vs Hamburg Called Off Due To Chemnitz Demonstrations Sports German Football And Major International Sports News Dw 31 08 2018" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden Vs Hamburg Called Off Due To Chemnitz Demonstrations Sports German Football And Major International Sports News Dw 31 08 2018</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://assets.skor.id/crop/0x0:0x0/x/photo/2020/09/15/2648132354.jpg" target="_blank">
-							<img class="img-fluid" src="https://assets.skor.id/crop/0x0:0x0/x/photo/2020/09/15/2648132354.jpg" alt="Naik Ke Tribune Kapten Hamburg Serang Fan Dynamo Dresden" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Naik Ke Tribune Kapten Hamburg Serang Fan Dynamo Dresden</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://upload.wikimedia.org/wikipedia/en/0/06/Dynamo_Dresden_logo_2011.svg" target="_blank">
-							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/en/0/06/Dynamo_Dresden_logo_2011.svg" alt="Dynamo Dresden Wikipedia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden Wikipedia</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://static.republika.co.id/uploads/webp/inpicture_slide/suporter-dynamo-dresden-_191031160106-450.webp" target="_blank">
-							<img class="img-fluid" src="https://static.republika.co.id/uploads/webp/inpicture_slide/suporter-dynamo-dresden-_191031160106-450.webp" alt="Ultras Dynamo Suporter Paling Setia Di Jerman Republika Online" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Ultras Dynamo Suporter Paling Setia Di Jerman Republika Online</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://s.hs-data.com/picmon/cc/3joV_8a3bsZ_sm.jpg" target="_blank">
-							<img class="img-fluid" src="https://s.hs-data.com/picmon/cc/3joV_8a3bsZ_sm.jpg" alt="Dynamo Dresden" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn0-production-images-kly.akamaized.net/BuydCiJffvIQG8sIv8cY7yEVaWI=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/103643/original/dynamo-dresden-121212-b.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn0-production-images-kly.akamaized.net/BuydCiJffvIQG8sIv8cY7yEVaWI=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/103643/original/dynamo-dresden-121212-b.jpg" alt="Dynamo Dresden Dilarang Ikuti Dfb Pokal Bola Liputan6 Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden Dilarang Ikuti Dfb Pokal Bola Liputan6 Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.suarakarya.id/timthumb.php?src=https://cdn.suarakarya.id/20200523120512200522DRESDEN.jpg&amp;w=720&amp;a=t" target="_blank">
-							<img class="img-fluid" src="https://www.suarakarya.id/timthumb.php?src=https://cdn.suarakarya.id/20200523120512200522DRESDEN.jpg&amp;w=720&amp;a=t" alt="Bundesliga Dynamo Dresden Lapor Hasil Tes Dua Pemain Positif Covid 19 Suarakarya Id" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bundesliga Dynamo Dresden Lapor Hasil Tes Dua Pemain Positif Covid 19 Suarakarya Id</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images-na.ssl-images-amazon.com/images/I/51wARYvopdL._AC_SX466_.jpg" target="_blank">
-							<img class="img-fluid" src="https://images-na.ssl-images-amazon.com/images/I/51wARYvopdL._AC_SX466_.jpg" alt="Craft Sg Dynamo Dresden Dynamo Dresden Craft Replica Home Jersey Home 2018 19 Amazon Co Uk Sports Outdoors" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Craft Sg Dynamo Dresden Dynamo Dresden Craft Replica Home Jersey Home 2018 19 Amazon Co Uk Sports Outdoors</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://mmc.tirto.id/image/otf/500x0/2020/05/10/dynamo-dresden-ap_ratio-16x9.jpg" target="_blank">
-							<img class="img-fluid" src="https://mmc.tirto.id/image/otf/500x0/2020/05/10/dynamo-dresden-ap_ratio-16x9.jpg" alt="Liga Jerman 2 Pemain Positif Corona Dynamo Dresden Karantina Tim Tirto Id" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Liga Jerman 2 Pemain Positif Corona Dynamo Dresden Karantina Tim Tirto Id</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://m.dw.com/image/3816552_101.jpg" target="_blank">
-							<img class="img-fluid" src="https://m.dw.com/image/3816552_101.jpg" alt="Dynamo Dresden Struggles To Shake Off Hooligans Sports German Football And Major International Sports News Dw 27 10 2011" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden Struggles To Shake Off Hooligans Sports German Football And Major International Sports News Dw 27 10 2011</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://pict-a.sindonews.net/dyn/620/pena/news/2020/05/10/11/22945/pemain-dynamo-dresden-dikarantina-kelanjutan-bundesliga-dipertanyakan-xbz.jpg" target="_blank">
-							<img class="img-fluid" src="https://pict-a.sindonews.net/dyn/620/pena/news/2020/05/10/11/22945/pemain-dynamo-dresden-dikarantina-kelanjutan-bundesliga-dipertanyakan-xbz.jpg" alt="Pemain Dynamo Dresden Dikarantina Kelanjutan Bundesliga Dipertanyakan" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Pemain Dynamo Dresden Dikarantina Kelanjutan Bundesliga Dipertanyakan</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1868208540099805" target="_blank">
-							<img class="img-fluid" src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1868208540099805" alt="Sg Dynamo Dresden Fans Schweiz Updated Sg Dynamo Dresden Fans Schweiz Facebook" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Sg Dynamo Dresden Fans Schweiz Updated Sg Dynamo Dresden Fans Schweiz Facebook</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i0.wp.com/majalahdunia.com/wp-content/uploads/2020/06/Arminia-Bielefeld-Vs-Dynamo-Dresden.jpg?fit=1000%2C567&amp;ssl=1" target="_blank">
-							<img class="img-fluid" src="https://i0.wp.com/majalahdunia.com/wp-content/uploads/2020/06/Arminia-Bielefeld-Vs-Dynamo-Dresden.jpg?fit=1000%2C567&amp;ssl=1" alt="Prediksi Arminia Bielefeld Vs Dynamo Dresden 16 Juni 2020 Pukul 01 30 Wib Majalah Dunia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Prediksi Arminia Bielefeld Vs Dynamo Dresden 16 Juni 2020 Pukul 01 30 Wib Majalah Dunia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://s.hs-data.com/bilder/teamfotos/640x360/242.jpg" target="_blank">
-							<img class="img-fluid" src="https://s.hs-data.com/bilder/teamfotos/640x360/242.jpg" alt="Zovv22bilzzbtm" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Zovv22bilzzbtm</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2020/05/10/905482-twitter-3.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2020/05/10/905482-twitter-3.jpg" alt="Covid 19 Return Of Bundesliga In Fresh Jeopardy As Dynamo Dresden Confirms Two New Coronavirus Cases Ahead Of Restart" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Covid 19 Return Of Bundesliga In Fresh Jeopardy As Dynamo Dresden Confirms Two New Coronavirus Cases Ahead Of Restart</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.stadiumguide.com/wp-content/uploads/ddvstadion_top.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.stadiumguide.com/wp-content/uploads/ddvstadion_top.jpg" alt="Ddv Stadion Dresden The Stadium Guide" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Ddv Stadion Dresden The Stadium Guide</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.designfootball.com/images/joomgallery/originals/competitions_18/crest_redesign_league_327/sg_dynamo_dresden_20200912_1632291422.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.designfootball.com/images/joomgallery/originals/competitions_18/crest_redesign_league_327/sg_dynamo_dresden_20200912_1632291422.jpg" alt="Sg Dynamo Dresden" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Sg Dynamo Dresden</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://media.gettyimages.com/photos/fans-of-dresden-burn-flares-during-the-second-bundesliga-match-sv-picture-id1128979446?s=612x612" target="_blank">
-							<img class="img-fluid" src="https://media.gettyimages.com/photos/fans-of-dresden-burn-flares-during-the-second-bundesliga-match-sv-picture-id1128979446?s=612x612" alt="24 220 Dynamo Dresden Photos And Premium High Res Pictures Getty Images" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>24 220 Dynamo Dresden Photos And Premium High Res Pictures Getty Images</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1666090966829659" target="_blank">
-							<img class="img-fluid" src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1666090966829659" alt="Dynamo Dresden News Geruchte Home Facebook" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden News Geruchte Home Facebook</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1589057606/v2913cs8eyvct31glpdf.jpg" target="_blank">
-							<img class="img-fluid" src="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1589057606/v2913cs8eyvct31glpdf.jpg" alt="Dua Pemain Dynamo Dresden Positif Corona Liga Jerman Terancam Batal Comeback Kumparan Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dua Pemain Dynamo Dresden Positif Corona Liga Jerman Terancam Batal Comeback Kumparan Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.thestatesman.com/wp-content/uploads/2020/05/Bunds.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.thestatesman.com/wp-content/uploads/2020/05/Bunds.jpg" alt="Bundesliga Restart On Track Despite Dynamo Dresden Setback German Football League Boss" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bundesliga Restart On Track Despite Dynamo Dresden Setback German Football League Boss</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images2.minutemediacdn.com/image/upload/c_fill,w_912,h_516,f_auto,q_auto,g_auto/shape/cover/sport/SG-Dynamo-Dresden-v-SpVgg-Greuther-Frth---Second-B-c6e9c58c01325e814ad4a92122be88ca.jpg" target="_blank">
-							<img class="img-fluid" src="https://images2.minutemediacdn.com/image/upload/c_fill,w_912,h_516,f_auto,q_auto,g_auto/shape/cover/sport/SG-Dynamo-Dresden-v-SpVgg-Greuther-Frth---Second-B-c6e9c58c01325e814ad4a92122be88ca.jpg" alt="Sg Dynamo Dresden Vfl Osnabruck Die Offiziellen Aufstellungen 90min" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Sg Dynamo Dresden Vfl Osnabruck Die Offiziellen Aufstellungen 90min</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://upload.wikimedia.org/wikipedia/commons/3/32/2019-07-17_SG_Dynamo_Dresden_vs._Paris_Saint-Germain_by_Sandro_Halank%E2%80%93506.jpg" target="_blank">
-							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/3/32/2019-07-17_SG_Dynamo_Dresden_vs._Paris_Saint-Germain_by_Sandro_Halank%E2%80%93506.jpg" alt="File 2019 07 17 Sg Dynamo Dresden Vs Paris Saint Germain By Sandro Halank 506 Jpg Wikimedia Commons" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>File 2019 07 17 Sg Dynamo Dresden Vs Paris Saint Germain By Sandro Halank 506 Jpg Wikimedia Commons</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://pbs.twimg.com/profile_images/434280211064975360/jM43e8F7_400x400.jpeg" target="_blank">
-							<img class="img-fluid" src="https://pbs.twimg.com/profile_images/434280211064975360/jM43e8F7_400x400.jpeg" alt="Sg Dynamo Dresden Statistics On Twitter Followers Socialbakers" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Sg Dynamo Dresden Statistics On Twitter Followers Socialbakers</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.neues-deutschland.de/img/1200/217405" target="_blank">
-							<img class="img-fluid" src="https://www.neues-deutschland.de/img/1200/217405" alt="Dynamo Dresden Error In The Dynamo Gearbox Neues Deutschland De Archyde" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden Error In The Dynamo Gearbox Neues Deutschland De Archyde</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images.bisnis-cdn.com/posts/2020/06/16/1253172/goll.jpg" target="_blank">
-							<img class="img-fluid" src="https://images.bisnis-cdn.com/posts/2020/06/16/1253172/goll.jpg" alt="Arminia Bielefeld Promosi Ke Bundesliga Dynamo Dresden Degradasi Bola Bisnis Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Arminia Bielefeld Promosi Ke Bundesliga Dynamo Dresden Degradasi Bola Bisnis Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=logo+dynamo+dresden&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=logo+dynamo+dresden&amp;tbm=isch" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcrr5dp Vlvfe6lzkhdgrewgnn 3uywgngapu4idgwl8ynjolkrc Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcrr5dp Vlvfe6lzkhdgrewgnn 3uywgngapu4idgwl8ynjolkrc Usqp Cau</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://1.bp.blogspot.com/-xhU6xiufai8/XN7mfsuU8WI/AAAAAAAB5Yw/j5A7fxGUGZ8Ui6MmfgFjEMAjEZHi0W2EACLcBGAs/s738/dynamo-dresden-19-20-home-kit-2.jpg" target="_blank">
-							<img class="img-fluid" src="https://1.bp.blogspot.com/-xhU6xiufai8/XN7mfsuU8WI/AAAAAAAB5Yw/j5A7fxGUGZ8Ui6MmfgFjEMAjEZHi0W2EACLcBGAs/s738/dynamo-dresden-19-20-home-kit-2.jpg" alt="Dynamo Dresden 19 20 Home Goalkeeper Kits Released Footy Headlines" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Dynamo Dresden 19 20 Home Goalkeeper Kits Released Footy Headlines</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.deltaprediksi.com/wp-content/uploads/2020/06/Dynamo-Dresden-vs-Greuther-Furth.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.deltaprediksi.com/wp-content/uploads/2020/06/Dynamo-Dresden-vs-Greuther-Furth.jpg" alt="Prediksi Dynamo Dresden Vs Greuther Furth 9 Juni 2020 Deltaprediksi" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Prediksi Dynamo Dresden Vs Greuther Furth 9 Juni 2020 Deltaprediksi</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://bolaskor.com/media/0a/ca/63/0aca6393be7724c9c692e435db4e02f9_754x.jpg" target="_blank">
-							<img class="img-fluid" src="https://bolaskor.com/media/0a/ca/63/0aca6393be7724c9c692e435db4e02f9_754x.jpg" alt="2 Pemain Positif Corona Dynamo Dresden Tak Bisa Tampil Dalam Lanjutan Bundesliga 2 Bolaskor Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>2 Pemain Positif Corona Dynamo Dresden Tak Bisa Tampil Dalam Lanjutan Bundesliga 2 Bolaskor Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img.antaranews.com/cache/800x533/2019/08/16/gg-logo-bundesliga-01.jpg" target="_blank">
-							<img class="img-fluid" src="https://img.antaranews.com/cache/800x533/2019/08/16/gg-logo-bundesliga-01.jpg" alt="Persiapan Berlanjutnya Bundesliga Tak Terganggu Kasus Dynamo Dresden Antara News Kalimantan Barat" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Persiapan Berlanjutnya Bundesliga Tak Terganggu Kasus Dynamo Dresden Antara News Kalimantan Barat</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://seeklogo.com/images/S/sg-dynamo-dresden-logo-2FE3B4B838-seeklogo.com.png" target="_blank">
-							<img class="img-fluid" src="https://seeklogo.com/images/S/sg-dynamo-dresden-logo-2FE3B4B838-seeklogo.com.png" alt="Sg Dynamo Dresden Logo Vector Ai Free Download" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Sg Dynamo Dresden Logo Vector Ai Free Download</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.sportspromedia.com/images/made/images/uploads/news/dresden_630_354_80_s_c1.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.sportspromedia.com/images/made/images/uploads/news/dresden_630_354_80_s_c1.jpg" alt="Bundesliga Return Hit With Setback As Dynamo Dresden Enter Isolation Sportspro Media" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bundesliga Return Hit With Setback As Dynamo Dresden Enter Isolation Sportspro Media</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://c8.alamy.com/comp/FYY593/marvin-stefaniak-sg-dynamo-dresden-FYY593.jpg" target="_blank">
-							<img class="img-fluid" src="https://c8.alamy.com/comp/FYY593/marvin-stefaniak-sg-dynamo-dresden-FYY593.jpg" alt="Marvin Stefaniak Sg Dynamo Dresden Stock Photo Alamy" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Marvin Stefaniak Sg Dynamo Dresden Stock Photo Alamy</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://asset.kompas.com/crops/ZQXaaQWUzPYPKwZqk0W1-AGMQQ4=/0x0:800x533/490x326/data/photo/2018/07/02/1266776908.jpg" target="_blank">
-							<img class="img-fluid" src="https://asset.kompas.com/crops/ZQXaaQWUzPYPKwZqk0W1-AGMQQ4=/0x0:800x533/490x326/data/photo/2018/07/02/1266776908.jpg" alt="Berita Harian Dynamo Dresden Terbaru Hari Ini Kompas Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Berita Harian Dynamo Dresden Terbaru Hari Ini Kompas Com</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://upload.wikimedia.org/wikipedia/commons/7/7c/2019-07-17_SG_Dynamo_Dresden_vs._Paris_Saint-Germain_by_Sandro_Halank%E2%80%93505.jpg" target="_blank">
-							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/2019-07-17_SG_Dynamo_Dresden_vs._Paris_Saint-Germain_by_Sandro_Halank%E2%80%93505.jpg" alt="File 2019 07 17 Sg Dynamo Dresden Vs Paris Saint Germain By Sandro Halank 505 Jpg Wikimedia Commons" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>File 2019 07 17 Sg Dynamo Dresden Vs Paris Saint Germain By Sandro Halank 505 Jpg Wikimedia Commons</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/9cb186f6-bba1-4d40-b0e8-245975e95f19" target="_blank">
-							<img class="img-fluid" src="https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/9cb186f6-bba1-4d40-b0e8-245975e95f19" alt="Glucksgas Stadion Dynamo Dresden 3d Warehouse" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Glucksgas Stadion Dynamo Dresden 3d Warehouse</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://3.bp.blogspot.com/-BfNHInieG-w/U5wZKpQo5tI/AAAAAAAARS8/DL95cMEjy5w/s738/Dynamo+Dresden+14-15+Kits.jpg" target="_blank">
-							<img class="img-fluid" src="http://3.bp.blogspot.com/-BfNHInieG-w/U5wZKpQo5tI/AAAAAAAARS8/DL95cMEjy5w/s738/Dynamo+Dresden+14-15+Kits.jpg" alt="Nike Dynamo Dresden 14 15 Kits Released Footy Headlines" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Nike Dynamo Dresden 14 15 Kits Released Footy Headlines</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://media.gettyimages.com/photos/christoph-daferner-of-sg-dynamo-dresden-looks-on-during-the-3-liga-picture-id1228610578?s=612x612" target="_blank">
-							<img class="img-fluid" src="https://media.gettyimages.com/photos/christoph-daferner-of-sg-dynamo-dresden-looks-on-during-the-3-liga-picture-id1228610578?s=612x612" alt="79gfvyajwyyicm" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>79gfvyajwyyicm</p> 
-					</div>
-				</div>
-						 
-		 
-
-	 	
-	
-					</div>
+		</div>
+				<div class="clearfix"></div> 
+		<div class="d-block mt-4 p-3">
+			Source : <a href="https://pinterest.com" rel="nofollow noopener">pinterest.com</a>
+		</div>
+						</div>
 				</div> 
 				<div class="col-md-3">
 					<div class="col-sm-12 widget">
-						<h3 class="widget-title">Random Posts</h3>
+						<h3 class="widget-title">RANDOM POST</h3>
 						<ul class="list-group">
-						 
-																	<li class="list-group-item"><a href="armenien-sehenswuerdigkeiten.html">Armenien Sehenswuerdigkeiten</a></li>
-																	<li class="list-group-item"><a href="nike-st-pauli-dunk.html">Nike St Pauli Dunk</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-antrenman.html">Fenerbahce Antrenman</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="rose-leslie-and-jon-snow.html">Rose Leslie And Jon Snow</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-nevresim.html">Fenerbahce Nevresim</a></li>
-																	<li class="list-group-item"><a href="armenien-aserbaidschan-krieg.html">Armenien Aserbaidschan Krieg</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="google-zoom-meet.html">Google Zoom Meet</a></li>
-																	<li class="list-group-item"><a href="kit-harington-gunpowder.html">Kit Harington Gunpowder</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-uefa-kupasi.html">Fenerbahce Uefa Kupasi</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="fenerbahce-guezel-soezler.html">Fenerbahce Guezel Soezler</a></li>
-																	<li class="list-group-item"><a href="aserbaidschan-traditionelle-kueche.html">Aserbaidschan Traditionelle Kueche</a></li>
-																	<li class="list-group-item"><a href="clement-iv.html">Clement Iv</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="fenerbahce-soezleri.html">Fenerbahce Soezleri</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-vorstand.html">Dynamo Dresden Vorstand</a></li>
-																	<li class="list-group-item"><a href="galatasaray-remember-1453.html">Galatasaray Remember 1453</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="kit-harington-emilia-clarke-movies.html">Kit Harington Emilia Clarke Movies</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-en-son-sampiyonlar-ligi.html">Fenerbahce En Son Sampiyonlar Ligi</a></li>
-																	<li class="list-group-item"><a href="clement-johnson.html">Clement Johnson</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="clement-numbers.html">Clement Numbers</a></li>
-																	<li class="list-group-item"><a href="clement-zwillinge-vater.html">Clement Zwillinge Vater</a></li>
-																	<li class="list-group-item"><a href="aserbaidschan-trikot.html">Aserbaidschan Trikot</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="galatasaray-istanbulspor.html">Galatasaray Istanbulspor</a></li>
-																	<li class="list-group-item"><a href="clement-leroux-parted-ways.html">Clement Leroux Parted Ways</a></li>
-																	<li class="list-group-item"><a href="st-pauli-online-shop.html">St Pauli Online Shop</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="google-elek.html">Google Elek</a></li>
-																	<li class="list-group-item"><a href="google-zoom.html">Google Zoom</a></li>
-																	<li class="list-group-item"><a href="st-pauli-weihnachtsmarkt.html">St Pauli Weihnachtsmarkt</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="armenien-hauptstadt-eriwan.html">Armenien Hauptstadt Eriwan</a></li>
-																	<li class="list-group-item"><a href="vin-diesel-rose-leslie.html">Vin Diesel Rose Leslie</a></li>
-																	<li class="list-group-item"><a href="aserbaidschan-map.html">Aserbaidschan Map</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="google-edan.html">Google Edan</a></li>
-																	<li class="list-group-item"><a href="galatasaray-crowd.html">Galatasaray Crowd</a></li>
-																	<li class="list-group-item"><a href="galatasaray-dovme.html">Galatasaray Dovme</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="dynamo-dresden-ostdeutschland.html">Dynamo Dresden Ostdeutschland</a></li>
-																	<li class="list-group-item"><a href="google-quiz-online.html">Google Quiz Online</a></li>
-																	<li class="list-group-item"><a href="praesident-von-aserbaidschan.html">Praesident Von Aserbaidschan</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="galatasaray-emirates-cup.html">Galatasaray Emirates Cup</a></li>
-																	<li class="list-group-item"><a href="galatasaray-hali.html">Galatasaray Hali</a></li>
-																	<li class="list-group-item"><a href="clement-wee.html">Clement Wee</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="google-maps-satelit.html">Google Maps Satelit</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-pyro.html">Dynamo Dresden Pyro</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-nachwuchs-u13.html">Dynamo Dresden Nachwuchs U13</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="google-luar-negeri.html">Google Luar Negeri</a></li>
-																	<li class="list-group-item"><a href="galatasaray-match.html">Galatasaray Match</a></li>
-																	<li class="list-group-item"><a href="formel-1-live.html">Formel 1 Live</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="st-pauli-tattoo.html">St Pauli Tattoo</a></li>
-																	<li class="list-group-item"><a href="aserbaidschan-russland.html">Aserbaidschan Russland</a></li>
-																	<li class="list-group-item"><a href="aserbaidschan-menschen.html">Aserbaidschan Menschen</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="google-pixel-3.html">Google Pixel 3</a></li>
-																	<li class="list-group-item"><a href="galatasaray-zibin-takimlari.html">Galatasaray Zibin Takimlari</a></li>
-								 
+													<li class="list-group-item"><a href="/europa-league-auslosung.html">Europa League Auslosung</a></li>
+													<li class="list-group-item"><a href="/comedypreis-2020.html">Comedypreis 2020</a></li>
+													<li class="list-group-item"><a href="/comedypreis.html">Comedypreis</a></li>
+													<li class="list-group-item"><a href="/risikogebiete-niederlande.html">Risikogebiete Niederlande</a></li>
+													<li class="list-group-item"><a href="/wow-shadowlands.html">Wow Shadowlands</a></li>
+													<li class="list-group-item"><a href="/mario-g%C3%B6tze.html">Mario Götze</a></li>
+													<li class="list-group-item"><a href="/trump-corona-news.html">Trump Corona News</a></li>
+													<li class="list-group-item"><a href="/hope-hicks.html">Hope Hicks</a></li>
+													<li class="list-group-item"><a href="/3-oktober-2020.html">3 Oktober 2020</a></li>
+													<li class="list-group-item"><a href="/the-walking-dead-world-beyond.html">The Walking Dead World Beyond</a></li>
+													<li class="list-group-item"><a href="/niederlande-risikogebiet.html">Niederlande Risikogebiet</a></li>
+													<li class="list-group-item"><a href="/alexander-zverev.html">Alexander Zverev</a></li>
+													<li class="list-group-item"><a href="/mario-g%C3%B6tze-2012.html">Mario Götze 2012</a></li>
+													<li class="list-group-item"><a href="/mission-impossible-rogue-nation.html">Mission Impossible Rogue Nation</a></li>
+													<li class="list-group-item"><a href="/twitter-trump.html">Twitter Trump</a></li>
+													<li class="list-group-item"><a href="/union-berlin-gegen-mainz-05.html">Union Berlin Gegen Mainz 05</a></li>
+													<li class="list-group-item"><a href="/deutsche-einheit.html">Deutsche Einheit</a></li>
+													<li class="list-group-item"><a href="/donald-trump-twitter.html">Donald Trump Twitter</a></li>
+													<li class="list-group-item"><a href="/mario-g%C3%B6tze-germany.html">Mario Götze Germany</a></li>
+													<li class="list-group-item"><a href="/mario-g%C3%B6tze-bayern.html">Mario Götze Bayern</a></li>
+													<li class="list-group-item"><a href="/trump-krankenhaus.html">Trump Krankenhaus</a></li>
+													<li class="list-group-item"><a href="/rogue-nation.html">Rogue Nation</a></li>
+													<li class="list-group-item"><a href="/3-oktober-sternzeichen.html">3 Oktober Sternzeichen</a></li>
+													<li class="list-group-item"><a href="/donald-trump.html">Donald Trump</a></li>
+													<li class="list-group-item"><a href="/katarina-witt.html">Katarina Witt</a></li>
+													<li class="list-group-item"><a href="/melania-trump.html">Melania Trump</a></li>
+													<li class="list-group-item"><a href="/3-oktober-feiertag.html">3 Oktober Feiertag</a></li>
+													<li class="list-group-item"><a href="/trump-corona.html">Trump Corona</a></li>
+													<li class="list-group-item"><a href="/ulreich.html">Ulreich</a></li>
+													<li class="list-group-item"><a href="/trump-covid.html">Trump Covid</a></li>
+													<li class="list-group-item"><a href="/trump-positiv.html">Trump Positiv</a></li>
+													<li class="list-group-item"><a href="/mario-g%C3%B6tze-2010.html">Mario Götze 2010</a></li>
+													<li class="list-group-item"><a href="/dynamo-dresden.html">Dynamo Dresden</a></li>
+													<li class="list-group-item"><a href="/3-oktober-leiden.html">3 Oktober Leiden</a></li>
+													<li class="list-group-item"><a href="/donald-trump-news.html">Donald Trump News</a></li>
+													<li class="list-group-item"><a href="/the-walking-dead.html">The Walking Dead</a></li>
+													<li class="list-group-item"><a href="/trump-hat-corona.html">Trump Hat Corona</a></li>
+													<li class="list-group-item"><a href="/mario-g%C3%B6tze-borussia-dortmund.html">Mario Götze Borussia Dortmund</a></li>
+													<li class="list-group-item"><a href="/jessica-paszka.html">Jessica Paszka</a></li>
+													<li class="list-group-item"><a href="/berlin-mitte.html">Berlin Mitte</a></li>
+													<li class="list-group-item"><a href="/3-oktober.html">3 Oktober</a></li>
+													<li class="list-group-item"><a href="/deutscher-comedypreis.html">Deutscher Comedypreis</a></li>
+													<li class="list-group-item"><a href="/vfl-bochum.html">Vfl Bochum</a></li>
+													<li class="list-group-item"><a href="/walking-dead.html">Walking Dead</a></li>
+													<li class="list-group-item"><a href="/mario-g%C3%B6tze-frau.html">Mario Götze Frau</a></li>
+													<li class="list-group-item"><a href="/shadowlands.html">Shadowlands</a></li>
+													<li class="list-group-item"><a href="/donald-trump-corona.html">Donald Trump Corona</a></li>
+													<li class="list-group-item"><a href="/trump.html">Trump</a></li>
+													<li class="list-group-item"><a href="/deutscher-comedypreis-2020.html">Deutscher Comedypreis 2020</a></li>
+													<li class="list-group-item"><a href="/g%C3%B6tze.html">Götze</a></li>
 						 
 						</ul>
 					</div>
@@ -1134,12 +472,11 @@ a{color: #f42966;text-decoration:none;}
 			</div>
 			<div class="row footer">
 				<div class="col-md-12 text-center">
-										<a href="pages/dmca">Dmca</a>
-										<a href="pages/contact">Contact</a>
-										<a href="pages/privacy-policy">Privacy Policy</a>
-										<a href="pages/copyright">Copyright</a>
-					
-				</div>
+										<a href="/p/dmca.html">Dmca</a>
+										<a href="/p/contact.html">Contact</a>
+										<a href="/p/privacy-policy.html">Privacy Policy</a>
+										<a href="/p/copyright.html">Copyright</a>
+									</div>
 			</div>
 		</div>
 		<!-- <style>
@@ -1161,6 +498,31 @@ a{color: #f42966;text-decoration:none;}
 	  	<br>
 		<a href="#your-offer-url" target="_blank">CTA Link &rarr;</a>
 	</p>
-</div> -->		<script type='text/javascript' src='//zqvee2re50mr.com/a4/31/b2/a431b2df4b60e2629306f7e7e7465d31.js'></script>	</main>
-</body>
+</div> -->
+		<script type='text/javascript' src='//zqvee2re50mr.com/a4/31/b2/a431b2df4b60e2629306f7e7e7465d31.js'></script>	</main>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js" integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+
+	
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+	<script type='text/javascript'>
+		$(document).ready(function()
+	    {
+			$(document).on('click','#image-download',function(e)
+			{
+				e.preventDefault();
+				var url = $(this).data('url');
+				var title = $(this).data('title');			
+				var x=new XMLHttpRequest();
+				x.open( "GET", url , true);
+				x.responseType="blob";
+				x.onload= function(e){download(e.target.response, title, "image/jpg");};
+				x.send();
+			});
+	    });
+	</script>
+	</body>
 </html>
