@@ -4,1102 +4,479 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" integrity="sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=" crossorigin="anonymous" />
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">	
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<style type="text/css">
-html,body{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;font-weight:400;color:#e1e2e3;background:#111;}
-img{max-width:100%;} 
-.header{padding-bottom:13px;margin-bottom:13px;}
-.container{max-width:1024px;}
-.navbar{margin-bottom:25px;color:#f1f2f3;border-bottom:1px solid #222;background:#111 !important;} 
-.navbar .navbar-brand{margin:0 20px 0 0;font-size:28px;padding:0;line-height:24px;} 
-.row.header,.row.content,.row.footer{widthx:auto;max-widthx:100%;} 
-.row.footer{padding:30px 0;background:#f1ff2f3;border-color:#222;}
-.content .col-sm-12{padding:0;}
-.content .col-md-9s{margin-right:-25px;}  
-.posts-image{width:25%;display:block;float:left;}
-.posts-image-content{width:auto;margin:0 15px 35px 0;position:relative;}
-.posts-image:nth-child(5n) .posts-image-content{margin:0 0 35px 0 !important;} 
-.posts-image img{width:100%;height:150px;object-fit:cover;object-position:center;margin-bottom:10px;
-	-webkit-transition:0.6s opacity;transition:0.6s opacity;}
-.posts-image:hover img{opacity:0.8;}
-.posts-image:hover h2{background:rgba(0, 0, 0, 0.7);} 
-.posts-image h2{z-index:2;position:absolute;font-size:14px;bottom:2px;left:0;right:0;padding:5px;text-align:center;
-	-webkit-transition:0.6s opacity;transition:0.6s background;}
-.posts-image h2 a{color:#e1e2e3;}
-.posts-image-big{display:block;width:100%;}
-.posts-image-big .posts-image-content{margin:0 0 10px !important;}
-.posts-image-big img{height:380px;}
-.posts-image-big h2{text-align:left;padding-left:0;position:relative;font-size:30px;line-height:36px;}
-.posts-image-big h2 a{color:#e1e2e3;}
-.posts-image-big:hover h2{background:none;}
-.posts-image-single .posts-image-content,
-.posts-image-single:nth-child(5n) .posts-image-content{margin:0 15px 15px 0 !important;} 
-.posts-image-single p{font-size:12px;line-height:18px !important;} 
-.posts-images{clear:both;}
-.list-group{}
-.list-group li{padding:0;background:#222;}
-.list-group li a{display:block;padding:8px;}
-.widget{margin-bottom:20px;}
-h3.widget-title{font-size:20px;}
-a{color: #f42966;text-decoration:none;}  
-.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee;}
-.footer a{margin:0 15px;}
-.navi{margin:13px 0 13px 0;}
-.navi a{margin:5px 2px;font-size:95%;} 
-@media  only screen and (min-width:0px) and (max-width:991px){
-	.container{width:auto;max-width:100%;}.navbar{padding:5px 0;}.navbar .container{width:100%;margin:0 15px;}	
-}
-@media  only screen and (min-width:0px) and (max-width:767px){
-	.content .col-md-3{padding:15px;}
-}	 
-@media  only screen and (min-width:481px) and (max-width:640px){ 
-	.posts-image img{height:90px;}
-	.posts-image-big img{height:320px;}
-	.posts-image-single{width:33.3%;}
-	.posts-image-single:nth-child(3n) .posts-image-content{margin-right:0 !important;}
-}	
-@media  only screen and (min-width:0px) and (max-width:480px){
-	.posts-image img{height:80px;}
-	.posts-image-big img{height:240px;}
-	.posts-image-single{width:100%;} 
-	.posts-image-single .posts-image-content{margin:0 !important;}
-	.posts-image-single img{height:auto;}
-}	
+body,html{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;background:#fff}img{max-width:100%}.header{padding-bottom:13px;margin-bottom:13px}.container{max-width:1024px}.navbar{margin-bottom:25px;color:#f1f2f3;border-bottom:1px solid #e1e2e3}.navbar .navbar-brand{margin:0 20px 0 0;font-size:28px;padding:0;line-height:24px}.row.content,.row.footer,.row.header{widthx:auto;max-widthx:100%}.row.footer{padding:30px 0;background:0 0}.content .col-sm-12{padding:0}.content .col-md-9s{margin-right:-25px}.posts-image{width:25%;display:block;float:left}.posts-image-content{width:auto;margin:0 15px 35px 0;position:relative}.posts-image:nth-child(5n) .posts-image-content{margin:0 0 35px!important}.posts-image img{width:100%;height:150px;object-fit:cover;object-position:center;margin-bottom:10px;-webkit-transition:.6s opacity;transition:.6s opacity}.posts-image:hover img{opacity:.8}.posts-image:hover h2{background:rgba(0,0,0,.7)}.posts-image h2{z-index:2;position:absolute;font-size:14px;bottom:2px;left:0;right:0;padding:5px;text-align:center;-webkit-transition:.6s opacity;transition:.6s background}.posts-image h2 a{color:#fff}.posts-image-big{display:block;width:100%}.posts-image-big .posts-image-content{margin:0 0 10px!important}.posts-image-big img{height:380px}.posts-image-big h2{text-align:left;padding-left:0;position:relative;font-size:30px;line-height:36px}.posts-image-big h2 a{color:#111}.posts-image-big:hover h2{background:0 0}.posts-image-single .posts-image-content,.posts-image-single:nth-child(5n) .posts-image-content{margin:0 15px 15px 0!important}.posts-image-single p{font-size:12px;line-height:18px!important}.posts-images{clear:both}.list-group li{padding:0}.list-group li a{display:block;padding:8px}.widget{margin-bottom:20px}h3.widget-title{font-size:20px}a{color:#0000A0;text-decoration:none}.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee}.footer a{margin:0 15px}.navi{margin:13px 0}.navi a{margin:5px 2px;font-size:95%}@media  only screen and (min-width:0px) and (max-width:991px){.container{width:auto;max-width:100%}.navbar{padding:5px 0}.navbar .container{width:100%;margin:0 15px}}@media  only screen and (min-width:0px) and (max-width:767px){.content .col-md-3{padding:15px}}@media  only screen and (min-width:481px) and (max-width:640px){.posts-image img{height:90px}.posts-image-big img{height:320px}.posts-image-single{width:33.3%}.posts-image-single:nth-child(3n) .posts-image-content{margin-right:0!important}}@media  only screen and (min-width:0px) and (max-width:480px){.posts-image img{height:80px}.posts-image-big img{height:240px}.posts-image-single{width:100%}.posts-image-single .posts-image-content{margin:0!important}.posts-image-single img{height:auto}}.v-cover{height: 380px; object-fit: cover;}.v-image{height: 200px; object-fit: cover;}.main{margin-top: 6rem;}.form-inline .form-control{min-width: 300px;}
 	</style>
 	<title>Fenerbahce Ilk 11</title>
 	<!-- Histats.com  START (hidden counter) -->
-<a href="/" alt="web site hit counter" target="_blank" >
-<img  src="//sstatic1.histats.com/0.gif?4454171&101" alt="web site hit counter" border="0">
-<!-- Histats.com  END  -->
+<a href="/" alt="" target="_blank" >
+<img  src="//sstatic1.histats.com/0.gif?4454171&101" alt="" border="0">
+<!-- Histats.com  END  -->]
 
-<script type='text/javascript' src='//zqvee2re50mr.com/7c/26/34/7c263438c0a922e610bc1e9951cbc44f.js'></script></head>
+<script type='text/javascript' src='//zqvee2re50mr.com/7c/26/34/7c263438c0a922e610bc1e9951cbc44f.js'></script>
+	<script type="application/ld+json">
+	{
+	  "@context" : "http://schema.org",
+	  "@type" : "Article",
+	  "name" : "Fenerbahce Ilk 11",
+	  "author" : {
+	    "@type" : "Person",
+	    "name" : "Tamara Blezinsky"
+	  },
+	  "datePublished" : "2020-10-06",
+	  "image" : "https://i.pinimg.com/originals/bb/9b/c6/bb9bc672c7138f5f09f366d885e76cba.jpg",
+	  "articleSection" : "",
+	  "articleBody" : "",
+	  "url" : "https://news-todays.netlify.app//zur%C3%BCck-in-die-zukunft-pepsi.html",
+	  "publisher" : {
+	    "@type" : "Organization",
+	    "name" : "NEWS TODAYS"
+	  },
+	  "aggregateRating" : {
+	    "@type" : "AggregateRating",
+	    "ratingValue" : "4.6",
+	    "ratingCount" : "1500"
+	  }
+	}
+	</script>
+</head>
 <body>
-	<main id="main">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-light ">
-			<div class="container">
-		  <a href="" class="navbar-brand">TRENDING NEWS</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto">				
-								<li class="nav-item"><a class="nav-link" href="pages/dmca">Dmca</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/contact">Contact</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/privacy-policy">Privacy Policy</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/copyright">Copyright</a></li>
-				 
-			</ul> 
-			</div>
-		  </div>
-		</nav>
+	<header class="bg-white fixed-top">			
+		<nav class="navbar navbar-light bg-white mb-0">
+			<div class="container justify-content-center justify-content-sm-between">	
+			  <a href="/" title="NEWS TODAYS" class="navbar-brand mb-1">NEWS TODAYS</a>
+			  <form class="form-inline mb-1" action="/" method="get">
+			    <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search and hit enter.." aria-label="Search">
+			  </form>	
+			</div>			  
+		</nav>				
+	</header>
+	<main id="main" class="main">
 		<div class="container">  
 			<div class="row content">
 				<div class="col-md-9">
-					<div class="col-sm-12">
+					<div class="col-sm-12 p-2">
 
 							<h1>Fenerbahce Ilk 11</h1>
 
 	
-	<div class="navi text-left">
-					<p>Caykur rizespor fenerbahce ilk 11 belli oldu sueper ligde 21 takimli 42 haftalik tarihi 2020 21 sezonunda ilk dueduek bu aksam rizespor ile fenerbahce arasinda oynanacak macta. Fenerbahcede 3 yeni transfer ilk 11de sueper ligde 2020 2021 sezonun ilk macinda caykur rizespora konuk olan fenerbahcede teknik direktoer erol bulut 3 yeni transfere ilk 11de yer verdi. Saat 2000de baslayacak muecadelede hakem uemit oeztuerk dueduek calacak. <br>
-															<a class="badge badge-dark" href="fenerbahce-ilk-11.html">fenerbahçe ilk 11</a>
-																				<a class="badge badge-primary" href="fenerbahce-ilk-11-2020.html">fenerbahçe ilk 11 2020</a>
-																																																																																				</p>
-			</div>
+	<div class="navi text-center">
+										<a class="badge badge-secondary" href="/zur%C3%BCck-in-die-zukunft-wallpaper-4k.html">zurück in die zukunft wallpaper 4k</a>
+											<a class="badge badge-danger" href="/zur%C3%BCck-in-die-zukunft-darsteller.html">zurück in die zukunft darsteller</a>
+											<a class="badge badge-primary" href="/zur%C3%BCck-in-die-zukunft-h%C3%B6rspiel.html">zurück in die zukunft hörspiel</a>
+											<a class="badge badge-primary" href="/zur%C3%BCck-in-die-zukunft-elisabeth-shue.html">zurück in die zukunft elisabeth shue</a>
+											<a class="badge badge-light" href="/zur%C3%BCck-in-die-zukunft-trilogie.html">zurück in die zukunft trilogie</a>
+											<a class="badge badge-light" href="/zur%C3%BCck-in-die-zukunft-poster.html">zurück in die zukunft poster</a>
+											<a class="badge badge-danger" href="/zur%C3%BCck-in-die-zukunft-schauspieler-heute.html">zurück in die zukunft schauspieler heute</a>
+											<a class="badge badge-success" href="/zur%C3%BCck-in-die-zukunft-pepsi.html">zurück in die zukunft pepsi</a>
+						</div>
 
 						<script async="async" data-cfasync="false" src="//zqvee2re50mr.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
 <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
 					</div> 
 					<div class="col-sm-12">					
-							
-	
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://pbs.twimg.com/media/EaU5zxKWsAE2kdI.jpg" target="_blank">
-							<img class="img-fluid" src="https://pbs.twimg.com/media/EaU5zxKWsAE2kdI.jpg" alt="Goal Turkiye On Twitter Fenerbahce Nin Kayserispor Karsisindaki Ilk 11 I" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Goal Turkiye On Twitter Fenerbahce Nin Kayserispor Karsisindaki Ilk 11 I</p> 
+						
+		
+	<div class="row">
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/00/27/92/002792881f76bfcfffa28d0b1d5c31de.jpg" data-lightbox="roadtrip" data-title="Fenerbahce Nin Ilk 5 Hafta Maclari Istanbul Da Sadece Fenerbahce Mac Monaco Istanbul">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/00/27/92/002792881f76bfcfffa28d0b1d5c31de.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Fenerbahce Nin Ilk 5 Hafta Maclari Istanbul Da Sadece Fenerbahce Mac Monaco Istanbul">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Fenerbahce Nin Ilk 5 Hafta Maclari Istanbul Da Sadece Fenerbahce Mac Monaco Istanbul.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Fenerbahce Nin Ilk 5 Hafta Maclari Istanbul Da Sadece Fenerbahce Mac Monaco Istanbul</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img.fanatik.com.tr/img/75/740x418/5f6efb7b66a97c96af5ad147.jpg" target="_blank">
-							<img class="img-fluid" src="https://img.fanatik.com.tr/img/75/740x418/5f6efb7b66a97c96af5ad147.jpg" alt="Xdjedo3wu4rpsm" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Xdjedo3wu4rpsm</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=trabzonspor+ilk+11&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=trabzonspor+ilk+11&amp;tbm=isch" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcsdjhm5smiuqresg97 Whiqrtamkafpstufx6jhemawgczlymkx Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcsdjhm5smiuqresg97 Whiqrtamkafpstufx6jhemawgczlymkx Usqp Cau</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://idora.gazetevatan.com/vatangalerifile/Headline/2020/04/30/-yeni-sezonda-bambaska-fenerbahce-ilk-11-e-5-isim----2174448.jpg" target="_blank">
-							<img class="img-fluid" src="http://idora.gazetevatan.com/vatangalerifile/Headline/2020/04/30/-yeni-sezonda-bambaska-fenerbahce-ilk-11-e-5-isim----2174448.jpg" alt="Yeni Sezonda Bambaska Fenerbahce Ilk 11 E 5 Isim Gazete Vatan Galeri" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yeni Sezonda Bambaska Fenerbahce Ilk 11 E 5 Isim Gazete Vatan Galeri</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://imgrosetta.mynet.com.tr/file/12052880/12052880-728xauto.jpg" target="_blank">
-							<img class="img-fluid" src="https://imgrosetta.mynet.com.tr/file/12052880/12052880-728xauto.jpg" alt="Fenerbahce Nin Kayserispor Karisisinda Ilk 11 I Belli Oldu" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Nin Kayserispor Karisisinda Ilk 11 I Belli Oldu</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/474x/5e/63/f4/5e63f4998286036d97dc3ed1d9e1ee06.jpg" data-lightbox="roadtrip" data-title="2009 Tff Super Kupa 11 I Spor Futbolcular Takim Fotograflari">
+											<img class="card-img v-image" src="https://i.pinimg.com/474x/5e/63/f4/5e63f4998286036d97dc3ed1d9e1ee06.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="2009 Tff Super Kupa 11 I Spor Futbolcular Takim Fotograflari">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="2009 Tff Super Kupa 11 I Spor Futbolcular Takim Fotograflari.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">2009 Tff Super Kupa 11 I Spor Futbolcular Takim Fotograflari</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://iaaspr.tmgrup.com.tr/a92c05/0/0/0/0/0/0?u=https://iaspr.tmgrup.com.tr/album/2018/11/19/koemandan-ilk-11de-buyuk-surpriz-1542633073774.jpg" target="_blank">
-							<img class="img-fluid" src="https://iaaspr.tmgrup.com.tr/a92c05/0/0/0/0/0/0?u=https://iaspr.tmgrup.com.tr/album/2018/11/19/koemandan-ilk-11de-buyuk-surpriz-1542633073774.jpg" alt="Koeman Dan Ilk 11 De Buyuk Surpriz Sayfa 1 Fenerbahce 18 Eylul 2020 Cuma" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Koeman Dan Ilk 11 De Buyuk Surpriz Sayfa 1 Fenerbahce 18 Eylul 2020 Cuma</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=2817163658342127" target="_blank">
-							<img class="img-fluid" src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=2817163658342127" alt="Fenerbahce Ilk 11 Imiz Fbvist Facebook" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Ilk 11 Imiz Fbvist Facebook</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://static.birgun.net/resim/haber-detay-resim/2020/06/12/fenerbahce-kayserispor-karsilasmasinda-11-ler-belli-oldu-743432-5.jpg" target="_blank">
-							<img class="img-fluid" src="https://static.birgun.net/resim/haber-detay-resim/2020/06/12/fenerbahce-kayserispor-karsilasmasinda-11-ler-belli-oldu-743432-5.jpg" alt="Fenerbahce Kayserispor Karsilasmasinda 11 Ler Belli Oldu" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Kayserispor Karsilasmasinda 11 Ler Belli Oldu</p> 
-					</div>
-				</div>
-						 
-		 
-			<div class="posts-images"> 
-				<div class="text-left">
-					<h3>Fenerbahcede ilk 11 degisiyor fenerbahcede kayserispor maci oencesinde hasan ali cezali muric ve kruse sakat isla ise kadro disi.</h3>
-					<p class="text-center"><img src="https://iasbh.tmgrup.com.tr/37f243/0/0/0/0/0/0?u=https://iftm.tmgrup.com.tr/album/2020/09/25/iste-galatasaray-fenerbahce-macinin-11leri-falcao-ve-samatta-1601033296117.jpg&amp;mw=600" style="margin-bottom: 8px;"></p>
-
-											<p>
-															<strong>Fenerbahce ilk 11</strong>. 
-							
-															Koetue senaryoda ise bulutun ikinci 11i sahada olacakfenerbahceden harcama limiti ve yeni yapilandirma anlasmasi konusunda henuez herhangi bir aciklama yapilmadisezonun ilk macini yarin cuma caykur rizespor deplasmaninda oynayacak sari lacivertliler buguen bu sehre gidecek ancak bu yaz yapilan 11 yeni transferin. 
-															Iste lisanslar yetismezse rizespor karsilasmasina cikacak ilk 11. 
-															Haftasinda fenerbahce kadikoey uelker stadyumunda atakas hataysporu konuk ediyor. 
-															Fenerbahce sezonun ilk haftasinda caykur rizesporu deplasmanda 2 1 maglup etmis atakas hatayspor ise son sampiyon basaksehiri 2 0 maglup etmisti. 
-													</p>
-											<p>
-							
-															Derbi oencesi fatih terim ve erol bulut ilk 11lerini yavas yavas belirliyor. 
-															Altay goekhan lemos zanka caner gustavo ozan tolga ferdi thiam valencia. 
-															14 marttaki son konyaspor muecadelesinin 11. 
-															Bulutun sahaya su 11i suermesi bekleniyor. 
-													</p>
-											<p>
-							
-															Bu sezon oynadigi 4 maci da kazanan galatasaray fenerbahce derbisinde de galibiyet serisini suerduermeyi. 
-															Fenerbahce sezonu yarin rizespor deplasmaninda aciyor. 
-															Abone ol yeni teknik direktoer yeni transferler yeni sezon ve tek hedef. 
-															Fenerbahce lisanslarin istenen suere icerisinde yetismemesi halinde ne yapacak. 
-													</p>
-											<p>
-							
-															Mac oencesi fenerbahcenin ilk 11i belli olurken ilk hafta forma giymeyen ozan tufan kadroda kendine yer buldu. 
-															Fenerbahcenin yeni teknik direktoerue erol bulut sari lacivertli takimin basinda ilk resmi macina cikacak. 
-															Teknik direktoer erol bulut her ihtimali karsin farkli 11 denemeleri yapiyor. 
-															Emre beloezoglu ve erol bulut oenderliginde bueyuek bir yapilanmaya giden sari lacivertlilerde ilk hafta 4 yeni transferin 11de olmasi bekleniyor. 
-													</p>
-									</div> 
-			</div> 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img.fanatik.com.tr/img/75/700x0/5e34b25566a97cd640dde11f.jpg" target="_blank">
-							<img class="img-fluid" src="https://img.fanatik.com.tr/img/75/700x0/5e34b25566a97cd640dde11f.jpg" alt="Trabzonspor Fenerbahce Ilk 11 Ler Muhtemel Fenerbahce Fb Haberleri Spor" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Trabzonspor Fenerbahce Ilk 11 Ler Muhtemel Fenerbahce Fb Haberleri Spor</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/45/ea/4c/45ea4ccbf68b385f8410dd89e4162701.jpg" data-lightbox="roadtrip" data-title="Fenerbahce Adanaspor Deplasmaninda Ilk 11 Ler Goruntuler Ile Spor Mac Fifa">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/45/ea/4c/45ea4ccbf68b385f8410dd89e4162701.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Fenerbahce Adanaspor Deplasmaninda Ilk 11 Ler Goruntuler Ile Spor Mac Fifa">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Fenerbahce Adanaspor Deplasmaninda Ilk 11 Ler Goruntuler Ile Spor Mac Fifa.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Fenerbahce Adanaspor Deplasmaninda Ilk 11 Ler Goruntuler Ile Spor Mac Fifa</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://static.karar.com/img/682x350/15-05/21/1-1432229916.jpg" target="_blank">
-							<img class="img-fluid" src="https://static.karar.com/img/682x350/15-05/21/1-1432229916.jpg" alt="Fenerbahce Ve Bursaspor Un Ilk 11 I Belli Oldu Son Dakika Spor Haberleri" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Ve Bursaspor Un Ilk 11 I Belli Oldu Son Dakika Spor Haberleri</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://resim.haber61.net/haberler/2019/09/01/fenerbahce_trabzonspor_macinin_ilk_11leri_belli_oldu_h366616_48ef5.jpg" target="_blank">
-							<img class="img-fluid" src="https://resim.haber61.net/haberler/2019/09/01/fenerbahce_trabzonspor_macinin_ilk_11leri_belli_oldu_h366616_48ef5.jpg" alt="Fenerbahce Trabzonspor Macinin Ilk 11 Leri Belli Oldu" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Trabzonspor Macinin Ilk 11 Leri Belli Oldu</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i13.haber7.net/haber/haber7/bigmanset/2020/39/galatasaray_fenerbahce_ilk_11ler_belli_oldu_1601218936_2328.jpg" target="_blank">
-							<img class="img-fluid" src="https://i13.haber7.net/haber/haber7/bigmanset/2020/39/galatasaray_fenerbahce_ilk_11ler_belli_oldu_1601218936_2328.jpg" alt="Rowj 25khjjmrm" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Rowj 25khjjmrm</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.internetmedya.com/assets/img/content/2020/3/trabzonspor-fenerbahce-ilk-11-ler-belli-oldu-108352.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.internetmedya.com/assets/img/content/2020/3/trabzonspor-fenerbahce-ilk-11-ler-belli-oldu-108352.jpg" alt="Trabzonspor Fenerbahce Ilk 11 Ler Belli Oldu Internet Medya" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Trabzonspor Fenerbahce Ilk 11 Ler Belli Oldu Internet Medya</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/4e/29/44/4e294427214aaae3d7dd9dbb47416150.png" data-lightbox="roadtrip" data-title="Besiktas Fenerbahce Macinin Ilk 11 Leri Belli Oldu Mac Spor Ve Olinda">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/4e/29/44/4e294427214aaae3d7dd9dbb47416150.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Besiktas Fenerbahce Macinin Ilk 11 Leri Belli Oldu Mac Spor Ve Olinda">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Besiktas Fenerbahce Macinin Ilk 11 Leri Belli Oldu Mac Spor Ve Olinda.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Besiktas Fenerbahce Macinin Ilk 11 Leri Belli Oldu Mac Spor Ve Olinda</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/lRaMamT6l14/hqdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/lRaMamT6l14/hqdefault.jpg" alt="Fenerbahce 2018 Muhtemel Ilk 11 I Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce 2018 Muhtemel Ilk 11 I Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.ntvspor.net/6a78ff57ce1d4768bf99545307a2eaf2.jpg?&amp;mode=crop&amp;w=1200&amp;h=800" target="_blank">
-							<img class="img-fluid" src="https://cdn.ntvspor.net/6a78ff57ce1d4768bf99545307a2eaf2.jpg?&amp;mode=crop&amp;w=1200&amp;h=800" alt="Fenerbahce De 3 Yeni Transfer Ilk 11 De Ntvspor Net" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce De 3 Yeni Transfer Ilk 11 De Ntvspor Net</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i2.milimaj.com/i/milliyet/75/0x0/5f1495115542820fd4774d95.jpg" target="_blank">
-							<img class="img-fluid" src="https://i2.milimaj.com/i/milliyet/75/0x0/5f1495115542820fd4774d95.jpg" alt="Besiktas Fenerbahce Maci Kac Kac Bjk Fb Canli Yayin Bjk Fb Maci Ilk 11 Leri Ve Kadrolari Besiktas Spor Haberleri" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Besiktas Fenerbahce Maci Kac Kac Bjk Fb Canli Yayin Bjk Fb Maci Ilk 11 Leri Ve Kadrolari Besiktas Spor Haberleri</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img.fanatik.com.tr/img/75/740x418/5ee117a5ae298b1303839e25.jpg" target="_blank">
-							<img class="img-fluid" src="https://img.fanatik.com.tr/img/75/740x418/5ee117a5ae298b1303839e25.jpg" alt="Fenerbahce De Ilk 11 Degisiyor Fenerbahce Fb Haberleri Spor" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce De Ilk 11 Degisiyor Fenerbahce Fb Haberleri Spor</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/ed/1a/c0/ed1ac034ca16c9b4cefbf42fba8582ad.jpg" data-lightbox="roadtrip" data-title="">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/ed/1a/c0/ed1ac034ca16c9b4cefbf42fba8582ad.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title=".jpg">Read More..</button>
 					</div>
+										<h3 class="h6"></h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.makaleyazari.com/wp-content/uploads/2012/04/FENERBAH%C3%87E-%C4%B0LK-11-22-N%C4%B0SAN.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.makaleyazari.com/wp-content/uploads/2012/04/FENERBAH%C3%87E-%C4%B0LK-11-22-N%C4%B0SAN.jpg" alt="22 Nisan Pazar Bu Derbiye Kalp Dayanmaz Makale Yazari" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>22 Nisan Pazar Bu Derbiye Kalp Dayanmaz Makale Yazari</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://pbs.twimg.com/media/B8IJ6n5IcAAtbn0.png:large" target="_blank">
-							<img class="img-fluid" src="https://pbs.twimg.com/media/B8IJ6n5IcAAtbn0.png:large" alt="Fenerbahce Sk Di Twitter Fenerbahcemizin Kasimpasa Karsisinda Ilk 11 I Rakibimizkasimpasa Fenerbahce Http T Co Ohlqtxcthx" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Sk Di Twitter Fenerbahcemizin Kasimpasa Karsisinda Ilk 11 I Rakibimizkasimpasa Fenerbahce Http T Co Ohlqtxcthx</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.sporx.com/img/2019/09/051567662076.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.sporx.com/img/2019/09/051567662076.jpg" alt="Yeni Model Fenerbahce Ilk 11 De Kimler Olacak" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yeni Model Fenerbahce Ilk 11 De Kimler Olacak</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn-amk.sozcu.com.tr/amk-resimler/2019/02/iecrop/fenerbahce-zenit-hangi-kanalda_1_1_1550761563-400x400.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn-amk.sozcu.com.tr/amk-resimler/2019/02/iecrop/fenerbahce-zenit-hangi-kanalda_1_1_1550761563-400x400.jpg" alt="Fb Ilk 11 I Belli Oldu Zenit Fenerbahce Saat Kacta Hangi Kanalda Spor Haberleri" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fb Ilk 11 I Belli Oldu Zenit Fenerbahce Saat Kacta Hangi Kanalda Spor Haberleri</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/736x/d3/e5/c2/d3e5c2ebf3e0bb99407c36676fd9b74b.jpg" data-lightbox="roadtrip" data-title="Benfica Fenerbahce Sampiyonlar Ligi 3 Tur On Eleme Ilk Maci Hangi Kanalda Saat Kacta Canli Yayinlanacak 7 Agustos 2018 Spor Mac Galeri">
+											<img class="card-img v-image" src="https://i.pinimg.com/736x/d3/e5/c2/d3e5c2ebf3e0bb99407c36676fd9b74b.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Benfica Fenerbahce Sampiyonlar Ligi 3 Tur On Eleme Ilk Maci Hangi Kanalda Saat Kacta Canli Yayinlanacak 7 Agustos 2018 Spor Mac Galeri">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Benfica Fenerbahce Sampiyonlar Ligi 3 Tur On Eleme Ilk Maci Hangi Kanalda Saat Kacta Canli Yayinlanacak 7 Agustos 2018 Spor Mac Galeri.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Benfica Fenerbahce Sampiyonlar Ligi 3 Tur On Eleme Ilk Maci Hangi Kanalda Saat Kacta Canli Yayinlanacak 7 Agustos 2018 Spor Mac Galeri</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i2.milimaj.com/i/milliyet/75/0x410/5f2485415542800e5042975c.jpg" target="_blank">
-							<img class="img-fluid" src="https://i2.milimaj.com/i/milliyet/75/0x410/5f2485415542800e5042975c.jpg" alt="Fenerbahce De Ferdi Nin Ilk 11 Deki Yeri Garanti Fenerbahce Spor Haberleri" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce De Ferdi Nin Ilk 11 Deki Yeri Garanti Fenerbahce Spor Haberleri</p> 
-					</div>
+			</div>
+		</div>
+			 
+					<div class="col-12 mb-4">
+				<div class="card">
+										<img class="card-img-top v-cover" src="https://i.pinimg.com/600x315/ca/e7/1a/cae71a1b0e2fc0a037dfc77015e5301f.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Benfica Fenerbahce Sampiyonlar Ligi 3 Tur On Eleme Ilk Maci Hangi Kanalda Saat Kacta Canli Yayinlanacak 7 Agustos 2018 Spor Mac Galeri">
+										<div class="card-body">
+						<h3 class="h5"><b></b></h3>
+												<div class="col-sm-12 widget"><strong>Related Posts:</strong>
+						<li class="list-group-item"><a href="/zur%C3%BCck-in-die-zukunft-pepsi.html">Fenerbahce Ilk 11</a></li>
+						<li class="list-group-item"><a href="/zur%C3%BCck-in-die-zukunft-pepsi.html">Zurück In Die Zukunft Pepsi</a></li></div>
+						<div class="p-2">Published on:<time class="p-2" itemprop="datePublished" datetime="2020-10-06">2020-10-06</time>
+						<meta itemprop="dateModified" content="2020-10-06">
+						<itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+						By <itemprop="name"><a href="#" title="Posts by Wick Wick" rel="author">Wick Wick</a></div>
+					</div> 
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.sporx.com/img/ilk11/2019/04/21/cc4d8618b32c2cb2a703d2d6f5520110375304.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.sporx.com/img/ilk11/2019/04/21/cc4d8618b32c2cb2a703d2d6f5520110375304.jpg" alt="Fb Nin Alanya Karsisindaki 11 Sporx Ilk11" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fb Nin Alanya Karsisindaki 11 Sporx Ilk11</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.sozcu.com.tr/wp-content/uploads/2019/04/14/iecrop/galatasaray-fenerbahce-dpeo_16_9_1555254968-880x495.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.sozcu.com.tr/wp-content/uploads/2019/04/14/iecrop/galatasaray-fenerbahce-dpeo_16_9_1555254968-880x495.jpg" alt="Fenerbahce Galatasaray Saat Kacta Fb Gs Maci Ilk 11 Leri Belli Oldu Guncel Haberler" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Galatasaray Saat Kacta Fb Gs Maci Ilk 11 Leri Belli Oldu Guncel Haberler</p> 
-					</div>
-				</div>
-						 
+			</div>
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://static.karar.com/img/682x350/16-03/17/resimid_2387013.jpg" target="_blank">
-							<img class="img-fluid" src="https://static.karar.com/img/682x350/16-03/17/resimid_2387013.jpg" alt="Avrupa Ligi Nde Braga Fenerbahce Maci Ilk 11 Ler Beli Oldu Son Dakika Spor Haberleri" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Avrupa Ligi Nde Braga Fenerbahce Maci Ilk 11 Ler Beli Oldu Son Dakika Spor Haberleri</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/14/eb/91/14eb918ebb677562b0a0e325648ddd7e.jpg" data-lightbox="roadtrip" data-title="Galatasaray Fenerbahce Ilk 11 Ler Belli Oldu Olinda Ekim">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/14/eb/91/14eb918ebb677562b0a0e325648ddd7e.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Galatasaray Fenerbahce Ilk 11 Ler Belli Oldu Olinda Ekim">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Galatasaray Fenerbahce Ilk 11 Ler Belli Oldu Olinda Ekim.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Galatasaray Fenerbahce Ilk 11 Ler Belli Oldu Olinda Ekim</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://static.karar.com/img/article_detail/16-04/13/2016-04-13-18-38-52.png" target="_blank">
-							<img class="img-fluid" src="http://static.karar.com/img/article_detail/16-04/13/2016-04-13-18-38-52.png" alt="Fenerbahce Ve Galatasaray In Ilk 11 Leri Belli Oldu Son Dakika Spor Haberleri" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Ve Galatasaray In Ilk 11 Leri Belli Oldu Son Dakika Spor Haberleri</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img.gecce.com/2013/09/16/fenerbahce-191100US.jpg" target="_blank">
-							<img class="img-fluid" src="https://img.gecce.com/2013/09/16/fenerbahce-191100US.jpg" alt="Fenerbahce Nin Ilk 11 I Belli Oldu" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Nin Ilk 11 I Belli Oldu</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://im.haberturk.com/2020/07/04/2733404_d423bf405322f893fd673ab773728167_640x640.jpg" target="_blank">
-							<img class="img-fluid" src="https://im.haberturk.com/2020/07/04/2733404_d423bf405322f893fd673ab773728167_640x640.jpg" alt="Fenerbahce Nin Goztepe Maci Ilk 11 I Futbol Haberleri" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Nin Goztepe Maci Ilk 11 I Futbol Haberleri</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.ntvspor.net/1ab2caeb172e4aafab905e6053dabdde.jpg?&amp;mode=crop&amp;w=940&amp;h=626.6666666666666" target="_blank">
-							<img class="img-fluid" src="https://cdn.ntvspor.net/1ab2caeb172e4aafab905e6053dabdde.jpg?&amp;mode=crop&amp;w=940&amp;h=626.6666666666666" alt="Son Dakika Iste Fenerbahce Nin Ilk 11 I Ntvspor Net" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Son Dakika Iste Fenerbahce Nin Ilk 11 I Ntvspor Net</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/4e/e7/dd/4ee7dd60194e43bd5055c1c79ae03aa8.png" data-lightbox="roadtrip" data-title="Ilk11 Sporx 2020 Mac Spor Manevi">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/4e/e7/dd/4ee7dd60194e43bd5055c1c79ae03aa8.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Ilk11 Sporx 2020 Mac Spor Manevi">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Ilk11 Sporx 2020 Mac Spor Manevi.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Ilk11 Sporx 2020 Mac Spor Manevi</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://iaftm.tmgrup.com.tr/ccef35/385/218/0/0/1600/906?u=https://iftm.tmgrup.com.tr/2020/07/21/fenerbahceden-rize-icin-start-1595279395056.jpeg" target="_blank">
-							<img class="img-fluid" src="https://iaftm.tmgrup.com.tr/ccef35/385/218/0/0/1600/906?u=https://iftm.tmgrup.com.tr/2020/07/21/fenerbahceden-rize-icin-start-1595279395056.jpeg" alt="Fenerbahce Den Rize Icin Start Son Dakika Fenerbahce Haberleri Fotomac" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Den Rize Icin Start Son Dakika Fenerbahce Haberleri Fotomac</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://im.haberturk.com/2020/07/04/2733404_57c95f46bc2cafcd90b22802ce4ed540_640x640.jpg" target="_blank">
-							<img class="img-fluid" src="https://im.haberturk.com/2020/07/04/2733404_57c95f46bc2cafcd90b22802ce4ed540_640x640.jpg" alt="Fenerbahce Nin Goztepe Maci Ilk 11 I Futbol Haberleri" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Nin Goztepe Maci Ilk 11 I Futbol Haberleri</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.taka61.net/resimler/fenerbahce_trabzonspor_ilk_11_leri_076ea38484f6d0aecc0d.jpg" target="_blank">
-							<img class="img-fluid" src="http://www.taka61.net/resimler/fenerbahce_trabzonspor_ilk_11_leri_076ea38484f6d0aecc0d.jpg" alt="Fenerbahce Trabzonspor Macinda Sahaya Cikacak Ilk 11 Ler" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Trabzonspor Macinda Sahaya Cikacak Ilk 11 Ler</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://foto.haberler.com/haber/2020/09/27/derbi-muhtemel-11-ler-galatasaray-fenerbahce-ne-13630013_9281_o.jpg" target="_blank">
-							<img class="img-fluid" src="https://foto.haberler.com/haber/2020/09/27/derbi-muhtemel-11-ler-galatasaray-fenerbahce-ne-13630013_9281_o.jpg" alt="Xrbtvbnbj Mxbm" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Xrbtvbnbj Mxbm</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/0b/ad/ba/0badba9a9621e01f6fe7ba99553b1631.jpg" data-lightbox="roadtrip" data-title="Super Kupa Macinin Goruntuleri Takim Fotograflari Spor Futbol">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/0b/ad/ba/0badba9a9621e01f6fe7ba99553b1631.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Super Kupa Macinin Goruntuleri Takim Fotograflari Spor Futbol">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Super Kupa Macinin Goruntuleri Takim Fotograflari Spor Futbol.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Super Kupa Macinin Goruntuleri Takim Fotograflari Spor Futbol</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img.acunn.com/uploads/icerikler/2019/07/13/fenerbahce-boluspor-ilk-1113973672445d29fec989509.jpg" target="_blank">
-							<img class="img-fluid" src="https://img.acunn.com/uploads/icerikler/2019/07/13/fenerbahce-boluspor-ilk-1113973672445d29fec989509.jpg" alt="Iste Fenerbahce Nin Boluspor Karsisindaki Ilk 11 I" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Iste Fenerbahce Nin Boluspor Karsisindaki Ilk 11 I</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i4.hurimg.com/i/hurriyet/75/750x0/5bb5a87267b0a829f4088169" target="_blank">
-							<img class="img-fluid" src="https://i4.hurimg.com/i/hurriyet/75/750x0/5bb5a87267b0a829f4088169" alt="Cocu Dan Yeni Fenerbahce Iste Ilk 11 Spor Haberi" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cocu Dan Yeni Fenerbahce Iste Ilk 11 Spor Haberi</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i4.hurimg.com/i/hurriyet/75/750x0/5bda8e1867b0a915d89188a3" target="_blank">
-							<img class="img-fluid" src="https://i4.hurimg.com/i/hurriyet/75/750x0/5bda8e1867b0a915d89188a3" alt="Fenerbahce De Ilk 11 De Buyuk Surpriz Sasirtan Tercih Son Dakika Spor Haberleri" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce De Ilk 11 De Buyuk Surpriz Sasirtan Tercih Son Dakika Spor Haberleri</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.bolgegundem.com/d/news/800601.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.bolgegundem.com/d/news/800601.jpg" alt="Caykur Rizespor Fenerbahce Ilk 11 Leri Caykur Rizespor Fenerbahce Mac Kadrosu" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Caykur Rizespor Fenerbahce Ilk 11 Leri Caykur Rizespor Fenerbahce Mac Kadrosu</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/600x315/ca/e7/1a/cae71a1b0e2fc0a037dfc77015e5301f.jpg" data-lightbox="roadtrip" data-title="Besiktas Fenerbahce Derbi Maci Saat Kacta Hangi Kanalda Canli Yayinlanacak Muhtemel Ilk 11 Ler Ziraat Turkiye Kupasi Spor Mac Ve Futbolcular">
+											<img class="card-img v-image" src="https://i.pinimg.com/600x315/ca/e7/1a/cae71a1b0e2fc0a037dfc77015e5301f.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Besiktas Fenerbahce Derbi Maci Saat Kacta Hangi Kanalda Canli Yayinlanacak Muhtemel Ilk 11 Ler Ziraat Turkiye Kupasi Spor Mac Ve Futbolcular">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Besiktas Fenerbahce Derbi Maci Saat Kacta Hangi Kanalda Canli Yayinlanacak Muhtemel Ilk 11 Ler Ziraat Turkiye Kupasi Spor Mac Ve Futbolcular.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Besiktas Fenerbahce Derbi Maci Saat Kacta Hangi Kanalda Canli Yayinlanacak Muhtemel Ilk 11 Ler Ziraat Turkiye Kupasi Spor Mac Ve Futbolcular</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://pbs.twimg.com/media/Co85smbWYAABulB.jpg" target="_blank">
-							<img class="img-fluid" src="https://pbs.twimg.com/media/Co85smbWYAABulB.jpg" alt="O Xrhsths Fenerbahce Sk Sto Twitter Fenerbahcemizin As Monaco Karsisinda Ilk 11 I Asmvsfbsk" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>O Xrhsths Fenerbahce Sk Sto Twitter Fenerbahcemizin As Monaco Karsisinda Ilk 11 I Asmvsfbsk</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://memurlar.net/common/news/images/858055/headline.jpg" target="_blank">
-							<img class="img-fluid" src="https://memurlar.net/common/news/images/858055/headline.jpg" alt="Galatasaray Fenerbahce Derbisi Nin Ilk 11 I Belli Oldu Memurlar Net" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Galatasaray Fenerbahce Derbisi Nin Ilk 11 I Belli Oldu Memurlar Net</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.ntvspor.net/a77da4a1989240f684778591fb0de45c.jpg?&amp;mode=crop&amp;w=940&amp;h=626.6666666666666" target="_blank">
-							<img class="img-fluid" src="https://cdn.ntvspor.net/a77da4a1989240f684778591fb0de45c.jpg?&amp;mode=crop&amp;w=940&amp;h=626.6666666666666" alt="Son Dakika Iste Fenerbahce Nin Ilk 11 I Ntvspor Net" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Son Dakika Iste Fenerbahce Nin Ilk 11 I Ntvspor Net</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i2.cnnturk.com/i/cnnturk/75/630x0/5981739761361f1210fab013.jpg" target="_blank">
-							<img class="img-fluid" src="https://i2.cnnturk.com/i/cnnturk/75/630x0/5981739761361f1210fab013.jpg" alt="Fenerbahce Nin Sturm Graz Maci Ilk 11 I" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Nin Sturm Graz Maci Ilk 11 I</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/91/e8/fe/91e8fedd383e4866eb01a78b9e8eecd8.png" data-lightbox="roadtrip" data-title="Fenerbahce Adli Kullanicinin Designer Panosundaki Pin 2020 Mac Duvar Kagidi Spor">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/91/e8/fe/91e8fedd383e4866eb01a78b9e8eecd8.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Fenerbahce Adli Kullanicinin Designer Panosundaki Pin 2020 Mac Duvar Kagidi Spor">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Fenerbahce Adli Kullanicinin Designer Panosundaki Pin 2020 Mac Duvar Kagidi Spor.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Fenerbahce Adli Kullanicinin Designer Panosundaki Pin 2020 Mac Duvar Kagidi Spor</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img.fanatik.com.tr/img/75/392x221/5f703658ae298be0550089e7.jpg" target="_blank">
-							<img class="img-fluid" src="https://img.fanatik.com.tr/img/75/392x221/5f703658ae298be0550089e7.jpg" alt="24r Rz7ahis8jm" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>24r Rz7ahis8jm</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i12.haber7.net//haber/haber7/photos/2019/34/kadikoyde_buyuk_bulusma_1566198993_8409.jpg" target="_blank">
-							<img class="img-fluid" src="https://i12.haber7.net//haber/haber7/photos/2019/34/kadikoyde_buyuk_bulusma_1566198993_8409.jpg" alt="Kadikoy De Buyuk Bulusma Muhtemel 11 Ler Tum Spor Haber" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Kadikoy De Buyuk Bulusma Muhtemel 11 Ler Tum Spor Haber</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i2.milimaj.com/i/milliyet/75/0x0/5f67d71aadcdeb183057014a.jpg" target="_blank">
-							<img class="img-fluid" src="https://i2.milimaj.com/i/milliyet/75/0x0/5f67d71aadcdeb183057014a.jpg" alt="L9lonxopj0ezgm" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>L9lonxopj0ezgm</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.trtspor.com.tr/resimler/304000/304213.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.trtspor.com.tr/resimler/304000/304213.jpg" alt="Fenerbahce De 9 Yeni Transferden 6 Si Ilk 11 De Trt Spor Turkiye Nin Guncel Spor Haber Kaynagi" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce De 9 Yeni Transferden 6 Si Ilk 11 De Trt Spor Turkiye Nin Guncel Spor Haber Kaynagi</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/736x/e8/5d/82/e85d82d65de1eb5bffe1e7132ef5630f.jpg" data-lightbox="roadtrip" data-title="Son Dakika Fenerbahce Den Mehmet Ekici Aciklamasi Kismi Yirtik Alaturka Online 2020 Futbolcular Mac Spor">
+											<img class="card-img v-image" src="https://i.pinimg.com/736x/e8/5d/82/e85d82d65de1eb5bffe1e7132ef5630f.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Son Dakika Fenerbahce Den Mehmet Ekici Aciklamasi Kismi Yirtik Alaturka Online 2020 Futbolcular Mac Spor">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Son Dakika Fenerbahce Den Mehmet Ekici Aciklamasi Kismi Yirtik Alaturka Online 2020 Futbolcular Mac Spor.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Son Dakika Fenerbahce Den Mehmet Ekici Aciklamasi Kismi Yirtik Alaturka Online 2020 Futbolcular Mac Spor</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img.fanatik.com.tr/img/75/0x0/5bdb60d7ae298b10fb7f3061.jpg" target="_blank">
-							<img class="img-fluid" src="https://img.fanatik.com.tr/img/75/0x0/5bdb60d7ae298b10fb7f3061.jpg" alt="Fenerbahce Nin Galatasaray 11 I Muhtemel Fenerbahce Fb Haberleri Spor" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Nin Galatasaray 11 I Muhtemel Fenerbahce Fb Haberleri Spor</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img.fanatik.com.tr/img/75/740x418/5edd4423ae298b63d5461009.jpg" target="_blank">
-							<img class="img-fluid" src="https://img.fanatik.com.tr/img/75/740x418/5edd4423ae298b63d5461009.jpg" alt="Fenerbahce De Mehmet Ekici Ilk 11 E Kosuyor Fenerbahce Fb Haberleri Spor" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce De Mehmet Ekici Ilk 11 E Kosuyor Fenerbahce Fb Haberleri Spor</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.sporize.com/wp-content/uploads/2015/08/fener7.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.sporize.com/wp-content/uploads/2015/08/fener7.jpg" alt="Iste Fenerbahce Nin 11 I Ataklar Organize Gelisiyor Sporize Golu Atiyor" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Iste Fenerbahce Nin 11 I Ataklar Organize Gelisiyor Sporize Golu Atiyor</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://pbs.twimg.com/media/Bgm6v-uIEAAyg4R.jpg" target="_blank">
-							<img class="img-fluid" src="https://pbs.twimg.com/media/Bgm6v-uIEAAyg4R.jpg" alt="Fenerbahce Sk On Twitter Fenerbahcemizin Ilk 11 I Fenerbahce Rakibimizkasimpasa Http T Co W3tjzirnhj" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Sk On Twitter Fenerbahcemizin Ilk 11 I Fenerbahce Rakibimizkasimpasa Http T Co W3tjzirnhj</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/04/a1/e1/04a1e1012d3c19d90dde5f6bfc7e611f.jpg" data-lightbox="roadtrip" data-title="Birol Erkan Adli Kullanicinin Fenerbahce Panosundaki Pin Spor">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/04/a1/e1/04a1e1012d3c19d90dde5f6bfc7e611f.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Birol Erkan Adli Kullanicinin Fenerbahce Panosundaki Pin Spor">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Birol Erkan Adli Kullanicinin Fenerbahce Panosundaki Pin Spor.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Birol Erkan Adli Kullanicinin Fenerbahce Panosundaki Pin Spor</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img.piri.net/mnresize/720/2000/resim/imagecrop/2020/04/30/01/08/resized_46100-6e4a5febbu.jpg" target="_blank">
-							<img class="img-fluid" src="https://img.piri.net/mnresize/720/2000/resim/imagecrop/2020/04/30/01/08/resized_46100-6e4a5febbu.jpg" alt="Yeni Sezona Farkli Fenerbahce Ilk 11 E 5 Yeni Isim" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Yeni Sezona Farkli Fenerbahce Ilk 11 E 5 Yeni Isim</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://i.hizliresim.com/Ly6XmJ.png" target="_blank">
-							<img class="img-fluid" src="http://i.hizliresim.com/Ly6XmJ.png" alt="Medipol Basaksehir 2 2 Fenerbahce Turkiye Kupasi Mac Ozeti Ve Golleri Izle" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Medipol Basaksehir 2 2 Fenerbahce Turkiye Kupasi Mac Ozeti Ve Golleri Izle</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://iaahbr.tmgrup.com.tr/88e46a/0/0/0/0/0/0?u=https://iftm.tmgrup.com.tr/album/2020/09/11/erol-buluttan-sasirtan-tercih-iste-fenerbahcenin-caykur-rizespor-maci-11i-1599807545780.jpg" target="_blank">
-							<img class="img-fluid" src="https://iaahbr.tmgrup.com.tr/88e46a/0/0/0/0/0/0?u=https://iftm.tmgrup.com.tr/album/2020/09/11/erol-buluttan-sasirtan-tercih-iste-fenerbahcenin-caykur-rizespor-maci-11i-1599807545780.jpg" alt="Erol Bulut Tan Buyuk Surpriz Iste Fenerbahce Nin Muhtemel Ilk 11 I" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Erol Bulut Tan Buyuk Surpriz Iste Fenerbahce Nin Muhtemel Ilk 11 I</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.futbolakademi.net/wp-content/uploads/2015/03/fb.png" target="_blank">
-							<img class="img-fluid" src="http://www.futbolakademi.net/wp-content/uploads/2015/03/fb.png" alt="Futbol Akademi Mac Onu Analizi Fenerbahce Besiktas" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Futbol Akademi Mac Onu Analizi Fenerbahce Besiktas</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/96/cd/8a/96cd8a485d17a676200e583bf5d6395c.jpg" data-lightbox="roadtrip" data-title="Mehmet Ekici Fenerbahce Ye Borcumu Galatasaray Macinda Odemek Istiyorum 2020 Spor Mac Takimada">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/96/cd/8a/96cd8a485d17a676200e583bf5d6395c.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Mehmet Ekici Fenerbahce Ye Borcumu Galatasaray Macinda Odemek Istiyorum 2020 Spor Mac Takimada">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Mehmet Ekici Fenerbahce Ye Borcumu Galatasaray Macinda Odemek Istiyorum 2020 Spor Mac Takimada.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Mehmet Ekici Fenerbahce Ye Borcumu Galatasaray Macinda Odemek Istiyorum 2020 Spor Mac Takimada</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://pbs.twimg.com/media/B_lmuzEUYAAyYgs.png" target="_blank">
-							<img class="img-fluid" src="https://pbs.twimg.com/media/B_lmuzEUYAAyYgs.png" alt="Fenerbahce Sk Na Twitteru Fenerbahcemizin Galatasaray Karsisinda Ilk 11 I Rakibimizgs Http T Co 9ce1pcpbww" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Sk Na Twitteru Fenerbahcemizin Galatasaray Karsisinda Ilk 11 I Rakibimizgs Http T Co 9ce1pcpbww</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images2.minutemediacdn.com/image/upload/c_fill,w_912,h_516,f_auto,q_auto,g_auto/shape/cover/sport/593a84632f319d16bd000024.jpg" target="_blank">
-							<img class="img-fluid" src="https://images2.minutemediacdn.com/image/upload/c_fill,w_912,h_516,f_auto,q_auto,g_auto/shape/cover/sport/593a84632f319d16bd000024.jpg" alt="Fenerbahce Nin 2017 2018 Sezonunda Muhtemel Ilk 11 I 90min" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Nin 2017 2018 Sezonunda Muhtemel Ilk 11 I 90min</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i12.haber7.net//haber/haber7/photos/2020/06/trabzonsporda_buyuk_tehlike_6_isim_1581153796_3803.jpg" target="_blank">
-							<img class="img-fluid" src="https://i12.haber7.net//haber/haber7/photos/2020/06/trabzonsporda_buyuk_tehlike_6_isim_1581153796_3803.jpg" alt="Trabzonspor Un Fenerbahce Maci Ilk 11 I Tum Spor Haber" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Trabzonspor Un Fenerbahce Maci Ilk 11 I Tum Spor Haber</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i12.haber7.net//haber/haber7/photos/2020/15/fenerbahcede_ilk_feda_diyen_isim_1586436371_0525.jpg" target="_blank">
-							<img class="img-fluid" src="https://i12.haber7.net//haber/haber7/photos/2020/15/fenerbahcede_ilk_feda_diyen_isim_1586436371_0525.jpg" alt="Fenerbahce Nin Muhtemel Genclerbirligi Ilk 11 I Tum Spor Haber" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Nin Muhtemel Genclerbirligi Ilk 11 I Tum Spor Haber</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/bb/9b/c6/bb9bc672c7138f5f09f366d885e76cba.jpg" data-lightbox="roadtrip" data-title="Fenerbahcekadro Adli Kullanicinin Fenerbahce Panosundaki Pin 2020 Football Spor Futbol">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/bb/9b/c6/bb9bc672c7138f5f09f366d885e76cba.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Fenerbahcekadro Adli Kullanicinin Fenerbahce Panosundaki Pin 2020 Football Spor Futbol">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Fenerbahcekadro Adli Kullanicinin Fenerbahce Panosundaki Pin 2020 Football Spor Futbol.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Fenerbahcekadro Adli Kullanicinin Fenerbahce Panosundaki Pin 2020 Football Spor Futbol</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://s2.dmcdn.net/v/92sR11S4qmazFfLwb/x1080" target="_blank">
-							<img class="img-fluid" src="https://s2.dmcdn.net/v/92sR11S4qmazFfLwb/x1080" alt="Fenerbahcemizin Konyaspor Karsisinda Ilk 11 I Dailymotion Video" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahcemizin Konyaspor Karsisinda Ilk 11 I Dailymotion Video</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://im.haberturk.com/2020/07/04/2733404_80cec2d2a54f1f3fa4e25aa1e837af61_640x640.jpg" target="_blank">
-							<img class="img-fluid" src="https://im.haberturk.com/2020/07/04/2733404_80cec2d2a54f1f3fa4e25aa1e837af61_640x640.jpg" alt="Fenerbahce Nin Goztepe Maci Ilk 11 I Futbol Haberleri" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Nin Goztepe Maci Ilk 11 I Futbol Haberleri</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.trtspor.com.tr/resimler/310000/310788.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.trtspor.com.tr/resimler/310000/310788.jpg" alt="Galatasaray Da 5 Isim Ilk Kez Derbi 11 Inde Trt Spor Turkiye Nin Guncel Spor Haber Kaynagi" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Galatasaray Da 5 Isim Ilk Kez Derbi 11 Inde Trt Spor Turkiye Nin Guncel Spor Haber Kaynagi</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://iaysr.tmgrup.com.tr/1c918d/780/411/0/0/1920/1010?u=https://iysr.tmgrup.com.tr/2020/02/23/fenerbahce-ve-galatasarayin-ilk-11leri-belli-oldu-1582470698474.jpg" target="_blank">
-							<img class="img-fluid" src="https://iaysr.tmgrup.com.tr/1c918d/780/411/0/0/1920/1010?u=https://iysr.tmgrup.com.tr/2020/02/23/fenerbahce-ve-galatasarayin-ilk-11leri-belli-oldu-1582470698474.jpg" alt="Fenerbahce Ve Galatasaray In Ilk 11 Leri Belli Oldu" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Ve Galatasaray In Ilk 11 Leri Belli Oldu</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://icdn.turkiyegazetesi.com.tr/images/Resources/2013/7/31/700x59215_fener_1.jpg" target="_blank">
-							<img class="img-fluid" src="https://icdn.turkiyegazetesi.com.tr/images/Resources/2013/7/31/700x59215_fener_1.jpg" alt="Fenerbahce Red Bull Salzburg Maci Ilk 11 Ler Aciklandi" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Red Bull Salzburg Maci Ilk 11 Ler Aciklandi</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Fenerbah%C3%A7e_SK_vs_Gazi%C5%9Fehir_Gaziantep_FK_19_Aug_2019.jpg/300px-Fenerbah%C3%A7e_SK_vs_Gazi%C5%9Fehir_Gaziantep_FK_19_Aug_2019.jpg" target="_blank">
-							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Fenerbah%C3%A7e_SK_vs_Gazi%C5%9Fehir_Gaziantep_FK_19_Aug_2019.jpg/300px-Fenerbah%C3%A7e_SK_vs_Gazi%C5%9Fehir_Gaziantep_FK_19_Aug_2019.jpg" alt="Fenerbahce Futbol Takimi 2019 20 Sezonu Vikipedi" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Futbol Takimi 2019 20 Sezonu Vikipedi</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://iaahbr.tmgrup.com.tr/7c8faa/0/0/0/0/0/0?u=https://iftm.tmgrup.com.tr/album/2020/07/18/1595065398761.jpg" target="_blank">
-							<img class="img-fluid" src="https://iaahbr.tmgrup.com.tr/7c8faa/0/0/0/0/0/0?u=https://iftm.tmgrup.com.tr/album/2020/07/18/1595065398761.jpg" alt="Besiktas Fenerbahce Derbisi Muhtemel Ilk 11 Ler Dev Derbi Oncesi Buyuk Surpriz" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Besiktas Fenerbahce Derbisi Muhtemel Ilk 11 Ler Dev Derbi Oncesi Buyuk Surpriz</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.livehaber.net/images/haberler/2020/02/fenerbahce-nin-ilk-11-i_4f917.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.livehaber.net/images/haberler/2020/02/fenerbahce-nin-ilk-11-i_4f917.jpg" alt="Fenerbahce Nin Ilk 11 I Live Haber" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Nin Ilk 11 I Live Haber</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn-amk.sozcu.com.tr/amk-resimler/2019/07/iecrop/kruse_1_1_1564582280-400x400.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn-amk.sozcu.com.tr/amk-resimler/2019/07/iecrop/kruse_1_1_1564582280-400x400.jpg" alt="Ilk 11 Ler Belli Oldu Fenerbahce Real Madrid Saat Kacta Audi Cup Ta Ucunculu Maci Hangi Kanalda Spor Haberleri" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Ilk 11 Ler Belli Oldu Fenerbahce Real Madrid Saat Kacta Audi Cup Ta Ucunculu Maci Hangi Kanalda Spor Haberleri</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.sporx.com/img/2019/02/251551111347.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.sporx.com/img/2019/02/251551111347.jpg" alt="Besiktas Fenerbahce Ilk 11 Ler Maci Saat Kacta Hangi Kanalda" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Besiktas Fenerbahce Ilk 11 Ler Maci Saat Kacta Hangi Kanalda</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://pbs.twimg.com/media/Bhp1i4CCIAATFGZ.png" target="_blank">
-							<img class="img-fluid" src="https://pbs.twimg.com/media/Bhp1i4CCIAATFGZ.png" alt="Fenerbahce Sk V Twitter Fenerbahcemizin Ilk 11 I Rakibimizgencler Http T Co Dobq8jiaub" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Sk V Twitter Fenerbahcemizin Ilk 11 I Rakibimizgencler Http T Co Dobq8jiaub</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.sporundibi.com/images/haberler/2019/07/real_madrid_fenerbahce_macinin_ilk_11_leri_aciklandi_h71065_dd310.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.sporundibi.com/images/haberler/2019/07/real_madrid_fenerbahce_macinin_ilk_11_leri_aciklandi_h71065_dd310.jpg" alt="Real Madrid Fenerbahce Macinin Ilk 11 Leri Aciklandi Sporun Dibi" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Real Madrid Fenerbahce Macinin Ilk 11 Leri Aciklandi Sporun Dibi</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.futboo.com/images/haberler/7055eced15538bfb7c07f8a5b28fc5d01502989584.jpg" target="_blank">
-							<img class="img-fluid" src="http://www.futboo.com/images/haberler/7055eced15538bfb7c07f8a5b28fc5d01502989584.jpg" alt="Fenerbahce Nin Vardar Maci Ilk 11 I Belli Oldu Fenerbahce Futboo Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Nin Vardar Maci Ilk 11 I Belli Oldu Fenerbahce Futboo Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://resim.haber61.net/haberler/2020/01/31/trabzonspor_un_fenerbahce_maci_muhtemel_11_i_h382655_229cf.jpg" target="_blank">
-							<img class="img-fluid" src="https://resim.haber61.net/haberler/2020/01/31/trabzonspor_un_fenerbahce_maci_muhtemel_11_i_h382655_229cf.jpg" alt="Trabzonspor Un Fenerbahce Maci Muhtemel 11 I" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Trabzonspor Un Fenerbahce Maci Muhtemel 11 I</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_700,h_420/https://haberkurulu.com/wp-content/uploads/2019/09/son-dakika-galatasaray-fenerbahce-derbisinde-ilk-12474238_4028_o-700x420.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_700,h_420/https://haberkurulu.com/wp-content/uploads/2019/09/son-dakika-galatasaray-fenerbahce-derbisinde-ilk-12474238_4028_o-700x420.jpg" alt="Galatasaray Fenerbahce Derbisinde Ilk 11 Ler Belli Oldu Haber Haberler Son Dakika Haberler" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Galatasaray Fenerbahce Derbisinde Ilk 11 Ler Belli Oldu Haber Haberler Son Dakika Haberler</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.superfb.com/img/2015/02/05/2015-2016_fenerbahce_11i_b451e_1920.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.superfb.com/img/2015/02/05/2015-2016_fenerbahce_11i_b451e_1920.jpg" alt="2015 2016 Fenerbahce 11 I 2015 2016 Fenerbahce 11 I" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>2015 2016 Fenerbahce 11 I 2015 2016 Fenerbahce 11 I</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i2.milimaj.com/i/milliyet/75/750x0/5ee36e2555427f11b411f152" target="_blank">
-							<img class="img-fluid" src="https://i2.milimaj.com/i/milliyet/75/750x0/5ee36e2555427f11b411f152" alt="Son Dakika Fenerbahce Haberleri Fenerbahce Den Kayserispor A Surpriz Ilk 11 Fenerbahce Spor Haberleri" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Son Dakika Fenerbahce Haberleri Fenerbahce Den Kayserispor A Surpriz Ilk 11 Fenerbahce Spor Haberleri</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=2061071877243132" target="_blank">
-							<img class="img-fluid" src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=2061071877243132" alt="Futbol Arena Fenerbahce Nin Ilk 11 I Ve Sahaya Dizilisi Facebook" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Futbol Arena Fenerbahce Nin Ilk 11 I Ve Sahaya Dizilisi Facebook</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://iatkv.tmgrup.com.tr/dcef29/0/0/0/0/800/608?u=https://itkv.tmgrup.com.tr/2018/07/07/cocunun-ilk-11i-belli-oldu-fenerbahce-istanbulspor-mucadelesi-ne-zaman-1530959266154.jpeg&amp;mw=600" target="_blank">
-							<img class="img-fluid" src="https://iatkv.tmgrup.com.tr/dcef29/0/0/0/0/800/608?u=https://itkv.tmgrup.com.tr/2018/07/07/cocunun-ilk-11i-belli-oldu-fenerbahce-istanbulspor-mucadelesi-ne-zaman-1530959266154.jpeg&amp;mw=600" alt="Cocu Nun Ilk 11 I Belli Oldu Fenerbahce Istanbulspor Mucadelesi Ne Zaman Takvim" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cocu Nun Ilk 11 I Belli Oldu Fenerbahce Istanbulspor Mucadelesi Ne Zaman Takvim</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i2.milimaj.com/i/milliyet/75/750x0/5f0aed565542851448bb84db" target="_blank">
-							<img class="img-fluid" src="https://i2.milimaj.com/i/milliyet/75/750x0/5f0aed565542851448bb84db" alt="Son Dakika Fenerbahce De Tahir Karapinar Ezber Bozdu Beklenen Isim Ilk 11 De Fenerbahce Spor Haberleri" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Son Dakika Fenerbahce De Tahir Karapinar Ezber Bozdu Beklenen Isim Ilk 11 De Fenerbahce Spor Haberleri</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=10155290367931843" target="_blank">
-							<img class="img-fluid" src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=10155290367931843" alt="Galatasaray In Fenerbahce Ilk 11 I Galatasaray Gazetesi Facebook" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Galatasaray In Fenerbahce Ilk 11 I Galatasaray Gazetesi Facebook</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg)/origin-imgresizer.eurosport.com/2011/01/07/676468-21631024-2560-1440.jpg" target="_blank">
-							<img class="img-fluid" src="https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg)/origin-imgresizer.eurosport.com/2011/01/07/676468-21631024-2560-1440.jpg" alt="Ilk 11 Ler Eurosport" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Ilk 11 Ler Eurosport</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.eurosport.com/2016/02/25/1802499.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.eurosport.com/2016/02/25/1802499.jpg" alt="Fenerbahce Nin Lokomotiv Moskova Maci Muhtemel Ilk 11 I Eurosport" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Nin Lokomotiv Moskova Maci Muhtemel Ilk 11 I Eurosport</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://iasbh.tmgrup.com.tr/a3f7a3/0/0/0/0/0/0?u=https://iftm.tmgrup.com.tr/album/2020/09/25/iste-galatasaray-fenerbahce-macinin-11leri-falcao-ve-samatta-1601033300232.gif&amp;mw=600" target="_blank">
-							<img class="img-fluid" src="https://iasbh.tmgrup.com.tr/a3f7a3/0/0/0/0/0/0?u=https://iftm.tmgrup.com.tr/album/2020/09/25/iste-galatasaray-fenerbahce-macinin-11leri-falcao-ve-samatta-1601033300232.gif&amp;mw=600" alt="Oggetpt7qif2cm" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Oggetpt7qif2cm</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.ntvspor.net/795fec026b6d4fe29bbc38a1a374f0b4.jpg?&amp;mode=crop&amp;w=940&amp;h=626.6666666666666" target="_blank">
-							<img class="img-fluid" src="https://cdn.ntvspor.net/795fec026b6d4fe29bbc38a1a374f0b4.jpg?&amp;mode=crop&amp;w=940&amp;h=626.6666666666666" alt="Fenerbahce Nin Ilk 11 I Belli Oldu Ntvspor Net" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Nin Ilk 11 I Belli Oldu Ntvspor Net</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://static.birgun.net/resim/haber-detay-resim/2020/03/03/trabzonspor-fenerbahce-macinin-ilk-11-leri-belli-oldu-696028-5.jpg" target="_blank">
-							<img class="img-fluid" src="https://static.birgun.net/resim/haber-detay-resim/2020/03/03/trabzonspor-fenerbahce-macinin-ilk-11-leri-belli-oldu-696028-5.jpg" alt="Trabzonspor Fenerbahce Macinin Ilk 11 Leri Belli Oldu" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Trabzonspor Fenerbahce Macinin Ilk 11 Leri Belli Oldu</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://pbs.twimg.com/media/EDef4h_WkAAE8yp.jpg" target="_blank">
-							<img class="img-fluid" src="https://pbs.twimg.com/media/EDef4h_WkAAE8yp.jpg" alt="Medya Fener On Twitter 2019 2020 Sezonu Muhtemel Fenerbahce Ilk 11 I Transfer Donemi Ile Kurulan Yeni Takimimiz Hakkinda Gorusleriniz" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Medya Fener On Twitter 2019 2020 Sezonu Muhtemel Fenerbahce Ilk 11 I Transfer Donemi Ile Kurulan Yeni Takimimiz Hakkinda Gorusleriniz</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://s18.directupload.net/images/190504/sod6h3ch.jpg" target="_blank">
-							<img class="img-fluid" src="https://s18.directupload.net/images/190504/sod6h3ch.jpg" alt="Fenerbahce Nin Kasimpasa Maci Ilk 11 I Aciklandi" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Nin Kasimpasa Maci Ilk 11 I Aciklandi</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i2.milimaj.com/i/milliyet/75/750x0/5f70656755427f10e001c3f3" target="_blank">
-							<img class="img-fluid" src="https://i2.milimaj.com/i/milliyet/75/750x0/5f70656755427f10e001c3f3" alt="Sfn3kaijwavkym" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Sfn3kaijwavkym</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://static.daktilo.com/sites/71/uploads/2020/09/27/medium/te-galatasaray-fenerbahce-derbisinin-muhtemel-ilk-11leri.jpg" target="_blank">
-							<img class="img-fluid" src="https://static.daktilo.com/sites/71/uploads/2020/09/27/medium/te-galatasaray-fenerbahce-derbisinin-muhtemel-ilk-11leri.jpg" alt="Jy86bdacialu M" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Jy86bdacialu M</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://im.haberturk.com/2016/05/25/ver1464270356/1244471_75c99746d2d115d24bcc531a2feee717.jpg" target="_blank">
-							<img class="img-fluid" src="https://im.haberturk.com/2016/05/25/ver1464270356/1244471_75c99746d2d115d24bcc531a2feee717.jpg" alt="Derbi Maci Saat Kacta Galatasaray Fenerbahce Maci Hangi Kanalda Gs Fb Derbisi Ne Zaman" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Derbi Maci Saat Kacta Galatasaray Fenerbahce Maci Hangi Kanalda Gs Fb Derbisi Ne Zaman</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://iasbh.tmgrup.com.tr/51e9f9/0/0/0/0/0/0?u=https://isbh.tmgrup.com.tr/sb/album/2019/09/05/1567669389315.jpg&amp;mw=752&amp;mh=700" target="_blank">
-							<img class="img-fluid" src="https://iasbh.tmgrup.com.tr/51e9f9/0/0/0/0/0/0?u=https://isbh.tmgrup.com.tr/sb/album/2019/09/05/1567669389315.jpg&amp;mw=752&amp;mh=700" alt="Iste 2020 Model Fenerbahce Ersun Yanal Kafasindaki Ilk 11 I Belirledi Sayfa 4 Spor Haberleri" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Iste 2020 Model Fenerbahce Ersun Yanal Kafasindaki Ilk 11 I Belirledi Sayfa 4 Spor Haberleri</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://foto.haberler.com/haber/2017/09/17/fenerbahce-nin-ilk-11-i-belli-oldu-10037276_o.jpg" target="_blank">
-							<img class="img-fluid" src="https://foto.haberler.com/haber/2017/09/17/fenerbahce-nin-ilk-11-i-belli-oldu-10037276_o.jpg" alt="Fenerbahce Nin Ilk 11 I Belli Oldu Haber" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Nin Ilk 11 I Belli Oldu Haber</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i2.milimaj.com/i/milliyet/75/750x0/5f706cab55427f10e001c43a" target="_blank">
-							<img class="img-fluid" src="https://i2.milimaj.com/i/milliyet/75/750x0/5f706cab55427f10e001c43a" alt="Tburbl5axaqfkm" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Tburbl5axaqfkm</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://2.bp.blogspot.com/_s4BSdTq1AQA/SRcJo1VllqI/AAAAAAAAE7Q/PUing_eI_uc/s400/fenerbahce.jpg" target="_blank">
-							<img class="img-fluid" src="http://2.bp.blogspot.com/_s4BSdTq1AQA/SRcJo1VllqI/AAAAAAAAE7Q/PUing_eI_uc/s400/fenerbahce.jpg" alt="Ultras Movement Fenerbahce Ilk 11" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Ultras Movement Fenerbahce Ilk 11</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.haber46.com.tr/images/haberler/iste_fenerbahce_nin_shakhtar_donetsk_maci_kadrosu_ilk_11_belli_gibi_gelismeleri_canli_izle_h109242_f8276.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.haber46.com.tr/images/haberler/iste_fenerbahce_nin_shakhtar_donetsk_maci_kadrosu_ilk_11_belli_gibi_gelismeleri_canli_izle_h109242_f8276.jpg" alt="Iste Fenerbahce Nin Shakhtar Donetsk Maci Kadrosu Fenerbahce Nin Muhtemel Ilk 11 I Haberi" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Iste Fenerbahce Nin Shakhtar Donetsk Maci Kadrosu Fenerbahce Nin Muhtemel Ilk 11 I Haberi</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images.daznservices.com/di/library/GOAL/48/68/galatasaray-fenerbahce-karma-xi_k3xu7g6l3g3a196yiaahn9v1z.png?t=-895402098&amp;quality=60&amp;w=1280" target="_blank">
-							<img class="img-fluid" src="https://images.daznservices.com/di/library/GOAL/48/68/galatasaray-fenerbahce-karma-xi_k3xu7g6l3g3a196yiaahn9v1z.png?t=-895402098&amp;quality=60&amp;w=1280" alt="Galatasaray Fenerbahce Derbisinin Karma 11 I Goal Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Galatasaray Fenerbahce Derbisinin Karma 11 I Goal Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i4.hurimg.com/i/hurriyet/75/750x0/5959d2e80f2544205ced0e8a" target="_blank">
-							<img class="img-fluid" src="https://i4.hurimg.com/i/hurriyet/75/750x0/5959d2e80f2544205ced0e8a" alt="Iste Yeni Fenerbahce Ilk 11 De Buyuk Surpriz Spor Haberi" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Iste Yeni Fenerbahce Ilk 11 De Buyuk Surpriz Spor Haberi</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://static.karar.com/img/682x350/16-03/06/resimid_2326632.jpg" target="_blank">
-							<img class="img-fluid" src="https://static.karar.com/img/682x350/16-03/06/resimid_2326632.jpg" alt="Fenerbahce Nin Akhisar Belediyespor Maci Ilk 11 I Belli Oldu Son Dakika Spor Haberleri" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Nin Akhisar Belediyespor Maci Ilk 11 I Belli Oldu Son Dakika Spor Haberleri</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://iasbh.tmgrup.com.tr/37f243/0/0/0/0/0/0?u=https://iftm.tmgrup.com.tr/album/2020/09/25/iste-galatasaray-fenerbahce-macinin-11leri-falcao-ve-samatta-1601033296117.jpg&amp;mw=600" target="_blank">
-							<img class="img-fluid" src="https://iasbh.tmgrup.com.tr/37f243/0/0/0/0/0/0?u=https://iftm.tmgrup.com.tr/album/2020/09/25/iste-galatasaray-fenerbahce-macinin-11leri-falcao-ve-samatta-1601033296117.jpg&amp;mw=600" alt="Oggetpt7qif2cm" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Oggetpt7qif2cm</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://im.haberturk.com/2020/07/04/2733404_dda9350b5c5e50e42b38558e16f90bb8_640x640.jpg" target="_blank">
-							<img class="img-fluid" src="https://im.haberturk.com/2020/07/04/2733404_dda9350b5c5e50e42b38558e16f90bb8_640x640.jpg" alt="Fenerbahce Nin Goztepe Maci Ilk 11 I Futbol Haberleri" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Nin Goztepe Maci Ilk 11 I Futbol Haberleri</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://iasbh.tmgrup.com.tr/cc769b/0/0/0/0/0/0?u=https://iftm.tmgrup.com.tr/album/2020/09/25/iste-galatasaray-fenerbahce-macinin-11leri-falcao-ve-samatta-1601033359522.jpg" target="_blank">
-							<img class="img-fluid" src="https://iasbh.tmgrup.com.tr/cc769b/0/0/0/0/0/0?u=https://iftm.tmgrup.com.tr/album/2020/09/25/iste-galatasaray-fenerbahce-macinin-11leri-falcao-ve-samatta-1601033359522.jpg" alt="Bidtpp2gzi Bqm" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bidtpp2gzi Bqm</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.sporx.com/img/ilk11/2020/06/16/e5cd39c3e016220a4c0662c3a6598059640069.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.sporx.com/img/ilk11/2020/06/16/e5cd39c3e016220a4c0662c3a6598059640069.jpg" alt="2020 2021 Fenerbahce Ilk 11 I Sporx Ilk11" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>2020 2021 Fenerbahce Ilk 11 I Sporx Ilk11</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://this11.com/boards/1283554158721924.jpg" target="_blank">
-							<img class="img-fluid" src="http://this11.com/boards/1283554158721924.jpg" alt="Fenerbahce Ideal Ilk 11 Sky" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Ideal Ilk 11 Sky</p> 
-					</div>
-				</div>
-						 
-		 
-
-	 	
-	
-					</div>
+		</div>
+				<div class="clearfix"></div> 
+		<div class="d-block mt-4 p-3">
+			Source : <a href="https://pinterest.com" rel="nofollow noopener">pinterest.com</a>
+		</div>
+						</div>
 				</div> 
 				<div class="col-md-3">
 					<div class="col-sm-12 widget">
-						<h3 class="widget-title">Random Posts</h3>
+						<h3 class="widget-title">RANDOM POST</h3>
 						<ul class="list-group">
-						 
-																	<li class="list-group-item"><a href="clement-raphalalani.html">Clement Raphalalani</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-yeni-sezon-formalari.html">Fenerbahce Yeni Sezon Formalari</a></li>
-																	<li class="list-group-item"><a href="aserbaidschan-soldaten.html">Aserbaidschan Soldaten</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="st-pauli-ropa.html">St Pauli Ropa</a></li>
-																	<li class="list-group-item"><a href="clement-hii.html">Clement Hii</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-and-kit.html">Rose Leslie And Kit</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="clement-zheng.html">Clement Zheng</a></li>
-																	<li class="list-group-item"><a href="aserbaidschan-hotel.html">Aserbaidschan Hotel</a></li>
-																	<li class="list-group-item"><a href="galatasaray-esofman-takimi.html">Galatasaray Esofman Takimi</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="armenien-mann.html">Armenien Mann</a></li>
-																	<li class="list-group-item"><a href="wedding-rose-leslie-short-hair.html">Wedding Rose Leslie Short Hair</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-liga.html">Dynamo Dresden Liga</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="google-image-search-photo-android.html">Google Image Search Photo Android</a></li>
-																	<li class="list-group-item"><a href="armenien-bevoelkerung.html">Armenien Bevoelkerung</a></li>
-																	<li class="list-group-item"><a href="google-street-view.html">Google Street View</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="aserbaidschan-europa.html">Aserbaidschan Europa</a></li>
-																	<li class="list-group-item"><a href="24h-nuerburgring-2020.html">24h Nuerburgring 2020</a></li>
-																	<li class="list-group-item"><a href="galatasaray-oyunculari-duvar-kagitlari.html">Galatasaray Oyunculari Duvar Kagitlari</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="jaket-st-pauli.html">Jaket St Pauli</a></li>
-																	<li class="list-group-item"><a href="st-pauli-kyrka.html">St Pauli Kyrka</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-good-fight.html">Rose Leslie Good Fight</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="armenien-stadt.html">Armenien Stadt</a></li>
-																	<li class="list-group-item"><a href="google-z.html">Google Z</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-children.html">Rose Leslie Children</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="clement-ong.html">Clement Ong</a></li>
-																	<li class="list-group-item"><a href="armenien-landkarte.html">Armenien Landkarte</a></li>
-																	<li class="list-group-item"><a href="galatasaray-forma.html">Galatasaray Forma</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="galatasaray-orta-saha.html">Galatasaray Orta Saha</a></li>
-																	<li class="list-group-item"><a href="clement-nwankwo.html">Clement Nwankwo</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-emilia-clarke-rose-leslie-kit-harington.html">Rose Leslie Emilia Clarke Rose Leslie Kit Harington</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="lewis-hamilton.html">Lewis Hamilton</a></li>
-																	<li class="list-group-item"><a href="clement-numbers-font.html">Clement Numbers Font</a></li>
-																	<li class="list-group-item"><a href="kit-harington-eret.html">Kit Harington Eret</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="rose-leslie-fisico.html">Rose Leslie Fisico</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-ultras-wallpaper.html">Dynamo Dresden Ultras Wallpaper</a></li>
-																	<li class="list-group-item"><a href="nadal-french-open-2020-outfit.html">Nadal French Open 2020 Outfit</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="aserbaidschan-fotos.html">Aserbaidschan Fotos</a></li>
-																	<li class="list-group-item"><a href="st-pauli-retro-shirt.html">St Pauli Retro Shirt</a></li>
-																	<li class="list-group-item"><a href="clement-herd.html">Clement Herd</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="galatasaray-yatak-oertuesue.html">Galatasaray Yatak Oertuesue</a></li>
-																	<li class="list-group-item"><a href="google-edan.html">Google Edan</a></li>
-																	<li class="list-group-item"><a href="galatasaray-home-kit.html">Galatasaray Home Kit</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="dynamo-dresden-emblem.html">Dynamo Dresden Emblem</a></li>
-																	<li class="list-group-item"><a href="logo-dynamo-dresden-download.html">Logo Dynamo Dresden Download</a></li>
-																	<li class="list-group-item"><a href="galatasaray-beyaz-forma.html">Galatasaray Beyaz Forma</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="st-pauli-ultras.html">St Pauli Ultras</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-union-berlin.html">Dynamo Dresden Union Berlin</a></li>
-																	<li class="list-group-item"><a href="clement-town-dehradun.html">Clement Town Dehradun</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="galatasaray-istanbulspor.html">Galatasaray Istanbulspor</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-character-in-game-of-thrones.html">Rose Leslie Character In Game Of Thrones</a></li>
-								 
+													<li class="list-group-item"><a href="/chelsea-clinton-children.html">Chelsea Clinton Children</a></li>
+													<li class="list-group-item"><a href="/chelsea-tyler.html">Chelsea Tyler</a></li>
+													<li class="list-group-item"><a href="/chelsea-roffey-husband.html">Chelsea Roffey Husband</a></li>
+													<li class="list-group-item"><a href="/chelsea-ursin.html">Chelsea Ursin</a></li>
+													<li class="list-group-item"><a href="/chelsea-ireland-and-lukasz-klosowski.html">Chelsea Ireland And Lukasz Klosowski</a></li>
+													<li class="list-group-item"><a href="/chelsea-bun.html">Chelsea Bun</a></li>
+													<li class="list-group-item"><a href="/chelsea-champions-league.html">Chelsea Champions League</a></li>
+													<li class="list-group-item"><a href="/chelsea-line-up-2020.html">Chelsea Line Up 2020</a></li>
+													<li class="list-group-item"><a href="/chelsea-eisler.html">Chelsea Eisler</a></li>
+													<li class="list-group-item"><a href="/chelsea-clinton-kids.html">Chelsea Clinton Kids</a></li>
+													<li class="list-group-item"><a href="/chelsea-victoria.html">Chelsea Victoria</a></li>
+													<li class="list-group-item"><a href="/chelsea-old-logo.html">Chelsea Old Logo</a></li>
+													<li class="list-group-item"><a href="/chelsea-umpire-afl.html">Chelsea Umpire Afl</a></li>
+													<li class="list-group-item"><a href="/chelsea-goal-umpire.html">Chelsea Goal Umpire</a></li>
+													<li class="list-group-item"><a href="/chelsea-players.html">Chelsea Players</a></li>
+													<li class="list-group-item"><a href="/chelsea-jones-comedian.html">Chelsea Jones Comedian</a></li>
+													<li class="list-group-item"><a href="/chelsea-news.html">Chelsea News</a></li>
+													<li class="list-group-item"><a href="/chelsea-images.html">Chelsea Images</a></li>
+													<li class="list-group-item"><a href="/chelsea-cutler.html">Chelsea Cutler</a></li>
+													<li class="list-group-item"><a href="/chelsea-quinn.html">Chelsea Quinn</a></li>
+													<li class="list-group-item"><a href="/chelsea-lion.html">Chelsea Lion</a></li>
+													<li class="list-group-item"><a href="/chelsea-timo-werner.html">Chelsea Timo Werner</a></li>
+													<li class="list-group-item"><a href="/chelsea-retro-kit.html">Chelsea Retro Kit</a></li>
+													<li class="list-group-item"><a href="/chelsea-brown.html">Chelsea Brown</a></li>
+													<li class="list-group-item"><a href="/chelsea-away.html">Chelsea Away</a></li>
+													<li class="list-group-item"><a href="/chelsea-qc.html">Chelsea Qc</a></li>
+													<li class="list-group-item"><a href="/chelsea-ireland-lukasz.html">Chelsea Ireland Lukasz</a></li>
+													<li class="list-group-item"><a href="/chelsea-manning.html">Chelsea Manning</a></li>
+													<li class="list-group-item"><a href="/chelsea-boots.html">Chelsea Boots</a></li>
+													<li class="list-group-item"><a href="/chelsea-marr.html">Chelsea Marr</a></li>
+													<li class="list-group-item"><a href="/chelsea-rebecca.html">Chelsea Rebecca</a></li>
+													<li class="list-group-item"><a href="/chelsea-haircut.html">Chelsea Haircut</a></li>
+													<li class="list-group-item"><a href="/chelsea-jones.html">Chelsea Jones</a></li>
+													<li class="list-group-item"><a href="/chelsea-kai-havertz.html">Chelsea Kai Havertz</a></li>
+													<li class="list-group-item"><a href="/chelsea-skate-park.html">Chelsea Skate Park</a></li>
+													<li class="list-group-item"><a href="/chelsea-miller.html">Chelsea Miller</a></li>
+													<li class="list-group-item"><a href="/chelsea-devantez.html">Chelsea Devantez</a></li>
+													<li class="list-group-item"><a href="/chelsea-third-kit.html">Chelsea Third Kit</a></li>
+													<li class="list-group-item"><a href="/chelsea-training-kit.html">Chelsea Training Kit</a></li>
+													<li class="list-group-item"><a href="/chelsea-fifa-21-ratings.html">Chelsea Fifa 21 Ratings</a></li>
+													<li class="list-group-item"><a href="/chelsea-kit-20-21.html">Chelsea Kit 20 21</a></li>
+													<li class="list-group-item"><a href="/chelsea-transfer-news.html">Chelsea Transfer News</a></li>
+													<li class="list-group-item"><a href="/chelsea-squad-2020.html">Chelsea Squad 2020</a></li>
+													<li class="list-group-item"><a href="/chelsea-barbie.html">Chelsea Barbie</a></li>
+													<li class="list-group-item"><a href="/chelsea-peretti-son.html">Chelsea Peretti Son</a></li>
+													<li class="list-group-item"><a href="/chelsea-iphone-wallpaper.html">Chelsea Iphone Wallpaper</a></li>
+													<li class="list-group-item"><a href="/chelsea-liverpool.html">Chelsea Liverpool</a></li>
+													<li class="list-group-item"><a href="/chelsea-umbro-kit.html">Chelsea Umbro Kit</a></li>
+													<li class="list-group-item"><a href="/chelsea-line-up.html">Chelsea Line Up</a></li>
+													<li class="list-group-item"><a href="/chelsea-kit.html">Chelsea Kit</a></li>
 						 
 						</ul>
 					</div>
 					<div class="col-sm-12 widget">
-						<script async="async" data-cfasync="false" src="//zqvee2re50mr.com/675cb813fbbeae53ce321baa240173f6/invoke.js"></script>
-<div id="container-675cb813fbbeae53ce321baa240173f6"></div>
+						<center><script async="async" data-cfasync="false" src="//zqvee2re50mr.com/675cb813fbbeae53ce321baa240173f6/invoke.js"></script>
+<div id="container-675cb813fbbeae53ce321baa240173f6"></div></center>
 					</div>
 				</div> 
 			</div>
 			<div class="row footer">
 				<div class="col-md-12 text-center">
-										<a href="pages/dmca">Dmca</a>
-										<a href="pages/contact">Contact</a>
-										<a href="pages/privacy-policy">Privacy Policy</a>
-										<a href="pages/copyright">Copyright</a>
-					
-				</div>
+										<a href="/p/dmca.html">Dmca</a>
+										<a href="/p/contact.html">Contact</a>
+										<a href="/p/privacy-policy.html">Privacy Policy</a>
+										<a href="/p/copyright.html">Copyright</a>
+									</div>
 			</div>
 		</div>
 		<!-- <style>
@@ -1121,6 +498,31 @@ a{color: #f42966;text-decoration:none;}
 	  	<br>
 		<a href="#your-offer-url" target="_blank">CTA Link &rarr;</a>
 	</p>
-</div> -->		<script type='text/javascript' src='//zqvee2re50mr.com/a4/31/b2/a431b2df4b60e2629306f7e7e7465d31.js'></script>	</main>
-</body>
+</div> -->
+		<script type='text/javascript' src='//zqvee2re50mr.com/a4/31/b2/a431b2df4b60e2629306f7e7e7465d31.js'></script>	</main>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js" integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+
+	
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+	<script type='text/javascript'>
+		$(document).ready(function()
+	    {
+			$(document).on('click','#image-download',function(e)
+			{
+				e.preventDefault();
+				var url = $(this).data('url');
+				var title = $(this).data('title');			
+				var x=new XMLHttpRequest();
+				x.open( "GET", url , true);
+				x.responseType="blob";
+				x.onload= function(e){download(e.target.response, title, "image/jpg");};
+				x.send();
+			});
+	    });
+	</script>
+	</body>
 </html>

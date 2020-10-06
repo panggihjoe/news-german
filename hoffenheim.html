@@ -4,1112 +4,479 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" integrity="sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=" crossorigin="anonymous" />
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">	
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<style type="text/css">
-html,body{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;font-weight:400;color:#e1e2e3;background:#111;}
-img{max-width:100%;} 
-.header{padding-bottom:13px;margin-bottom:13px;}
-.container{max-width:1024px;}
-.navbar{margin-bottom:25px;color:#f1f2f3;border-bottom:1px solid #222;background:#111 !important;} 
-.navbar .navbar-brand{margin:0 20px 0 0;font-size:28px;padding:0;line-height:24px;} 
-.row.header,.row.content,.row.footer{widthx:auto;max-widthx:100%;} 
-.row.footer{padding:30px 0;background:#f1ff2f3;border-color:#222;}
-.content .col-sm-12{padding:0;}
-.content .col-md-9s{margin-right:-25px;}  
-.posts-image{width:25%;display:block;float:left;}
-.posts-image-content{width:auto;margin:0 15px 35px 0;position:relative;}
-.posts-image:nth-child(5n) .posts-image-content{margin:0 0 35px 0 !important;} 
-.posts-image img{width:100%;height:150px;object-fit:cover;object-position:center;margin-bottom:10px;
-	-webkit-transition:0.6s opacity;transition:0.6s opacity;}
-.posts-image:hover img{opacity:0.8;}
-.posts-image:hover h2{background:rgba(0, 0, 0, 0.7);} 
-.posts-image h2{z-index:2;position:absolute;font-size:14px;bottom:2px;left:0;right:0;padding:5px;text-align:center;
-	-webkit-transition:0.6s opacity;transition:0.6s background;}
-.posts-image h2 a{color:#e1e2e3;}
-.posts-image-big{display:block;width:100%;}
-.posts-image-big .posts-image-content{margin:0 0 10px !important;}
-.posts-image-big img{height:380px;}
-.posts-image-big h2{text-align:left;padding-left:0;position:relative;font-size:30px;line-height:36px;}
-.posts-image-big h2 a{color:#e1e2e3;}
-.posts-image-big:hover h2{background:none;}
-.posts-image-single .posts-image-content,
-.posts-image-single:nth-child(5n) .posts-image-content{margin:0 15px 15px 0 !important;} 
-.posts-image-single p{font-size:12px;line-height:18px !important;} 
-.posts-images{clear:both;}
-.list-group{}
-.list-group li{padding:0;background:#222;}
-.list-group li a{display:block;padding:8px;}
-.widget{margin-bottom:20px;}
-h3.widget-title{font-size:20px;}
-a{color: #f42966;text-decoration:none;}  
-.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee;}
-.footer a{margin:0 15px;}
-.navi{margin:13px 0 13px 0;}
-.navi a{margin:5px 2px;font-size:95%;} 
-@media  only screen and (min-width:0px) and (max-width:991px){
-	.container{width:auto;max-width:100%;}.navbar{padding:5px 0;}.navbar .container{width:100%;margin:0 15px;}	
-}
-@media  only screen and (min-width:0px) and (max-width:767px){
-	.content .col-md-3{padding:15px;}
-}	 
-@media  only screen and (min-width:481px) and (max-width:640px){ 
-	.posts-image img{height:90px;}
-	.posts-image-big img{height:320px;}
-	.posts-image-single{width:33.3%;}
-	.posts-image-single:nth-child(3n) .posts-image-content{margin-right:0 !important;}
-}	
-@media  only screen and (min-width:0px) and (max-width:480px){
-	.posts-image img{height:80px;}
-	.posts-image-big img{height:240px;}
-	.posts-image-single{width:100%;} 
-	.posts-image-single .posts-image-content{margin:0 !important;}
-	.posts-image-single img{height:auto;}
-}	
+body,html{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;background:#fff}img{max-width:100%}.header{padding-bottom:13px;margin-bottom:13px}.container{max-width:1024px}.navbar{margin-bottom:25px;color:#f1f2f3;border-bottom:1px solid #e1e2e3}.navbar .navbar-brand{margin:0 20px 0 0;font-size:28px;padding:0;line-height:24px}.row.content,.row.footer,.row.header{widthx:auto;max-widthx:100%}.row.footer{padding:30px 0;background:0 0}.content .col-sm-12{padding:0}.content .col-md-9s{margin-right:-25px}.posts-image{width:25%;display:block;float:left}.posts-image-content{width:auto;margin:0 15px 35px 0;position:relative}.posts-image:nth-child(5n) .posts-image-content{margin:0 0 35px!important}.posts-image img{width:100%;height:150px;object-fit:cover;object-position:center;margin-bottom:10px;-webkit-transition:.6s opacity;transition:.6s opacity}.posts-image:hover img{opacity:.8}.posts-image:hover h2{background:rgba(0,0,0,.7)}.posts-image h2{z-index:2;position:absolute;font-size:14px;bottom:2px;left:0;right:0;padding:5px;text-align:center;-webkit-transition:.6s opacity;transition:.6s background}.posts-image h2 a{color:#fff}.posts-image-big{display:block;width:100%}.posts-image-big .posts-image-content{margin:0 0 10px!important}.posts-image-big img{height:380px}.posts-image-big h2{text-align:left;padding-left:0;position:relative;font-size:30px;line-height:36px}.posts-image-big h2 a{color:#111}.posts-image-big:hover h2{background:0 0}.posts-image-single .posts-image-content,.posts-image-single:nth-child(5n) .posts-image-content{margin:0 15px 15px 0!important}.posts-image-single p{font-size:12px;line-height:18px!important}.posts-images{clear:both}.list-group li{padding:0}.list-group li a{display:block;padding:8px}.widget{margin-bottom:20px}h3.widget-title{font-size:20px}a{color:#0000A0;text-decoration:none}.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee}.footer a{margin:0 15px}.navi{margin:13px 0}.navi a{margin:5px 2px;font-size:95%}@media  only screen and (min-width:0px) and (max-width:991px){.container{width:auto;max-width:100%}.navbar{padding:5px 0}.navbar .container{width:100%;margin:0 15px}}@media  only screen and (min-width:0px) and (max-width:767px){.content .col-md-3{padding:15px}}@media  only screen and (min-width:481px) and (max-width:640px){.posts-image img{height:90px}.posts-image-big img{height:320px}.posts-image-single{width:33.3%}.posts-image-single:nth-child(3n) .posts-image-content{margin-right:0!important}}@media  only screen and (min-width:0px) and (max-width:480px){.posts-image img{height:80px}.posts-image-big img{height:240px}.posts-image-single{width:100%}.posts-image-single .posts-image-content{margin:0!important}.posts-image-single img{height:auto}}.v-cover{height: 380px; object-fit: cover;}.v-image{height: 200px; object-fit: cover;}.main{margin-top: 6rem;}.form-inline .form-control{min-width: 300px;}
 	</style>
 	<title>Hoffenheim</title>
 	<!-- Histats.com  START (hidden counter) -->
-<a href="/" alt="web site hit counter" target="_blank" >
-<img  src="//sstatic1.histats.com/0.gif?4454171&101" alt="web site hit counter" border="0">
-<!-- Histats.com  END  -->
+<a href="/" alt="" target="_blank" >
+<img  src="//sstatic1.histats.com/0.gif?4454171&101" alt="" border="0">
+<!-- Histats.com  END  -->]
 
-<script type='text/javascript' src='//zqvee2re50mr.com/7c/26/34/7c263438c0a922e610bc1e9951cbc44f.js'></script></head>
+<script type='text/javascript' src='//zqvee2re50mr.com/7c/26/34/7c263438c0a922e610bc1e9951cbc44f.js'></script>
+	<script type="application/ld+json">
+	{
+	  "@context" : "http://schema.org",
+	  "@type" : "Article",
+	  "name" : "Hoffenheim",
+	  "author" : {
+	    "@type" : "Person",
+	    "name" : "Tamara Blezinsky"
+	  },
+	  "datePublished" : "2020-10-06",
+	  "image" : "https://i.pinimg.com/originals/72/7d/2f/727d2fc4f5ec4bde1d6c55e4a8c4b272.jpg",
+	  "articleSection" : "",
+	  "articleBody" : "",
+	  "url" : "https://news-todays.netlify.app//james-bond-beach.html",
+	  "publisher" : {
+	    "@type" : "Organization",
+	    "name" : "NEWS TODAYS"
+	  },
+	  "aggregateRating" : {
+	    "@type" : "AggregateRating",
+	    "ratingValue" : "4.6",
+	    "ratingCount" : "1500"
+	  }
+	}
+	</script>
+</head>
 <body>
-	<main id="main">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-light ">
-			<div class="container">
-		  <a href="" class="navbar-brand">TRENDING NEWS</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto">				
-								<li class="nav-item"><a class="nav-link" href="pages/dmca">Dmca</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/contact">Contact</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/privacy-policy">Privacy Policy</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/copyright">Copyright</a></li>
-				 
-			</ul> 
-			</div>
-		  </div>
-		</nav>
+	<header class="bg-white fixed-top">			
+		<nav class="navbar navbar-light bg-white mb-0">
+			<div class="container justify-content-center justify-content-sm-between">	
+			  <a href="/" title="NEWS TODAYS" class="navbar-brand mb-1">NEWS TODAYS</a>
+			  <form class="form-inline mb-1" action="/" method="get">
+			    <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search and hit enter.." aria-label="Search">
+			  </form>	
+			</div>			  
+		</nav>				
+	</header>
+	<main id="main" class="main">
 		<div class="container">  
 			<div class="row content">
 				<div class="col-md-9">
-					<div class="col-sm-12">
+					<div class="col-sm-12 p-2">
 
 							<h1>Hoffenheim</h1>
 
 	
-	<div class="navi text-left">
-					<p>The modern day club was formed in 1945 when gymnastics club turnverein hoffenheim founded 1 july 1899 and football club fussballverein hoffenheim founded 1921 merged. By phillip quinn bavarian football works sep 19 2020 315pm edt. Seragam mereka berwarna biru. <br>
-																								<a class="badge badge-danger" href="hoffenheim.html">hoffenheim</a>
-																																																																																				</p>
-			</div>
+	<div class="navi text-center">
+										<a class="badge badge-danger" href="/hoffenheim-joelinton.html">hoffenheim joelinton</a>
+											<a class="badge badge-dark" href="/hoffenheim-jersey-19-20.html">hoffenheim jersey 19 20</a>
+											<a class="badge badge-primary" href="/hoffenheim-vs-bayern.html">hoffenheim vs bayern</a>
+											<a class="badge badge-success" href="/hoffenheim-fans.html">hoffenheim fans</a>
+											<a class="badge badge-primary" href="/hoffenheim-logo.html">hoffenheim logo</a>
+											<a class="badge badge-danger" href="/hoffenheim-players.html">hoffenheim players</a>
+											<a class="badge badge-warning" href="/hoffenheim-zeichen.html">hoffenheim zeichen</a>
+											<a class="badge badge-success" href="/james-bond-beach.html">james bond beach</a>
+						</div>
 
 						<script async="async" data-cfasync="false" src="//zqvee2re50mr.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
 <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
 					</div> 
 					<div class="col-sm-12">					
-							
-	
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdns.klimg.com/bola.net/library/upload/21/2020/04/julian-nagelsmann-1_5aa7e94.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdns.klimg.com/bola.net/library/upload/21/2020/04/julian-nagelsmann-1_5aa7e94.jpg" alt="Mengenang Musim 2017 18 Musim Terbaik Dalam Sejarah Tsg Hoffenheim Bola Net" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Mengenang Musim 2017 18 Musim Terbaik Dalam Sejarah Tsg Hoffenheim Bola Net</p> 
+						
+		
+	<div class="row">
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/96/de/fa/96defabaa54a148c24561fccf91c9e14.png" data-lightbox="roadtrip" data-title="Tsg Hoffenheim Escudos De Futebol Futebol Alemao Times De Futebol">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/96/de/fa/96defabaa54a148c24561fccf91c9e14.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Tsg Hoffenheim Escudos De Futebol Futebol Alemao Times De Futebol">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Tsg Hoffenheim Escudos De Futebol Futebol Alemao Times De Futebol.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Tsg Hoffenheim Escudos De Futebol Futebol Alemao Times De Futebol</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=1899+hoffenheim+hoffenheim&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=1899+hoffenheim+hoffenheim&amp;tbm=isch" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcsp3wnknonyis3cglhjdcwu9zaxjf0gant0kkm9bx0acdrc70am Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gcsp3wnknonyis3cglhjdcwu9zaxjf0gant0kkm9bx0acdrc70am Usqp Cau</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.primedia.co.za/primedia-broadcasting/image/upload/c_fill,h_289,w_463/tlsmh2rwgbwiuspnh7op" target="_blank">
-							<img class="img-fluid" src="https://cdn.primedia.co.za/primedia-broadcasting/image/upload/c_fill,h_289,w_463/tlsmh2rwgbwiuspnh7op" alt="Ykzzrqey R N7m" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Ykzzrqey R N7m</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://mmc.tirto.id/image/2019/08/30/hoffenheim_ratio-16x9.jpg" target="_blank">
-							<img class="img-fluid" src="https://mmc.tirto.id/image/2019/08/30/hoffenheim_ratio-16x9.jpg" alt="Prediksi Hoffenheim Vs Rb Leipzig Di Bundesliga Kejar Tiket Eropa Tirto Id" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Prediksi Hoffenheim Vs Rb Leipzig Di Bundesliga Kejar Tiket Eropa Tirto Id</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://akcdn.detik.net.id/api/wm/2020/06/27/dortmund-vs-hoffenheim_169.jpeg?wid=54&amp;w=650&amp;v=1&amp;t=jpeg" target="_blank">
-							<img class="img-fluid" src="https://akcdn.detik.net.id/api/wm/2020/06/27/dortmund-vs-hoffenheim_169.jpeg?wid=54&amp;w=650&amp;v=1&amp;t=jpeg" alt="Ifugqu4zybsgum" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Ifugqu4zybsgum</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/6d/56/24/6d5624caa0f9be6cb9c4fae1862d73ab.jpg" data-lightbox="roadtrip" data-title="Pin On Firmino">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/6d/56/24/6d5624caa0f9be6cb9c4fae1862d73ab.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Pin On Firmino">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Pin On Firmino.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Pin On Firmino</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://assets.nst.com.my/images/articles/TSG-BAY_2-103_1583035334.jpg" target="_blank">
-							<img class="img-fluid" src="https://assets.nst.com.my/images/articles/TSG-BAY_2-103_1583035334.jpg" alt="Bayern Crush Hoffenheim 6 0 After Game Interrupted Over Banner" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bayern Crush Hoffenheim 6 0 After Game Interrupted Over Banner</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.sofascore.com/images/share/1x1/1899-hoffenheim-sc-sand-8827619.png" target="_blank">
-							<img class="img-fluid" src="https://www.sofascore.com/images/share/1x1/1899-hoffenheim-sc-sand-8827619.png" alt="1899 Hoffenheim Sc Sand Skor Langsung Livescore Sofascore" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>1899 Hoffenheim Sc Sand Skor Langsung Livescore Sofascore</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://gmsrp.cachefly.net/images/20/02/29/cba8d5483c1b48f5abe8aa33694ce2b0/320.jpg" target="_blank">
-							<img class="img-fluid" src="https://gmsrp.cachefly.net/images/20/02/29/cba8d5483c1b48f5abe8aa33694ce2b0/320.jpg" alt="Hoffenheim And Bayern Munich Players Pass Ball To Each Other In Protest During Second Half Givemesport" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Hoffenheim And Bayern Munich Players Pass Ball To Each Other In Protest During Second Half Givemesport</p> 
-					</div>
-				</div>
-						 
-		 
-			<div class="posts-images"> 
-				<div class="text-left">
-					<h3>At the beginning of the 1990s the club was an obscure local amateur side playing in the eighth division baden wuerttemberg a liga.</h3>
-					<p class="text-center"><img src="/search?q=1899+hoffenheim+hoffenheim&amp;tbm=isch" style="margin-bottom: 8px;"></p>
-
-											<p>
-															<strong>Hoffenheim</strong>. 
-							
-															It is 3 kilometres 19 mi to the west of sinsheim 6 kilometres 37 mi south of meckesheim and only approximately 20 kilometres 12 mi from heidelberg. 
-															Bertamu ke markas werder bremen pasukan. 
-															Jakarta antara hertha berlin freiburg hoffenheim dan augsburg mengamankan tiga poin dari putaran pertama musim baru liga jerman pada laga laga yang dimainkan di kandang lawan masing masing sabtu. 
-															Turn und sportgemeinschaft 1899 hoffenheim ev. 
-													</p>
-											<p>
-							
-															Tim ibukota hertha berlin membuka musim dengan apik. 
-															Merupakan sebuah tim sepak bola jerman yang bermain di divisi utama bundesligadidirikan pada tahun 1899bermarkas di hoffenheimklub ini memainkan pertandingan kandangnya di rhein neckar arena yang berkapasitas 30000 penonton. 
-															Visit espn to view tsg hoffenheim match results from all competitions along with a season by season archive. 
-															Hoffenheim is located in the rhine neckar metropolitan region close to the neckartal odenwald nature park. 
-													</p>
-											<p>
-							
-															Bayern munich ii draw first bavarian derby of season against tuerkguecue munich. 
-													</p>
-									</div> 
-			</div> 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=hoffenheim+city&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=hoffenheim+city&amp;tbm=isch" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gctgcramk5acdxh3ouv0xz3rhjkzrajslb3b6ugmk1bgebrfigl8 Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gctgcramk5acdxh3ouv0xz3rhjkzrajslb3b6ugmk1bgebrfigl8 Usqp Cau</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/e3/01/94/e3019481a91be22609054e2bffa24da2.jpg" data-lightbox="roadtrip" data-title="Tsg 1899 Hoffenheim Home Kit Concept Sport Outfits Mockup Design Clothes">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/e3/01/94/e3019481a91be22609054e2bffa24da2.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Tsg 1899 Hoffenheim Home Kit Concept Sport Outfits Mockup Design Clothes">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Tsg 1899 Hoffenheim Home Kit Concept Sport Outfits Mockup Design Clothes.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Tsg 1899 Hoffenheim Home Kit Concept Sport Outfits Mockup Design Clothes</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://s.bundesliga.com/assets/img/1190000/1184636_imgw968.jpg" target="_blank">
-							<img class="img-fluid" src="https://s.bundesliga.com/assets/img/1190000/1184636_imgw968.jpg" alt="Bundesliga Hoffenheim 2 3 Shakhtar Donetsk As It Happened" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bundesliga Hoffenheim 2 3 Shakhtar Donetsk As It Happened</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Hoffenheim-waibst-str-web.jpg/250px-Hoffenheim-waibst-str-web.jpg" target="_blank">
-							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Hoffenheim-waibst-str-web.jpg/250px-Hoffenheim-waibst-str-web.jpg" alt="Hoffenheim Wikipedia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Hoffenheim Wikipedia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://media.squawka.com/images/en/2020/05/25095442/1142979_1142979_feature_image-x-2-pictures-feature-1.png" target="_blank">
-							<img class="img-fluid" src="https://media.squawka.com/images/en/2020/05/25095442/1142979_1142979_feature_image-x-2-pictures-feature-1.png" alt="Hoffenheim V Koln Predictions Live Stream Tv Bundesliga" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Hoffenheim V Koln Predictions Live Stream Tv Bundesliga</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://sillyseason.com/wp-content/uploads/2019/10/TSG-1899-Hoffenheim-Players-Salaries-2020-2-scaled.jpg" target="_blank">
-							<img class="img-fluid" src="https://sillyseason.com/wp-content/uploads/2019/10/TSG-1899-Hoffenheim-Players-Salaries-2020-2-scaled.jpg" alt="Tsg 1899 Hoffenheim Players Salaries 2020 Player Contracts" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Tsg 1899 Hoffenheim Players Salaries 2020 Player Contracts</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/5e/5e/ca/5e5eca035e96575b9926bb2c02d760e9.jpg" data-lightbox="roadtrip" data-title="Tsg Hoffenheim Rhein Necka Arena Germany Hoffenheim Tsg 1899 Hoffenheim 1899 Hoffenheim">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/5e/5e/ca/5e5eca035e96575b9926bb2c02d760e9.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Tsg Hoffenheim Rhein Necka Arena Germany Hoffenheim Tsg 1899 Hoffenheim 1899 Hoffenheim">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Tsg Hoffenheim Rhein Necka Arena Germany Hoffenheim Tsg 1899 Hoffenheim 1899 Hoffenheim.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Tsg Hoffenheim Rhein Necka Arena Germany Hoffenheim Tsg 1899 Hoffenheim 1899 Hoffenheim</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images-na.ssl-images-amazon.com/images/I/715phygtzqL._AC_SL1500_.jpg" target="_blank">
-							<img class="img-fluid" src="https://images-na.ssl-images-amazon.com/images/I/715phygtzqL._AC_SL1500_.jpg" alt="1899 Hoffenheim Joma Tsg Training Jersey 19 20 Amazon Co Uk Sports Outdoors" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>1899 Hoffenheim Joma Tsg Training Jersey 19 20 Amazon Co Uk Sports Outdoors</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://s.yimg.com/ny/api/res/1.2/FhAM9eaXTyl7_lT_lQ18dg--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/http://media.zenfs.com/en-GB/homerun/uk.goal.com/a69d2920e2c58175497b4167751bf3c3" target="_blank">
-							<img class="img-fluid" src="https://s.yimg.com/ny/api/res/1.2/FhAM9eaXTyl7_lT_lQ18dg--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/http://media.zenfs.com/en-GB/homerun/uk.goal.com/a69d2920e2c58175497b4167751bf3c3" alt="Bizarre Scenes As Bayern Hoffenheim Players Pass To Each Other For 10 Minutes To Protest Son Of A B Tch Fan Banner" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bizarre Scenes As Bayern Hoffenheim Players Pass To Each Other For 10 Minutes To Protest Son Of A B Tch Fan Banner</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.guim.co.uk/img/media/7080f2e50dcc7861004ad4320fadb740d81f5cec/0_160_3796_2277/master/3796.jpg?width=1200&amp;height=1200&amp;quality=85&amp;auto=format&amp;fit=crop&amp;s=fcec9b65e7d1bbdab276018df8fa5a6f" target="_blank">
-							<img class="img-fluid" src="https://i.guim.co.uk/img/media/7080f2e50dcc7861004ad4320fadb740d81f5cec/0_160_3796_2277/master/3796.jpg?width=1200&amp;height=1200&amp;quality=85&amp;auto=format&amp;fit=crop&amp;s=fcec9b65e7d1bbdab276018df8fa5a6f" alt="The Rise Of Tsg Hoffenheim From Ninth Tier Amateurs To The Bundesliga 1899 Hoffenheim The Guardian" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>The Rise Of Tsg Hoffenheim From Ninth Tier Amateurs To The Bundesliga 1899 Hoffenheim The Guardian</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.tsg-hoffenheim.de//resources/themes/1899relaunch/images/tsg1899-facebook-default-preview.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.tsg-hoffenheim.de//resources/themes/1899relaunch/images/tsg1899-facebook-default-preview.jpg" alt="Overview Tsg Hoffenheim" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Overview Tsg Hoffenheim</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/736x/01/ee/88/01ee88d2a306e76ce756891aa96d6a3c.jpg" data-lightbox="roadtrip" data-title="Pin On Footballer">
+											<img class="card-img v-image" src="https://i.pinimg.com/736x/01/ee/88/01ee88d2a306e76ce756891aa96d6a3c.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Pin On Footballer">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Pin On Footballer.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Pin On Footballer</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.tsg-hoffenheim.de/assets/Uploads/68623e5420/20190307-sap-tsg-hoffenheim-kramaric-pressevorab.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.tsg-hoffenheim.de/assets/Uploads/68623e5420/20190307-sap-tsg-hoffenheim-kramaric-pressevorab.jpg" alt="Kramaric Hoffenheim Is A Hometown Club To Me Tsg Hoffenheim" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Kramaric Hoffenheim Is A Hometown Club To Me Tsg Hoffenheim</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.vox-cdn.com/thumbor/JRiZt1WgP5gIAIqQe2XJoSAgNOQ=/0x0:3382x2039/1200x800/filters:focal(2007x399:2547x939)/cdn.vox-cdn.com/uploads/chorus_image/image/66408263/1198810182.jpg.0.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.vox-cdn.com/thumbor/JRiZt1WgP5gIAIqQe2XJoSAgNOQ=/0x0:3382x2039/1200x800/filters:focal(2007x399:2547x939)/cdn.vox-cdn.com/uploads/chorus_image/image/66408263/1198810182.jpg.0.jpg" alt="Hoffenheim 0 6 Bayern Munich Initial Reactions And Observations Bavarian Football Works" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Hoffenheim 0 6 Bayern Munich Initial Reactions And Observations Bavarian Football Works</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images2.minutemediacdn.com/image/upload/c_fill,w_912,h_516,f_auto,q_auto,g_auto/shape/cover/sport/tsg-1899-hoffenheim-v-borussia-dortmund-bundesliga-5ba65ca7e0f88003c8000004.jpg" target="_blank">
-							<img class="img-fluid" src="https://images2.minutemediacdn.com/image/upload/c_fill,w_912,h_516,f_auto,q_auto,g_auto/shape/cover/sport/tsg-1899-hoffenheim-v-borussia-dortmund-bundesliga-5ba65ca7e0f88003c8000004.jpg" alt="Hoffenheim 1 1 Borussia Dortmund Report Ratings Reaction As Bvb Fight Back To Earn Draw 90min" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Hoffenheim 1 1 Borussia Dortmund Report Ratings Reaction As Bvb Fight Back To Earn Draw 90min</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://c0.thejournal.ie/media/2018/05/tsg-1899-hoffenheim-v-vfl-wolfsburg-bundesliga-2-390x285.jpg" target="_blank">
-							<img class="img-fluid" src="https://c0.thejournal.ie/media/2018/05/tsg-1899-hoffenheim-v-vfl-wolfsburg-bundesliga-2-390x285.jpg" alt="Hoffenheim S 30 Year Old Manager Leads Club To Champions League Football For The Very First Time" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Hoffenheim S 30 Year Old Manager Leads Club To Champions League Football For The Very First Time</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/736x/f8/e5/2c/f8e52c0ded9149e7272bbfb1bd3b8ae6.jpg" data-lightbox="roadtrip" data-title="Pin On Current Squad">
+											<img class="card-img v-image" src="https://i.pinimg.com/736x/f8/e5/2c/f8e52c0ded9149e7272bbfb1bd3b8ae6.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Pin On Current Squad">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Pin On Current Squad.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Pin On Current Squad</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/nx48FKa7KTs/maxresdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/nx48FKa7KTs/maxresdefault.jpg" alt="Qi0lvbapk2tdhm" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Qi0lvbapk2tdhm</p> 
-					</div>
+			</div>
+		</div>
+			 
+					<div class="col-12 mb-4">
+				<div class="card">
+										<img class="card-img-top v-cover" src="https://i.pinimg.com/originals/5b/7d/69/5b7d693b7832d786e078930b20659bb8.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Pin On Current Squad">
+										<div class="card-body">
+						<h3 class="h5"><b></b></h3>
+												<div class="col-sm-12 widget"><strong>Related Posts:</strong>
+						<li class="list-group-item"><a href="/james-bond-beach.html">Hoffenheim</a></li>
+						<li class="list-group-item"><a href="/james-bond-beach.html">James Bond Beach</a></li></div>
+						<div class="p-2">Published on:<time class="p-2" itemprop="datePublished" datetime="2020-10-06">2020-10-06</time>
+						<meta itemprop="dateModified" content="2020-10-06">
+						<itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+						By <itemprop="name"><a href="#" title="Posts by Wick Wick" rel="author">Wick Wick</a></div>
+					</div> 
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/P8VcHagfDx8/maxresdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/P8VcHagfDx8/maxresdefault.jpg" alt="Fc Bayern Munich Vs Tsg Hoffenheim 4 3 Highlights Dfb Pokal 2019 20 Round Of 16 Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fc Bayern Munich Vs Tsg Hoffenheim 4 3 Highlights Dfb Pokal 2019 20 Round Of 16 Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://tmssl.akamaized.net//images/foto/newsansicht/andrej-kramaric-tsg-hoffenheim-1552234928-20981.jpg" target="_blank">
-							<img class="img-fluid" src="https://tmssl.akamaized.net//images/foto/newsansicht/andrej-kramaric-tsg-hoffenheim-1552234928-20981.jpg" alt="Hoffenheim Make Samassekou Their Record Signing Midfielder Surpasses Kramaric Transfermarkt" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Hoffenheim Make Samassekou Their Record Signing Midfielder Surpasses Kramaric Transfermarkt</p> 
-					</div>
-				</div>
-						 
+			</div>
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.heidelberg24.de/bilder/2017/09/30/8732754/1341868844-tsgteam-wac.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.heidelberg24.de/bilder/2017/09/30/8732754/1341868844-tsgteam-wac.jpg" alt="Fifa 18 Das Sind Die Werte Der Tsg Hoffenheim Tsg 1899 Hoffenheim" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fifa 18 Das Sind Die Werte Der Tsg Hoffenheim Tsg 1899 Hoffenheim</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/564x/a7/c4/04/a7c40424ebdc601f15d97b4dd1cd8d8d.jpg" data-lightbox="roadtrip" data-title="Pin On Jerses">
+											<img class="card-img v-image" src="https://i.pinimg.com/564x/a7/c4/04/a7c40424ebdc601f15d97b4dd1cd8d8d.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Pin On Jerses">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Pin On Jerses.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Pin On Jerses</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.irishtimes.com/polopoly_fs/1.1959557.1412976520!/image/image.jpg_gen/derivatives/box_620_330/image.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.irishtimes.com/polopoly_fs/1.1959557.1412976520!/image/image.jpg_gen/derivatives/box_620_330/image.jpg" alt="Inside German Football Hoffenheim Put The Building Blocks In Place" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Inside German Football Hoffenheim Put The Building Blocks In Place</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img.fcbayern.com/image/fetch/f_auto,h_880,q_auto:good,w_660/https://fcbayern.com/binaries/content/gallery/fc-bayern/homepage/saison-20-21/profis/coman/200926_coman_don.jpg/200926_coman_don.jpg/fcbhippo%3Alargeninetotwelve%3Fv%3D1601133855968" target="_blank">
-							<img class="img-fluid" src="https://img.fcbayern.com/image/fetch/f_auto,h_880,q_auto:good,w_660/https://fcbayern.com/binaries/content/gallery/fc-bayern/homepage/saison-20-21/profis/coman/200926_coman_don.jpg/200926_coman_don.jpg/fcbhippo%3Alargeninetotwelve%3Fv%3D1601133855968" alt="6o3etaaxns6kxm" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>6o3etaaxns6kxm</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://static.republika.co.id/uploads/images/inpicture_slide/pemain-hoffenheim-pavel-kaderabek-kiri-merayakan-golnya-saat-menghadapi-_181108091928-126.jpg" target="_blank">
-							<img class="img-fluid" src="https://static.republika.co.id/uploads/images/inpicture_slide/pemain-hoffenheim-pavel-kaderabek-kiri-merayakan-golnya-saat-menghadapi-_181108091928-126.jpg" alt="Hoffenheim Depak Pelatihnya Alfred Schreuder Republika Online" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Hoffenheim Depak Pelatihnya Alfred Schreuder Republika Online</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://asset.kompas.com/crops/O6p6ikFGaw-VjhvszK-cF7PVJO8=/256x122:1105x688/750x500/data/photo/2020/09/27/5f70ae0684d4d.jpg" target="_blank">
-							<img class="img-fluid" src="https://asset.kompas.com/crops/O6p6ikFGaw-VjhvszK-cF7PVJO8=/256x122:1105x688/750x500/data/photo/2020/09/27/5f70ae0684d4d.jpg" alt="Rty9mx5sliqrem" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Rty9mx5sliqrem</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/35/57/37/3557373a8e6146ca40ac7e9b1d37b87e.jpg" data-lightbox="roadtrip" data-title="Tsg Hoffenheim 1899 Wallpaper By Wolff10 On Deviantart Wallpaper Deviantart Graphic">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/35/57/37/3557373a8e6146ca40ac7e9b1d37b87e.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Tsg Hoffenheim 1899 Wallpaper By Wolff10 On Deviantart Wallpaper Deviantart Graphic">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Tsg Hoffenheim 1899 Wallpaper By Wolff10 On Deviantart Wallpaper Deviantart Graphic.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Tsg Hoffenheim 1899 Wallpaper By Wolff10 On Deviantart Wallpaper Deviantart Graphic</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.gannett-cdn.com/presto/2020/09/24/PCIN/8104e828-d861-426a-ae9f-4a5997317206-092320_FCCincinnatiPhillyUnion_MV_0020.JPG?crop=2999,1687,x0,y196&amp;width=660&amp;height=372&amp;format=pjpg&amp;auto=webp" target="_blank">
-							<img class="img-fluid" src="https://www.gannett-cdn.com/presto/2020/09/24/PCIN/8104e828-d861-426a-ae9f-4a5997317206-092320_FCCincinnatiPhillyUnion_MV_0020.JPG?crop=2999,1687,x0,y196&amp;width=660&amp;height=372&amp;format=pjpg&amp;auto=webp" alt="Qghw41q0cxdm" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Qghw41q0cxdm</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://akcdn.detik.net.id/community/media/visual/2020/06/13/hoffenheim-vs-leipzig_169.jpeg?w=700&amp;q=80" target="_blank">
-							<img class="img-fluid" src="https://akcdn.detik.net.id/community/media/visual/2020/06/13/hoffenheim-vs-leipzig_169.jpeg?w=700&amp;q=80" alt="Hasil Liga Jerman Rb Leipzig Bekap Hoffenheim 2 0" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Hasil Liga Jerman Rb Leipzig Bekap Hoffenheim 2 0</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.pinimg.com/originals/e3/01/94/e3019481a91be22609054e2bffa24da2.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.pinimg.com/originals/e3/01/94/e3019481a91be22609054e2bffa24da2.jpg" alt="Tsg 1899 Hoffenheim Home Kit Concept Sport Outfits Mockup Design Concept" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Tsg 1899 Hoffenheim Home Kit Concept Sport Outfits Mockup Design Concept</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/08/23/00/hoffenheim.jpg" target="_blank">
-							<img class="img-fluid" src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/08/23/00/hoffenheim.jpg" alt="How Hoffenheim Went From Germany S Lower Leagues To A Champions League Night In Liverpool The Independent Independent" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>How Hoffenheim Went From Germany S Lower Leagues To A Champions League Night In Liverpool The Independent Independent</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/736x/3e/5d/49/3e5d490123f3f13fb4f67f67e629ab0e.jpg" data-lightbox="roadtrip" data-title="Coach Julian Nagelsmann Of Hoffenheim Speaks With Serge Gnabry Of Serge Gnabry Coach Julian">
+											<img class="card-img v-image" src="https://i.pinimg.com/736x/3e/5d/49/3e5d490123f3f13fb4f67f67e629ab0e.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Coach Julian Nagelsmann Of Hoffenheim Speaks With Serge Gnabry Of Serge Gnabry Coach Julian">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Coach Julian Nagelsmann Of Hoffenheim Speaks With Serge Gnabry Of Serge Gnabry Coach Julian.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Coach Julian Nagelsmann Of Hoffenheim Speaks With Serge Gnabry Of Serge Gnabry Coach Julian</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cna-sg-res.cloudinary.com/image/upload/q_auto,f_auto/image/13154278/16x9/991/557/d59f3b1bd9d8ba172f2f16578d556b6e/Pf/bundesliga---tsg-1899-hoffenheim-v-bayern-munich-4.jpg" target="_blank">
-							<img class="img-fluid" src="https://cna-sg-res.cloudinary.com/image/upload/q_auto,f_auto/image/13154278/16x9/991/557/d59f3b1bd9d8ba172f2f16578d556b6e/Pf/bundesliga---tsg-1899-hoffenheim-v-bayern-munich-4.jpg" alt="8f Iyhexhjjskm" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>8f Iyhexhjjskm</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img.fcbayern.com/image/fetch/f_auto,h_880,q_auto:good,w_660/https://fcbayern.com/binaries/content/gallery/fc-bayern/homepage/saison-19-20/galerien/spiele/fcb-hoffenheim/fcb_hof_06_ima_051019.jpg/fcb_hof_06_ima_051019.jpg/fcbhippo%3Alargeninetotwelve%3Fv%3D1570289706829" target="_blank">
-							<img class="img-fluid" src="https://img.fcbayern.com/image/fetch/f_auto,h_880,q_auto:good,w_660/https://fcbayern.com/binaries/content/gallery/fc-bayern/homepage/saison-19-20/galerien/spiele/fcb-hoffenheim/fcb_hof_06_ima_051019.jpg/fcb_hof_06_ima_051019.jpg/fcbhippo%3Alargeninetotwelve%3Fv%3D1570289706829" alt="7 Facts About The Dfb Cup Match Against Hoffenheim" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>7 Facts About The Dfb Cup Match Against Hoffenheim</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.sofascore.com/images/share/4x3/1899-hoffenheim-sc-freiburg-8833678.png" target="_blank">
-							<img class="img-fluid" src="https://www.sofascore.com/images/share/4x3/1899-hoffenheim-sc-freiburg-8833678.png" alt="1899 Hoffenheim Sc Freiburg Live Score Video Stream And H2h Results Sofascore" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>1899 Hoffenheim Sc Freiburg Live Score Video Stream And H2h Results Sofascore</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.dw.com/image/52590393_303.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.dw.com/image/52590393_303.jpg" alt="Bundesliga Bayern Munich And Hoffenheim Players Refuse To Play As Fan Protests Escalate Sports German Football And Major International Sports News Dw 29 02 2020" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bundesliga Bayern Munich And Hoffenheim Players Refuse To Play As Fan Protests Escalate Sports German Football And Major International Sports News Dw 29 02 2020</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/5b/7d/69/5b7d693b7832d786e078930b20659bb8.png" data-lightbox="roadtrip" data-title="Bundesliga Hoffenheim Stun Borussia Dortmund 2 1 With Late Comeback Win Borussia Dortmund Manchester United Legends Manchester United Fans">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/5b/7d/69/5b7d693b7832d786e078930b20659bb8.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Bundesliga Hoffenheim Stun Borussia Dortmund 2 1 With Late Comeback Win Borussia Dortmund Manchester United Legends Manchester United Fans">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Bundesliga Hoffenheim Stun Borussia Dortmund 2 1 With Late Comeback Win Borussia Dortmund Manchester United Legends Manchester United Fans.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Bundesliga Hoffenheim Stun Borussia Dortmund 2 1 With Late Comeback Win Borussia Dortmund Manchester United Legends Manchester United Fans</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/ySBQGevbTts/maxresdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/ySBQGevbTts/maxresdefault.jpg" alt="Rhein Neckar Arena Tsg 1899 Hoffenheim Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Rhein Neckar Arena Tsg 1899 Hoffenheim Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://ichef.bbci.co.uk/onesport/cps/624/cpsprodpb/EC6E/production/_114662506_kramaric.jpg" target="_blank">
-							<img class="img-fluid" src="https://ichef.bbci.co.uk/onesport/cps/624/cpsprodpb/EC6E/production/_114662506_kramaric.jpg" alt="7aubv3wnw Bc M" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>7aubv3wnw Bc M</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://s.bundesliga.com/assets/img/1150000/1140251_imgw968.jpg" target="_blank">
-							<img class="img-fluid" src="https://s.bundesliga.com/assets/img/1150000/1140251_imgw968.jpg" alt="Bundesliga Hoffenheim S Serge Gnabry We Definitely Have A Chance Against Liverpool" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bundesliga Hoffenheim S Serge Gnabry We Definitely Have A Chance Against Liverpool</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.mancity.com/meta/media/5f4j1ffe/hoffenheim.jpg?width=1620" target="_blank">
-							<img class="img-fluid" src="https://www.mancity.com/meta/media/5f4j1ffe/hoffenheim.jpg?width=1620" alt="Champions League Hoffenheim Key Facts" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Champions League Hoffenheim Key Facts</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/be/ed/de/beedde60b8caa27fd7a6a942eacbf51a.jpg" data-lightbox="roadtrip" data-title="Download Hoffenheim Wallpaper By Sampa Star 86 Free On Zedge Now Browse Millions Of Popular Hoffenheim Wallp In 2020 Wallpaper Football Logo German National Team">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/be/ed/de/beedde60b8caa27fd7a6a942eacbf51a.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Download Hoffenheim Wallpaper By Sampa Star 86 Free On Zedge Now Browse Millions Of Popular Hoffenheim Wallp In 2020 Wallpaper Football Logo German National Team">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Download Hoffenheim Wallpaper By Sampa Star 86 Free On Zedge Now Browse Millions Of Popular Hoffenheim Wallp In 2020 Wallpaper Football Logo German National Team.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Download Hoffenheim Wallpaper By Sampa Star 86 Free On Zedge Now Browse Millions Of Popular Hoffenheim Wallp In 2020 Wallpaper Football Logo German National Team</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.thestadiumbusiness.com/wp-content/uploads/2019/01/20190116-sap-tsg-hoffenheim-prezero-arena-pm.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.thestadiumbusiness.com/wp-content/uploads/2019/01/20190116-sap-tsg-hoffenheim-prezero-arena-pm.jpg" alt="Hoffenheim Targets Sustainability With New Stadium Sponsor The Stadium Business" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Hoffenheim Targets Sustainability With New Stadium Sponsor The Stadium Business</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://cdn.sportspromedia.com/images/made/images/uploads/news/04.02.20_Hoffenheim_SAP_600_400.jpg" target="_blank">
-							<img class="img-fluid" src="http://cdn.sportspromedia.com/images/made/images/uploads/news/04.02.20_Hoffenheim_SAP_600_400.jpg" alt="Hoffenheim Renew 4 5m A Year Sap Shirt Deal Sportspro Media" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Hoffenheim Renew 4 5m A Year Sap Shirt Deal Sportspro Media</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.bleacherreport.net/images/team_logos/328x328/tsg_hoffenheim.png" target="_blank">
-							<img class="img-fluid" src="https://cdn.bleacherreport.net/images/team_logos/328x328/tsg_hoffenheim.png" alt="Tsg Hoffenheim Bleacher Report Latest News Scores Stats And Standings" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Tsg Hoffenheim Bleacher Report Latest News Scores Stats And Standings</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.vox-cdn.com/thumbor/snVhSOVBWips9Q2l7u_8CD4NDLQ=/0x0:2980x1532/1200x800/filters:focal(1441x135:2025x719)/cdn.vox-cdn.com/uploads/chorus_image/image/67476046/1158659348.jpg.0.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.vox-cdn.com/thumbor/snVhSOVBWips9Q2l7u_8CD4NDLQ=/0x0:2980x1532/1200x800/filters:focal(1441x135:2025x719)/cdn.vox-cdn.com/uploads/chorus_image/image/67476046/1158659348.jpg.0.jpg" alt="2mocw9 V3xdb7m" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>2mocw9 V3xdb7m</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/e4/44/13/e444135155090bbd1a5e90510180cd3c.jpg" data-lightbox="roadtrip" data-title="Sandro Wagner Photos Photos Tsg 1899 Hoffenheim V Werder Bremen Bundesliga Sandro Bremen Football Kits">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/e4/44/13/e444135155090bbd1a5e90510180cd3c.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Sandro Wagner Photos Photos Tsg 1899 Hoffenheim V Werder Bremen Bundesliga Sandro Bremen Football Kits">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Sandro Wagner Photos Photos Tsg 1899 Hoffenheim V Werder Bremen Bundesliga Sandro Bremen Football Kits.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Sandro Wagner Photos Photos Tsg 1899 Hoffenheim V Werder Bremen Bundesliga Sandro Bremen Football Kits</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://gilabola.com/wp-content/uploads/2020/09/Hoffenheim-vs-Bayern-Munchen-Bundesliga.jpg" target="_blank">
-							<img class="img-fluid" src="https://gilabola.com/wp-content/uploads/2020/09/Hoffenheim-vs-Bayern-Munchen-Bundesliga.jpg" alt="Zwjpez2pwl5ahm" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Zwjpez2pwl5ahm</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.dw.com/image/46145067_303.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.dw.com/image/46145067_303.jpg" alt="Joelinton Follows Firmino From Hoffenheim To The Premier League Sports German Football And Major International Sports News Dw 23 07 2019" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Joelinton Follows Firmino From Hoffenheim To The Premier League Sports German Football And Major International Sports News Dw 23 07 2019</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img.panditfootball.com/large/Bundesliga/hoffenheim.jpg" target="_blank">
-							<img class="img-fluid" src="https://img.panditfootball.com/large/Bundesliga/hoffenheim.jpg" alt="Hoffenheim Cetak Sejarah Ke Liga Champions Berkat Nagelsmann Pandit Football Indonesia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Hoffenheim Cetak Sejarah Ke Liga Champions Berkat Nagelsmann Pandit Football Indonesia</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.xinhuanet.com/english/2018-11/28/137636670_15433724942641n.jpg" target="_blank">
-							<img class="img-fluid" src="http://www.xinhuanet.com/english/2018-11/28/137636670_15433724942641n.jpg" alt="Shakhtar Beat Hoffenheim 3 2 In Uefa Champions League Xinhua English News Cn" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Shakhtar Beat Hoffenheim 3 2 In Uefa Champions League Xinhua English News Cn</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/474x/95/38/e0/9538e0183dd2c4e2b86601cf0c516167.jpg" data-lightbox="roadtrip" data-title="Kevin Vogt Photos Photos Queens Park Rangers Vs 1899 Hoffenheim Pre Season Friendly Match Queens Park Rangers Park Ranger Match">
+											<img class="card-img v-image" src="https://i.pinimg.com/474x/95/38/e0/9538e0183dd2c4e2b86601cf0c516167.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Kevin Vogt Photos Photos Queens Park Rangers Vs 1899 Hoffenheim Pre Season Friendly Match Queens Park Rangers Park Ranger Match">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Kevin Vogt Photos Photos Queens Park Rangers Vs 1899 Hoffenheim Pre Season Friendly Match Queens Park Rangers Park Ranger Match.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Kevin Vogt Photos Photos Queens Park Rangers Vs 1899 Hoffenheim Pre Season Friendly Match Queens Park Rangers Park Ranger Match</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://apicms.thestar.com.my/uploads/images/2020/05/17/684723.JPG" target="_blank">
-							<img class="img-fluid" src="https://apicms.thestar.com.my/uploads/images/2020/05/17/684723.JPG" alt="Football Hertha S Ibisevic Haunts Hoffenheim On Bundesliga Return The Star" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Football Hertha S Ibisevic Haunts Hoffenheim On Bundesliga Return The Star</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=hoffenheim+vs+hertha+berlin&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=hoffenheim+vs+hertha+berlin&amp;tbm=isch" alt="1" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>1</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://bloximages.newyork1.vip.townnews.com/djournal.com/content/tncms/assets/v3/editorial/a/6c/a6c97f57-2fb0-5f21-86b3-86b1d49c7355/5f70b3dec5237.image.jpg?resize=1396%2C930" target="_blank">
-							<img class="img-fluid" src="https://bloximages.newyork1.vip.townnews.com/djournal.com/content/tncms/assets/v3/editorial/a/6c/a6c97f57-2fb0-5f21-86b3-86b1d49c7355/5f70b3dec5237.image.jpg?resize=1396%2C930" alt="Shqv7ntls9aocm" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Shqv7ntls9aocm</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.vox-cdn.com/thumbor/xoW7dBJigLT7UnYicgV_TLh_8Xs=/0x0:1631x1045/1200x800/filters:focal(510x180:770x440)/cdn.vox-cdn.com/uploads/chorus_image/image/67477247/1228745631.jpg.0.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.vox-cdn.com/thumbor/xoW7dBJigLT7UnYicgV_TLh_8Xs=/0x0:1631x1045/1200x800/filters:focal(510x180:770x440)/cdn.vox-cdn.com/uploads/chorus_image/image/67477247/1228745631.jpg.0.jpg" alt="1maw9pbibtw9rm" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>1maw9pbibtw9rm</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/736x/80/05/74/8005740a58fe28127b0616150d9adb57.jpg" data-lightbox="roadtrip" data-title="Pin On Bundesliga">
+											<img class="card-img v-image" src="https://i.pinimg.com/736x/80/05/74/8005740a58fe28127b0616150d9adb57.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Pin On Bundesliga">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Pin On Bundesliga.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Pin On Bundesliga</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.fussballstadt.com/wp-content/uploads/2019/09/WOBTSG1920.jpg" target="_blank">
-							<img class="img-fluid" src="http://www.fussballstadt.com/wp-content/uploads/2019/09/WOBTSG1920.jpg" alt="Wolfsburg V Hoffenheim Bundesliga Report Fussballstadt" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Wolfsburg V Hoffenheim Bundesliga Report Fussballstadt</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.tsg-hoffenheim.de/assets/news/2019/c5c11ff646/20200130-sap-tsg-hoffenheim-sap-verlaengerung.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.tsg-hoffenheim.de/assets/news/2019/c5c11ff646/20200130-sap-tsg-hoffenheim-sap-verlaengerung.jpg" alt="Tsg And Sap Extend Partnership Until 2025 Tsg Hoffenheim" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Tsg And Sap Extend Partnership Until 2025 Tsg Hoffenheim</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images.bisnis-cdn.com/thumb/posts/2019/11/02/1166067/hoffenheim-twitter.jpg?w=600&amp;h=400" target="_blank">
-							<img class="img-fluid" src="https://images.bisnis-cdn.com/thumb/posts/2019/11/02/1166067/hoffenheim-twitter.jpg?w=600&amp;h=400" alt="Hasil Bundesliga Hoffenheim Makin Benamkan Paderborn Di Dasar Klasemen Bola Bisnis Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Hasil Bundesliga Hoffenheim Makin Benamkan Paderborn Di Dasar Klasemen Bola Bisnis Com</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.dw.com/image/52590352_401.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.dw.com/image/52590352_401.jpg" alt="Bundesliga Bayern Munich And Hoffenheim Players Refuse To Play As Fan Protests Escalate Sports German Football And Major International Sports News Dw 29 02 2020" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bundesliga Bayern Munich And Hoffenheim Players Refuse To Play As Fan Protests Escalate Sports German Football And Major International Sports News Dw 29 02 2020</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/72/7d/2f/727d2fc4f5ec4bde1d6c55e4a8c4b272.jpg" data-lightbox="roadtrip" data-title="Pin On Kit Launches">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/72/7d/2f/727d2fc4f5ec4bde1d6c55e4a8c4b272.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Pin On Kit Launches">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Pin On Kit Launches.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Pin On Kit Launches</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg" target="_blank">
-							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg" alt="Tsg 1899 Hoffenheim Wikipedia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Tsg 1899 Hoffenheim Wikipedia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.vox-cdn.com/thumbor/KzEnY5qLusMoejcZRcXRsOTuo4I=/0x0:2073x3024/1200x800/filters:focal(874x346:1204x676)/cdn.vox-cdn.com/uploads/chorus_image/image/66835845/1213356552.jpg.0.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.vox-cdn.com/thumbor/KzEnY5qLusMoejcZRcXRsOTuo4I=/0x0:2073x3024/1200x800/filters:focal(874x346:1204x676)/cdn.vox-cdn.com/uploads/chorus_image/image/66835845/1213356552.jpg.0.jpg" alt="Sc Paderborn 07 Vs Tsg 1899 Hoffenheim Picks How The Public Is Betting The Bundesliga Matchup Draftkings Nation" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Sc Paderborn 07 Vs Tsg 1899 Hoffenheim Picks How The Public Is Betting The Bundesliga Matchup Draftkings Nation</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images2.minutemediacdn.com/image/fetch/c_fill,g_auto,f_auto,h_560,w_850/https%3A%2F%2Fbayernstrikes.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2017%2F07%2F1204324415-850x560.jpeg" target="_blank">
-							<img class="img-fluid" src="https://images2.minutemediacdn.com/image/fetch/c_fill,g_auto,f_auto,h_560,w_850/https%3A%2F%2Fbayernstrikes.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2017%2F07%2F1204324415-850x560.jpeg" alt="Xmldd2bvg9r Xm" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Xmldd2bvg9r Xm</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images2.minutemediacdn.com/image/fetch/c_fill,g_auto,f_auto,h_560,w_850/https%3A%2F%2Fbayernstrikes.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2019%2F10%2F1084936006-850x560.jpeg" target="_blank">
-							<img class="img-fluid" src="https://images2.minutemediacdn.com/image/fetch/c_fill,g_auto,f_auto,h_560,w_850/https%3A%2F%2Fbayernstrikes.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2019%2F10%2F1084936006-850x560.jpeg" alt="Talking Tactics Bayern Munich Vs Tsg Hoffenheim" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Talking Tactics Bayern Munich Vs Tsg Hoffenheim</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://pict-a.sindonews.net/dyn/620/pena/news/2020/09/27/11/178390/muenchen-rasakan-mimpi-buruk-di-kandang-hoffenheim-dhr.JPG" target="_blank">
-							<img class="img-fluid" src="https://pict-a.sindonews.net/dyn/620/pena/news/2020/09/27/11/178390/muenchen-rasakan-mimpi-buruk-di-kandang-hoffenheim-dhr.JPG" alt="Zjate4zuvozeem" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Zjate4zuvozeem</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.xinhuanet.com/english/2019-09/24/138416914_15692904099981n.jpg" target="_blank">
-							<img class="img-fluid" src="http://www.xinhuanet.com/english/2019-09/24/138416914_15692904099981n.jpg" alt="Wolfsburg Share Spoils With Hoffenheim In Bundesliga Xinhua English News Cn" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Wolfsburg Share Spoils With Hoffenheim In Bundesliga Xinhua English News Cn</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images-na.ssl-images-amazon.com/images/I/71a6caTyIvL._AC_SX679_.jpg" target="_blank">
-							<img class="img-fluid" src="https://images-na.ssl-images-amazon.com/images/I/71a6caTyIvL._AC_SX679_.jpg" alt="Joma Tsg Hoffenheim Home Shirt 2019 2020 Amazon Co Uk Sports Outdoors" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Joma Tsg Hoffenheim Home Shirt 2019 2020 Amazon Co Uk Sports Outdoors</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://media.gettyimages.com/photos/pavel-kaderabek-of-hoffenheim-celebrates-the-third-goal-for-his-team-picture-id957663440?s=612x612" target="_blank">
-							<img class="img-fluid" src="https://media.gettyimages.com/photos/pavel-kaderabek-of-hoffenheim-celebrates-the-third-goal-for-his-team-picture-id957663440?s=612x612" alt="98 506 Tsg Hoffenheim Photos And Premium High Res Pictures Getty Images" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>98 506 Tsg Hoffenheim Photos And Premium High Res Pictures Getty Images</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://en.miasanrot.de/wp-content/uploads/sites/2/2019/10/TSG-1899-Hoffenheim-v-Borussia-Moenchengladbach-Bundesliga-1570023403-1000x563.jpg" target="_blank">
-							<img class="img-fluid" src="https://en.miasanrot.de/wp-content/uploads/sites/2/2019/10/TSG-1899-Hoffenheim-v-Borussia-Moenchengladbach-Bundesliga-1570023403-1000x563.jpg" alt="Bundesliga Md 07 Preview Bayern Against Hoffenheim Miasanrot Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bundesliga Md 07 Preview Bayern Against Hoffenheim Miasanrot Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://s.hs-data.com/bilder/teamfotos/640x360/442.jpg" target="_blank">
-							<img class="img-fluid" src="https://s.hs-data.com/bilder/teamfotos/640x360/442.jpg" alt="1899 Hoffenheim" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>1899 Hoffenheim</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://statik.tempo.co/data/2020/09/28/id_969959/969959_720.jpg" target="_blank">
-							<img class="img-fluid" src="https://statik.tempo.co/data/2020/09/28/id_969959/969959_720.jpg" alt="Gcjyoon Qzdtxm" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Gcjyoon Qzdtxm</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://4.bp.blogspot.com/-Rmk-lRrTnuY/XRneKntKO5I/AAAAAAAB-VE/uZiqt3RhDB4PCeqYmDsNODapg3eZcAiBwCLcBGAs/s1600/hoffenheim-19-20-kits-1.jpg" target="_blank">
-							<img class="img-fluid" src="https://4.bp.blogspot.com/-Rmk-lRrTnuY/XRneKntKO5I/AAAAAAAB-VE/uZiqt3RhDB4PCeqYmDsNODapg3eZcAiBwCLcBGAs/s1600/hoffenheim-19-20-kits-1.jpg" alt="Joma Hoffenheim 19 20 Home Away Third Kits Released Footy Headlines" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Joma Hoffenheim 19 20 Home Away Third Kits Released Footy Headlines</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://s.hs-data.com/sidnew/5747ef291f39daca584674bd2ac73642cdfedd5e.jpg" target="_blank">
-							<img class="img-fluid" src="https://s.hs-data.com/sidnew/5747ef291f39daca584674bd2ac73642cdfedd5e.jpg" alt="1899 Hoffenheim Ii" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>1899 Hoffenheim Ii</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=hoffenheim+logo&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=hoffenheim+logo&amp;tbm=isch" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gctdwubvnfpkkvusc8rezaaq4rzaiui3sghaspwhq7ceghcirj3s Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gctdwubvnfpkkvusc8rezaaq4rzaiui3sghaspwhq7ceghcirj3s Usqp Cau</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://oddslifenetstorage.blob.core.windows.net/insidersport/2020/06/Capture.png" target="_blank">
-							<img class="img-fluid" src="https://oddslifenetstorage.blob.core.windows.net/insidersport/2020/06/Capture.png" alt="Interwetten Extends Tsg Hoffenheim And Vfl Wolfsburg Sponsorships Insider Sport" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Interwetten Extends Tsg Hoffenheim And Vfl Wolfsburg Sponsorships Insider Sport</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img.panditfootball.com/large/Bundesliga/Leipzig_lawan_Hoffenheim.jpg" target="_blank">
-							<img class="img-fluid" src="https://img.panditfootball.com/large/Bundesliga/Leipzig_lawan_Hoffenheim.jpg" alt="Lebih Efektif Dan Kreatif Leipzig Berikan Kekalahan Pertama Untuk Hoffenheim Pandit Football Indonesia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Lebih Efektif Dan Kreatif Leipzig Berikan Kekalahan Pertama Untuk Hoffenheim Pandit Football Indonesia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://trainingground.guru/assets/images/articles/20170704_sap_tsg_hoffenheim_videowall_zuzenhausen_2.jpg" target="_blank">
-							<img class="img-fluid" src="https://trainingground.guru/assets/images/articles/20170704_sap_tsg_hoffenheim_videowall_zuzenhausen_2.jpg" alt="Training Ground Guru Hoffenheim Trial Videowall For Real Time Analysis" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Training Ground Guru Hoffenheim Trial Videowall For Real Time Analysis</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://news.sap.com/wp-content/blogs.dir/1/files/55133_Still_new_1200x800_call-out.jpg" target="_blank">
-							<img class="img-fluid" src="https://news.sap.com/wp-content/blogs.dir/1/files/55133_Still_new_1200x800_call-out.jpg" alt="Tsg Hoffenheim Turns To Sap To Optimize Competitiveness" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Tsg Hoffenheim Turns To Sap To Optimize Competitiveness</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.antaranews.com/cache/800x533/2019/12/21/20191221-dortmund-hoffenheim.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.antaranews.com/cache/800x533/2019/12/21/20191221-dortmund-hoffenheim.jpg" alt="Liga Jerman Dortmund Tersungkur Di Markas Hoffenheim Antara News Papua" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Liga Jerman Dortmund Tersungkur Di Markas Hoffenheim Antara News Papua</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://asset.kompas.com/crops/6y8iMNIUDw1otCnFCPVv_n5Q8w0=/190x0:989x533/490x326/data/photo/2020/05/16/5ec003e479bcc.jpg" target="_blank">
-							<img class="img-fluid" src="https://asset.kompas.com/crops/6y8iMNIUDw1otCnFCPVv_n5Q8w0=/190x0:989x533/490x326/data/photo/2020/05/16/5ec003e479bcc.jpg" alt="Berita Harian Tsg 1899 Hoffenheim Terbaru Hari Ini Kompas Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Berita Harian Tsg 1899 Hoffenheim Terbaru Hari Ini Kompas Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://tomorrow.dfl.de/wp-content/uploads/2019/03/bootcamp_hoffenheim.jpg" target="_blank">
-							<img class="img-fluid" src="https://tomorrow.dfl.de/wp-content/uploads/2019/03/bootcamp_hoffenheim.jpg" alt="Tsg 1899 Hoffenheim Dfl And Whu To Host Sports Entrepreneurship Bootcamp Dfl Innovations" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Tsg 1899 Hoffenheim Dfl And Whu To Host Sports Entrepreneurship Bootcamp Dfl Innovations</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.tsg-hoffenheim.de/assets/news/2019/6ad2d0aece/20190817-sap-tsg-hoffenheim-topfacts-frankfurt.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.tsg-hoffenheim.de/assets/news/2019/6ad2d0aece/20190817-sap-tsg-hoffenheim-topfacts-frankfurt.jpg" alt="Sgetsg Hoffenheim With Strong Away Record Tsg Hoffenheim" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Sgetsg Hoffenheim With Strong Away Record Tsg Hoffenheim</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdnuploads.aa.com.tr/uploads/Contents/2020/02/29/thumbs_b_c_4c0cc68bcdbbecd13ce52753404d3e30.jpg?v=235332" target="_blank">
-							<img class="img-fluid" src="https://cdnuploads.aa.com.tr/uploads/Contents/2020/02/29/thumbs_b_c_4c0cc68bcdbbecd13ce52753404d3e30.jpg?v=235332" alt="Bayern Hammer Hoffenheim Fans Display Offensive Banner" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bayern Hammer Hoffenheim Fans Display Offensive Banner</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://shop.achtzehn99.de/medias/102462-TSG-Home-Trikot-19-20-Hoffenheim-Model-Front-385Wx515H-t?context=bWFzdGVyfHJvb3R8MjA3MDAzfGltYWdlL3BuZ3xoYWEvaDAxLzg5MDQyNzM2NTc4ODYucG5nfDhkMTQwY2E2MGIxYWJhYzdhMDM1MGU5MTU2YzUwZWFlNjA5NDYyNjc1ZDQyNGQ4ZDZiMGYwMjc4MTVmMzMwMjM" target="_blank">
-							<img class="img-fluid" src="https://shop.achtzehn99.de/medias/102462-TSG-Home-Trikot-19-20-Hoffenheim-Model-Front-385Wx515H-t?context=bWFzdGVyfHJvb3R8MjA3MDAzfGltYWdlL3BuZ3xoYWEvaDAxLzg5MDQyNzM2NTc4ODYucG5nfDhkMTQwY2E2MGIxYWJhYzdhMDM1MGU5MTU2YzUwZWFlNjA5NDYyNjc1ZDQyNGQ4ZDZiMGYwMjc4MTVmMzMwMjM" alt="Tsg Jersey Home 19 20 Blanco 5xl Official Tsg 1899 Hoffenheim Fan Shop" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Tsg Jersey Home 19 20 Blanco 5xl Official Tsg 1899 Hoffenheim Fan Shop</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.vox-cdn.com/thumbor/Gzq0FkXub5RtaydJzs_W9E1lquA=/0x0:3500x2338/1200x800/filters:focal(1470x889:2030x1449)/cdn.vox-cdn.com/uploads/chorus_image/image/66411570/1204203896.jpg.0.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.vox-cdn.com/thumbor/Gzq0FkXub5RtaydJzs_W9E1lquA=/0x0:3500x2338/1200x800/filters:focal(1470x889:2030x1449)/cdn.vox-cdn.com/uploads/chorus_image/image/66411570/1204203896.jpg.0.jpg" alt="Bayern Munich And Tsg Hoffenheim Strike In Solidarity For Dietmar Hopp Why Now Bavarian Football Works" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bayern Munich And Tsg Hoffenheim Strike In Solidarity For Dietmar Hopp Why Now Bavarian Football Works</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.tsg-hoffenheim.de/assets/news/2019/473d75685e/20200321-sap-tsg-hoffenheim-fans.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.tsg-hoffenheim.de/assets/news/2019/473d75685e/20200321-sap-tsg-hoffenheim-fans.jpg" alt="Fans To Help Each Other Out Tsg Hoffenheim" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fans To Help Each Other Out Tsg Hoffenheim</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://2.bp.blogspot.com/-zaywBa9Xc84/XRneL8aTQoI/AAAAAAAB-Vc/o2ycK3tD6dMlrkvhIaimMCPPwUp9pWbVwCLcBGAs/s738/hoffenheim-19-20-kits-2.jpg" target="_blank">
-							<img class="img-fluid" src="https://2.bp.blogspot.com/-zaywBa9Xc84/XRneL8aTQoI/AAAAAAAB-Vc/o2ycK3tD6dMlrkvhIaimMCPPwUp9pWbVwCLcBGAs/s738/hoffenheim-19-20-kits-2.jpg" alt="Joma Hoffenheim 19 20 Home Away Third Kits Released Footy Headlines" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Joma Hoffenheim 19 20 Home Away Third Kits Released Footy Headlines</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://apicms.thestar.com.my/uploads/images/2020/06/13/718129.JPG" target="_blank">
-							<img class="img-fluid" src="https://apicms.thestar.com.my/uploads/images/2020/06/13/718129.JPG" alt="Football Leipzig Rescued By Var Then Score Twice In Hoffenheim Win The Star" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Football Leipzig Rescued By Var Then Score Twice In Hoffenheim Win The Star</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img.bundesliga.com/tachyon/sites/2/2020/09/imago0048509173h-scaled.jpg?crop=0px,155px,2560px,1439px" target="_blank">
-							<img class="img-fluid" src="https://img.bundesliga.com/tachyon/sites/2/2020/09/imago0048509173h-scaled.jpg?crop=0px,155px,2560px,1439px" alt="Cr2eim3cf0a Vm" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Cr2eim3cf0a Vm</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://pbs.twimg.com/media/EOLEk4_W4AANJaq.jpg" target="_blank">
-							<img class="img-fluid" src="https://pbs.twimg.com/media/EOLEk4_W4AANJaq.jpg" alt="Tsg Hoffenheim En On Twitter Take Care Ruppi Lukas Rupp Has Left Bundesliga Club Tsg Hoffenheim With Immediate Effect To Join Premier League Basement Boys Norwichcityfc Https T Co Gqya1sxhxo" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Tsg Hoffenheim En On Twitter Take Care Ruppi Lukas Rupp Has Left Bundesliga Club Tsg Hoffenheim With Immediate Effect To Join Premier League Basement Boys Norwichcityfc Https T Co Gqya1sxhxo</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://totalfootballanalysis.com/wp-content/uploads/2018/08/tsg-hoffenheim-bundesliga-preview.png" target="_blank">
-							<img class="img-fluid" src="https://totalfootballanalysis.com/wp-content/uploads/2018/08/tsg-hoffenheim-bundesliga-preview.png" alt="Bundesliga Preview Tsg Hoffenheim Total Football Analysis Magazine" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bundesliga Preview Tsg Hoffenheim Total Football Analysis Magazine</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=436368746429507" target="_blank">
-							<img class="img-fluid" src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=436368746429507" alt="Tsg Hoffenheim Frauen Home Facebook" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Tsg Hoffenheim Frauen Home Facebook</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.sporttidings.com/wp-content/uploads/2019/12/TSG-1899-Hoffenheim-579x381.png" target="_blank">
-							<img class="img-fluid" src="https://www.sporttidings.com/wp-content/uploads/2019/12/TSG-1899-Hoffenheim-579x381.png" alt="Tsg 1899 Hoffenheim Player Salaries 2020 Highest Paid Player" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Tsg 1899 Hoffenheim Player Salaries 2020 Highest Paid Player</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images.daznservices.com/di/library/GOAL/1e/f8/ihlas-bebou-hoffenheim-2019-20_79y71b54bab81cd6wh5uyevnr.jpg?t=-992740268&amp;quality=100" target="_blank">
-							<img class="img-fluid" src="https://images.daznservices.com/di/library/GOAL/1e/f8/ihlas-bebou-hoffenheim-2019-20_79y71b54bab81cd6wh5uyevnr.jpg?t=-992740268&amp;quality=100" alt="Ihlas Bebou Scores In Hoffenheim S Win Over Werder Bremen Goal Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Ihlas Bebou Scores In Hoffenheim S Win Over Werder Bremen Goal Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.mykhel.com/img/2020/09/hoffenheimcropped_12rrvckk1yhxr1vnhwqkhufb66.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.mykhel.com/img/2020/09/hoffenheimcropped_12rrvckk1yhxr1vnhwqkhufb66.jpg" alt="M9 Ghmpb9fundm" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>M9 Ghmpb9fundm</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://blog.snpgroup.com/hs-fs/hubfs/sap-tsg-hoffenheim-snp-%C3%A4rmelsponsor-1.jpg?width=1140&amp;name=sap-tsg-hoffenheim-snp-%C3%A4rmelsponsor-1.jpg" target="_blank">
-							<img class="img-fluid" src="https://blog.snpgroup.com/hs-fs/hubfs/sap-tsg-hoffenheim-snp-%C3%A4rmelsponsor-1.jpg?width=1140&amp;name=sap-tsg-hoffenheim-snp-%C3%A4rmelsponsor-1.jpg" alt="Snp To Be Tsg Hoffenheim S New Sleeve Sponsor" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Snp To Be Tsg Hoffenheim S New Sleeve Sponsor</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://img.okezone.com/content/2019/12/21/48/2144542/borussia-dortmund-takluk-1-2-di-markas-hoffenheim-S7XzgPALQl.jpg" target="_blank">
-							<img class="img-fluid" src="https://img.okezone.com/content/2019/12/21/48/2144542/borussia-dortmund-takluk-1-2-di-markas-hoffenheim-S7XzgPALQl.jpg" alt="Borussia Dortmund Takluk 1 2 Di Markas Hoffenheim Okezone Bola" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Borussia Dortmund Takluk 1 2 Di Markas Hoffenheim Okezone Bola</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://football-tribe.com/indonesia/wp-content/uploads/sites/10/2017/04/TSG-Hoffenheim.jpg" target="_blank">
-							<img class="img-fluid" src="https://football-tribe.com/indonesia/wp-content/uploads/sites/10/2017/04/TSG-Hoffenheim.jpg" alt="Tsg Hoffenheim Sintetis Yang Berbuah Estetis Football Tribe Indonesia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Tsg Hoffenheim Sintetis Yang Berbuah Estetis Football Tribe Indonesia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://image-cdn.essentiallysports.com/wp-content/uploads/20200317121351/s2.reutersmedia-3.jpg" target="_blank">
-							<img class="img-fluid" src="https://image-cdn.essentiallysports.com/wp-content/uploads/20200317121351/s2.reutersmedia-3.jpg" alt="Hoffenheim Owner Dietmar Hopp Claims That A Coronavirus Vaccine Is In Development Essentiallysports" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Hoffenheim Owner Dietmar Hopp Claims That A Coronavirus Vaccine Is In Development Essentiallysports</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=113849728640999" target="_blank">
-							<img class="img-fluid" src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=113849728640999" alt="Tsg Hoffenheim Home Facebook" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Tsg Hoffenheim Home Facebook</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://news.sap.com/wp-content/blogs.dir/1/files/20180512SH1092_TSGxSAP_F.jpg" target="_blank">
-							<img class="img-fluid" src="https://news.sap.com/wp-content/blogs.dir/1/files/20180512SH1092_TSGxSAP_F.jpg" alt="Tactics And Technology Team Up At Tsg Hoffenheim Sap News Center" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Tactics And Technology Team Up At Tsg Hoffenheim Sap News Center</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://sm.imgix.net/19/51/hofbvb.jpg?w=640&amp;h=480&amp;auto=compress,format&amp;fit=clip" target="_blank">
-							<img class="img-fluid" src="https://sm.imgix.net/19/51/hofbvb.jpg?w=640&amp;h=480&amp;auto=compress,format&amp;fit=clip" alt="Preview Hoffenheim Vs Bayern Munich Prediction Team News Lineups Sports Mole" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Preview Hoffenheim Vs Bayern Munich Prediction Team News Lineups Sports Mole</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.sportsbusinessdaily.com/-/media/Images/SBG-Photos/2014/12/19/Inside-Hopp.ashx" target="_blank">
-							<img class="img-fluid" src="https://www.sportsbusinessdaily.com/-/media/Images/SBG-Photos/2014/12/19/Inside-Hopp.ashx" alt="Sap Co Founder Dietmar Hopp To Become Majority Owner Of Tsg Hoffenheim" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Sap Co Founder Dietmar Hopp To Become Majority Owner Of Tsg Hoffenheim</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn-image.bisnis.com/thumb/posts/2019/12/21/1183567/hoffenheim-reuters-ralph-orlowski-msl.jpg?w=273&amp;h=177" target="_blank">
-							<img class="img-fluid" src="https://cdn-image.bisnis.com/thumb/posts/2019/12/21/1183567/hoffenheim-reuters-ralph-orlowski-msl.jpg?w=273&amp;h=177" alt="Berita Terupdate Terkait Hoffenheim Bisnis Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Berita Terupdate Terkait Hoffenheim Bisnis Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://schalke04.de/content/uploads/2020/03/S04TSG_1920_08-1440x810.jpg" target="_blank">
-							<img class="img-fluid" src="https://schalke04.de/content/uploads/2020/03/S04TSG_1920_08-1440x810.jpg" alt="S04 Draw 1 1 With Hoffenheim Fussball Schalke 04" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>S04 Draw 1 1 With Hoffenheim Fussball Schalke 04</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://s.hs-data.com/sidnew/b0e4d15671fd86acfd21b67b33fce95be133086f.jpg" target="_blank">
-							<img class="img-fluid" src="https://s.hs-data.com/sidnew/b0e4d15671fd86acfd21b67b33fce95be133086f.jpg" alt="Xcpilvz7gqxjkm" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Xcpilvz7gqxjkm</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.dw.com/image/46201807_303.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.dw.com/image/46201807_303.jpg" alt="Champions League Hoffenheim Stun Lyon With Unlikely Comeback Sports German Football And Major International Sports News Dw 07 11 2018" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Champions League Hoffenheim Stun Lyon With Unlikely Comeback Sports German Football And Major International Sports News Dw 07 11 2018</p> 
-					</div>
-				</div>
-						 
-		 
-
-	 	
-	
-					</div>
+		</div>
+				<div class="clearfix"></div> 
+		<div class="d-block mt-4 p-3">
+			Source : <a href="https://pinterest.com" rel="nofollow noopener">pinterest.com</a>
+		</div>
+						</div>
 				</div> 
 				<div class="col-md-3">
 					<div class="col-sm-12 widget">
-						<h3 class="widget-title">Random Posts</h3>
+						<h3 class="widget-title">RANDOM POST</h3>
 						<ul class="list-group">
-						 
-																	<li class="list-group-item"><a href="dynamo-dresden-pokal.html">Dynamo Dresden Pokal</a></li>
-																	<li class="list-group-item"><a href="galatasaray-ilkokulu.html">Galatasaray Ilkokulu</a></li>
-																	<li class="list-group-item"><a href="aserbaidschan-leute.html">Aserbaidschan Leute</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="aserbaidschan-plow.html">Aserbaidschan Plow</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-arma.html">Fenerbahce Arma</a></li>
-																	<li class="list-group-item"><a href="galatasaray-hirka.html">Galatasaray Hirka</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="rose-leslie-kit-harington-jon-snow.html">Rose Leslie Kit Harington Jon Snow</a></li>
-																	<li class="list-group-item"><a href="st-pauli-quartiere.html">St Pauli Quartiere</a></li>
-																	<li class="list-group-item"><a href="clement-mine.html">Clement Mine</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="fenerbahce-universitesi-nerede.html">Fenerbahce Universitesi Nerede</a></li>
-																	<li class="list-group-item"><a href="neuchatel-xamax-galatasaray.html">Neuchatel Xamax Galatasaray</a></li>
-																	<li class="list-group-item"><a href="galatasaray-kalecileri.html">Galatasaray Kalecileri</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="st-pauli-beer.html">St Pauli Beer</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-arka-plan.html">Fenerbahce Arka Plan</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-istanbul.html">Fenerbahce Istanbul</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="aserbaidschan-urlaub-strand.html">Aserbaidschan Urlaub Strand</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-real-life-kit-harington.html">Rose Leslie Real Life Kit Harington</a></li>
-																	<li class="list-group-item"><a href="clement-dodd.html">Clement Dodd</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="voelkermord-armenien-genozid.html">Voelkermord Armenien Genozid</a></li>
-																	<li class="list-group-item"><a href="st-pauli-dresden.html">St Pauli Dresden</a></li>
-																	<li class="list-group-item"><a href="galatasaray-aslan.html">Galatasaray Aslan</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="fenerbahce-pp.html">Fenerbahce Pp</a></li>
-																	<li class="list-group-item"><a href="galatasaray-dovme.html">Galatasaray Dovme</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-toni-leistner.html">Dynamo Dresden Toni Leistner</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="bergkarabach-flagge.html">Bergkarabach Flagge</a></li>
-																	<li class="list-group-item"><a href="armenien-kurdistan.html">Armenien Kurdistan</a></li>
-																	<li class="list-group-item"><a href="st-pauli-mask.html">St Pauli Mask</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="fenerbahce-ilk-11-2020.html">Fenerbahce Ilk 11 2020</a></li>
-																	<li class="list-group-item"><a href="galatasaray-third-kit.html">Galatasaray Third Kit</a></li>
-																	<li class="list-group-item"><a href="galatasaray-islet.html">Galatasaray Islet</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="galatasaray-wallpaper-tumblr.html">Galatasaray Wallpaper Tumblr</a></li>
-																	<li class="list-group-item"><a href="galatasaray-vs-panathinaikos-remember-1453.html">Galatasaray Vs Panathinaikos Remember 1453</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-kanarya.html">Fenerbahce Kanarya</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="galatasaray-pankartlari.html">Galatasaray Pankartlari</a></li>
-																	<li class="list-group-item"><a href="google-x-chrome.html">Google X Chrome</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-yeni-forma.html">Fenerbahce Yeni Forma</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="dynamo-dresden-retro.html">Dynamo Dresden Retro</a></li>
-																	<li class="list-group-item"><a href="aserbaidschan-klima.html">Aserbaidschan Klima</a></li>
-																	<li class="list-group-item"><a href="google-pixel-4a.html">Google Pixel 4a</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="google-url.html">Google Url</a></li>
-																	<li class="list-group-item"><a href="kit-harington-call-of-duty.html">Kit Harington Call Of Duty</a></li>
-																	<li class="list-group-item"><a href="mainz-05-gegen-vfb.html">Mainz 05 Gegen Vfb</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="google-logo-png.html">Google Logo Png</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-vs-hatayspor.html">Fenerbahce Vs Hatayspor</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-jersey-201920.html">Fenerbahce Jersey 201920</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="google-bodoh.html">Google Bodoh</a></li>
-																	<li class="list-group-item"><a href="clement-jumelle.html">Clement Jumelle</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-gartenzwerg.html">Dynamo Dresden Gartenzwerg</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="galatasaray-resmi-aslanli.html">Galatasaray Resmi Aslanli</a></li>
-																	<li class="list-group-item"><a href="24h-rennen-nuerburgring-2020-uebertragung.html">24h Rennen Nuerburgring 2020 Uebertragung</a></li>
-								 
+													<li class="list-group-item"><a href="/adele-songs.html">Adele Songs</a></li>
+													<li class="list-group-item"><a href="/adele-x-factor.html">Adele X Factor</a></li>
+													<li class="list-group-item"><a href="/campingplatz-unwetter-italien.html">Campingplatz Unwetter Italien</a></li>
+													<li class="list-group-item"><a href="/adele-von-ascham.html">Adele Von Ascham</a></li>
+													<li class="list-group-item"><a href="/adele-yellow-aesthetic.html">Adele Yellow Aesthetic</a></li>
+													<li class="list-group-item"><a href="/baumgartner-hoffenheim.html">Baumgartner Hoffenheim</a></li>
+													<li class="list-group-item"><a href="/adele-ukulele.html">Adele Ukulele</a></li>
+													<li class="list-group-item"><a href="/adele-oliver.html">Adele Oliver</a></li>
+													<li class="list-group-item"><a href="/auto-von-zur%C3%BCck-in-die-zukunft.html">Auto Von Zurück In Die Zukunft</a></li>
+													<li class="list-group-item"><a href="/camiseta-del-hannover-96.html">Camiseta Del Hannover 96</a></li>
+													<li class="list-group-item"><a href="/adele-now-and-then-photos.html">Adele Now And Then Photos</a></li>
+													<li class="list-group-item"><a href="/adele-jamacia.html">Adele Jamacia</a></li>
+													<li class="list-group-item"><a href="/adele-green.html">Adele Green</a></li>
+													<li class="list-group-item"><a href="/adele-red-carpet.html">Adele Red Carpet</a></li>
+													<li class="list-group-item"><a href="/bvb-freiburg.html">Bvb Freiburg</a></li>
+													<li class="list-group-item"><a href="/adele-queen-beyonce.html">Adele Queen Beyonce</a></li>
+													<li class="list-group-item"><a href="/adele.html">Adele</a></li>
+													<li class="list-group-item"><a href="/adele-insta.html">Adele Insta</a></li>
+													<li class="list-group-item"><a href="/adele-sarah-paulson.html">Adele Sarah Paulson</a></li>
+													<li class="list-group-item"><a href="/andrej-kramaric-freundin.html">Andrej Kramaric Freundin</a></li>
+													<li class="list-group-item"><a href="/adele-haenel-and-celine-sciamma.html">Adele Haenel And Celine Sciamma</a></li>
+													<li class="list-group-item"><a href="/adele-o-brien.html">Adele O Brien</a></li>
+													<li class="list-group-item"><a href="/adele-vesty.html">Adele Vesty</a></li>
+													<li class="list-group-item"><a href="/adele-rolling-stone.html">Adele Rolling Stone</a></li>
+													<li class="list-group-item"><a href="/adele-penguin.html">Adele Penguin</a></li>
+													<li class="list-group-item"><a href="/adele-images.html">Adele Images</a></li>
+													<li class="list-group-item"><a href="/adele-thiel.html">Adele Thiel</a></li>
+													<li class="list-group-item"><a href="/adele-mara.html">Adele Mara</a></li>
+													<li class="list-group-item"><a href="/alf-inge-haaland-keane.html">Alf Inge Haaland Keane</a></li>
+													<li class="list-group-item"><a href="/adele-youtube.html">Adele Youtube</a></li>
+													<li class="list-group-item"><a href="/adele-young-townsville.html">Adele Young Townsville</a></li>
+													<li class="list-group-item"><a href="/adele-upside-down-illusion.html">Adele Upside Down Illusion</a></li>
+													<li class="list-group-item"><a href="/adele-xenopoulos.html">Adele Xenopoulos</a></li>
+													<li class="list-group-item"><a href="/adele-skepta.html">Adele Skepta</a></li>
+													<li class="list-group-item"><a href="/adele-grey-s-anatomy.html">Adele Grey S Anatomy</a></li>
+													<li class="list-group-item"><a href="/adele-height.html">Adele Height</a></li>
+													<li class="list-group-item"><a href="/adele-uddo-hands.html">Adele Uddo Hands</a></li>
+													<li class="list-group-item"><a href="/aktuell-bilder-unwetter-italien.html">Aktuell Bilder Unwetter Italien</a></li>
+													<li class="list-group-item"><a href="/adele-news.html">Adele News</a></li>
+													<li class="list-group-item"><a href="/adele-make-you-feel-my-love.html">Adele Make You Feel My Love</a></li>
+													<li class="list-group-item"><a href="/adele-latest-pics.html">Adele Latest Pics</a></li>
+													<li class="list-group-item"><a href="/adele-webber.html">Adele Webber</a></li>
+													<li class="list-group-item"><a href="/chelsea-aesthetic.html">Chelsea Aesthetic</a></li>
+													<li class="list-group-item"><a href="/adele-greatest-hits.html">Adele Greatest Hits</a></li>
+													<li class="list-group-item"><a href="/adele-x-husband.html">Adele X Husband</a></li>
+													<li class="list-group-item"><a href="/adele-now-and-then.html">Adele Now And Then</a></li>
+													<li class="list-group-item"><a href="/andrej-kramaric-croacia.html">Andrej Kramaric Croacia</a></li>
+													<li class="list-group-item"><a href="/bebou-hoffenheim.html">Bebou Hoffenheim</a></li>
+													<li class="list-group-item"><a href="/adele-sorella.html">Adele Sorella</a></li>
+													<li class="list-group-item"><a href="/adele-singing.html">Adele Singing</a></li>
 						 
 						</ul>
 					</div>
 					<div class="col-sm-12 widget">
-						<script async="async" data-cfasync="false" src="//zqvee2re50mr.com/675cb813fbbeae53ce321baa240173f6/invoke.js"></script>
-<div id="container-675cb813fbbeae53ce321baa240173f6"></div>
+						<center><script async="async" data-cfasync="false" src="//zqvee2re50mr.com/675cb813fbbeae53ce321baa240173f6/invoke.js"></script>
+<div id="container-675cb813fbbeae53ce321baa240173f6"></div></center>
 					</div>
 				</div> 
 			</div>
 			<div class="row footer">
 				<div class="col-md-12 text-center">
-										<a href="pages/dmca">Dmca</a>
-										<a href="pages/contact">Contact</a>
-										<a href="pages/privacy-policy">Privacy Policy</a>
-										<a href="pages/copyright">Copyright</a>
-					
-				</div>
+										<a href="/p/dmca.html">Dmca</a>
+										<a href="/p/contact.html">Contact</a>
+										<a href="/p/privacy-policy.html">Privacy Policy</a>
+										<a href="/p/copyright.html">Copyright</a>
+									</div>
 			</div>
 		</div>
 		<!-- <style>
@@ -1131,6 +498,31 @@ a{color: #f42966;text-decoration:none;}
 	  	<br>
 		<a href="#your-offer-url" target="_blank">CTA Link &rarr;</a>
 	</p>
-</div> -->		<script type='text/javascript' src='//zqvee2re50mr.com/a4/31/b2/a431b2df4b60e2629306f7e7e7465d31.js'></script>	</main>
-</body>
+</div> -->
+		<script type='text/javascript' src='//zqvee2re50mr.com/a4/31/b2/a431b2df4b60e2629306f7e7e7465d31.js'></script>	</main>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js" integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+
+	
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+	<script type='text/javascript'>
+		$(document).ready(function()
+	    {
+			$(document).on('click','#image-download',function(e)
+			{
+				e.preventDefault();
+				var url = $(this).data('url');
+				var title = $(this).data('title');			
+				var x=new XMLHttpRequest();
+				x.open( "GET", url , true);
+				x.responseType="blob";
+				x.onload= function(e){download(e.target.response, title, "image/jpg");};
+				x.send();
+			});
+	    });
+	</script>
+	</body>
 </html>

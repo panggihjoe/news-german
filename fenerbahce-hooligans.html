@@ -4,1094 +4,479 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" integrity="sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=" crossorigin="anonymous" />
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">	
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<style type="text/css">
-html,body{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;font-weight:400;color:#e1e2e3;background:#111;}
-img{max-width:100%;} 
-.header{padding-bottom:13px;margin-bottom:13px;}
-.container{max-width:1024px;}
-.navbar{margin-bottom:25px;color:#f1f2f3;border-bottom:1px solid #222;background:#111 !important;} 
-.navbar .navbar-brand{margin:0 20px 0 0;font-size:28px;padding:0;line-height:24px;} 
-.row.header,.row.content,.row.footer{widthx:auto;max-widthx:100%;} 
-.row.footer{padding:30px 0;background:#f1ff2f3;border-color:#222;}
-.content .col-sm-12{padding:0;}
-.content .col-md-9s{margin-right:-25px;}  
-.posts-image{width:25%;display:block;float:left;}
-.posts-image-content{width:auto;margin:0 15px 35px 0;position:relative;}
-.posts-image:nth-child(5n) .posts-image-content{margin:0 0 35px 0 !important;} 
-.posts-image img{width:100%;height:150px;object-fit:cover;object-position:center;margin-bottom:10px;
-	-webkit-transition:0.6s opacity;transition:0.6s opacity;}
-.posts-image:hover img{opacity:0.8;}
-.posts-image:hover h2{background:rgba(0, 0, 0, 0.7);} 
-.posts-image h2{z-index:2;position:absolute;font-size:14px;bottom:2px;left:0;right:0;padding:5px;text-align:center;
-	-webkit-transition:0.6s opacity;transition:0.6s background;}
-.posts-image h2 a{color:#e1e2e3;}
-.posts-image-big{display:block;width:100%;}
-.posts-image-big .posts-image-content{margin:0 0 10px !important;}
-.posts-image-big img{height:380px;}
-.posts-image-big h2{text-align:left;padding-left:0;position:relative;font-size:30px;line-height:36px;}
-.posts-image-big h2 a{color:#e1e2e3;}
-.posts-image-big:hover h2{background:none;}
-.posts-image-single .posts-image-content,
-.posts-image-single:nth-child(5n) .posts-image-content{margin:0 15px 15px 0 !important;} 
-.posts-image-single p{font-size:12px;line-height:18px !important;} 
-.posts-images{clear:both;}
-.list-group{}
-.list-group li{padding:0;background:#222;}
-.list-group li a{display:block;padding:8px;}
-.widget{margin-bottom:20px;}
-h3.widget-title{font-size:20px;}
-a{color: #f42966;text-decoration:none;}  
-.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee;}
-.footer a{margin:0 15px;}
-.navi{margin:13px 0 13px 0;}
-.navi a{margin:5px 2px;font-size:95%;} 
-@media  only screen and (min-width:0px) and (max-width:991px){
-	.container{width:auto;max-width:100%;}.navbar{padding:5px 0;}.navbar .container{width:100%;margin:0 15px;}	
-}
-@media  only screen and (min-width:0px) and (max-width:767px){
-	.content .col-md-3{padding:15px;}
-}	 
-@media  only screen and (min-width:481px) and (max-width:640px){ 
-	.posts-image img{height:90px;}
-	.posts-image-big img{height:320px;}
-	.posts-image-single{width:33.3%;}
-	.posts-image-single:nth-child(3n) .posts-image-content{margin-right:0 !important;}
-}	
-@media  only screen and (min-width:0px) and (max-width:480px){
-	.posts-image img{height:80px;}
-	.posts-image-big img{height:240px;}
-	.posts-image-single{width:100%;} 
-	.posts-image-single .posts-image-content{margin:0 !important;}
-	.posts-image-single img{height:auto;}
-}	
+body,html{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;background:#fff}img{max-width:100%}.header{padding-bottom:13px;margin-bottom:13px}.container{max-width:1024px}.navbar{margin-bottom:25px;color:#f1f2f3;border-bottom:1px solid #e1e2e3}.navbar .navbar-brand{margin:0 20px 0 0;font-size:28px;padding:0;line-height:24px}.row.content,.row.footer,.row.header{widthx:auto;max-widthx:100%}.row.footer{padding:30px 0;background:0 0}.content .col-sm-12{padding:0}.content .col-md-9s{margin-right:-25px}.posts-image{width:25%;display:block;float:left}.posts-image-content{width:auto;margin:0 15px 35px 0;position:relative}.posts-image:nth-child(5n) .posts-image-content{margin:0 0 35px!important}.posts-image img{width:100%;height:150px;object-fit:cover;object-position:center;margin-bottom:10px;-webkit-transition:.6s opacity;transition:.6s opacity}.posts-image:hover img{opacity:.8}.posts-image:hover h2{background:rgba(0,0,0,.7)}.posts-image h2{z-index:2;position:absolute;font-size:14px;bottom:2px;left:0;right:0;padding:5px;text-align:center;-webkit-transition:.6s opacity;transition:.6s background}.posts-image h2 a{color:#fff}.posts-image-big{display:block;width:100%}.posts-image-big .posts-image-content{margin:0 0 10px!important}.posts-image-big img{height:380px}.posts-image-big h2{text-align:left;padding-left:0;position:relative;font-size:30px;line-height:36px}.posts-image-big h2 a{color:#111}.posts-image-big:hover h2{background:0 0}.posts-image-single .posts-image-content,.posts-image-single:nth-child(5n) .posts-image-content{margin:0 15px 15px 0!important}.posts-image-single p{font-size:12px;line-height:18px!important}.posts-images{clear:both}.list-group li{padding:0}.list-group li a{display:block;padding:8px}.widget{margin-bottom:20px}h3.widget-title{font-size:20px}a{color:#0000A0;text-decoration:none}.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee}.footer a{margin:0 15px}.navi{margin:13px 0}.navi a{margin:5px 2px;font-size:95%}@media  only screen and (min-width:0px) and (max-width:991px){.container{width:auto;max-width:100%}.navbar{padding:5px 0}.navbar .container{width:100%;margin:0 15px}}@media  only screen and (min-width:0px) and (max-width:767px){.content .col-md-3{padding:15px}}@media  only screen and (min-width:481px) and (max-width:640px){.posts-image img{height:90px}.posts-image-big img{height:320px}.posts-image-single{width:33.3%}.posts-image-single:nth-child(3n) .posts-image-content{margin-right:0!important}}@media  only screen and (min-width:0px) and (max-width:480px){.posts-image img{height:80px}.posts-image-big img{height:240px}.posts-image-single{width:100%}.posts-image-single .posts-image-content{margin:0!important}.posts-image-single img{height:auto}}.v-cover{height: 380px; object-fit: cover;}.v-image{height: 200px; object-fit: cover;}.main{margin-top: 6rem;}.form-inline .form-control{min-width: 300px;}
 	</style>
 	<title>Fenerbahce Hooligans</title>
 	<!-- Histats.com  START (hidden counter) -->
-<a href="/" alt="web site hit counter" target="_blank" >
-<img  src="//sstatic1.histats.com/0.gif?4454171&101" alt="web site hit counter" border="0">
-<!-- Histats.com  END  -->
+<a href="/" alt="" target="_blank" >
+<img  src="//sstatic1.histats.com/0.gif?4454171&101" alt="" border="0">
+<!-- Histats.com  END  -->]
 
-<script type='text/javascript' src='//zqvee2re50mr.com/7c/26/34/7c263438c0a922e610bc1e9951cbc44f.js'></script></head>
+<script type='text/javascript' src='//zqvee2re50mr.com/7c/26/34/7c263438c0a922e610bc1e9951cbc44f.js'></script>
+	<script type="application/ld+json">
+	{
+	  "@context" : "http://schema.org",
+	  "@type" : "Article",
+	  "name" : "Fenerbahce Hooligans",
+	  "author" : {
+	    "@type" : "Person",
+	    "name" : "Tamara Blezinsky"
+	  },
+	  "datePublished" : "2020-10-06",
+	  "image" : "https://i.pinimg.com/736x/57/98/55/57985544d937d82459f8a0bb9dbeb87b.jpg",
+	  "articleSection" : "",
+	  "articleBody" : "",
+	  "url" : "https://news-todays.netlify.app//chelsea-roffey.html",
+	  "publisher" : {
+	    "@type" : "Organization",
+	    "name" : "NEWS TODAYS"
+	  },
+	  "aggregateRating" : {
+	    "@type" : "AggregateRating",
+	    "ratingValue" : "4.6",
+	    "ratingCount" : "1500"
+	  }
+	}
+	</script>
+</head>
 <body>
-	<main id="main">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-light ">
-			<div class="container">
-		  <a href="" class="navbar-brand">TRENDING NEWS</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav ml-auto">				
-								<li class="nav-item"><a class="nav-link" href="pages/dmca">Dmca</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/contact">Contact</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/privacy-policy">Privacy Policy</a></li>
-								<li class="nav-item"><a class="nav-link" href="pages/copyright">Copyright</a></li>
-				 
-			</ul> 
-			</div>
-		  </div>
-		</nav>
+	<header class="bg-white fixed-top">			
+		<nav class="navbar navbar-light bg-white mb-0">
+			<div class="container justify-content-center justify-content-sm-between">	
+			  <a href="/" title="NEWS TODAYS" class="navbar-brand mb-1">NEWS TODAYS</a>
+			  <form class="form-inline mb-1" action="/" method="get">
+			    <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search and hit enter.." aria-label="Search">
+			  </form>	
+			</div>			  
+		</nav>				
+	</header>
+	<main id="main" class="main">
 		<div class="container">  
 			<div class="row content">
 				<div class="col-md-9">
-					<div class="col-sm-12">
+					<div class="col-sm-12 p-2">
 
 							<h1>Fenerbahce Hooligans</h1>
 
 	
-	<div class="navi text-left">
-					<p>La rivolta dei tifosi del fenerbahce i tifosi della squadra prima in campionato scendono in piazza dopo larresto del patron aziz yldirim. Deplasman yasagindan oence yil 2007. The bosphorus straits separates the two with galatasaray on the european side and fenerbahce on the asian side of the city. <br>
-															<a class="badge badge-success" href="fenerbahce-hooligans.html">fenerbahçe hooligans</a>
-																					</p>
-			</div>
+	<div class="navi text-center">
+										<a class="badge badge-success" href="/chelsea-umpire-afl.html">chelsea umpire afl</a>
+											<a class="badge badge-info" href="/chelsea-kit.html">chelsea kit</a>
+											<a class="badge badge-light" href="/chelsea-timo-werner.html">chelsea timo werner</a>
+											<a class="badge badge-info" href="/chelsea-soccer.html">chelsea soccer</a>
+											<a class="badge badge-success" href="/chelsea-victoria.html">chelsea victoria</a>
+											<a class="badge badge-primary" href="/chelsea-islan.html">chelsea islan</a>
+											<a class="badge badge-light" href="/chelsea-cutler.html">chelsea cutler</a>
+											<a class="badge badge-primary" href="/chelsea-roffey.html">chelsea roffey</a>
+						</div>
 
 						<script async="async" data-cfasync="false" src="//zqvee2re50mr.com/b7fcadec3380a902e2446eb86fd9ad1a/invoke.js"></script>
 <div id="container-b7fcadec3380a902e2446eb86fd9ad1a"></div>
 					</div> 
 					<div class="col-sm-12">					
-							
-	
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://ih1.redbubble.net/image.927833536.5551/ssrco,slim_fit_t_shirt,womens,101010:01c5ca27c6,front,square_product,600x600.jpg" target="_blank">
-							<img class="img-fluid" src="https://ih1.redbubble.net/image.927833536.5551/ssrco,slim_fit_t_shirt,womens,101010:01c5ca27c6,front,square_product,600x600.jpg" alt="Fenerbahce Ultras Gifts Merchandise Redbubble" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Ultras Gifts Merchandise Redbubble</p> 
+						
+		
+	<div class="row">
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/07/ae/fa/07aefac004e64d0d4ac14ddb3dfc6610.jpg" data-lightbox="roadtrip" data-title="Casual Ultra On Instagram Fenerbahce Turkey Pyro Ultras Hooligans Football Casualinbox Ultras Football Football Football Fanatics">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/07/ae/fa/07aefac004e64d0d4ac14ddb3dfc6610.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Casual Ultra On Instagram Fenerbahce Turkey Pyro Ultras Hooligans Football Casualinbox Ultras Football Football Football Fanatics">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Casual Ultra On Instagram Fenerbahce Turkey Pyro Ultras Hooligans Football Casualinbox Ultras Football Football Football Fanatics.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Casual Ultra On Instagram Fenerbahce Turkey Pyro Ultras Hooligans Football Casualinbox Ultras Football Football Football Fanatics</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.cnn.com/cnnnext/dam/assets/130923115951-besiktas-galatasaray-1-horizontal-large-gallery.jpg" target="_blank">
-							<img class="img-fluid" src="https://cdn.cnn.com/cnnnext/dam/assets/130923115951-besiktas-galatasaray-1-horizontal-large-gallery.jpg" alt="Besiktas Galatasaray Ends In Violence Cnn" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Besiktas Galatasaray Ends In Violence Cnn</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/eCmw7pktmxo/maxresdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/eCmw7pktmxo/maxresdefault.jpg" alt="Hooligans Galatasaray Fenerbahce And Besiktas The Best Ultras In Turkey Support Reaction Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Hooligans Galatasaray Fenerbahce And Besiktas The Best Ultras In Turkey Support Reaction Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images.performgroup.com/di/library/GOAL/85/87/gfx-fenerbahce-besiktas_3h26l1gz81qe1pny80uir5sdl.png?t=-490527790&amp;quality=100&amp;h=300" target="_blank">
-							<img class="img-fluid" src="https://images.performgroup.com/di/library/GOAL/85/87/gfx-fenerbahce-besiktas_3h26l1gz81qe1pny80uir5sdl.png?t=-490527790&amp;quality=100&amp;h=300" alt="Fenerbahce Attack Against Besiktas The Night Football Died" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Attack Against Besiktas The Night Football Died</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://img2.blogcu.com/images/c/i/n/cincon6s/rambo.jpg" target="_blank">
-							<img class="img-fluid" src="http://img2.blogcu.com/images/c/i/n/cincon6s/rambo.jpg" alt="Turkish Football Season 2008 09 Page 28 Uefa European Football Forum" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Turkish Football Season 2008 09 Page 28 Uefa European Football Forum</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/37/cf/cc/37cfcc8f444522cc352e118785f277d7.png" data-lightbox="roadtrip" data-title="My Golden Istanbul Football Fenerbahce Ultras Casuals Hooligans Turkey Scarf In 2020 Ultra Casual Hooligan Football">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/37/cf/cc/37cfcc8f444522cc352e118785f277d7.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="My Golden Istanbul Football Fenerbahce Ultras Casuals Hooligans Turkey Scarf In 2020 Ultra Casual Hooligan Football">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="My Golden Istanbul Football Fenerbahce Ultras Casuals Hooligans Turkey Scarf In 2020 Ultra Casual Hooligan Football.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">My Golden Istanbul Football Fenerbahce Ultras Casuals Hooligans Turkey Scarf In 2020 Ultra Casual Hooligan Football</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://ih1.redbubble.net/image.927833536.5551/ssrco,classic_tee,two_models,101010:01c5ca27c6,front,square_three_quarter,1000x1000.jpg" target="_blank">
-							<img class="img-fluid" src="https://ih1.redbubble.net/image.927833536.5551/ssrco,classic_tee,two_models,101010:01c5ca27c6,front,square_three_quarter,1000x1000.jpg" alt="Fenerbahce Istanbul Football Turkey Fans Ultras Hooligans T Shirt By Tombalabomba Redbubble" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Istanbul Football Turkey Fans Ultras Hooligans T Shirt By Tombalabomba Redbubble</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://pbs.twimg.com/media/D1jJjdjW0AA2yrp.jpg" target="_blank">
-							<img class="img-fluid" src="https://pbs.twimg.com/media/D1jJjdjW0AA2yrp.jpg" alt="Fenerbahce Hooligans On Twitter Begen Ve Son Rakamina Bak Kim Cikti" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Hooligans On Twitter Begen Ve Son Rakamina Bak Kim Cikti</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a3f09a67307099.5b34daed0d266.png" target="_blank">
-							<img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a3f09a67307099.5b34daed0d266.png" alt="Fenerbahce Ultras On Behance" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Ultras On Behance</p> 
-					</div>
-				</div>
-						 
-		 
-			<div class="posts-images"> 
-				<div class="text-left">
-					<h3>It was the hooligans who gave the brand to the club when they were 150 million pounds in debt which stopped them from going.</h3>
-					<p class="text-center"><img src="https://qph.fs.quoracdn.net/main-qimg-bf8a3859d12b37bf23135a55ef823499.webp" style="margin-bottom: 8px;"></p>
-
-											<p>
-															<strong>Fenerbahce hooligans</strong>. 
-							
-															Two fenerbahce hooligans took to twitter to threaten celtic fans sparking thatsnotaknife to be born image. 
-															Fenerbahces most notorious hooligan firm are called gfb or genc fenerbahceliler which translates as young fenerbahce fans. 
-															Fenerbahce and galatasaray who are both from istanbul are the two biggest clubs in turkey. 
-															Futbol siddettir futbol hooliganliktir futbol adam bicaklamaktir. 
-													</p>
-											<p>
-							
-															Until the government football authorities and clubs come together to formulate a meaningful plan of action the. 
-															It didnt take long for the hoops supporters to respond with images of their. 
-															Sari mavi yesil mesil farketmez yuerueyoruz ayni yolda biz futbol siddettir. 
-															Fenerbahce hooligans duenyaya nam saldi. 
-													</p>
-											<p>
-							
-															Sheffield united director selahattin baki was part of a gang of turkish football hooligans and was once filmed boasting about his violent past. 
-															Fenerbahce hooligans attack russian fans spartac moscow fenerbahce hooligans attack russian fans spartac moscow skip navigation sign in. 
-															They have a passion for the club which often manifests itself in ugly violence and unrest. 
-															Year 2007 before prohibition of displacement. 
-													</p>
-									</div> 
-			</div> 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://static.wixstatic.com/media/8235a1_cab0214aa875422289b8e3df5da82d1a~mv2.png/v1/fit/w_908,h_454,al_c,q_80/file.png" target="_blank">
-							<img class="img-fluid" src="https://static.wixstatic.com/media/8235a1_cab0214aa875422289b8e3df5da82d1a~mv2.png/v1/fit/w_908,h_454,al_c,q_80/file.png" alt="Turkish Hooligans" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Turkish Hooligans</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/21/97/2c/21972c2b1e765b45e496e8775487df61.jpg" data-lightbox="roadtrip" data-title="R 0082 Fenerbahce Turkish Fans Football Hooligans Casuals Ultras Tee T Shirt Top Personalised Tops Shirts T Shirt Top">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/21/97/2c/21972c2b1e765b45e496e8775487df61.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="R 0082 Fenerbahce Turkish Fans Football Hooligans Casuals Ultras Tee T Shirt Top Personalised Tops Shirts T Shirt Top">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="R 0082 Fenerbahce Turkish Fans Football Hooligans Casuals Ultras Tee T Shirt Top Personalised Tops Shirts T Shirt Top.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">R 0082 Fenerbahce Turkish Fans Football Hooligans Casuals Ultras Tee T Shirt Top Personalised Tops Shirts T Shirt Top</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=344376118993289" target="_blank">
-							<img class="img-fluid" src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=344376118993289" alt="Fenerbahce Hooligans Home Facebook" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Hooligans Home Facebook</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://pbs.twimg.com/profile_images/2914833788/164f594272f120cc24b3dc90ebd7e05b.png" target="_blank">
-							<img class="img-fluid" src="https://pbs.twimg.com/profile_images/2914833788/164f594272f120cc24b3dc90ebd7e05b.png" alt="Fenerbahce Hooligans Fhooligans34 Twitter" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Hooligans Fhooligans34 Twitter</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://hooliganstv.com/wp-content/uploads/2017/02/C36dDgZXAAAtdtS-tile.jpg" target="_blank">
-							<img class="img-fluid" src="http://hooliganstv.com/wp-content/uploads/2017/02/C36dDgZXAAAtdtS-tile.jpg" alt="The Tense Atmosphere Before Besiktas Fenerbahce 05 02 2017 Hooligans Tv The Best Site About This Topic" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>The Tense Atmosphere Before Besiktas Fenerbahce 05 02 2017 Hooligans Tv The Best Site About This Topic</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://ih1.redbubble.net/image.927833535.5551/fp,504x498,black,black,flat30,s,f8f8f8-pad,600x600,f8f8f8.jpg" target="_blank">
-							<img class="img-fluid" src="https://ih1.redbubble.net/image.927833535.5551/fp,504x498,black,black,flat30,s,f8f8f8-pad,600x600,f8f8f8.jpg" alt="Fener Football Turkey Fans Ultras Hooligans Framed Art Print By Tombalabomba Redbubble" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fener Football Turkey Fans Ultras Hooligans Framed Art Print By Tombalabomba Redbubble</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/736x/7e/7a/6b/7e7a6bbebcfb7ec79245ab266effbe7e.jpg" data-lightbox="roadtrip" data-title="Rare Fenerbahce Track Jacket Football Turkey Hooligans Size S Small Ebay Track Jackets Jackets Online Vintage Shop">
+											<img class="card-img v-image" src="https://i.pinimg.com/736x/7e/7a/6b/7e7a6bbebcfb7ec79245ab266effbe7e.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Rare Fenerbahce Track Jacket Football Turkey Hooligans Size S Small Ebay Track Jackets Jackets Online Vintage Shop">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Rare Fenerbahce Track Jacket Football Turkey Hooligans Size S Small Ebay Track Jackets Jackets Online Vintage Shop.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Rare Fenerbahce Track Jacket Football Turkey Hooligans Size S Small Ebay Track Jackets Jackets Online Vintage Shop</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/VJ0HjZF2wGo/hqdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/VJ0HjZF2wGo/hqdefault.jpg" alt="Fenerbahce Hooligans Gfb Attack Gate 7 Toyrkikh Fanatikoys Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Hooligans Gfb Attack Gate 7 Toyrkikh Fanatikoys Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=335423606512429" target="_blank">
-							<img class="img-fluid" src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=335423606512429" alt="Fenerbahce Hooligans Home Facebook" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Hooligans Home Facebook</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://qph.fs.quoracdn.net/main-qimg-bf8a3859d12b37bf23135a55ef823499.webp" target="_blank">
-							<img class="img-fluid" src="https://qph.fs.quoracdn.net/main-qimg-bf8a3859d12b37bf23135a55ef823499.webp" alt="Which Country Has The Most Powerful Football Hooligans Nowadays Quora" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Which Country Has The Most Powerful Football Hooligans Nowadays Quora</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="/search?q=galatasaray+ultras&amp;tbm=isch" target="_blank">
-							<img class="img-fluid" src="/search?q=galatasaray+ultras&amp;tbm=isch" alt="1" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>1</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/736x/f4/67/d8/f467d82d3201ad4be0541cf73636d3ad.jpg" data-lightbox="roadtrip" data-title="Gencfenerbahceliler Gfb Sefareyis Unutmadik Wallpaper Tumblr Duvarkagidi Mavi Sanat Duvar Kagitlari Duvar">
+											<img class="card-img v-image" src="https://i.pinimg.com/736x/f4/67/d8/f467d82d3201ad4be0541cf73636d3ad.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Gencfenerbahceliler Gfb Sefareyis Unutmadik Wallpaper Tumblr Duvarkagidi Mavi Sanat Duvar Kagitlari Duvar">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Gencfenerbahceliler Gfb Sefareyis Unutmadik Wallpaper Tumblr Duvarkagidi Mavi Sanat Duvar Kagitlari Duvar.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Gencfenerbahceliler Gfb Sefareyis Unutmadik Wallpaper Tumblr Duvarkagidi Mavi Sanat Duvar Kagitlari Duvar</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i2-prod.dailyrecord.co.uk/incoming/article6351005.ece/ALTERNATES/s615/Thatsnot27.jpg" target="_blank">
-							<img class="img-fluid" src="https://i2-prod.dailyrecord.co.uk/incoming/article6351005.ece/ALTERNATES/s615/Thatsnot27.jpg" alt="Hilarious Pictures Show Celtic And Fenerbahce Fans Unite To Poke Fun At Knife Hooligans Mirror Online" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Hilarious Pictures Show Celtic And Fenerbahce Fans Unite To Poke Fun At Knife Hooligans Mirror Online</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://footballviolence.files.wordpress.com/2012/11/mf5.jpg" target="_blank">
-							<img class="img-fluid" src="https://footballviolence.files.wordpress.com/2012/11/mf5.jpg" alt="Marseille Fenerbahce 2012 Football Violence" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Marseille Fenerbahce 2012 Football Violence</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://ih1.redbubble.net/image.927833516.5551/icr,iphone_11_soft,back,a,x1000-pad,1000x1000,f8f8f8.jpg" target="_blank">
-							<img class="img-fluid" src="https://ih1.redbubble.net/image.927833516.5551/icr,iphone_11_soft,back,a,x1000-pad,1000x1000,f8f8f8.jpg" alt="Fenerbahce Istanbul Football Turkey Fans Ultras Hooligans Iphone Case Cover By Tombalabomba Redbubble" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Istanbul Football Turkey Fans Ultras Hooligans Iphone Case Cover By Tombalabomba Redbubble</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://ih1.redbubble.net/image.927833536.5551/ra,unisex_tshirt,x1860,101010:01c5ca27c6,front-c,336,366,600,600-bg,f8f8f8.jpg" target="_blank">
-							<img class="img-fluid" src="https://ih1.redbubble.net/image.927833536.5551/ra,unisex_tshirt,x1860,101010:01c5ca27c6,front-c,336,366,600,600-bg,f8f8f8.jpg" alt="Fener Football Turkey Fans Ultras Hooligans T Shirt By Tombalabomba Redbubble" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fener Football Turkey Fans Ultras Hooligans T Shirt By Tombalabomba Redbubble</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/564x/a8/46/4c/a8464cd99625ab22a98088b3d2acde1c.jpg" data-lightbox="roadtrip" data-title="19 07 Biz En Cok Fenerbahce Yi Sevdik Olahraga Sepak Bola Dan Ide Menggambar">
+											<img class="card-img v-image" src="https://i.pinimg.com/564x/a8/46/4c/a8464cd99625ab22a98088b3d2acde1c.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="19 07 Biz En Cok Fenerbahce Yi Sevdik Olahraga Sepak Bola Dan Ide Menggambar">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="19 07 Biz En Cok Fenerbahce Yi Sevdik Olahraga Sepak Bola Dan Ide Menggambar.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">19 07 Biz En Cok Fenerbahce Yi Sevdik Olahraga Sepak Bola Dan Ide Menggambar</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images.csmonitor.com/csm/2014/10/1002-turkey-soccer?alias=standard_900x600" target="_blank">
-							<img class="img-fluid" src="https://images.csmonitor.com/csm/2014/10/1002-turkey-soccer?alias=standard_900x600" alt="Is Turkey Targeting Soccer Hooligans Or Collecting Names Fans Are Suspicious Csmonitor Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Is Turkey Targeting Soccer Hooligans Or Collecting Names Fans Are Suspicious Csmonitor Com</p> 
-					</div>
+			</div>
+		</div>
+			 
+					<div class="col-12 mb-4">
+				<div class="card">
+										<img class="card-img-top v-cover" src="https://i.pinimg.com/originals/c0/2e/e7/c02ee7c36070ba36e756ae06ee97fccb.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="19 07 Biz En Cok Fenerbahce Yi Sevdik Olahraga Sepak Bola Dan Ide Menggambar">
+										<div class="card-body">
+						<h3 class="h5"><b></b></h3>
+												<div class="col-sm-12 widget"><strong>Related Posts:</strong>
+						<li class="list-group-item"><a href="/chelsea-roffey.html">Fenerbahce Hooligans</a></li>
+						<li class="list-group-item"><a href="/chelsea-roffey.html">Chelsea Roffey</a></li></div>
+						<div class="p-2">Published on:<time class="p-2" itemprop="datePublished" datetime="2020-10-06">2020-10-06</time>
+						<meta itemprop="dateModified" content="2020-10-06">
+						<itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+						By <itemprop="name"><a href="#" title="Posts by Wick Wick" rel="author">Wick Wick</a></div>
+					</div> 
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.haz.de/var/storage/images/haz/nachrichten/sport/fussball/nachrichtenticker/polizei-nimmt-80-ajax-hooligans-fest-fenerbahce-fans-randalieren-in-rotterdam/99300094-1-ger-DE/Polizei-nimmt-80-Ajax-Hooligans-fest-Fenerbahce-Fans-randalieren-in-Rotterdam_big_teaser_article.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.haz.de/var/storage/images/haz/nachrichten/sport/fussball/nachrichtenticker/polizei-nimmt-80-ajax-hooligans-fest-fenerbahce-fans-randalieren-in-rotterdam/99300094-1-ger-DE/Polizei-nimmt-80-Ajax-Hooligans-fest-Fenerbahce-Fans-randalieren-in-Rotterdam_big_teaser_article.jpg" alt="Fussball Polizei Nimmt 80 Ajax Hooligans Fest Fenerbahce Fans Randalieren In Rotterdam Haz Hannoversche Allgemeine" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fussball Polizei Nimmt 80 Ajax Hooligans Fest Fenerbahce Fans Randalieren In Rotterdam Haz Hannoversche Allgemeine</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/e35/c20.0.599.599a/47689804_273387733326227_4240879043095795521_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com&amp;_nc_cat=111&amp;_nc_ohc=0c0wzoMmYD0AX-xPQSL&amp;oh=5b70420279e0cea6a160840bd5429762&amp;oe=5F574923" target="_blank">
-							<img class="img-fluid" src="https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/e35/c20.0.599.599a/47689804_273387733326227_4240879043095795521_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com&amp;_nc_cat=111&amp;_nc_ohc=0c0wzoMmYD0AX-xPQSL&amp;oh=5b70420279e0cea6a160840bd5429762&amp;oe=5F574923" alt="Fenercasuals Instagram Posts Gramho Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenercasuals Instagram Posts Gramho Com</p> 
-					</div>
-				</div>
-						 
+			</div>
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://static.wixstatic.com/media/8235a1_c41abbf869a84b78a6910d0d6ad7ada2~mv2.png/v1/fill/w_514,h_256,al_c/8235a1_c41abbf869a84b78a6910d0d6ad7ada2~mv2.png" target="_blank">
-							<img class="img-fluid" src="https://static.wixstatic.com/media/8235a1_c41abbf869a84b78a6910d0d6ad7ada2~mv2.png/v1/fill/w_514,h_256,al_c/8235a1_c41abbf869a84b78a6910d0d6ad7ada2~mv2.png" alt="Turkish Hooligans" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Turkish Hooligans</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/736x/ac/37/fc/ac37fc606a81d1ee938b4285e887f9f5.jpg" data-lightbox="roadtrip" data-title="Gunaydin Fenerkolik Ailesi Fenerbahce Fenerkolik Instafb Yeniden Monster Trucks Concert 10 Things">
+											<img class="card-img v-image" src="https://i.pinimg.com/736x/ac/37/fc/ac37fc606a81d1ee938b4285e887f9f5.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Gunaydin Fenerkolik Ailesi Fenerbahce Fenerkolik Instafb Yeniden Monster Trucks Concert 10 Things">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Gunaydin Fenerkolik Ailesi Fenerbahce Fenerkolik Instafb Yeniden Monster Trucks Concert 10 Things.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Gunaydin Fenerkolik Ailesi Fenerbahce Fenerkolik Instafb Yeniden Monster Trucks Concert 10 Things</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://64.media.tumblr.com/3070b4ba5c0c6e3d726bc9c41e9482e7/tumblr_mgkpoeUKGw1rhzelso1_500.jpg" target="_blank">
-							<img class="img-fluid" src="https://64.media.tumblr.com/3070b4ba5c0c6e3d726bc9c41e9482e7/tumblr_mgkpoeUKGw1rhzelso1_500.jpg" alt="Ultras Never Die" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Ultras Never Die</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://ih1.redbubble.net/image.927833536.5551/ssrco,mhoodie,womens,101010:01c5ca27c6,front,tall_three_quarter,x1000-bg,f8f8f8.1.jpg" target="_blank">
-							<img class="img-fluid" src="https://ih1.redbubble.net/image.927833536.5551/ssrco,mhoodie,womens,101010:01c5ca27c6,front,tall_three_quarter,x1000-bg,f8f8f8.1.jpg" alt="Fenerbahce Istanbul Football Turkey Fans Ultras Hooligans Pullover Hoodie By Tombalabomba Redbubble" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Istanbul Football Turkey Fans Ultras Hooligans Pullover Hoodie By Tombalabomba Redbubble</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=260643287329263" target="_blank">
-							<img class="img-fluid" src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=260643287329263" alt="Fenerbahce Hooligans Home Facebook" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Hooligans Home Facebook</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/57PBwmWXAAE/maxresdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/57PBwmWXAAE/maxresdefault.jpg" alt="Fenerbahce Hooligans In Amsterdam Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Hooligans In Amsterdam Youtube</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/49/95/03/499503d75e8b3f284399e91819a13fa7.jpg" data-lightbox="roadtrip" data-title="Thousands Of People Walking To Support Fenerbahce In Istanbul S Famous Bagdat Street">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/49/95/03/499503d75e8b3f284399e91819a13fa7.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Thousands Of People Walking To Support Fenerbahce In Istanbul S Famous Bagdat Street">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Thousands Of People Walking To Support Fenerbahce In Istanbul S Famous Bagdat Street.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Thousands Of People Walking To Support Fenerbahce In Istanbul S Famous Bagdat Street</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/KLnOGdnqsYI/hqdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/KLnOGdnqsYI/hqdefault.jpg" alt="C3 Feynoord Fenerbahce Hooligans At Amsterdam And Cortege In Rotterdam Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>C3 Feynoord Fenerbahce Hooligans At Amsterdam And Cortege In Rotterdam Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i2-prod.dailyrecord.co.uk/incoming/article6350143.ece/ALTERNATES/s615b/Thatsnotfuds.jpg" target="_blank">
-							<img class="img-fluid" src="https://i2-prod.dailyrecord.co.uk/incoming/article6350143.ece/ALTERNATES/s615b/Thatsnotfuds.jpg" alt="That S Not A Knife Celtic And Fenerbahce Fans Unite To Mock Hooligans Taunts Ahead Of Europa League Ties Daily Record" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>That S Not A Knife Celtic And Fenerbahce Fans Unite To Mock Hooligans Taunts Ahead Of Europa League Ties Daily Record</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=206553139397588" target="_blank">
-							<img class="img-fluid" src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=206553139397588" alt="Fenerbahce Hooligans Home Facebook" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Hooligans Home Facebook</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=657253037660927" target="_blank">
-							<img class="img-fluid" src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=657253037660927" alt="Fenerbahce Hooligans Home Facebook" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Hooligans Home Facebook</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/db/64/c5/db64c58697bef958cc5618e68ac8bc86.jpg" data-lightbox="roadtrip" data-title="Kasimpasa 2 3 Fenerbahce Spor Futbol Football">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/db/64/c5/db64c58697bef958cc5618e68ac8bc86.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Kasimpasa 2 3 Fenerbahce Spor Futbol Football">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Kasimpasa 2 3 Fenerbahce Spor Futbol Football.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Kasimpasa 2 3 Fenerbahce Spor Futbol Football</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://thumbs.gfycat.com/DearestBigGreathornedowl-size_restricted.gif" target="_blank">
-							<img class="img-fluid" src="https://thumbs.gfycat.com/DearestBigGreathornedowl-size_restricted.gif" alt="Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gct7kuhghovvsbndmntkvdpgeoh3fbqoa5qv7g Usqp Cau" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Https Encrypted Tbn0 Gstatic Com Images Q Tbn 3aand9gct7kuhghovvsbndmntkvdpgeoh3fbqoa5qv7g Usqp Cau</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=543242219044981" target="_blank">
-							<img class="img-fluid" src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=543242219044981" alt="Fenerbahce Hooligans Home Facebook" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Hooligans Home Facebook</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://hooliganstv.com/wp-content/uploads/2017/02/C36elAhW8AEjnZ6.jpg" target="_blank">
-							<img class="img-fluid" src="http://hooliganstv.com/wp-content/uploads/2017/02/C36elAhW8AEjnZ6.jpg" alt="The Tense Atmosphere Before Besiktas Fenerbahce 05 02 2017 Hooligans Tv The Best Site About This Topic" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>The Tense Atmosphere Before Besiktas Fenerbahce 05 02 2017 Hooligans Tv The Best Site About This Topic</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/dISGL4DdnKE/maxresdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/dISGL4DdnKE/maxresdefault.jpg" alt="Celticpark Fenerbahce Hooligans Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Celticpark Fenerbahce Hooligans Youtube</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/28/39/84/2839841a286bcbd70aca547feb612725.jpg" data-lightbox="roadtrip" data-title="Casual Ultra On Instagram We Come As One Ultras Hooligans Football Fotografi Wallpaper Ponsel Seni">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/28/39/84/2839841a286bcbd70aca547feb612725.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Casual Ultra On Instagram We Come As One Ultras Hooligans Football Fotografi Wallpaper Ponsel Seni">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Casual Ultra On Instagram We Come As One Ultras Hooligans Football Fotografi Wallpaper Ponsel Seni.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Casual Ultra On Instagram We Come As One Ultras Hooligans Football Fotografi Wallpaper Ponsel Seni</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.pinimg.com/originals/37/cf/cc/37cfcc8f444522cc352e118785f277d7.png" target="_blank">
-							<img class="img-fluid" src="https://i.pinimg.com/originals/37/cf/cc/37cfcc8f444522cc352e118785f277d7.png" alt="My Golden Istanbul Football Fenerbahce Ultras Casuals Hooligans Turkey Scarf In 2020 Ultra Casual Hooligan Football" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>My Golden Istanbul Football Fenerbahce Ultras Casuals Hooligans Turkey Scarf In 2020 Ultra Casual Hooligan Football</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=620805788534013" target="_blank">
-							<img class="img-fluid" src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=620805788534013" alt="Fenerbahce Hooligans Home Facebook" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Hooligans Home Facebook</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://dutchforeigner.files.wordpress.com/2012/01/fenerbahce-female-fans-turkey-football-nationalturk-0345.jpg" target="_blank">
-							<img class="img-fluid" src="https://dutchforeigner.files.wordpress.com/2012/01/fenerbahce-female-fans-turkey-football-nationalturk-0345.jpg" alt="Fenerbahce The Dutch Foreigner" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce The Dutch Foreigner</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.ultras-tifo.net/images/stories/2017/5/Fenerbahce-Olympiacos/fener-oly-6.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.ultras-tifo.net/images/stories/2017/5/Fenerbahce-Olympiacos/fener-oly-6.jpg" alt="Fenerbahce Vs Olympiacos May 2017" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Vs Olympiacos May 2017</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/0f/42/8e/0f428e63c0f83421ab9538f080c70469.png" data-lightbox="roadtrip" data-title="Watch Fans Charge Up The Zenit Squad With Stunning Fire Show For Europa League Clash With Fenerbahce 2020">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/0f/42/8e/0f428e63c0f83421ab9538f080c70469.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Watch Fans Charge Up The Zenit Squad With Stunning Fire Show For Europa League Clash With Fenerbahce 2020">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Watch Fans Charge Up The Zenit Squad With Stunning Fire Show For Europa League Clash With Fenerbahce 2020.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Watch Fans Charge Up The Zenit Squad With Stunning Fire Show For Europa League Clash With Fenerbahce 2020</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://2.bp.blogspot.com/-4NUNrfWmMh0/T3ZUi0Lw65I/AAAAAAAAAVk/neQoKWlU_vM/s1600/mdf106741.jpg" target="_blank">
-							<img class="img-fluid" src="http://2.bp.blogspot.com/-4NUNrfWmMh0/T3ZUi0Lw65I/AAAAAAAAAVk/neQoKWlU_vM/s1600/mdf106741.jpg" alt="The Oneight Hooligans" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>The Oneight Hooligans</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://bolaterus.com/wp-content/uploads/2019/08/Screen-Shot-2019-08-13-at-6.04.01-PM.png" target="_blank">
-							<img class="img-fluid" src="https://bolaterus.com/wp-content/uploads/2019/08/Screen-Shot-2019-08-13-at-6.04.01-PM.png" alt="Bolaterus Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Bolaterus Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://hooliganstv.com/wp-content/uploads/2017/02/C36mbSVXAAI0Obw.jpg" target="_blank">
-							<img class="img-fluid" src="http://hooliganstv.com/wp-content/uploads/2017/02/C36mbSVXAAI0Obw.jpg" alt="The Tense Atmosphere Before Besiktas Fenerbahce 05 02 2017 Hooligans Tv The Best Site About This Topic" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>The Tense Atmosphere Before Besiktas Fenerbahce 05 02 2017 Hooligans Tv The Best Site About This Topic</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.pinimg.com/736x/7e/7a/6b/7e7a6bbebcfb7ec79245ab266effbe7e.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.pinimg.com/736x/7e/7a/6b/7e7a6bbebcfb7ec79245ab266effbe7e.jpg" alt="Rare Fenerbahce Track Jacket Football Turkey Hooligans Size S Small Ebay Track Jackets Jackets Online Vintage Shop" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Rare Fenerbahce Track Jacket Football Turkey Hooligans Size S Small Ebay Track Jackets Jackets Online Vintage Shop</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/c0/2e/e7/c02ee7c36070ba36e756ae06ee97fccb.jpg" data-lightbox="roadtrip" data-title="Pin On Photo Klick">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/c0/2e/e7/c02ee7c36070ba36e756ae06ee97fccb.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Pin On Photo Klick">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Pin On Photo Klick.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Pin On Photo Klick</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.ultras-tifo.net/images/stories/2017/5/Fenerbahce-Olympiacos/fener-oly-5.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.ultras-tifo.net/images/stories/2017/5/Fenerbahce-Olympiacos/fener-oly-5.jpg" alt="Fenerbahce Vs Olympiacos May 2017" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Vs Olympiacos May 2017</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://pbs.twimg.com/profile_images/1251704349304242186/gyJTQN6U.jpg" target="_blank">
-							<img class="img-fluid" src="https://pbs.twimg.com/profile_images/1251704349304242186/gyJTQN6U.jpg" alt="Fenerbahce Hooligans On Twitter Begen Ve Son Rakamina Bak Kim Cikti" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Hooligans On Twitter Begen Ve Son Rakamina Bak Kim Cikti</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://upload.wikimedia.org/wikipedia/commons/a/a9/FB-GS_Seramoni.jpg" target="_blank">
-							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/a/a9/FB-GS_Seramoni.jpg" alt="Fenerbahce S K Supporters Wikipedia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce S K Supporters Wikipedia</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://ih1.redbubble.net/image.927823161.5316/ra,unisex_tshirt,x2200,101010:01c5ca27c6,front-c,392,146,750,1000-bg,f8f8f8.jpg" target="_blank">
-							<img class="img-fluid" src="https://ih1.redbubble.net/image.927823161.5316/ra,unisex_tshirt,x2200,101010:01c5ca27c6,front-c,392,146,750,1000-bg,f8f8f8.jpg" alt="Fener Football Turkey Fans Ultras Hooligans T Shirt By Tombalabomba Redbubble" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fener Football Turkey Fans Ultras Hooligans T Shirt By Tombalabomba Redbubble</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/600x315/50/bb/00/50bb0029d5b26261021720eda38d649d.jpg" data-lightbox="roadtrip" data-title="Bogaz Hooligans La La La Fenerbahce Sen Cok Yasa Youtube Youtube Guzel Soz Yastiklar">
+											<img class="card-img v-image" src="https://i.pinimg.com/600x315/50/bb/00/50bb0029d5b26261021720eda38d649d.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Bogaz Hooligans La La La Fenerbahce Sen Cok Yasa Youtube Youtube Guzel Soz Yastiklar">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Bogaz Hooligans La La La Fenerbahce Sen Cok Yasa Youtube Youtube Guzel Soz Yastiklar.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Bogaz Hooligans La La La Fenerbahce Sen Cok Yasa Youtube Youtube Guzel Soz Yastiklar</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/gh-ByqqADHM/hqdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/gh-ByqqADHM/hqdefault.jpg" alt="Fenerbahce Vs Olympiacos May 2017" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Vs Olympiacos May 2017</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.pinimg.com/originals/21/97/2c/21972c2b1e765b45e496e8775487df61.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.pinimg.com/originals/21/97/2c/21972c2b1e765b45e496e8775487df61.jpg" alt="R 0082 Fenerbahce Turkish Fans Football Hooligans Casuals Ultras Tee T Shirt Top Personalised Tops Shirts T Shirt" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>R 0082 Fenerbahce Turkish Fans Football Hooligans Casuals Ultras Tee T Shirt Top Personalised Tops Shirts T Shirt</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://hooliganstv.com/wp-content/uploads/2015/04/11133657_954068127972025_6165825842062068652_n-310x205.jpg" target="_blank">
-							<img class="img-fluid" src="http://hooliganstv.com/wp-content/uploads/2015/04/11133657_954068127972025_6165825842062068652_n-310x205.jpg" alt="Fenerbahce Archives Hooligans Tv The Best Site About This Topic" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Archives Hooligans Tv The Best Site About This Topic</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://www.thehardtackle.com/wp-content/uploads/2014/07/Fenerbahce-Ultras.jpg" target="_blank">
-							<img class="img-fluid" src="http://www.thehardtackle.com/wp-content/uploads/2014/07/Fenerbahce-Ultras.jpg" alt="The Ultra Culture In Turkey" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>The Ultra Culture In Turkey</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/41/53/3b/41533b0f31d9466ef6d172b36b8c9314.jpg" data-lightbox="roadtrip" data-title="Galatasaray Fenerbahce 16 12 2012">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/41/53/3b/41533b0f31d9466ef6d172b36b8c9314.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Galatasaray Fenerbahce 16 12 2012">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Galatasaray Fenerbahce 16 12 2012.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Galatasaray Fenerbahce 16 12 2012</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/J8Y5hSrGS7M/hqdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/J8Y5hSrGS7M/hqdefault.jpg" alt="Turkish Hooligans Fenerbahce Vs Galatasaray 29 03 2012 Basketball Women Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Turkish Hooligans Fenerbahce Vs Galatasaray 29 03 2012 Basketball Women Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://upload.wikimedia.org/wikipedia/commons/f/f0/FB-BJK.jpg" target="_blank">
-							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/f/f0/FB-BJK.jpg" alt="Fenerbahce S K Supporters Wikipedia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce S K Supporters Wikipedia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://ih1.redbubble.net/image.927833536.5551/ssrco,slim_fit_t_shirt,mens,101010:01c5ca27c6,front,square_product,600x600.jpg" target="_blank">
-							<img class="img-fluid" src="https://ih1.redbubble.net/image.927833536.5551/ssrco,slim_fit_t_shirt,mens,101010:01c5ca27c6,front,square_product,600x600.jpg" alt="Turkey Fans Ultras Hooligans Fener Istanbul Football T Shirt By Tombalabomba Redbubble" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Turkey Fans Ultras Hooligans Fener Istanbul Football T Shirt By Tombalabomba Redbubble</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/9wMbVUYTY_4/maxresdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/9wMbVUYTY_4/maxresdefault.jpg" alt="Turkey Hooligans Galatasaray Fenerbahce Besiktas Fighting Supporting Fans Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Turkey Hooligans Galatasaray Fenerbahce Besiktas Fighting Supporting Fans Youtube</p> 
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/736x/57/98/55/57985544d937d82459f8a0bb9dbeb87b.jpg" data-lightbox="roadtrip" data-title="Pin On Golden Football">
+											<img class="card-img v-image" src="https://i.pinimg.com/736x/57/98/55/57985544d937d82459f8a0bb9dbeb87b.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Pin On Golden Football">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" onclick="location.href = '#';" data-url="#" data-title="Pin On Golden Football.jpg">Read More..</button>
 					</div>
+										<h3 class="h6">Pin On Golden Football</h3>
 				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.ultras-tifo.net/images/stories/2017/5/Fenerbahce-Olympiacos/fener-oly-3.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.ultras-tifo.net/images/stories/2017/5/Fenerbahce-Olympiacos/fener-oly-3.jpg" alt="Fenerbahce Vs Olympiacos May 2017" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Vs Olympiacos May 2017</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://hooliganstv.com/wp-content/uploads/2015/11/42.jpg" target="_blank">
-							<img class="img-fluid" src="http://hooliganstv.com/wp-content/uploads/2015/11/42.jpg" alt="Riots Before Ajax Fenerbahce 05 11 2015 Hooligans Tv The Best Site About This Topic" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Riots Before Ajax Fenerbahce 05 11 2015 Hooligans Tv The Best Site About This Topic</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/KVB0O0hN3hA/maxresdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/KVB0O0hN3hA/maxresdefault.jpg" alt="Galatasaray Fenerbahce 2011 Fenerbahce Hooligans Riot Attacking To Galatasaray Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Galatasaray Fenerbahce 2011 Fenerbahce Hooligans Riot Attacking To Galatasaray Youtube</p> 
-					</div>
-				</div>
-						 
+			</div>
+		</div>
+			 
 		 
 
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://cdn.newsapi.com.au/image/v1/3b3b56ee751ef4eb8c806627ef0e09fd" target="_blank">
-							<img class="img-fluid" src="https://cdn.newsapi.com.au/image/v1/3b3b56ee751ef4eb8c806627ef0e09fd" alt="Hooligans Trash Wheelchair Basketball Game" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Hooligans Trash Wheelchair Basketball Game</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/_1Qf5Oo-KQM/hqdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/_1Qf5Oo-KQM/hqdefault.jpg" alt="Riot Marseille Vs Police Olympique Marseille Vs Fenerbahce 0 1 Hooligan Fight Europe League Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Riot Marseille Vs Police Olympique Marseille Vs Fenerbahce 0 1 Hooligan Fight Europe League Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://hooliganstv.com/wp-content/uploads/2015/11/1149296_620x410.jpg" target="_blank">
-							<img class="img-fluid" src="http://hooliganstv.com/wp-content/uploads/2015/11/1149296_620x410.jpg" alt="Riots Before Ajax Fenerbahce 05 11 2015 Hooligans Tv The Best Site About This Topic" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Riots Before Ajax Fenerbahce 05 11 2015 Hooligans Tv The Best Site About This Topic</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://hooliganstv.com/wp-content/uploads/2019/02/DzTOJlRWwAIVO5w-1024x1024.jpg" target="_blank">
-							<img class="img-fluid" src="http://hooliganstv.com/wp-content/uploads/2019/02/DzTOJlRWwAIVO5w-1024x1024.jpg" alt="Europa League Fights Overview 12 14 02 2019 Hooligans Tv The Best Site About This Topic" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Europa League Fights Overview 12 14 02 2019 Hooligans Tv The Best Site About This Topic</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i0.wp.com/www.casualultra.com/wp-content/uploads/2014/03/6.jpg?fit=540%2C361&amp;ssl=1" target="_blank">
-							<img class="img-fluid" src="https://i0.wp.com/www.casualultra.com/wp-content/uploads/2014/03/6.jpg?fit=540%2C361&amp;ssl=1" alt="Incredible Scenes As Trabzonspor Vs Fenerbahce Abandoned Casual Ultra" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Incredible Scenes As Trabzonspor Vs Fenerbahce Abandoned Casual Ultra</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.pinimg.com/236x/b0/63/a0/b063a0e9714f0a36a7499b86d93018da--football-fans-capo.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.pinimg.com/236x/b0/63/a0/b063a0e9714f0a36a7499b86d93018da--football-fans-capo.jpg" alt="7 Best Hooligan Images Hooligan Football Fans Stone Roses Second Coming" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>7 Best Hooligan Images Hooligan Football Fans Stone Roses Second Coming</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.pinimg.com/originals/07/ae/fa/07aefac004e64d0d4ac14ddb3dfc6610.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.pinimg.com/originals/07/ae/fa/07aefac004e64d0d4ac14ddb3dfc6610.jpg" alt="Casual Ultra On Instagram Fenerbahce Turkey Pyro Ultras Hooligans Football Casualinbox Football Ultras Football Pyro" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Casual Ultra On Instagram Fenerbahce Turkey Pyro Ultras Hooligans Football Casualinbox Football Ultras Football Pyro</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/5/7/1431001730518/1783d0a8-21ac-4840-9b1c-addf711fca83-2060x1236.jpeg?width=700&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=0c1c457a882c01990afc509d4dd04c6c" target="_blank">
-							<img class="img-fluid" src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/5/7/1431001730518/1783d0a8-21ac-4840-9b1c-addf711fca83-2060x1236.jpeg?width=700&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=0c1c457a882c01990afc509d4dd04c6c" alt="Violence Is Killing Turkish Football And No One Is Doing Anything About It Football The Guardian" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Violence Is Killing Turkish Football And No One Is Doing Anything About It Football The Guardian</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/5/7/1431001870082/edab0533-9157-4f77-bd92-12833f13765b-2060x1236.jpeg?width=700&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=6a8b40fa590acf3997427dc044d913c4" target="_blank">
-							<img class="img-fluid" src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/5/7/1431001870082/edab0533-9157-4f77-bd92-12833f13765b-2060x1236.jpeg?width=700&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=6a8b40fa590acf3997427dc044d913c4" alt="Violence Is Killing Turkish Football And No One Is Doing Anything About It Football The Guardian" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Violence Is Killing Turkish Football And No One Is Doing Anything About It Football The Guardian</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/5p6JPFZLXQk/hqdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/5p6JPFZLXQk/hqdefault.jpg" alt="Fenerbahce Hooligans Ultras Culture 1312fener Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Hooligans Ultras Culture 1312fener Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/c0.1.1228.1228a/s640x640/100814754_109599670627249_1351579592653908472_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&amp;_nc_cat=101&amp;_nc_ohc=TqTi722UC3IAX_NshYx&amp;oh=322dce19028abdb976409b5a2a5ca51f&amp;oe=5F7E1C67" target="_blank">
-							<img class="img-fluid" src="https://scontent-lga3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/c0.1.1228.1228a/s640x640/100814754_109599670627249_1351579592653908472_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&amp;_nc_cat=101&amp;_nc_ohc=TqTi722UC3IAX_NshYx&amp;oh=322dce19028abdb976409b5a2a5ca51f&amp;oe=5F7E1C67" alt="Madeforstandingnotrunning Instagram Posts Gramho Com" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Madeforstandingnotrunning Instagram Posts Gramho Com</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://pbs.twimg.com/profile_images/699488809055088640/XeARNkT-_400x400.jpg" target="_blank">
-							<img class="img-fluid" src="https://pbs.twimg.com/profile_images/699488809055088640/XeARNkT-_400x400.jpg" alt="Fenerbahce Hooligans Auf Twitter Saldir Fener Seslerine Bak Allahim Iyi Ki Fenerliyiz" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Hooligans Auf Twitter Saldir Fener Seslerine Bak Allahim Iyi Ki Fenerliyiz</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images03.oe24.at/istanbul2.jpg/960x960MobileGrey/65.876.931" target="_blank">
-							<img class="img-fluid" src="https://images03.oe24.at/istanbul2.jpg/960x960MobileGrey/65.876.931" alt="Schwere Ausschreitungen In Istanbul" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Schwere Ausschreitungen In Istanbul</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.pinimg.com/236x/b7/2f/ee/b72fee7d992a3488f7f96d419d0ea012--bucket-list.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.pinimg.com/236x/b7/2f/ee/b72fee7d992a3488f7f96d419d0ea012--bucket-list.jpg" alt="7 Best Hooligan Images Hooligan Football Fans Stone Roses Second Coming" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>7 Best Hooligan Images Hooligan Football Fans Stone Roses Second Coming</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://thumbs.gfycat.com/FrequentSmoothDonkey-mobile.jpg" target="_blank">
-							<img class="img-fluid" src="https://thumbs.gfycat.com/FrequentSmoothDonkey-mobile.jpg" alt="Ultras World In Turkey Fenerbahce Vs Besiktas 19 04 2018 Gif Gfycat" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Ultras World In Turkey Fenerbahce Vs Besiktas 19 04 2018 Gif Gfycat</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://ultras-tifo.net/images/stories/2017/5/Fenerbahce-Olympiacos/fener-oly-1.jpg" target="_blank">
-							<img class="img-fluid" src="http://ultras-tifo.net/images/stories/2017/5/Fenerbahce-Olympiacos/fener-oly-1.jpg" alt="Fenerbahce Vs Olympiacos May 2017" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Vs Olympiacos May 2017</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://pbs.twimg.com/profile_images/890933321617768448/49xYk_oz.jpg" target="_blank">
-							<img class="img-fluid" src="https://pbs.twimg.com/profile_images/890933321617768448/49xYk_oz.jpg" alt="Fenerbahce Hooligans On Twitter Go Home Back Olympiacosbc Sarilacivert Fenerbahcelove Happy Goodtimes Cokmutluoldum Iyiaksamlar Azizyildirimistifa Fenerim Sari Https T Co Inugczjr0r" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Hooligans On Twitter Go Home Back Olympiacosbc Sarilacivert Fenerbahcelove Happy Goodtimes Cokmutluoldum Iyiaksamlar Azizyildirimistifa Fenerim Sari Https T Co Inugczjr0r</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1548506372038579" target="_blank">
-							<img class="img-fluid" src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1548506372038579" alt="Fenerbahce Hooligans Home Facebook" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Hooligans Home Facebook</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bundesarchiv_Bild_183-1990-0414-009%2C_FDGB-Pokal%2C_1._FC_Lok_Leipzig_-_Dynamo_Schwerin%2C_Ausschreitungen.jpg/240px-Bundesarchiv_Bild_183-1990-0414-009%2C_FDGB-Pokal%2C_1._FC_Lok_Leipzig_-_Dynamo_Schwerin%2C_Ausschreitungen.jpg" target="_blank">
-							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bundesarchiv_Bild_183-1990-0414-009%2C_FDGB-Pokal%2C_1._FC_Lok_Leipzig_-_Dynamo_Schwerin%2C_Ausschreitungen.jpg/240px-Bundesarchiv_Bild_183-1990-0414-009%2C_FDGB-Pokal%2C_1._FC_Lok_Leipzig_-_Dynamo_Schwerin%2C_Ausschreitungen.jpg" alt="Football Hooliganism Wikipedia" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Football Hooliganism Wikipedia</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://media.pri.org/s3fs-public/styles/story_main/public/fenerbahce-women-only-2010-09-26.jpg?itok=dJlSxeql" target="_blank">
-							<img class="img-fluid" src="https://media.pri.org/s3fs-public/styles/story_main/public/fenerbahce-women-only-2010-09-26.jpg?itok=dJlSxeql" alt="Turkish Football Bans Men From Some Matches The World From Prx" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Turkish Football Bans Men From Some Matches The World From Prx</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://image.wikifoundry.com/image/3/8ba0a5f413089a0f657bc0ab71818612/GW650H366" target="_blank">
-							<img class="img-fluid" src="http://image.wikifoundry.com/image/3/8ba0a5f413089a0f657bc0ab71818612/GW650H366" alt="Fenerbahce Twitter Humour That S Not A Knife 2015 The Celtic Wiki" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Twitter Humour That S Not A Knife 2015 The Celtic Wiki</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/5/13/1431516202050/52ddc985-fd7e-49c1-abce-ed2463dd37fe-2060x1236.jpeg?width=300&amp;quality=45&amp;auto=format&amp;fit=max&amp;dpr=2&amp;s=6ac241a3315d81272e6c4a54207b2ea5" target="_blank">
-							<img class="img-fluid" src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/5/13/1431516202050/52ddc985-fd7e-49c1-abce-ed2463dd37fe-2060x1236.jpeg?width=300&amp;quality=45&amp;auto=format&amp;fit=max&amp;dpr=2&amp;s=6ac241a3315d81272e6c4a54207b2ea5" alt="Violence Is Killing Turkish Football And No One Is Doing Anything About It Football The Guardian" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Violence Is Killing Turkish Football And No One Is Doing Anything About It Football The Guardian</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://hooliganstv.com/wp-content/uploads/2019/04/1-1-310x205.jpg" target="_blank">
-							<img class="img-fluid" src="https://hooliganstv.com/wp-content/uploads/2019/04/1-1-310x205.jpg" alt="Ajax Archives Hooligans Tv The Best Site About This Topic" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Ajax Archives Hooligans Tv The Best Site About This Topic</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/PQtwRioMCqA/hqdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/PQtwRioMCqA/hqdefault.jpg" alt="Amazing Support Fans Ultras Hooligans Fenerbahce Turkey Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Amazing Support Fans Ultras Hooligans Fenerbahce Turkey Youtube</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=419421124822622" target="_blank">
-							<img class="img-fluid" src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=419421124822622" alt="Fenerbahce Hooligans Photos Facebook" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Hooligans Photos Facebook</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://sd.keepcalms.com/i/keep-calm-and-fenerbahce-hooligans.png" target="_blank">
-							<img class="img-fluid" src="https://sd.keepcalms.com/i/keep-calm-and-fenerbahce-hooligans.png" alt="Keep Calm And Fenerbahce Hooligans Poster Kafkazecparni Keep Calm O Matic" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Keep Calm And Fenerbahce Hooligans Poster Kafkazecparni Keep Calm O Matic</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://hooliganstv.com/wp-content/uploads/2017/05/18596219_10213308773503669_1764126329_o.jpg" target="_blank">
-							<img class="img-fluid" src="http://hooliganstv.com/wp-content/uploads/2017/05/18596219_10213308773503669_1764126329_o.jpg" alt="Olympiakos Fans Attacked In Istanbul 19 05 2017 Hooligans Tv The Best Site About This Topic" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Olympiakos Fans Attacked In Istanbul 19 05 2017 Hooligans Tv The Best Site About This Topic</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=659612371320021" target="_blank">
-							<img class="img-fluid" src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=659612371320021" alt="Fenerbahce Hooligans Home Facebook" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Hooligans Home Facebook</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://ih1.redbubble.net/image.1142168973.5293/pp,504x498-pad,600x600,f8f8f8.jpg" target="_blank">
-							<img class="img-fluid" src="https://ih1.redbubble.net/image.1142168973.5293/pp,504x498-pad,600x600,f8f8f8.jpg" alt="Fenerbahce Hooligans Wall Art Redbubble" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Hooligans Wall Art Redbubble</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.pinimg.com/736x/f4/67/d8/f467d82d3201ad4be0541cf73636d3ad.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.pinimg.com/736x/f4/67/d8/f467d82d3201ad4be0541cf73636d3ad.jpg" alt="Gencfenerbahceliler Gfb Sefareyis Unutmadik Wallpaper Tumblr Duvarkagidi Duvar Mavi Sanat Duvar Kagitlari" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Gencfenerbahceliler Gfb Sefareyis Unutmadik Wallpaper Tumblr Duvarkagidi Duvar Mavi Sanat Duvar Kagitlari</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.worldbulletin.net/images/haberler/250x190/2012/05/13/fener.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.worldbulletin.net/images/haberler/250x190/2012/05/13/fener.jpg" alt="Fenerbahce Hooligans Receive Stadium Bans Turkey And World News" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Hooligans Receive Stadium Bans Turkey And World News</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/77f3cd7b-88de-49de-a953-9a1b9f46c9c7/d5su6y6-70b49f67-fc7b-4f12-a72e-14abe89b6fc5.jpg/v1/fill/w_1192,h_670,q_70,strp/acab_hooligans_fenerbahe_by_snoopcat57_d5su6y6-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD03MjAiLCJwYXRoIjoiXC9mXC83N2YzY2Q3Yi04OGRlLTQ5ZGUtYTk1My05YTFiOWY0NmM5YzdcL2Q1c3U2eTYtNzBiNDlmNjctZmM3Yi00ZjEyLWE3MmUtMTRhYmU4OWI2ZmM1LmpwZyIsIndpZHRoIjoiPD0xMjgwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.YVl1IsYbHcyLh3ttajKO2BQAyKEHrSqD6p9kpnHQNNo" target="_blank">
-							<img class="img-fluid" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/77f3cd7b-88de-49de-a953-9a1b9f46c9c7/d5su6y6-70b49f67-fc7b-4f12-a72e-14abe89b6fc5.jpg/v1/fill/w_1192,h_670,q_70,strp/acab_hooligans_fenerbahe_by_snoopcat57_d5su6y6-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD03MjAiLCJwYXRoIjoiXC9mXC83N2YzY2Q3Yi04OGRlLTQ5ZGUtYTk1My05YTFiOWY0NmM5YzdcL2Q1c3U2eTYtNzBiNDlmNjctZmM3Yi00ZjEyLWE3MmUtMTRhYmU4OWI2ZmM1LmpwZyIsIndpZHRoIjoiPD0xMjgwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.YVl1IsYbHcyLh3ttajKO2BQAyKEHrSqD6p9kpnHQNNo" alt="Acab Hooligans Fenerbahe By Snoopcat57 On Deviantart" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Acab Hooligans Fenerbahe By Snoopcat57 On Deviantart</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://footballviolence.files.wordpress.com/2012/11/mf6.jpg" target="_blank">
-							<img class="img-fluid" src="https://footballviolence.files.wordpress.com/2012/11/mf6.jpg" alt="Marseille Fenerbahce 2012 Football Violence" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Marseille Fenerbahce 2012 Football Violence</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="http://4.bp.blogspot.com/-mHufcObF6rs/Uh2xqy49ifI/AAAAAAAAAJo/Fk2cV-anVfE/s1600/hol+turk.jpg" target="_blank">
-							<img class="img-fluid" src="http://4.bp.blogspot.com/-mHufcObF6rs/Uh2xqy49ifI/AAAAAAAAAJo/Fk2cV-anVfE/s1600/hol+turk.jpg" alt="Turkinesia Hooligans Wilujeng Sumping Di Blog Abang" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Turkinesia Hooligans Wilujeng Sumping Di Blog Abang</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://pbs.twimg.com/profile_images/2503863352/s2p447oa189vefatskys_400x400.png" target="_blank">
-							<img class="img-fluid" src="https://pbs.twimg.com/profile_images/2503863352/s2p447oa189vefatskys_400x400.png" alt="Fenerbahce Hooligans Fbhooligans34 Twitter" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Hooligans Fbhooligans34 Twitter</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i2-prod.dailyrecord.co.uk/incoming/article6350093.ece/ALTERNATES/s1200c/Thatsnot6.jpg" target="_blank">
-							<img class="img-fluid" src="https://i2-prod.dailyrecord.co.uk/incoming/article6350093.ece/ALTERNATES/s1200c/Thatsnot6.jpg" alt="That S Not A Knife Celtic And Fenerbahce Fans Unite To Mock Hooligans Taunts Ahead Of Europa League Ties Daily Record" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>That S Not A Knife Celtic And Fenerbahce Fans Unite To Mock Hooligans Taunts Ahead Of Europa League Ties Daily Record</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.hurimg.com/i/hdn/75/310x238/59c7f59e45d2a027e83b4299.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.hurimg.com/i/hdn/75/310x238/59c7f59e45d2a027e83b4299.jpg" alt="Michel Platini Latest News Top Stories All News Analysis About Michel Platini" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Michel Platini Latest News Top Stories All News Analysis About Michel Platini</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://ih1.redbubble.net/image.1352656429.5551/ur,mask_three_quarter,tall_portrait,750x1000.jpg" target="_blank">
-							<img class="img-fluid" src="https://ih1.redbubble.net/image.1352656429.5551/ur,mask_three_quarter,tall_portrait,750x1000.jpg" alt="Fenerbahce Istanbul Football Turkey Fans Ultras Hooligans Mask By Tombalabomba Redbubble" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Istanbul Football Turkey Fans Ultras Hooligans Mask By Tombalabomba Redbubble</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://i.ytimg.com/vi/VZb7tfGAy3U/hqdefault.jpg" target="_blank">
-							<img class="img-fluid" src="https://i.ytimg.com/vi/VZb7tfGAy3U/hqdefault.jpg" alt="Hooligans Do Fenerbahce Comecam Confusao Apos Ver Galatasara Youtube" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Hooligans Do Fenerbahce Comecam Confusao Apos Ver Galatasara Youtube</p> 
-					</div>
-				</div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://www.ultras-tifo.net/images/stories/2017/5/Fenerbahce-Olympiacos/fener-oly-4.jpg" target="_blank">
-							<img class="img-fluid" src="https://www.ultras-tifo.net/images/stories/2017/5/Fenerbahce-Olympiacos/fener-oly-4.jpg" alt="Fenerbahce Vs Olympiacos May 2017" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Vs Olympiacos May 2017</p> 
-					</div>
-				</div>
-						 
-		 
-
-			
-		<div class="clearfix"></div>
-							<div class="posts-image posts-image-single">
-					<div class="posts-image-content">
-						<a href="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=294251060682483" target="_blank">
-							<img class="img-fluid" src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=294251060682483" alt="Fenerbahce Hooligans Photos Facebook" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';"></a>
-						<p>Fenerbahce Hooligans Photos Facebook</p> 
-					</div>
-				</div>
-						 
-		 
-
-	 	
-	
-					</div>
+		</div>
+				<div class="clearfix"></div> 
+		<div class="d-block mt-4 p-3">
+			Source : <a href="https://pinterest.com" rel="nofollow noopener">pinterest.com</a>
+		</div>
+						</div>
 				</div> 
 				<div class="col-md-3">
 					<div class="col-sm-12 widget">
-						<h3 class="widget-title">Random Posts</h3>
+						<h3 class="widget-title">RANDOM POST</h3>
 						<ul class="list-group">
-						 
-																	<li class="list-group-item"><a href="new-fenerbahce-jersey.html">New Fenerbahce Jersey</a></li>
-																	<li class="list-group-item"><a href="wolfgang-clement.html">Wolfgang Clement</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-wallpaper-1920x1080.html">Dynamo Dresden Wallpaper 1920x1080</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="rose-leslie-as-ygritte.html">Rose Leslie As Ygritte</a></li>
-																	<li class="list-group-item"><a href="st-pauli-elbtunnel.html">St Pauli Elbtunnel</a></li>
-																	<li class="list-group-item"><a href="quilling-galatasaray.html">Quilling Galatasaray</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="dynamo-dresden-wimpel-ddr.html">Dynamo Dresden Wimpel Ddr</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-long-hair.html">Rose Leslie Long Hair</a></li>
-																	<li class="list-group-item"><a href="galatasaray-duvar-kagidi-2020.html">Galatasaray Duvar Kagidi 2020</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="kit-harington-dating.html">Kit Harington Dating</a></li>
-																	<li class="list-group-item"><a href="google-translate-indonesia-ke-inggris.html">Google Translate Indonesia Ke Inggris</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-kupasi.html">Fenerbahce Kupasi</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="armenien-aserbaidschan-karte.html">Armenien Aserbaidschan Karte</a></li>
-																	<li class="list-group-item"><a href="dynamo-dresden-mannschaftsfoto.html">Dynamo Dresden Mannschaftsfoto</a></li>
-																	<li class="list-group-item"><a href="ksc.html">Ksc</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="google-wallpaper-4k.html">Google Wallpaper 4k</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-wedding-dress.html">Rose Leslie Wedding Dress</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-emilia-clarke.html">Rose Leslie Emilia Clarke</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="armenien-meer.html">Armenien Meer</a></li>
-																	<li class="list-group-item"><a href="fc-bayern.html">Fc Bayern</a></li>
-																	<li class="list-group-item"><a href="fenerbahce-transfer.html">Fenerbahce Transfer</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="fenerbahce-oyuncular.html">Fenerbahce Oyuncular</a></li>
-																	<li class="list-group-item"><a href="clement-xii.html">Clement Xii</a></li>
-																	<li class="list-group-item"><a href="galatasaray-coach.html">Galatasaray Coach</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="galatasaray-umraniyespor.html">Galatasaray Umraniyespor</a></li>
-																	<li class="list-group-item"><a href="heiraten-aserbaidschan-frauen.html">Heiraten Aserbaidschan Frauen</a></li>
-																	<li class="list-group-item"><a href="kit-harington-dancing.html">Kit Harington Dancing</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="armenien-berge.html">Armenien Berge</a></li>
-																	<li class="list-group-item"><a href="galatasaray-hali.html">Galatasaray Hali</a></li>
-																	<li class="list-group-item"><a href="st-pauli-werder-bremen-fanfreundschaft.html">St Pauli Werder Bremen Fanfreundschaft</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="st-pauli-graffiti.html">St Pauli Graffiti</a></li>
-																	<li class="list-group-item"><a href="clement-hall-utk.html">Clement Hall Utk</a></li>
-																	<li class="list-group-item"><a href="rose-leslie-downton.html">Rose Leslie Downton</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="clement-rosario.html">Clement Rosario</a></li>
-																	<li class="list-group-item"><a href="clement-juglar.html">Clement Juglar</a></li>
-																	<li class="list-group-item"><a href="galatasaray-duvar-kagidi.html">Galatasaray Duvar Kagidi</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="fenerbahce-ile-ilgili-soezler.html">Fenerbahce Ile Ilgili Soezler</a></li>
-																	<li class="list-group-item"><a href="clement-ong.html">Clement Ong</a></li>
-																	<li class="list-group-item"><a href="armenien-roemisches-reich.html">Armenien Roemisches Reich</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="dynamo-dresden-wappen.html">Dynamo Dresden Wappen</a></li>
-																	<li class="list-group-item"><a href="24h-rennen-le-mans-2020.html">24h Rennen Le Mans 2020</a></li>
-																	<li class="list-group-item"><a href="st-pauli-bilder.html">St Pauli Bilder</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="kit-harington-and-emilia-clarke-married.html">Kit Harington And Emilia Clarke Married</a></li>
-																	<li class="list-group-item"><a href="24h-rennen-autos.html">24h Rennen Autos</a></li>
-																	<li class="list-group-item"><a href="aserbaidschan-hauptstadt.html">Aserbaidschan Hauptstadt</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="dynamo-dresden-kader-202021.html">Dynamo Dresden Kader 202021</a></li>
-																	<li class="list-group-item"><a href="clement-agba.html">Clement Agba</a></li>
-																	<li class="list-group-item"><a href="galatasaray-ilkokulu.html">Galatasaray Ilkokulu</a></li>
-								 
-						 
-																	<li class="list-group-item"><a href="van-armenien.html">Van Armenien</a></li>
-																	<li class="list-group-item"><a href="armenien-kurdistan.html">Armenien Kurdistan</a></li>
-								 
+													<li class="list-group-item"><a href="/haaland-goal.html">Haaland Goal</a></li>
+													<li class="list-group-item"><a href="/haaland-iphone-wallpaper.html">Haaland Iphone Wallpaper</a></li>
+													<li class="list-group-item"><a href="/firmino-hoffenheim-teeth.html">Firmino Hoffenheim Teeth</a></li>
+													<li class="list-group-item"><a href="/haaland-liverpool-transfer.html">Haaland Liverpool Transfer</a></li>
+													<li class="list-group-item"><a href="/haaland-norway.html">Haaland Norway</a></li>
+													<li class="list-group-item"><a href="/haaland-card.html">Haaland Card</a></li>
+													<li class="list-group-item"><a href="/haaland-hair-2020.html">Haaland Hair 2020</a></li>
+													<li class="list-group-item"><a href="/haaland-leeds.html">Haaland Leeds</a></li>
+													<li class="list-group-item"><a href="/haaland-goals-this-season.html">Haaland Goals This Season</a></li>
+													<li class="list-group-item"><a href="/haaland-ibrahimovic.html">Haaland Ibrahimovic</a></li>
+													<li class="list-group-item"><a href="/haaland-im-bored.html">Haaland Im Bored</a></li>
+													<li class="list-group-item"><a href="/haaland-long-hair.html">Haaland Long Hair</a></li>
+													<li class="list-group-item"><a href="/haaland-jerry.html">Haaland Jerry</a></li>
+													<li class="list-group-item"><a href="/haaland-kid-buu.html">Haaland Kid Buu</a></li>
+													<li class="list-group-item"><a href="/haaland-dortmund-2020.html">Haaland Dortmund 2020</a></li>
+													<li class="list-group-item"><a href="/haaland-look-alike.html">Haaland Look Alike</a></li>
+													<li class="list-group-item"><a href="/haaland-dad.html">Haaland Dad</a></li>
+													<li class="list-group-item"><a href="/haaland-age.html">Haaland Age</a></li>
+													<li class="list-group-item"><a href="/haaland-leipzig.html">Haaland Leipzig</a></li>
+													<li class="list-group-item"><a href="/haaland-sancho.html">Haaland Sancho</a></li>
+													<li class="list-group-item"><a href="/haaland-karma.html">Haaland Karma</a></li>
+													<li class="list-group-item"><a href="/haaland-art.html">Haaland Art</a></li>
+													<li class="list-group-item"><a href="/haaland-running.html">Haaland Running</a></li>
+													<li class="list-group-item"><a href="/haaland-arsenal.html">Haaland Arsenal</a></li>
+													<li class="list-group-item"><a href="/gladbach-anti-k%C3%B6ln-bilder.html">Gladbach Anti Köln Bilder</a></li>
+													<li class="list-group-item"><a href="/haaland-celebration.html">Haaland Celebration</a></li>
+													<li class="list-group-item"><a href="/haaland-fm20.html">Haaland Fm20</a></li>
+													<li class="list-group-item"><a href="/haaland-jersey-norway.html">Haaland Jersey Norway</a></li>
+													<li class="list-group-item"><a href="/haaland-city-shirt.html">Haaland City Shirt</a></li>
+													<li class="list-group-item"><a href="/haaland-parents.html">Haaland Parents</a></li>
+													<li class="list-group-item"><a href="/haaland-hair.html">Haaland Hair</a></li>
+													<li class="list-group-item"><a href="/haaland-manchester-city.html">Haaland Manchester City</a></li>
+													<li class="list-group-item"><a href="/haaland-dallas.html">Haaland Dallas</a></li>
+													<li class="list-group-item"><a href="/haaland-eyebrows.html">Haaland Eyebrows</a></li>
+													<li class="list-group-item"><a href="/haaland-and-sancho.html">Haaland And Sancho</a></li>
+													<li class="list-group-item"><a href="/haaland-celebration-dortmund.html">Haaland Celebration Dortmund</a></li>
+													<li class="list-group-item"><a href="/haaland-nightclub.html">Haaland Nightclub</a></li>
+													<li class="list-group-item"><a href="/haaland-mother.html">Haaland Mother</a></li>
+													<li class="list-group-item"><a href="/haaland-buu.html">Haaland Buu</a></li>
+													<li class="list-group-item"><a href="/haaland-edit.html">Haaland Edit</a></li>
+													<li class="list-group-item"><a href="/haaland-meme.html">Haaland Meme</a></li>
+													<li class="list-group-item"><a href="/haaland-on-ronaldo.html">Haaland On Ronaldo</a></li>
+													<li class="list-group-item"><a href="/haaland-and-sancho-wallpaper.html">Haaland And Sancho Wallpaper</a></li>
+													<li class="list-group-item"><a href="/haaland-rating-fifa-21.html">Haaland Rating Fifa 21</a></li>
+													<li class="list-group-item"><a href="/haaland-equation.html">Haaland Equation</a></li>
+													<li class="list-group-item"><a href="/haaland-and-mbappe.html">Haaland And Mbappe</a></li>
+													<li class="list-group-item"><a href="/haaland-new-hairstyle.html">Haaland New Hairstyle</a></li>
+													<li class="list-group-item"><a href="/haaland-ole-gunnar-solskjaer.html">Haaland Ole Gunnar Solskjaer</a></li>
+													<li class="list-group-item"><a href="/haaland-gladbach.html">Haaland Gladbach</a></li>
+													<li class="list-group-item"><a href="/haaland-brandt.html">Haaland Brandt</a></li>
 						 
 						</ul>
 					</div>
 					<div class="col-sm-12 widget">
-						<script async="async" data-cfasync="false" src="//zqvee2re50mr.com/675cb813fbbeae53ce321baa240173f6/invoke.js"></script>
-<div id="container-675cb813fbbeae53ce321baa240173f6"></div>
+						<center><script async="async" data-cfasync="false" src="//zqvee2re50mr.com/675cb813fbbeae53ce321baa240173f6/invoke.js"></script>
+<div id="container-675cb813fbbeae53ce321baa240173f6"></div></center>
 					</div>
 				</div> 
 			</div>
 			<div class="row footer">
 				<div class="col-md-12 text-center">
-										<a href="pages/dmca">Dmca</a>
-										<a href="pages/contact">Contact</a>
-										<a href="pages/privacy-policy">Privacy Policy</a>
-										<a href="pages/copyright">Copyright</a>
-					
-				</div>
+										<a href="/p/dmca.html">Dmca</a>
+										<a href="/p/contact.html">Contact</a>
+										<a href="/p/privacy-policy.html">Privacy Policy</a>
+										<a href="/p/copyright.html">Copyright</a>
+									</div>
 			</div>
 		</div>
 		<!-- <style>
@@ -1113,6 +498,31 @@ a{color: #f42966;text-decoration:none;}
 	  	<br>
 		<a href="#your-offer-url" target="_blank">CTA Link &rarr;</a>
 	</p>
-</div> -->		<script type='text/javascript' src='//zqvee2re50mr.com/a4/31/b2/a431b2df4b60e2629306f7e7e7465d31.js'></script>	</main>
-</body>
+</div> -->
+		<script type='text/javascript' src='//zqvee2re50mr.com/a4/31/b2/a431b2df4b60e2629306f7e7e7465d31.js'></script>	</main>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js" integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+
+	
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+	<script type='text/javascript'>
+		$(document).ready(function()
+	    {
+			$(document).on('click','#image-download',function(e)
+			{
+				e.preventDefault();
+				var url = $(this).data('url');
+				var title = $(this).data('title');			
+				var x=new XMLHttpRequest();
+				x.open( "GET", url , true);
+				x.responseType="blob";
+				x.onload= function(e){download(e.target.response, title, "image/jpg");};
+				x.send();
+			});
+	    });
+	</script>
+	</body>
 </html>
